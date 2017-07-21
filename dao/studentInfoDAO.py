@@ -5,8 +5,9 @@ sys.path.append('../model/')
 import pymongo
 from studentInfo import studentInfo
 from bson import json_util as jsonb
+from dbop import ip,port
 class studentInfoDAO(object):
-    client=pymongo.MongoClient('127.0.0.1',27017)
+    client=pymongo.MongoClient(ip,port)
     db=client.test
     collection=db.studentinfo
     def __init__(self):
@@ -35,8 +36,11 @@ class studentInfoDAO(object):
     	value["username"]=username
     	value["password"]=password
     	count = cls.collection.count(value)
-    	for i in cls.collection.find(value):
-    		return i["id"]
+    	if count==1:
+    		for i in cls.collection.find(value):
+    			return i["id"]
+    	else:
+    		return -1
 
 if __name__=='__main__':
     studentInfo=studentInfo(1,"anxiao",123456)

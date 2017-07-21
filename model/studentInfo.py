@@ -6,6 +6,5 @@ class studentInfo(object):
         self.username=username
         self.password=password
         pass
-    #def toJson(self):
 
 
