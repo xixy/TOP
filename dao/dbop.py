@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*- 
 #! /usr/local/bin/python
 
 ip='127.0.0.1'
