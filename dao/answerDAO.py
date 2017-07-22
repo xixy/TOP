@@ -7,6 +7,7 @@ import pymongo
 from answer import answer
 from bson import json_util as jsonb
 from dbop import ip,port
+from answermode import exammode,practicemode,officialmode,officialid
 
 class answerDAO(object):
     """答案的持久化"""
@@ -17,10 +18,19 @@ class answerDAO(object):
 
     @classmethod
     def index(cls,answer,mode):
-        """用于将答案存入"""
+        """用于将答案存入，如果答案已经存在，就进行更新
+        如果答案不存在，就直接去
+
+        Args:
+            answer: 答案模型的实例
+            mode: 模式分为三种：PRACTICE、EXAM、OFFICIAL
+            分别代表练习、考试和标准答案
+        Returns:
+            返回nothing
+        """
         value={}
     	value["userid"]=answer.userid
-        collection=cls.db[answer.setid+"_"+mode]
+        collection=cls.db[answer.setid+mode]
         count=collection.count(value)
         # 没有打过题
         if count==0:
@@ -35,7 +45,14 @@ class answerDAO(object):
 
     @classmethod
     def clearAllAnswers(cls,userid):
-        """用于清除用户的所有答案"""
+        """用于清除特定用户的所有答案
+        暂时将练习答案和考试答案都清除
+
+        Args:
+            userid:用户id
+        Returns:
+            返回nothing
+        """
         value={}
         value["userid"]=userid
         collectionlist=cls.db.collection_names()
@@ -45,10 +62,17 @@ class answerDAO(object):
 
     @classmethod
     def querySingleAnswer(cls,userid,setid,index,mode):
-        """用于获取用户的某个答案"""
+        """用于获取用户的某个答案
+        Args:
+            userid:用户id
+            setid:第几套题例如TPO1
+            index:题号，例如R1，L2
+            mode:需要查找什么模式下的答案，例如practicemode或者exammode
+
+        """
         value={}
         value["userid"]=userid
-        collection=cls.db[setid+"_"+mode]
+        collection=cls.db[setid+mode]
         count=collection.count(value)
         if count==1:
             for i in collection.find(value):
@@ -60,12 +84,40 @@ class answerDAO(object):
         else:
             return -1
 
+    @classmethod
+    def queryAnswerForTPOSet(cls,userid,setid,mode):
+        """用于获取某套题的答案，包括Reading和Listening部分
+        Args:
+            userid:用户id 如果是官方答案，就是-1
+            setid:第几套题例如TPO1
+            mode:什么模式，例如practicemode或者exammode，或者officialmode
+        Return:
+            一个dict
+        """
+        value={}
+        value["userid"]=userid
+        collection=cls.db[setid+mode]
+        count=collection.count(value)
+        result={}
+        #如果找到
+        if count==1:
+            for officlial_answer in collection.find(value):
+                for item in officlial_answer:
+                    if item.startswith('R') or item.startswith('L'):
+                        result[item]=officlial_answer[item]
+                return result
+        else:
+            return None
+
+
+
 if __name__=='__main__':
     asw=answer("TPO1","R3","A",1)
-    answerDAO.index(asw,"practice")
+    answerDAO.index(asw,practicemode)
     asw=answer("TPO1","L1","C",1)
-    answerDAO.index(asw,"practice")
-    asw=answer("TPO2","R3","D",1)
-    answerDAO.index(asw,"practice")
-    print answerDAO.querySingleAnswer(1,"TPO1","R3","practice")
+    answerDAO.index(asw,practicemode)
+    asw=answer("TPO2","R3","D",officialid)
+    answerDAO.index(asw,officialmode)
+    print answerDAO.querySingleAnswer(1,"TPO1","R3",exammode)
+    print answerDAO.queryAnswerForTPOSet(1,"TPO1",practicemode)
     # answerDAO.clearAllAnswers(1)
