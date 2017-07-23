@@ -1,0 +1,89 @@
+1. In mentioning temperatures that are “sufficiently” low, the author means temperatures that are
+  A) extremely low
+  B) low enough
+  C) low at times
+  D) always low
+
+2. According to paragraph 1, which of the following does NOT correctly characterize glaciers?
+  A) They form over land.
+  B) They result when snow repeatedly melts and refreezes.
+  C) They move.
+  D) They accumulate snow over many years.
+
+3. The word “compact” in the passage is closest in meaning to
+  A) place under a heavy weight
+  B) press together
+  C) increase
+  D) transform
+
+4. Which of the sentences below best expresses the essential information in the highlighted sentence in the passage? Incorrect choices change the meaning in important ways or leave out essential information.
+  A) Just 18,000 years ago, glaciers covered large areas of North America and Europe.
+  B) A mere 18,000 years ago, vast areas of North America and Europe were in the grip of a cold spell.
+  C) Alpine glaciers once expanded outward from river valleys to cover most of continental Europe and North America.
+  D) During serious cold spells, glaciers covered not only alpine river valleys, but large portions of whole continents.
+
+5. The word “undergone” in the passage is closest in meaning to
+  A) arisen from
+  B) led to a decrease in
+  C) experienced
+  D) contributed to
+
+6. Why does the author mention “fossil pollen of a tundra plant collected in a layer of sediment in New England”?
+  A) To provide evidence that tundra plants have been in New England for much longer than previously thought
+  B) To support the claim that certain plants are resistant to slow but continuous climate change
+  C) To counter the claim that the New England climate was once much warmer than it is today
+  D) To illustrate how small bits of evidence can provide clues about past climates
+
+7. According to paragraph 3, analysis of core samples from ocean floor sediments provides information about
+  A) how much calcium carbonate is in the sediment
+  B) the thickness of the ice between layers of sediment
+  C) the surface temperature of the ocean at the time the sediments were deposited
+  D) the distribution and type of sediment that was deposited at various temperatures
+
+8. The word “Consequently” in the passage is closest in meaning to
+  A) Usually
+  B) Therefore
+  C) Alternatively
+  D) Finally
+
+9. According to paragraph 4, why does the concentration of oxygen 18 in shells of marine organisms indicate the water temperature when the shells were formed?
+  A) Since less seawater evaporates when the temperature of seawater falls, the concentration of oxygen 18 in seawater decreases during cold spells.
+  B) During cold periods, evaporated seawater that is rich in oxygen 16 becomes trapped as snow, leaving the remaining seawater richer in oxygen 18.
+  C) When the seawater is cold, it is difficult for marine organisms to form shells with water that incorporates oxygen 16, so their shells are formed using mainly oxygen 18.
+  D) When the seawater is warm, most of the oxygen in the seawater is rich in oxygen 16, but when the water becomes cold, most of the water with oxygen 16 evaporates.
+
+10. The word “reconstruct” in the passage is closest in meaning to
+   A) recreate
+   B) predict
+   C) influence
+   D) understand
+
+11. Why does the author provide the information that “Generally, the colder the air when the snow fell, the richer the concentration of oxygen 16 in the core”?
+   A) To provide the principle that allows scientists to use ice cores to infer patterns of past temperatures
+   B) To explain why bubbles of air trapped in ice cores provide additional information about the composition of the atmosphere at the time the gas was trapped
+   C) To argue that when the air is warm, the concentration of oxygen 18 in an ice core is less than that of oxygen 16
+   D) To imply that water that contains oxygen 16 forms ice more readily than water that contains oxygen 18
+
+12. It can be inferred from paragraph 6 that dendrochronology is probably NOT useful for evaluating climate change in
+   A) areas that are sometimes subject to very hot summers
+   B) consistently warm equatorial regions
+   C) places that experience distinct seasons
+   D) forests that experience excessive moisture when winter snows melt
+
+13. Look at the four squares [] that indicate where the following sentence could be added to the passage.
+
+   Without these conditions being met, there may be variations in tree ring thickness due to such factors as disease or predation, but the variations will not systematically reflect variations in climate.
+
+   Where would the sentence best fit?
+
+14. Prose summary
+
+   To construct past climates, scientists must examine and then carefully iece together all the available evidence.
+
+   Answer Choices:
+   A) One indication that global temperatures have been falling over the past 2 million years is that glaciers have grown steadily in size through most of this period.
+   B) Geological evidence of the extensive advance and subsequent retreat of glaciers, as many as ten times in the last 2 million years, indicates global climate changes.
+   C) The quantity of air bubbles in a glacier can indicate how quickly it formed, and the level of oxygen 16 indicates whether the glacier first formed over land or over the ocean.
+   D) Since marine organisms form shells less readily in colder ocean waters, core samples of sediment with a lower quantity of shells indicate a colder climate period.
+   E) The concentrations of oxygen 18 in the shells of marine organisms and in core samples of glacial ice provide clues about past ocean levels and temperatures.
+   F) Fossil pollen, oxygen-isotope ratios in ancient glaciers, and the annual growth of tree rings can provide evidence about temperature and precipitation in the past.

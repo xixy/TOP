@@ -48,7 +48,7 @@ class selection_questionDAO(object):
         将若干个选择题存入道题库中
         Args:
             setid:第几套题例如TPO1
-            questions:问题的
+            questions:一个list，元素是json，存放每一道题
         """
 
         #如果已经存过了，就先删除现在的题库

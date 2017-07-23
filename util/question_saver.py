@@ -10,6 +10,7 @@ from selection_question_extractor import selection_question_extractor
 from filepath import getFullFilePath
 from selection_question import selection_question
 from selection_questionDAO import selection_questionDAO
+from answer_saver import answer_saver
 
 
 class question_saver(object):
@@ -30,6 +31,7 @@ class question_saver(object):
 		listening_files_path=[]
 		speaking_files_path=[]
 		writting_files_path=[]
+		answer_files_path=[]
 
 		getFullFilePath(directory,filepaths)
 		#分类统计
@@ -50,6 +52,11 @@ class question_saver(object):
 			if configure.Writting in filepath:
 				writting_files_path.append(filepath)
 				continue
+			#取出答案部分
+			if configure.Answer in filepath:
+				answer_files_path.append(filepath)
+				continue
+
 
 		
 		questions_json=[]#存放所有的题
@@ -81,7 +88,11 @@ class question_saver(object):
 
 
 		#进行持久化存储
-		selection_questionDAO.indexQuestions("TPO1",questions_json)
+		selection_questionDAO.indexQuestions("TPO20170603",questions_json)
+
+		#处理答案部分TPO
+		answer_saver.indexAnswerForMultiSet(answer_files_path,"TPO20170603")
+
 		
 
 				
@@ -89,7 +100,7 @@ class question_saver(object):
 		pass
 
 if __name__ == '__main__':
-	question_saver.savequestions('../resources/questions/TPO1')
+	question_saver.savequestions('../resources/questions/20170603')
 
 
 

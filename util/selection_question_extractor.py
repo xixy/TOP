@@ -1,9 +1,11 @@
 # -*- coding: UTF-8 -*- 
 #! /usr/local/bin/python
-
+import sys
+sys.path.append('../configure/')
 import codecs
 import shutil
 import re
+import configure
 
 testpath="/Users/apple/Code/TPO/resources/questions/TPO1/Reading/R1.txt"
 
@@ -39,6 +41,7 @@ class selection_question_extractor(object):
 	        line=f.readline()
 		if len(line)<2:
 		    continue
+                line=line.strip()#去掉\n
 		match=cls.stem_pattern.search(line)
 	        #如果匹配到，意味着新题的开始
 		if match:
@@ -65,6 +68,7 @@ class selection_question_extractor(object):
 			single_question.append(line)
 		    #如果不是选项部分，那么则是题干部分
 		    else:
+                        stem+=configure.LineBreakMark
 			stem+=line
 	    except UnicodeDecodeError,e:
 		return None

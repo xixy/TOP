@@ -6,6 +6,8 @@ Reading="Reading"
 Listening="Listening"
 Speaking="Speaking"
 Writting="Writting"
+#标示答案文件
+Answer="answer"
 
 #标示数据库中存入的样子
 
@@ -31,3 +33,13 @@ student_classid="classid"
 
 #返回码
 FAIL_CODE=-1
+
+#答案相关的配置
+answer_practicemode="_practice"
+answer_exammode="_exam"
+answer_officialmode="_official"
+answer_officialid=-1
+answer_userid="userid"
+
+#跟数据库中存的内容相关
+LineBreakMark="<br>"

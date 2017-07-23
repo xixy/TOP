@@ -8,7 +8,6 @@ import pymongo
 from answer import answer
 from bson import json_util as jsonb
 from dbop import ip,port
-from answermode import exammode,practicemode,officialmode,officialid
 import configure
 
 class answerDAO(object):
@@ -31,7 +30,7 @@ class answerDAO(object):
             返回nothing
         """
         value={}
-    	value["userid"]=answer.userid
+    	value[configure.answer_userid]=answer.userid
         collection=cls.db[answer.setid+mode]
         count=collection.count(value)
         # 没有打过题
@@ -56,7 +55,7 @@ class answerDAO(object):
             返回nothing
         """
         value={}
-        value["userid"]=userid
+        value[configure.answer_userid]=userid
         collectionlist=cls.db.collection_names()
         for collection in collectionlist:
             cls.db[collection].remove(value)
@@ -69,11 +68,11 @@ class answerDAO(object):
             userid:用户id
             setid:第几套题例如TPO1
             index:题号，例如R1，L2
-            mode:需要查找什么模式下的答案，例如practicemode或者exammode
+            mode:需要查找什么模式下的答案，例如configure.answer_practicemode或者configure.answer_exammode
 
         """
         value={}
-        value["userid"]=userid
+        value[configure.answer_userid]=userid
         collection=cls.db[setid+mode]
         count=collection.count(value)
         if count==1:
@@ -92,12 +91,12 @@ class answerDAO(object):
         Args:
             userid:用户id 如果是官方答案，就是configure.FAIL_CODE
             setid:第几套题例如TPO1
-            mode:什么模式，例如practicemode或者exammode，或者officialmode
+            mode:什么模式，例如configure.answer_practicemode或者exammode，或者configure.answer_officialmode
         Return:
             一个dict
         """
         value={}
-        value["userid"]=userid
+        value[configure.answer_userid]=userid
         collection=cls.db[setid+mode]
         count=collection.count(value)
         result={}
@@ -115,11 +114,11 @@ class answerDAO(object):
 
 if __name__=='__main__':
     asw=answer("TPO1","R3","A",1)
-    answerDAO.index(asw,practicemode)
+    answerDAO.index(asw,configure.answer_practicemode)
     asw=answer("TPO1","L1","C",1)
-    answerDAO.index(asw,practicemode)
-    asw=answer("TPO2","R3","D",officialid)
-    answerDAO.index(asw,officialmode)
-    print answerDAO.querySingleAnswer(1,"TPO1","R3",exammode)
-    print answerDAO.queryAnswerForTPOSet(1,"TPO1",practicemode)
+    answerDAO.index(asw,configure.answer_practicemode)
+    asw=answer("TPO2","R3","D",configure.answer_officialid)
+    answerDAO.index(asw,configure.answer_officialmode)
+    print answerDAO.querySingleAnswer(1,"TPO1","R3",configure.answer_exammode)
+    print answerDAO.queryAnswerForTPOSet(1,"TPO1",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
