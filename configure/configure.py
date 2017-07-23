@@ -27,3 +27,7 @@ student_name="username"#学生名称
 student_password="password"#学生密码
 student_id="id"#学生账号
 student_questions="questions"#学生所能做的题
+student_classid="classid"
+
+#返回码
+FAIL_CODE=-1

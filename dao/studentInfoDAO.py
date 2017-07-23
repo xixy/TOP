@@ -31,6 +31,7 @@ class studentInfoDAO(object):
     	value[configure.student_name]=studentInfo.username
     	value[configure.student_password]=studentInfo.password
         value[configure.student_questions]=studentInfo.questions
+        value[configure.student_classid]=studentInfo.classid
         cls.collection.insert(value)
 
     @classmethod
@@ -49,7 +50,7 @@ class studentInfoDAO(object):
             password:学生密码
         Return:
             如果验证成功，返回学生id
-            否则返回-1
+            否则返回configure.FAIL_CODE
         """
         value={}
     	value[configure.student_name]=username
@@ -59,8 +60,8 @@ class studentInfoDAO(object):
     		for i in cls.collection.find(value):
     			return i[configure.student_id]
     	else:
-    		return -1
-    
+    		return configure.FAIL_CODE
+
     @classmethod
     def addQuestionSets(cls,id,question_set):
         """
@@ -70,7 +71,7 @@ class studentInfoDAO(object):
             question_set:需要加入的题，一个list
         Return:
             成功，返回1
-            失败，返回-1
+            失败，返回configure.FAIL_CODE
         """
 
         #首先查看学生是否存在
@@ -80,16 +81,61 @@ class studentInfoDAO(object):
 
         #如果找到
         if count==1:
-            for result in cls.collection.find(value):
-                result[configure.student_questions].extend(question_set)
+            incremental_question=[]
+            for student in cls.collection.find(value):
+                #如果题已经在了，就不能加入
+                for question in question_set:
+                    print question
+                    if question not in student[configure.student_questions]:
+                        incremental_question.append(question)
+                print incremental_question
+                student[configure.student_questions].extend(incremental_question)
                 #按照时间排序
-                result[configure.student_questions].sort()
+                student[configure.student_questions].sort()
                 #然后进行更新
-                cls.collection.update(value,result)
+                cls.collection.update(value,student)
                 return 1
         #如果没有找到学生
         else:
-            return -1
+            return configure.FAIL_CODE
+
+
+    @classmethod
+    def getAllStudents(cls):
+        """
+        获取所有的学生信息
+        Return:
+            一个列表，里面是所有的学生信息，每个元素是一个学生的信息
+            [{u'username': u'xixiangyu', u'password': 123456, u'id': 1, u'questions': [u'TPO1', u'TPO15', u'TPO16', u'TPO2', u'TPO45']}, 
+            {u'username': u'anxiao', u'password': 12345, u'id': 2, u'questions': []}]
+        """
+        students=[]
+        for student in cls.collection.find():
+            student.pop('_id')
+            students.append(student)
+        print students
+
+    @classmethod
+    def getQuestionsOfSingleStudent(cls,id):
+        """
+        获取某个学生的买的所有题，返回的是题的setid，例如TPO1
+        Args:
+            id:学生id
+        Return:
+            一个存放题名称的list，例如["TPO1","TPO2"]
+        """
+        value={}
+        value[configure.student_id]=id
+        count=cls.collection.count(value)
+
+        #如果找到学生
+        if count==1:
+            for student in cls.collection.find(value):
+                return student[configure.student_questions]
+        #如果没找到
+        else:
+            return configure.FAIL_CODE
+
 
 
 
@@ -97,9 +143,11 @@ class studentInfoDAO(object):
 
 
 if __name__=='__main__':
-    studentInfo=studentInfo(2,"xixiangyu",123456)
+    studentInfo=studentInfo(1,"anxiao","12345")
     studentInfoDAO.index(studentInfo)
 
-    studentInfoDAO.addQuestionSets(2,["TPO1","TPO2","TPO15","TPO16"])
-    print studentInfoDAO.valid("xixiangyu",123456)
-    # studentInfoDAO.delete(studentInfo)
+    studentInfoDAO.addQuestionSets(1,["TPO1","TPO2","TPO15","TPO16","TPO45"])
+    print studentInfoDAO.valid("anxiao","12345")
+    studentInfoDAO.getAllStudents()
+    print studentInfoDAO.getQuestionsOfSingleStudent(1)
+    studentInfoDAO.delete(studentInfo)

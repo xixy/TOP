@@ -3,11 +3,13 @@
 
 import sys
 sys.path.append('../model/')
+sys.path.append('../configure/')
 import pymongo
 from answer import answer
 from bson import json_util as jsonb
 from dbop import ip,port
 from answermode import exammode,practicemode,officialmode,officialid
+import configure
 
 class answerDAO(object):
     """答案的持久化"""
@@ -80,15 +82,15 @@ class answerDAO(object):
                     print "We find it"
                     return i[index]
                 else:
-                    return -1
+                    return configure.FAIL_CODE
         else:
-            return -1
+            return configure.FAIL_CODE
 
     @classmethod
     def queryAnswerForTPOSet(cls,userid,setid,mode):
         """用于获取某套题的答案，包括Reading和Listening部分
         Args:
-            userid:用户id 如果是官方答案，就是-1
+            userid:用户id 如果是官方答案，就是configure.FAIL_CODE
             setid:第几套题例如TPO1
             mode:什么模式，例如practicemode或者exammode，或者officialmode
         Return:

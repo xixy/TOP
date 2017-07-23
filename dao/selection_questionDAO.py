@@ -40,7 +40,7 @@ class selection_questionDAO(object):
                 return result
         #如果没找到
         else:
-            return None
+            return FAIL_CODE
 
     @classmethod
     def indexQuestions(cls,setid,questions):
