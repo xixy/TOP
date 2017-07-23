@@ -1,0 +1,35 @@
+1. What is the lecture mainly about?
+  A) How the movement of two-legged animals differs from that of four-legged animals
+  B) Possible uses for a robot that can both walk and swim
+  C) Why biologists and engineers disagree on a basic principle of locomotion
+  D) How observations of an animal are influencing the design of a robot
+
+2. What does the professor imply about the spring-mass model?
+  A) It fails to take into account the force of gravity.
+  B) It can be extended to include lateral movements in walking.
+  C) Its application to robots is limited to certain types of surfaces.
+  D) It explains why four-legged locomotion requires more energy than two-legged locomotion.
+
+3. Why does the professor mention spiders and insects?
+  A) To imply that they use the same technique to walk on water as basilisk lizards
+  B) To emphasize how rare the ability to walk on water is in the animal world
+  C) To explain why spiders and insects are attractive prey for basilisk lizards
+  D) To point out that different species often evolve similar abilities
+
+4. In the experiment the professor describes, what was the purpose of the floating glass beads?
+  A) They helped measure the forces produced by a lizard running on water.
+  B) They helped determine the ideal size and weight for robots walking on water.
+  C) They were used to record the speed of a lizard crossing the water.
+  D) They were used to increase the surface tension of the water.
+
+5. What is the purpose of the air pocket created during the slap phase of the lizard’s stride?
+  A) It helps the lizard maintain its balance.
+  B) It keeps the lizard from sinking into the water.
+  C) It pushes the lizard forward.
+  D) It lifts the lizard’s foot out of the water.
+
+6. What is the professor’s opinion of the project to create a robot that can move on the surface of the water?
+  A) It showed that mechanizing a natural movement is easier than previously thought.
+  B) It should lead to more collaboration between biologists and engineers.
+  C) It appropriately focused on applying a concept from nature.
+  D) It should have focused more on duplicating the appearance of a lizard.

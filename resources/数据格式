@@ -1,0 +1,15 @@
+选择题格式
+{
+    "index": "R14",
+    "options": {
+        "A": "    A) As temperatures warmed, the variety of plant species available in any one location was limited and this limited herbivores to certain areas, worsening their diet and increasing inbreeding.\n",
+        "C": "    C) Because the climate of North America did not change significantly during the Pleistocene, mammoths in North America did not become extinct.\n",
+        "B": "    B) An alternative to the climate model of extinction suggests that too much crossbreeding between mammoths and other species may have been responsible for mass extinctions.\n",
+        "E": "    E) Climate change provides a good explanation for the extinction of mammoths in some parts of the world, such as Eurasia, but not necessarily in other parts of the world.\n",
+        "D": "    D) Reindeer, oxen, and other large mammals did not become extinct, suggesting that factors other than climate may have caused the extinction of mammoths at the end of the Pleistocene.\n",
+        "F": "    F) The climate model does not explain why mass extinctions occurred only at the end of the Pleistocene and not during earlier periods of warming.\n"
+    },
+    "stem": "14. Prose Summary\n    Climate events may have caused the extinction of mammoths at the end of the Pleistocene.\n    Answer Choices:\n"
+}
+
+
