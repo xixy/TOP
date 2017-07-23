@@ -21,3 +21,9 @@ selection_stem="stem"
 selection_options="options"
 #所有题都存index
 index="index"
+
+#学生信息的表
+student_name="username"#学生名称
+student_password="password"#学生密码
+student_id="id"#学生账号
+student_questions="questions"#学生所能做的题

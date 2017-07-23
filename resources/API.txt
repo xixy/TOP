@@ -1,2 +1,0 @@
-/login  验证用户登陆    POST    username/password在form中
-
