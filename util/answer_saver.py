@@ -40,6 +40,8 @@ class answer_saver(object):
                 return None
             answers=line.split(',')
             answer_list.append(answers)
+
+        
         count=0#计数，用于构造R1或者L2
         #首先处理Reading的答案
         for answers in answer_list[:3]:

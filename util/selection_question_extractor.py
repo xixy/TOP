@@ -69,10 +69,17 @@ class selection_question_extractor(object):
 		    #如果不是选项部分，那么则是题干部分
 		    else:
                         stem+=configure.LineBreakMark
-			stem+=line
+                        stem+=line
 	    except UnicodeDecodeError,e:
 		return None
-	questions.append(single_question)
+	#加入最后一题
+        questions.append(single_question)
+
+        #首先加入是否为最后一题的标记
+        for single_question in questions[:-1]:
+            single_question.append(-1)
+        questions[-1].append(1)
+
 	return questions
 
     @classmethod

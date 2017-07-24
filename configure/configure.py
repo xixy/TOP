@@ -43,3 +43,14 @@ answer_userid="userid"
 
 #跟数据库中存的内容相关
 LineBreakMark="<br>"
+
+#题的类型
+question_type="question_type"
+single_selection_type="single_selection_type"
+insert_selection_type="insert_selection_type"
+r_multiple_selection_type="r_multiple_selection_type"
+l_multiple_selection_type="l_multiple_selection_type"
+isLast="isLast"
+
+#存题的collection的前缀
+question_prefix="TPO"

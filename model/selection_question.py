@@ -11,7 +11,7 @@ class selection_question(object):
     index=["A","B","C","D","E","F","G","H","I","J","K"]
 
     @classmethod
-    def getSingleQuestion(cls,question):
+    def getSingleQuestion(cls,question,type):
         """用于将题库中读取的内容转化为Json格式，将来存入数据库中
 
         Args:
@@ -22,10 +22,30 @@ class selection_question(object):
         value={}
 	#插入题干
 	value[configure.selection_stem]=question[0]
+        #插入选项
 	value[configure.selection_options]={}
 	length=len(question[1:])
-	for k,v in zip(cls.index[:length],question[1:]):
+	for k,v in zip(cls.index[:length],question[1:length]):
 	    value[configure.selection_options][k]=v
+        #插入是否为最后一题
+        value[configure.isLast]=question[-1]
+        #插入类型
+        if len(value[configure.selection_options])==4:
+            #普通选择题
+            value[configure.question_type]=configure.single_selection_type
+        else:
+            if len(value[configure.selection_options])==0:
+                #插入题，没有选项
+                value[configure.question_type]=configure.insert_selection_type
+            else:
+                #多选题
+                #如果是Reading的部分
+                if cmp(type,configure.Reading)==0:
+                    value[configure.question_type]=configure.r_multiple_selection_type
+                #如果是Listening部分
+                else:
+                    if cmp(type,configure.Listening)==0:
+                        value[configure.question_type]=configure.l_multiple_selection_type
         return value
 
     @classmethod
@@ -46,8 +66,9 @@ class selection_question(object):
 	i=1#用来表示index
 	results=[]
         for question in questions:
-	    result=cls.getSingleQuestion(question)
-	    result[configure.index]=configure.Mark[type]+str(i)
+	    result=cls.getSingleQuestion(question,type)
+	    print result
+            result[configure.index]=configure.Mark[type]+str(i)
 	    i+=1
 	    results.append(result)
         return results

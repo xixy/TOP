@@ -8,13 +8,19 @@ import pymongo
 from selection_question import selection_question
 from bson import json_util as jsonb
 from dbop import ip,port
-from answermode import exammode,practicemode,officialmode,officialid
 import configure
 
 class selection_questionDAO(object):
     """获取题库的选择题"""
     client=pymongo.MongoClient(ip,port)
     db=client.questions
+
+    @classmethod
+    def getCollectionName(cls,setid):
+        """
+        返回TPO20170603
+        """
+        return configure.question_prefix+setid
 
 
     @classmethod
@@ -29,7 +35,7 @@ class selection_questionDAO(object):
         """
         value={}
         value[configure.index]=index
-        collection=cls.db[setid]
+        collection=cls.db[cls.getCollectionName(setid)]
         count=collection.count(value)
         result={}
         #如果找到
@@ -52,10 +58,10 @@ class selection_questionDAO(object):
         """
 
         #如果已经存过了，就先删除现在的题库
-        if setid in cls.db.collection_names():
-            cls.db[setid].drop()
+        if cls.getCollectionName(setid) in cls.db.collection_names():
+            cls.db[cls.getCollectionName(setid)].drop()
 
-        collection=cls.db[setid]
+        collection=cls.db[cls.getCollectionName(setid)]
         for question in questions:
             collection.insert(question)
 

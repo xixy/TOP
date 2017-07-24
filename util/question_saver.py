@@ -67,11 +67,9 @@ class question_saver(object):
 		for filepath in reading_files_path:
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
 			question_list.extend(questions)
+			# print questions
 
-		for question in question_list:
-			print len(question)
 		reading_questions_json=selection_question.getSetQuestion(question_list,configure.Reading)
-		print reading_questions_json
 		questions_json.extend(reading_questions_json)# 加入到总题目中
 
 		#提取听力中的选择题
@@ -80,18 +78,16 @@ class question_saver(object):
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
 			question_list.extend(questions)
 
-		for question in question_list:
-			print len(question)
+
 		listening_questions_json=selection_question.getSetQuestion(question_list,configure.Listening)
-		print reading_questions_json
 		questions_json.extend(listening_questions_json)# 加入到总题目中
 
 
 		#进行持久化存储
-		selection_questionDAO.indexQuestions("TPO20170603",questions_json)
+		selection_questionDAO.indexQuestions("20170603",questions_json)
 
 		#处理答案部分TPO
-		answer_saver.indexAnswerForMultiSet(answer_files_path,"TPO20170603")
+		answer_saver.indexAnswerForMultiSet(answer_files_path,"20170603")
 
 		
 
