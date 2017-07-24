@@ -31,17 +31,18 @@ class answer_saver(object):
         index_material={}
         f=codecs.open(filepath,encoding='utf-8')
         answer_list=[]
-        line=1
+        line=f.readline()
         while line:
             try:
-                line=f.readline()
                 line.strip()#去掉换行
             except UnicodeDecodeError,e:
                 return None
             answers=line.split(',')
+            print len(line)
             answer_list.append(answers)
+            line=f.readline()
 
-        
+
         count=0#计数，用于构造R1或者L2
         #首先处理Reading的答案
         for answers in answer_list[:3]:
@@ -84,5 +85,5 @@ class answer_saver(object):
             cls.indexAnswerForSingleSet(filepath,setid)
 
 if __name__ == '__main__':
-    filepath='/Users/apple/Code/TPO/resources/questions/20170603/answer'
-    answer_saver.indexAnswer(filepath,"20170603")
+    filepath='/Users/apple/Code/TOP/resources/questions/20170603/answer'
+    answer_saver.indexAnswerForSingleSet(filepath,"20170603")
