@@ -63,7 +63,7 @@ class studentInfoDAO(object):
     		return configure.FAIL_CODE
 
     @classmethod
-    def addQuestionSets(cls,id,question_set):
+    def addQuestionSetsForStudent(cls,id,question_set):
         """
         向学生增加可以做的题
         Args:
@@ -109,11 +109,12 @@ class studentInfoDAO(object):
             [{u'username': u'xixiangyu', u'password': 123456, u'id': 1, u'questions': [u'TPO1', u'TPO15', u'TPO16', u'TPO2', u'TPO45']}, 
             {u'username': u'anxiao', u'password': 12345, u'id': 2, u'questions': []}]
         """
-        students=[]
+        students={}
         for student in cls.collection.find():
             student.pop('_id')
-            students.append(student)
-        print students
+            students[student[configure.student_name]]=student
+
+        return students
 
     @classmethod
     def getQuestionsOfSingleStudent(cls,id):
@@ -125,8 +126,10 @@ class studentInfoDAO(object):
             一个存放题名称的list，例如["TPO1","TPO2"]
         """
         value={}
-        value[configure.student_id]=id
+        value[configure.student_id]=int(id)
+        print value
         count=cls.collection.count(value)
+        print count
 
         #如果找到学生
         if count==1:
@@ -146,8 +149,8 @@ if __name__=='__main__':
     studentInfo=studentInfo(1,"anxiao","12345")
     studentInfoDAO.index(studentInfo)
 
-    studentInfoDAO.addQuestionSets(1,["TPO1","TPO2","TPO15","TPO16","TPO45"])
-    print studentInfoDAO.valid("anxiao","12345")
+    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
+    # print studentInfoDAO.valid("anxiao","12345")
     studentInfoDAO.getAllStudents()
     print studentInfoDAO.getQuestionsOfSingleStudent(1)
-    studentInfoDAO.delete(studentInfo)
+    # studentInfoDAO.delete(studentInfo)

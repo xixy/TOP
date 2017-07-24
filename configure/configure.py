@@ -1,6 +1,10 @@
 # -*- coding: UTF-8 -*- 
 #! /usr/local/bin/python
 
+#mongodb的配置
+ip="127.0.0.1"
+port=27017
+
 #标示文件夹名称
 Reading="Reading"
 Listening="Listening"
@@ -31,8 +35,14 @@ student_id="id"#学生账号
 student_questions="questions"#学生所能做的题
 student_classid="classid"
 
+#管理员信息的表
+admin_name="username"#学生名称
+admin_password="password"#学生密码
+admin_id="id"#学生账号
+
 #返回码
 FAIL_CODE=-1
+SUCCESS_CODE=1
 
 #答案相关的配置
 answer_practicemode="_practice"

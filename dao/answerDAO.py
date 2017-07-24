@@ -72,6 +72,24 @@ class answerDAO(object):
 
 
     @classmethod
+    def clearAnswersForQuestionSet(cls,userid,setid,mode):
+        """用于清除特定用户的某套题的答案
+        暂时将练习答案和考试答案都清除
+
+        Args:
+            userid:用户id
+            setid:第几套题例如TPO1
+            mode:什么模式，例如configure
+
+        Returns:
+            返回nothing
+        """
+        value={}
+        value[configure.answer_userid]=str(userid)
+        collection=cls.db[cls.getCollectionName(setid,mode)]
+        collection.remove(value)
+
+    @classmethod
     def querySingleAnswer(cls,userid,setid,index,mode):
         """用于获取用户的某个答案
         Args:
