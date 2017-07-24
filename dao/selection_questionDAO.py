@@ -40,9 +40,11 @@ class selection_questionDAO(object):
         result={}
         #如果找到
         if count==1:
-            for questions in collection.find(value):
-            	result[configure.selection_stem]=questions[configure.selection_stem]
-            	result[configure.selection_options]=questions[configure.selection_options]
+            for result in collection.find(value):
+                result.pop("_id")
+
+#           	result[configure.selection_stem]=questions[configure.selection_stem]
+#            	result[configure.selection_options]=questions[configure.selection_options]
                 return result
         #如果没找到
         else:

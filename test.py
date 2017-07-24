@@ -38,8 +38,8 @@ def download(filename):
     directory=os.getcwd()
     return send_from_directory(directory,filename,as_attachment=True)
 
-@app.route('/getquestions/<setid>/<index>',methods=['GET'])
-def getquestions(setid,index):
+@app.route('/question/<setid>/<index>',methods=['GET'])
+def getQuestion(setid,index):
 	"""
 	获取题库的某套题
 	Args:
@@ -50,10 +50,45 @@ def getquestions(setid,index):
 	questions=selection_questionDAO.getSelectionQuestion(setid,index)
 	return jsonify(questions),201
 
-@app.route('/saveanswer/<setid>/<index>/<userid>/<options>/<mode>',methods=['GET'])
-def saveanswer(setid,index,userid,options,mode):
-	asw=answer(setid,index,options,userid)
-	print "here"
+@app.route('/answer/<setid>/<index>',methods=['GET'])
+def getOfficialAnswer(setid,index):
+    """
+    获取某套题某个题的标准答案
+    Args:
+        setid:某套题，例如TPO1
+        index:第几个题，例如R13
+    """
+    result=answerDAO.querySingleAnswer(configure.answer_officialid,setid,index,configure.answer_officialmode)
+    return jsonify(result),201
+
+@app.route('/studentanswer/<userid>/<setid>/<index>/<mode>',methods=['GET'])
+def getStudentAnswer(mode,userid,setid,index):
+    """
+    获取某个学生某套题某个题的答案
+    Args:
+        setid:某套题，例如TPO1
+        index:第几个题，例如R13
+    """
+    if cmp(mode,"exam")==0:
+        mode=configure.answer_exammode
+    else:
+        mode=configure.answer_practicemode
+
+    result=answerDAO.querySingleAnswer(userid,setid,index,mode)
+    return jsonify(result),201
+
+@app.route('/answer/submit',methods=['POST'])
+def saveanswer():
+    setid=request.data["setid"]
+    index=request.data["index"]
+    userid=request.data["userid"]
+    options=request.data["options"]
+    asw=answer(setid,index,options,userid)
+    mode=request.data["mode"]
+    if cmp(mode,"exam")==0:
+        mode=configure.answer_exammode
+    else:
+        mode=configure.answer_practicemode   
 	answerDAO.index(asw,mode)
 	return jsonify({"message":"ok"}),201
 

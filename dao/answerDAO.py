@@ -18,6 +18,16 @@ class answerDAO(object):
         super(answerDAO, self).__init__()
 
     @classmethod
+    def getCollectionName(cls,setid,mode):
+        """
+        根据题目和mode来获取相应的数据库
+        Args:
+            setid:第几套题例如TPO1
+            mode:需要查找什么模式下的答案，例如configure
+        """
+        return configure.answer_prefix+setid+mode
+
+    @classmethod
     def index(cls,answer,mode):
         """用于将答案存入，如果答案已经存在，就进行更新
         如果答案不存在，就直接去
@@ -31,7 +41,7 @@ class answerDAO(object):
         """
         value={}
     	value[configure.answer_userid]=answer.userid
-        collection=cls.db[answer.setid+mode]
+        collection=cls.db[cls.getCollectionName(answer.setid,mode)]
         count=collection.count(value)
         # 没有打过题
         if count==0:
@@ -55,7 +65,7 @@ class answerDAO(object):
             返回nothing
         """
         value={}
-        value[configure.answer_userid]=userid
+        value[configure.answer_userid]=str(userid)
         collectionlist=cls.db.collection_names()
         for collection in collectionlist:
             cls.db[collection].remove(value)
@@ -72,8 +82,10 @@ class answerDAO(object):
 
         """
         value={}
-        value[configure.answer_userid]=userid
-        collection=cls.db[setid+mode]
+        value[configure.answer_userid]=str(userid)
+        collection=cls.db[cls.getCollectionName(setid,mode)]
+        print value
+        print cls.getCollectionName(setid,mode)
         count=collection.count(value)
         if count==1:
             for i in collection.find(value):
@@ -96,8 +108,8 @@ class answerDAO(object):
             一个dict
         """
         value={}
-        value[configure.answer_userid]=userid
-        collection=cls.db[setid+mode]
+        value[configure.answer_userid]=str(userid)
+        collection=cls.db[cls.getCollectionName(setid,mode)]
         count=collection.count(value)
         result={}
         #如果找到
@@ -113,12 +125,12 @@ class answerDAO(object):
 
 
 if __name__=='__main__':
-    asw=answer("TPO1","R3","A",1)
+    asw=answer("20170603","R3","A","1")
     answerDAO.index(asw,configure.answer_practicemode)
-    asw=answer("TPO1","L1","C",1)
+    asw=answer("20170603","L1","C","1")
     answerDAO.index(asw,configure.answer_practicemode)
-    asw=answer("TPO2","R3","D",configure.answer_officialid)
-    answerDAO.index(asw,configure.answer_officialmode)
-    print answerDAO.querySingleAnswer(1,"TPO1","R3",configure.answer_exammode)
-    print answerDAO.queryAnswerForTPOSet(1,"TPO1",configure.answer_practicemode)
+    asw=answer("20170603","R3","D","1")
+    answerDAO.index(asw,configure.answer_exammode)
+    print answerDAO.querySingleAnswer(1,"20170603","R3",configure.answer_practicemode)
+    print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
