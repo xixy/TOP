@@ -40,7 +40,7 @@ class answerDAO(object):
             返回nothing
         """
         value={}
-    	value[configure.answer_userid]=answer.userid
+    	value[configure.answer_userid]=int(answer.userid)
         collection=cls.db[cls.getCollectionName(answer.setid,mode)]
         count=collection.count(value)
         # 没有打过题
@@ -65,7 +65,7 @@ class answerDAO(object):
             返回nothing
         """
         value={}
-        value[configure.answer_userid]=str(userid)
+        value[configure.answer_userid]=int(userid)
         collectionlist=cls.db.collection_names()
         for collection in collectionlist:
             cls.db[collection].remove(value)
@@ -85,7 +85,7 @@ class answerDAO(object):
             返回nothing
         """
         value={}
-        value[configure.answer_userid]=str(userid)
+        value[configure.answer_userid]=int(userid)
         collection=cls.db[cls.getCollectionName(setid,mode)]
         collection.remove(value)
 
@@ -100,7 +100,7 @@ class answerDAO(object):
 
         """
         value={}
-        value[configure.answer_userid]=str(userid)
+        value[configure.answer_userid]=int(userid)
         collection=cls.db[cls.getCollectionName(setid,mode)]
         print value
         print cls.getCollectionName(setid,mode)
@@ -126,7 +126,7 @@ class answerDAO(object):
             一个dict
         """
         value={}
-        value[configure.answer_userid]=str(userid)
+        value[configure.answer_userid]=int(userid)
         collection=cls.db[cls.getCollectionName(setid,mode)]
         count=collection.count(value)
         result={}

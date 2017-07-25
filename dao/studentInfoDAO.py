@@ -76,7 +76,7 @@ class studentInfoDAO(object):
 
         #首先查看学生是否存在
         value={}
-        value[configure.student_id]=id
+        value[configure.student_id]=int(id)
         count=cls.collection.count(value)
 
         #如果找到

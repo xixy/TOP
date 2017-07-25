@@ -6,7 +6,7 @@ class studentInfo(object):
 
     
     def __init__(self,id,username,password,classid=0):
-        self.id=id
+        self.id=int(id)
         self.username=username
         self.password=password
         self.questions=[]

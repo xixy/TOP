@@ -61,7 +61,7 @@ class adminDAO(object):
             return configure.FAIL_CODE
 
 if __name__ == '__main__':
-    admin1=admin("1","xxy","123456")
+    admin1=admin(1,"xxy","123456")
     adminDAO.index(admin1)
     print adminDAO.valid("xxy","123456")
     # adminDAO.delete(admin1)
