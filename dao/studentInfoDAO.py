@@ -85,10 +85,8 @@ class studentInfoDAO(object):
             for student in cls.collection.find(value):
                 #如果题已经在了，就不能加入
                 for question in question_set:
-                    print question
                     if question not in student[configure.student_questions]:
                         incremental_question.append(question)
-                print incremental_question
                 student[configure.student_questions].extend(incremental_question)
                 #按照时间排序
                 student[configure.student_questions].sort()
@@ -127,9 +125,7 @@ class studentInfoDAO(object):
         """
         value={}
         value[configure.student_id]=int(id)
-        print value
         count=cls.collection.count(value)
-        print count
 
         #如果找到学生
         if count==1:

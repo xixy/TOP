@@ -102,13 +102,10 @@ class answerDAO(object):
         value={}
         value[configure.answer_userid]=int(userid)
         collection=cls.db[cls.getCollectionName(setid,mode)]
-        print value
-        print cls.getCollectionName(setid,mode)
         count=collection.count(value)
         if count==1:
             for i in collection.find(value):
                 if(i.has_key(index)):
-                    print "We find it"
                     return i[index]
                 else:
                     return configure.FAIL_CODE

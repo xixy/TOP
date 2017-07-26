@@ -44,9 +44,8 @@ class question_saver(object):
 			#取出听力部分
 			if configure.Listening in filepath:
 				listening_files_path.append(filepath)
-				print filepath
 				continue
-				
+
 			#取出口语部分
 			if configure.Speaking in filepath:
 				speaking_files_path.append(filepath)

@@ -38,7 +38,6 @@ class answer_saver(object):
             except UnicodeDecodeError,e:
                 return None
             answers=line.split(',')
-            print len(line)
             answer_list.append(answers)
             line=f.readline()
 
