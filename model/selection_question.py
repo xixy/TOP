@@ -67,7 +67,7 @@ class selection_question(object):
 	results=[]
         for question in questions:
 	    result=cls.getSingleQuestion(question,type)
-	    print result
+	    # print result
             result[configure.index]=configure.Mark[type]+str(i)
 	    i+=1
 	    results.append(result)
