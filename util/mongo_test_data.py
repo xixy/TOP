@@ -34,3 +34,4 @@ if __name__ == '__main__':
     answerDAO.index(asw,configure.answer_practicemode)
     asw=answer("20170603","R3","D",1)
     answerDAO.index(asw,configure.answer_exammode)
+    print "数据导入完毕"
