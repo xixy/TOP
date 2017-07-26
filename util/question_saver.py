@@ -40,14 +40,13 @@ class question_saver(object):
 			if configure.Reading in filepath:
 				reading_files_path.append(filepath)
 				continue
-			reading_files_path.sort()
+			
 			#取出听力部分
 			if configure.Listening in filepath:
 				listening_files_path.append(filepath)
 				print filepath
 				continue
-			listening_files_path.sort()
-			print listening_files_path
+				
 			#取出口语部分
 			if configure.Speaking in filepath:
 				speaking_files_path.append(filepath)
@@ -69,6 +68,7 @@ class question_saver(object):
 
 		
 		#提取阅读中的选择题
+		reading_files_path.sort()
 		question_list=[]
 		for filepath in reading_files_path:
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
@@ -79,7 +79,7 @@ class question_saver(object):
 
 		#提取听力中的选择题
 		question_list=[]
-		print listening_files_path
+		listening_files_path.sort()
 
 		for filepath in listening_files_path:
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
