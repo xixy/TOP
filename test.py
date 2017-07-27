@@ -62,10 +62,8 @@ CORS(app, supports_credentials=True)
 def login():
     username=request.data[username]
     password=request.data[password]
-    username="xixiangyu"
-    password=123456
     result=studentInfoDAO.valid(username,password)
-    return jsonify({"id":result}),201
+    return jsonify({"id":result}),200
 
 @app.route('/admin/login',methods=['POST'])
 def adminLogin():
@@ -77,7 +75,7 @@ def adminLogin():
     username="xixiangyu"
     password=123456
     result=adminDAO.valid(username,password)
-    return jsonify({"id":result}),201
+    return jsonify({"id":result}),200
 
 @app.route('/student/all',methods=['GET'])
 def getAllStudents():
@@ -87,7 +85,7 @@ def getAllStudents():
     result=studentInfoDAO.getAllStudents()
     print result
     # result={"1":{"id":1,"questions":["1","2","3"]}}
-    return jsonify(result),201
+    return jsonify(result),200
 
 @app.route('/download/<filename>',methods=['GET'])
 def download(filename):
@@ -104,7 +102,7 @@ def getQuestion(setid,index):
 
 	"""
 	questions=selection_questionDAO.getSelectionQuestion(setid,index)
-	return jsonify(questions),201
+	return jsonify(questions),200
 
 @app.route('/status/<userid>/<mode>',methods=['GET'])
 def getQuestionStatus(userid,mode):
@@ -127,7 +125,7 @@ def getQuestionStatus(userid,mode):
             status[question]=configure.FAIL_CODE
         else:
             status[question]=configure.SUCCESS_CODE
-    return jsonify(status),201
+    return jsonify(status),200
 
 
 @app.route('/answer/<setid>/<index>',methods=['GET'])
@@ -139,7 +137,7 @@ def getOfficialAnswer(setid,index):
         index:第几个题，例如R13
     """
     result=answerDAO.querySingleAnswer(configure.answer_officialid,setid,index,configure.answer_officialmode)
-    return jsonify(result),201
+    return jsonify(result),200
 
 @app.route('/studentanswer/<userid>/<setid>/<index>/<mode>',methods=['GET'])
 def getStudentAnswer(mode,userid,setid,index):
@@ -155,7 +153,7 @@ def getStudentAnswer(mode,userid,setid,index):
         mode=configure.answer_practicemode
 
     result=answerDAO.querySingleAnswer(userid,setid,index,mode)
-    return jsonify(result),201
+    return jsonify(result),200
 
 @app.route('/answer/submit',methods=['POST'])
 def saveAnswer():
@@ -174,7 +172,7 @@ def saveAnswer():
     else:
         mode=configure.answer_practicemode   
 	answerDAO.index(asw,mode)
-	return jsonify({"message":"ok"}),201
+	return jsonify({"message":"ok"}),200
 
 @app.route('/answer',methods=['DELETE'])
 def deleteAnswer():
