@@ -87,8 +87,13 @@ def getQuestionStatus(userid,mode):
     获取到某个学生的题的状态
     """
     #先获取到学生的所有的题
-    status={}
-    questions=studentInfoDAO.getQuestionsOfSingleStudent(userid)
+    status=[]
+    questions=studentInfoDAO.getQuestionSetOfSingleStudent(userid)
+    #如果学生没有题
+    if questions==configure.FAIL_CODE:
+        return jsonify(status),200
+
+
     if cmp(mode,"exam")==0:
         mode=configure.answer_exammode
     else:
@@ -98,10 +103,13 @@ def getQuestionStatus(userid,mode):
     for question in questions:
         result=answerDAO.queryAnswerForTPOSet(1,question,mode)
         print result
+        singleStatus={}
+        singleStatus["title"]=question
         if result==None:
-            status[question]=configure.FAIL_CODE
+            singleStatus["status"]=configure.FAIL_CODE
         else:
-            status[question]=configure.SUCCESS_CODE
+            singleStatus["status"]=configure.SUCCESS_CODE
+        status.append(singleStatus)
     return jsonify(status),200
 
 #获取标准答案

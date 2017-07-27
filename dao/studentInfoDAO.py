@@ -40,7 +40,7 @@ class studentInfoDAO(object):
         value={}
         value[configure.student_id]=studentInfo.id
     	value[configure.student_name]=studentInfo.username
-        cls.collection.find_one_and_delete(value)
+        cls.collection.remove(value)
 
     @classmethod
     def valid(cls,username,password):
@@ -115,7 +115,7 @@ class studentInfoDAO(object):
         return students
 
     @classmethod
-    def getQuestionsOfSingleStudent(cls,id):
+    def getQuestionSetOfSingleStudent(cls,id):
         """
         获取某个学生的买的所有题，返回的是题的setid，例如TPO1
         Args:
@@ -126,11 +126,14 @@ class studentInfoDAO(object):
         value={}
         value[configure.student_id]=int(id)
         count=cls.collection.count(value)
+        print value
 
         #如果找到学生
         if count==1:
             for student in cls.collection.find(value):
-                return student[configure.student_questions]
+                results=student[configure.student_questions]
+                results.sort()
+                return results
         #如果没找到
         else:
             return configure.FAIL_CODE
@@ -148,5 +151,5 @@ if __name__=='__main__':
     studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
     # print studentInfoDAO.valid("anxiao","12345")
     studentInfoDAO.getAllStudents()
-    print studentInfoDAO.getQuestionsOfSingleStudent(1)
+    print studentInfoDAO.getQuestionSetOfSingleStudent(1)
     # studentInfoDAO.delete(studentInfo)
