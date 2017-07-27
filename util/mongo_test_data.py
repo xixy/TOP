@@ -29,10 +29,12 @@ if __name__ == '__main__':
             continue
     #生成管理员
     admin1=admin(1,"xxy","123456")
+    adminDAO.delete(admin1)
     adminDAO.index(admin1)
     #生成学生
-    studentInfo=studentInfo(1,"xxy","123456")
-    studentInfoDAO.index(studentInfo)
+    student1=studentInfo(1,"xxy","123456")
+    studentInfoDAO.delete(student1)
+    studentInfoDAO.index(student1)
 
     #给学生插入题
     studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
