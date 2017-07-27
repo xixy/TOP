@@ -126,7 +126,6 @@ class studentInfoDAO(object):
         value={}
         value[configure.student_id]=int(id)
         count=cls.collection.count(value)
-        print value
 
         #如果找到学生
         if count==1:

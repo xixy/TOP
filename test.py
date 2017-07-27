@@ -93,16 +93,14 @@ def getQuestionStatus(userid,mode):
     if questions==configure.FAIL_CODE:
         return jsonify(status),200
 
-
+    #如果学生有题
     if cmp(mode,"exam")==0:
         mode=configure.answer_exammode
     else:
         mode=configure.answer_practicemode
     #然后查看相应的题库中是否有他的答案
-    print questions
     for question in questions:
         result=answerDAO.queryAnswerForTPOSet(1,question,mode)
-        print result
         singleStatus={}
         singleStatus["title"]=question
         if result==None:
