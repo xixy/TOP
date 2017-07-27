@@ -13,6 +13,10 @@ Writting="Writting"
 #标示答案文件
 Answer="answer"
 
+#听力题多选标示
+ListeningTwoSelectionMark="choose two answers"
+ListeningThreeSelectionMark="choose three answers"
+
 #标示数据库中存入的样子
 
 ReadingMark="R"
