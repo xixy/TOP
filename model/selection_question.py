@@ -35,7 +35,6 @@ class selection_question(object):
             if cmp(type,configure.Listening,)==0:
                 if configure.ListeningTwoSelectionMark in value[configure.selection_stem]:
                     value[configure.question_type]=configure.l_multiple_selection_type
-                    print value
                 else:
                     value[configure.question_type]=configure.single_selection_type
             else:

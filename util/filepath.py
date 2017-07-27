@@ -24,10 +24,27 @@ def getFullFilePath(directory,result):
             getFullFilePath(childDirectory,result)
             pass
 
+def getQuestionSetFilePath(directory,results):
+    """
+    获取到questinos下面的dict，其中key是题号，vlaue是所有的filepath，包括选择题、听力题、答案
+    """
+    for parent,dirnames,filenames in os.walk(directory):
+        for dirname in dirnames:
+            #只获取第一层目录
+            if dirname.isdigit():
+                result={}
+                childDirectory=os.path.join(parent,dirname)
+                filePathList=[]
+                getFullFilePath(childDirectory,filePathList)
+                result[dirname]=filePathList
+                results.append(result)
+
+
+
 
 if __name__=='__main__':
-    rootdir='../resources/questions/TPO1'
+    rootdir='../resources/questions/'
     filePathList=[]
-    getFullFilePath(rootdir,filePathList)
+    getQuestionSetFilePath(rootdir)
     for filePath in filePathList:
         print filePath

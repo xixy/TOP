@@ -69,3 +69,9 @@ isLast="isLast"
 #存题的collection的前缀
 question_prefix="TPO"
 answer_prefix="TPO"
+
+#读取POST请求中的数据
+student_login_username="username"
+student_login_password="password"
+admin_login_username="username"
+admin_login_password="password"

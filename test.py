@@ -29,31 +29,37 @@ CORS(app, supports_credentials=True)
 @app.route('/login',methods=['POST'])
 def login():
     data=request.get_json()
-    username=data[configure.student_name]
-    password=data[configure.student_student_password]
+    username=data[configure.student_login_username]
+    password=data[configure.student_login_password]
     result=studentInfoDAO.valid(username,password)
-    return jsonify({"id":result}),200
+    if result>0:
+        return jsonify({"id":result}),200
+    else:
+        return jsonify({"id":result}),401
 
 @app.route('/admin/login',methods=['POST'])
 def adminLogin():
     """
     管理员登陆验证
     """
-    username=request.data[username]
-    password=request.data[password]
-    username="xixiangyu"
-    password=123456
+    data=request.get_json()
+    username=data[configure.admin_login_username]
+    password=data[configure.admin_login_password]
+    
     result=adminDAO.valid(username,password)
-    return jsonify({"id":result}),200
+    if result>0:
+        return jsonify({"id":result}),200
+    else:
+        return jsonify({"id":result}),401
 
+#获取所有学生信息
 @app.route('/student/all',methods=['GET'])
 def getAllStudents():
     """
-    查看所有学生信息
+    查看所有学生信息,得到学生id和对应的数据
     """
     result=studentInfoDAO.getAllStudents()
     print result
-    # result={"1":{"id":1,"questions":["1","2","3"]}}
     return jsonify(result),200
 
 @app.route('/download/<filename>',methods=['GET'])
@@ -61,6 +67,7 @@ def download(filename):
     directory=os.getcwd()
     return send_from_directory(directory,filename,as_attachment=True)
 
+#获取题目信息
 @app.route('/question/<setid>/<index>',methods=['GET'])
 def getQuestion(setid,index):
 	"""
@@ -73,6 +80,7 @@ def getQuestion(setid,index):
 	questions=selection_questionDAO.getSelectionQuestion(setid,index)
 	return jsonify(questions),200
 
+#查看学生答题信息
 @app.route('/status/<userid>/<mode>',methods=['GET'])
 def getQuestionStatus(userid,mode):
     """
@@ -96,7 +104,7 @@ def getQuestionStatus(userid,mode):
             status[question]=configure.SUCCESS_CODE
     return jsonify(status),200
 
-
+#获取标准答案
 @app.route('/answer/<setid>/<index>',methods=['GET'])
 def getOfficialAnswer(setid,index):
     """
@@ -108,6 +116,7 @@ def getOfficialAnswer(setid,index):
     result=answerDAO.querySingleAnswer(configure.answer_officialid,setid,index,configure.answer_officialmode)
     return jsonify(result),200
 
+#获取学生某套题某个题的答案
 @app.route('/studentanswer/<userid>/<setid>/<index>/<mode>',methods=['GET'])
 def getStudentAnswer(mode,userid,setid,index):
     """
@@ -140,9 +149,10 @@ def saveAnswer():
         mode=configure.answer_exammode
     else:
         mode=configure.answer_practicemode   
-	answerDAO.index(asw,mode)
-	return jsonify({"message":"ok"}),200
+    answerDAO.index(asw,mode)
+    return jsonify({"message":"ok"}),200
 
+#删除学生某个题答案
 @app.route('/answer',methods=['DELETE'])
 def deleteAnswer():
     """
@@ -156,6 +166,7 @@ def deleteAnswer():
     else:
         mode=configure.answer_practicemode
     answerDAO.clearAnswersForQuestionSet(userid,setid,mode)
+    return jsonify({"message":"ok"}),200
 
 # app.add_url_rule('/login',login())
 if __name__ == '__main__':

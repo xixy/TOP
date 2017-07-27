@@ -18,22 +18,20 @@ class question_saver(object):
 
 
 	@classmethod
-	def savequestions(cls,directory):
+	def savequestions(cls,setid,filepaths):
 		"""
-		存储所有的题库，首先进行遍历，然后进行调用
+		对一套题进行存储
 		Args:
-			directory:这套题的目录
+			filepaths:这套题的所有文件路径
+			setid:这套题的名称，例如20170603
 
 
 		"""
-		filepaths=[]
 		reading_files_path=[]
 		listening_files_path=[]
 		speaking_files_path=[]
 		writting_files_path=[]
 		answer_files_path=[]
-
-		getFullFilePath(directory,filepaths)
 		#分类统计
 		for filepath in filepaths:
 			#取出阅读部分
@@ -90,10 +88,10 @@ class question_saver(object):
 
 
 		#进行持久化存储
-		selection_questionDAO.indexQuestions("20170603",questions_json)
+		selection_questionDAO.indexQuestions(setid,questions_json)
 
-		#处理答案部分TPO
-		answer_saver.indexAnswerForMultiSet(answer_files_path,"20170603")
+		#处
+		answer_saver.indexAnswerForMultiSet(answer_files_path,setid)
 
 		
 

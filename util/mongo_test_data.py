@@ -13,10 +13,20 @@ from admin import admin
 from adminDAO import adminDAO
 from studentInfo import studentInfo
 from studentInfoDAO import studentInfoDAO
+from filepath import getQuestionSetFilePath
+
+questionDirectory='../resources/questions/'
 
 if __name__ == '__main__':
     #生成题和答案
-    question_saver.savequestions('../resources/questions/20170603')
+    results=[]
+    #获取所有题的路径和名称
+    getQuestionSetFilePath(questionDirectory,results)
+    for result in results:
+        for setid in result.keys():
+            print "发现题库："+setid
+            question_saver.savequestions(setid,result[setid])
+            continue
     #生成管理员
     admin1=admin(1,"xxy","123456")
     adminDAO.index(admin1)
