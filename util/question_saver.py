@@ -90,17 +90,12 @@ class question_saver(object):
 		#进行持久化存储
 		selection_questionDAO.indexQuestions(setid,questions_json)
 
-		#处
+		#处理答案
 		answer_saver.indexAnswerForMultiSet(answer_files_path,setid)
-
-		
-
-				
+	
 
 		pass
 
-if __name__ == '__main__':
-	question_saver.savequestions('../resources/questions/20170603')
 
 
 
