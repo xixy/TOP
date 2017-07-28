@@ -139,6 +139,7 @@ def getStudentAnswer(mode,userid,setid,index):
     result=answerDAO.querySingleAnswer(userid,setid,index,mode)
     return jsonify(result),200
 
+#保存学生提交的答案
 @app.route('/answer/submit',methods=['POST'])
 def saveAnswer():
     """

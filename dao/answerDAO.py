@@ -25,7 +25,7 @@ class answerDAO(object):
             setid:第几套题例如TPO1
             mode:需要查找什么模式下的答案，例如configure
         """
-        return configure.answer_prefix+setid+mode
+        return configure.answer_prefix+str(setid)+mode
 
     @classmethod
     def index(cls,answer,mode):
@@ -120,7 +120,7 @@ class answerDAO(object):
             setid:第几套题例如TPO1
             mode:什么模式，例如configure.answer_practicemode或者exammode，或者configure.answer_officialmode
         Return:
-            一个dict
+            一个dict,key是L1、L2、R1，value是C、D、BC选项
         """
         value={}
         value[configure.answer_userid]=int(userid)
@@ -136,6 +136,7 @@ class answerDAO(object):
                 return result
         else:
             return None
+
 
 
 

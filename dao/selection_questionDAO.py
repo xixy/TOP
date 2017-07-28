@@ -20,7 +20,7 @@ class selection_questionDAO(object):
         """
         返回TPO20170603
         """
-        return configure.question_prefix+setid
+        return configure.question_prefix+str(setid)
 
 
     @classmethod

@@ -75,3 +75,8 @@ student_login_username="username"
 student_login_password="password"
 admin_login_username="username"
 admin_login_password="password"
+
+#生成报告的标记
+report_reading="Passage"
+report_listening_conversation="Conversation"
+report_listening_lecture="Lecture"
