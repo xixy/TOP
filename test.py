@@ -145,10 +145,11 @@ def saveAnswer():
     学生提交答案
 
     """
-    setid=request.data["setid"]
-    index=request.data["index"]
-    userid=request.data["userid"]
-    options=request.data["options"]
+    data=request.get_json()
+    setid=data["setid"]
+    index=data["index"]
+    userid=data["userid"]
+    options=data["options"]
     asw=answer(setid,index,options,userid)
     mode=request.data["mode"]
     if cmp(mode,"exam")==0:
