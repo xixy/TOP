@@ -151,7 +151,7 @@ def saveAnswer():
     userid=data["userid"]
     options=data["options"]
     asw=answer(setid,index,options,userid)
-    mode=request.data["mode"]
+    mode=data["mode"]
     if cmp(mode,"exam")==0:
         mode=configure.answer_exammode
     else:
@@ -165,9 +165,10 @@ def deleteAnswer():
     """
     删除某套题的答案
     """
-    setid=request.data["setid"]
-    userid=request.data["userid"]
-    mode=request.data["mode"]
+    data=request.get_json()
+    setid=data["setid"]
+    userid=data["userid"]
+    mode=data["mode"]
     if cmp(mode,"exam")==0:
         mode=configure.answer_exammode
     else:
