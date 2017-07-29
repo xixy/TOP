@@ -184,5 +184,5 @@ if __name__ == '__main__':
     listening_test=reading_test
     listening_test.extend(reading_test)
     # report_generator.writeReport(reading_test,listening_test,official_answer,'/Users/apple/Code/report')
-    report_generator.generatReport(1,20170603,configure.answer_practicemode)
+    report_generator.generatReport(1,20170603,configure.answer_exammode)
 
