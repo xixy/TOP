@@ -170,7 +170,7 @@ class report_generator(object):
                 #进行排序，并输出
                 print reading_answers
                 print listening_answers
-                cls.writeReport(reading_answers,listening_answers,official_answers,'/Users/apple/Code/report')
+                cls.writeReport(reading_answers,listening_answers,official_answers,'../report')
 
                 #首先处理听力部分
                 # for single_reading_answers in listening_answers:

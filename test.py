@@ -89,7 +89,7 @@ def getQuestionStatus(userid,mode):
     #先获取到学生的所有的题
     status=[]
     questions=studentInfoDAO.getQuestionSetOfSingleStudent(userid)
-    #如果学生没有题
+    #如果学生没有题,就直接返回
     if questions==configure.FAIL_CODE:
         return jsonify(status),200
 
