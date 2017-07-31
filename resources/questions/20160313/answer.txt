@@ -1,0 +1,2 @@
+A,B,D,A,B,C,B,C,D,C,CD,D,C,BCEA,B,C,B,C,AC,B,C,C,B,D,C,B,BCE
+C,C,B,D,C,C,D,A,D,B,B,C,B,ACF

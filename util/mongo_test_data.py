@@ -15,18 +15,18 @@ from studentInfo import studentInfo
 from studentInfoDAO import studentInfoDAO
 from filepath import getQuestionSetFilePath
 
-questionDirectory='../resources/questions/'
+questionDirectory='../resources/questions'
 
 if __name__ == '__main__':
     #生成题和答案
     results=[]
     #获取所有题的路径和名称
     getQuestionSetFilePath(questionDirectory,results)
+    print "共发现%d套题" % len(results)
     for result in results:
         for setid in result.keys():
             print "发现题库："+setid
             question_saver.savequestions(setid,result[setid])
-            continue
     #生成管理员
     admin1=admin(1,"xxy","123456")
     adminDAO.delete(admin1)

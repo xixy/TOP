@@ -1,0 +1,1 @@
+﻿C,C,B,A,D,B,C,D,D,B,C,A,B,ADFC,C,B,A,D,B,C,D,D,B,C,A,B,ADFB,D,C,B,D,C,C,A,A,B,A,C, ABE

@@ -45,6 +45,6 @@ def getQuestionSetFilePath(directory,results):
 if __name__=='__main__':
     rootdir='../resources/questions/'
     filePathList=[]
-    getQuestionSetFilePath(rootdir)
+    getQuestionSetFilePath(rootdir,filePathList)
     for filePath in filePathList:
         print filePath

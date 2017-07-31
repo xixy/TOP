@@ -36,6 +36,8 @@ class question_saver(object):
 		answer_files_path=[]
 		#分类统计
 		for filepath in filepaths:
+			if ".DS_Store" in filepath:
+				continue
 			#取出阅读部分
 			if configure.Reading in filepath:
 				reading_files_path.append(filepath)
@@ -63,18 +65,26 @@ class question_saver(object):
 
 
 		
-		questions_json=[]#存放所有的题
+		questions_json=[]#存放所有的选择题
 
 		
 		#提取阅读中的选择题
 		reading_files_path.sort()
 		question_list=[]
 		for filepath in reading_files_path:
+			# print filepath
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
+			if len(questions)<13:
+				print "题目少于13："+filepath+":"+str(len(questions))
+			if len(questions)>14:
+				print "题目大于14："+filepath+":"+str(len(questions))
+			# print questions
+
 			question_list.extend(questions)
 
 		reading_questions_json=selection_question.getSetQuestion(question_list,configure.Reading)
 		questions_json.extend(reading_questions_json)# 加入到总题目中
+		"""
 
 		#提取听力中的选择题
 		question_list=[]
@@ -83,8 +93,18 @@ class question_saver(object):
 		for filepath in listening_files_path:
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
 			question_list.extend(questions)
+		"""
 
-		#提取口语题中的题干、文章和对话
+
+
+		# listening_questions_json=selection_question.getSetQuestion(question_list,configure.Listening)
+		# questions_json.extend(listening_questions_json)# 加入到总题目中
+
+
+		#进行持久化存储
+		selection_questionDAO.indexQuestions(setid,questions_json)
+
+		#处理口语
 		speaking_files_path.sort()
 		for filepath in speaking_files_path:
 			print filepath
@@ -92,13 +112,6 @@ class question_saver(object):
 			speaking_questionDAO.indexQuestions(setid,question)
 
 
-
-		listening_questions_json=selection_question.getSetQuestion(question_list,configure.Listening)
-		questions_json.extend(listening_questions_json)# 加入到总题目中
-
-
-		#进行持久化存储
-		selection_questionDAO.indexQuestions(setid,questions_json)
 
 		#处理答案
 		answer_saver.indexAnswerForMultiSet(answer_files_path,setid)

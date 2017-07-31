@@ -45,6 +45,8 @@ class answer_saver(object):
         count=0#计数，用于构造R1或者L2
         #首先处理Reading的答案
         for answers in answer_list[:3]:
+            if len(answers)<13:
+                print "答案少于13:"+filepath
             #如果是完整的14个题
             if len(answers)==14:
                 for single_answer in answers:
