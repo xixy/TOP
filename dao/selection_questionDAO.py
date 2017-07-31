@@ -3,7 +3,7 @@
 
 import sys
 sys.path.append('../model/')
-sys.path.append('./configure/')
+sys.path.append('../configure/')
 import pymongo
 from selection_question import selection_question
 from bson import json_util as jsonb
@@ -42,13 +42,10 @@ class selection_questionDAO(object):
         if count==1:
             for result in collection.find(value):
                 result.pop("_id")
-
-#           	result[configure.selection_stem]=questions[configure.selection_stem]
-#            	result[configure.selection_options]=questions[configure.selection_options]
                 return result
         #如果没找到
         else:
-            return FAIL_CODE
+            return configure.FAIL_CODE
 
     @classmethod
     def indexQuestions(cls,setid,questions):
@@ -60,11 +57,12 @@ class selection_questionDAO(object):
         """
 
         #如果已经存过了，就先删除现在的题库
-        if cls.getCollectionName(setid) in cls.db.collection_names():
-            cls.db[cls.getCollectionName(setid)].drop()
 
         collection=cls.db[cls.getCollectionName(setid)]
+        value={}
         for question in questions:
+            value[configure.index]=question[configure.index]
+            collection.remove(value)
             collection.insert(question)
 
 

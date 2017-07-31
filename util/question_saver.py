@@ -11,6 +11,8 @@ from filepath import getFullFilePath
 from selection_question import selection_question
 from selection_questionDAO import selection_questionDAO
 from answer_saver import answer_saver
+from speaking_question_extractor import speaking_question_extractor
+from speaking_questionDAO import speaking_questionDAO
 
 
 class question_saver(object):
@@ -48,7 +50,7 @@ class question_saver(object):
 			if configure.Speaking in filepath:
 				speaking_files_path.append(filepath)
 				continue
-			speaking_files_path.sort()
+
 			#取出写作部分
 			if configure.Writting in filepath:
 				writting_files_path.append(filepath)
@@ -81,6 +83,14 @@ class question_saver(object):
 		for filepath in listening_files_path:
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
 			question_list.extend(questions)
+
+		#提取口语题中的题干、文章和对话
+		speaking_files_path.sort()
+		for filepath in speaking_files_path:
+			print filepath
+			question=speaking_question_extractor.getSpeakingQuestion(filepath)
+			speaking_questionDAO.indexQuestions(setid,question)
+
 
 
 		listening_questions_json=selection_question.getSetQuestion(question_list,configure.Listening)

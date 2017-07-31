@@ -9,7 +9,7 @@ port=27017
 Reading="Reading"
 Listening="Listening"
 Speaking="Speaking"
-Writting="Writting"
+Writting="Writing"
 #标示答案文件
 Answer="answer"
 
@@ -31,6 +31,10 @@ selection_stem="stem"
 selection_options="options"
 #所有题都存index
 index="index"
+#听力题
+listening_stem="stem"#题干
+listening_article="article"#文章
+listening_record="record"#对话
 
 #学生信息的表
 student_name="username"#学生名称

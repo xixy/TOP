@@ -18,6 +18,7 @@ sys.setdefaultencoding('utf-8')
 from studentInfoDAO import studentInfoDAO
 from adminDAO import adminDAO
 from selection_questionDAO import selection_questionDAO
+from speaking_questionDAO import speaking_questionDAO
 from answerDAO import answerDAO
 from answer import answer
 import configure
@@ -26,6 +27,7 @@ app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 CORS(app, supports_credentials=True)
 
+#学生登陆
 @app.route('/login',methods=['POST'])
 def login():
     data=request.get_json()
@@ -37,6 +39,7 @@ def login():
     else:
         return jsonify({"id":result}),401
 
+#管理员登陆验证
 @app.route('/admin/login',methods=['POST'])
 def adminLogin():
     """
@@ -70,15 +73,20 @@ def download(filename):
 #获取题目信息
 @app.route('/question/<setid>/<index>',methods=['GET'])
 def getQuestion(setid,index):
-	"""
-	获取题库的某套题
-	Args:
-		setid:某套题，例如TPO1
-		index:第几个题，例如R13
-
-	"""
-	questions=selection_questionDAO.getSelectionQuestion(setid,index)
-	return jsonify(questions),200
+    """
+    获取题库的某套题
+    Args:
+        setid:某套题，例如TPO1
+	index:第几个题，例如R13
+    """
+    #如果是阅读、听力题
+    if "R" in index or "L" in index:
+        question=selection_questionDAO.getSelectionQuestion(setid,index)
+    else:
+        #如果是口语题
+        if "S" in index:
+            question=speaking_questionDAO.getSpeakingQuestion(setid,index)
+    return jsonify(question),200
 
 #查看学生答题信息
 @app.route('/status/<userid>/<mode>',methods=['GET'])
