@@ -30,7 +30,7 @@ class selection_questionDAO(object):
             setid:第几套题例如TPO1
             index:第几题
         Return:
-            一个dict，例如{"index":"R1","stem":"The word “occasionally” in the passage is closest in meaning to",
+            一个dict，例如{"index":"R1","stem":"The word "occasionally" in the passage is closest in meaning to",
             options:{"A":"hello","B":"hi","C":"world","D":"nice"}}
         """
         value={}

@@ -56,14 +56,6 @@ class speaking_question_extractor(object):
                 except UnicodeDecodeError,e:
                     return configure.FAIL_CODE
 
-                if mode==1:
-                    article.append(line)
-                if mode==2:
-                    record.append(line)
-                if mode==3:
-                    stem.append(line)
-
-
                 if "#article" in line:
                     mode=1
                     continue
@@ -73,6 +65,13 @@ class speaking_question_extractor(object):
                 if "#question" in  line:
                     mode=3
                     continue
+                    
+                if mode==1:
+                    article.append(line)
+                if mode==2:
+                    record.append(line)
+                if mode==3:
+                    stem.append(line)
 
             #完毕进行处理
             result[configure.listening_stem]=stem

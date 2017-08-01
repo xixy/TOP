@@ -1,20 +1,20 @@
 #record
 (man) Hey, Julie, how are you?
-(woman) I¡¯m all right. I guess. 
+(woman) I'm all right. I guess. 
 (man) Something wrong?
-(woman) Well, it¡¯s kind of a crazy story, but my friend Melonie was in my new apartment yesterday helping me paint my room. 
+(woman) Well, it's kind of a crazy story, but my friend Melonie was in my new apartment yesterday helping me paint my room. 
 (man) Oh, that was nice of her.
 (woman) Yeah, I really appreciated it. But, at one point, she accidentally knocked over a can of paint. My new winter coat was on the floor and the paint spilled all over it.
 (man) Oh, no.
-(woman) Yeah, I just bought the coat last week. It was a great style. I really loved it. It¡¯s covered in green paint! It¡¯s ruined and I already got rid of my old one.
-(man) Wow! It¡¯s starting to get cold now, too. You¡¯re gonna need a coat soon.
-(woman) I know. And so Melonie felt bad about it, she said she¡¯d help pay for a new one, if I want to go back to the store to buy a replacement, which would be nice, but, I don¡¯t know if I want to let her do that.
+(woman) Yeah, I just bought the coat last week. It was a great style. I really loved it. It's covered in green paint! It's ruined and I already got rid of my old one.
+(man) Wow! It's starting to get cold now, too. You're gonna need a coat soon.
+(woman) I know. And so Melonie felt bad about it, she said she'd help pay for a new one, if I want to go back to the store to buy a replacement, which would be nice, but, I don't know if I want to let her do that.
 (man) Well, if she offered
-(woman) Yeah, she said she¡¯ll be able to afford it, but, I don¡¯t know. Maybe it¡¯s my fault the coat was even there on the floor where paint could possibly get on it. I should have put it away.
+(woman) Yeah, she said she'll be able to afford it, but, I don't know. Maybe it's my fault the coat was even there on the floor where paint could possibly get on it. I should have put it away.
 (man) Could be
-(woman) So, I can¡¯t afford to buy a new coat by myself. I just spent a lot of money on this one, but I could just use the winter coat of my sister¡¯s instead.
+(woman) So, I can't afford to buy a new coat by myself. I just spent a lot of money on this one, but I could just use the winter coat of my sister's instead.
 (man) Oh, yeah?
-(woman) Yeah, I told her what happened and she said she could give me an old coat she doesn¡¯t wear any more. It¡¯s not as nice as the coat that was ruined though. I mean, it would keep me warm, but, it¡¯s kind of old-fashioned.
+(woman) Yeah, I told her what happened and she said she could give me an old coat she doesn't wear any more. It's not as nice as the coat that was ruined though. I mean, it would keep me warm, but, it's kind of old-fashioned.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation
