@@ -1,0 +1,35 @@
+1. What is the lecture mainly about?
+  A) Why the chemical composition of some exoplanets prevents them from being detected
+  B) A recent discovery of an exoplanet that has prompted the invention of the vortex coronagraph
+  C) Enhanced techniques for observing planets outside our solar system
+  D) Some common misunderstandings about powerful telescopes
+
+2. Why does the professor mention seeing a flashlight shining next to a spotlight?
+  A) To clarify how most telescopes function
+  B) To point out that some exoplanets can appear brighter than their parent stars
+  C) To help explain what diffraction patterns look like
+  D) To illustrate the difficulty of detecting exoplanets that orbit close to stars
+
+3. What are two indirect methods that astronomers have used to detect exoplanets? [choose two answers]
+  A) They look for rings surrounding distant light sources.
+  B) They look for the periodic reduction of light from a star.
+  C) They look for the presence of other known exoplanets in the same star system.
+  D) They look for slight movements of a star.
+
+4. What main benefit of adaptive optics does the professor mention?
+  A) They block out all light sources from stars close to the parent star.
+  B) They are able to combine images from two separate telescopes.
+  C) They adjust for the distortion of a star's image caused by Earth's atmosphere.
+  D) They measure the amount of wobble of a parent star.
+
+5. Why does the professor discuss a series of alternating bright and dark rings around a star?
+  A) To point out a limitation of the traditional coronagraph
+  B) To explain how the color of the coronagraph's disk is important to the coronagraph effectiveness
+  C) To explain a problem with the technology of the vortex coronagraph that has not been solved
+  D) To emphasize the importance of using a lens that is just the right size for the telescope
+
+6. What does the professor imply when he says this:  
+  A) It is very difficult to detect an exoplanet, regardless of the method used.
+  B) Astronomers are not satisfied with the amount of information indirect methods of detection provide.
+  C) Some direct methods of detection are less useful than indirect methods for detecting exoplanets.
+  D) The exact location of an exoplanet can be confirmed by detecting a wobble in the parent star.

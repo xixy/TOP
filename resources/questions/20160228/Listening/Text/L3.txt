@@ -1,0 +1,41 @@
+Listen to part of a lecture in an Astronomy class.
+
+(male professor) OK, anyone remember what we discussed last class? 
+
+(male student) Uh, planet formation, like how planets form out of the gas and dust around young stars.
+
+(professor) Good, and we discussed how diverse planets are in chemical composition, including elements basic to life. But, beyond that, from the reading, what other factors are necessary for a planet to support life?
+
+(female student) Well, there's got to be water on the surface, right?
+
+(professor) Liquid water
+
+(female student) Right, so the planet can't be so far from its star that it's too cold for liquid water or so close that it's too hot.
+
+(professor) And that pretty well describes the habitable zone. The habitable zone is the area around a star where the temperature isn't too extreme to support life. Earth's right in the middle of our Sun's habitable zone. At its inner boundary closer to the Sun is Venus, where because of the intense heat, any water it has is locked in its steamy atmosphere. And on the outer edge is the dry and frozen planet Mars, which may have had some liquid water once, but Mars' so small that its atmosphere collapsed very long time age. In order to maintain an atmosphere, a planet needs enough mass, enough gravity, to hold a good thick atmosphere in place. And that's essential that the planet's gonna be able to stabilize its temperature and keep liquid water on its surface.
+
+(female student) Uh, I'm not sure how that helps stabilize the planet's temperature?
+
+(professor) Well, if an atmosphere is dense enough, especially if it's got a lot of carbon dioxide, it could trap heat; keep it from escaping from the surface. And astronomers have observed that the farther a planet is from its star, the more carbon dioxide there is likely to be in its atmosphere. So even comparatively distant planets might still be warm enough to have liquid water and maybe life of some sort could exist in an atmosphere high in carbon dioxide. That's why researchers are taking a lot of interest in the planet called Gliese 581d.
+
+Gliese 581d orbits around its star called Gliese 581. Because of the planet's large mass, it has seven times the mass of Earth. It's got enough gravity to maintain a dense atmosphere. Some researchers think it might be the first identified exoplanet capable of supporting life.
+
+(female student) Exoplanet?
+
+(professor) Yeah, a planet outside our solar system, an exoplanet orbits a star other than our Sun. Gliese 581d was initially dismissed as it's too far from its star and thus too cold to support life. But researchers developed a complex computer program that allowed them to analyze conditions in many possible combinations. And the results were surprising: even though this planet's on the very outer edge of the habitable zone, if it does have a dense mostly carbon dioxide atmosphere, which is likely, it trapped enough heat to partially make up for that distance.
+
+(male student) Partially?
+
+(professor) Well, we still haven't talked about the star itself, Gliese 581. It's what's known as a red dwarf. The light from the star is on the red side of the spectrum. Our own Sun has much more blue in its light. When our Sun's light reaches our atmosphere, some of its blue light bounces off the air molecules.
+
+(female student) That's why the sky is blue?
+
+(professor) Right, it's called Raleigh scattering. Raleigh scattering keeps a lot of the Sun's energy from reaching Earth's surface. But the light from Gliese 581 remember, is mostly red, just about all of it penetrates the atmosphere of Gliese 581d and that, along with the carbon dioxide, could add and maintain enough heat to make up for the planet's distance from its star. Now, it is possible that one side of Gliese 581d might always be facing the star it's orbiting. So that side would always be in the light. And the other side would always be dark.
+
+(male student) And permanently frozen I bet.
+
+(professor) Well, if temperatures differ significantly from one side of the planet to the other, the gases in the atmosphere wouldn't just sit there, would they? They'd circulate and help even out the heat.
+
+(male student) Oh, then, you'd suppose the conditions on Gliese 581d really could support life?
+
+(professor) Good question, especially since it's so close to us. Actually, with current technology the trip would still take three hundred thousand years. But compare to other exoplanets, it's not far at all. Anyway, our observational instruments, unfortunately, aren't yet precise enough to give an answer. When more sophisticated ones are developed, we'll have a better idea.

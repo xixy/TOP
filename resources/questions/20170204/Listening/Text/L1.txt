@@ -1,0 +1,16 @@
+Listen to a conversation between a student and his Engineering professor
+
+(man) Hi, Professor Hill, thanks for seeing me. Um, so, that report I turned in, I thought an airplane was a good example for illustrating torque.
+(woman) It is. And you explanation of torque was fine. Torque is all about the force involved in twisting or turning, the force that makes an object rotate about its center of gravity. That makes a door, for example, swing open on its hinges.
+(man) Yeah, we went over that in class and I wanted to show how torque applies to airplanes.
+(woman) Yes, it's involved in three ways.
+(man) Three?
+(woman) Yes, it's involved in three ways, because with an airplane, there are three types of rotation to consider. There's roll, pitch, and yaw. The assignment was to take an object and consider all the ways that torque could have affected. But you only wrote about roll, so it was incomplete.
+(man) Hmm, I see.
+(woman) OK, so, first let's talk about roll. You did a good job defining roll and explaining how it's used to make a plane turn left or right. To turn the plane, the pilot makes one wing go lower than the other and the plane rolls slightly either to the left or to the right. And depending on which wing is lower, the plane will make the turn either to the left or the right. But that's just one type of rotation. What's another way a plane rotates? Not left or right
+(man) Oh, up or down, like when a plane is accelerating along the runway and then it lifts off. The front of the plane is pointing higher than the back, right? So that's rotation.
+(woman) Yes, and that rotation is called pitch. In order to make the nose point up, the plane rotates around its center of gravity. The nose goes up and the back of the plane, the tail, goes down.
+(man) Uh huh, and that leaves yaw.
+(woman) Right, yaw is a sideways rotation, a left or right movement of the plane's nose. But unlike pitch and roll, yaw is something you generally want to avoid or at least control. The plane's rudder at the back of the plane, at the tail, helps control yaw. It works like the rudder of a ship, except that a ship's rudder is used to steer the ship, to change its direction, whereas a plane's rudder is used to prevent the plane from changing direction. The rudder helps counteract rotational forces, say from crosswinds. The rudder prevents crosswinds from blowing the plane in a direction you don't want.
+(man) Got it. Whew, I guess I should use a simpler example, like the example of torque opening a door or something.
+(woman) It might have been easier to deal with but not as interesting. But, in any event, I'll tell you what. For your big research paper that's due next month, and by the way, based on the email you sent me, I think you're spot on with your topic. Anyway, if you do well on that assignment, we'll make sure this last one doesn't end up hurting you academically in the long run, OK?

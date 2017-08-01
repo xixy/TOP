@@ -1,0 +1,27 @@
+Listen to part of a lecture in an Art History class.
+
+(male professor) You know, art history isn't an isolated field, we often use tools from other disciplines, even techniques from a nuclear physics lab can be useful to art historians. For example, one type of art analysis uses what are called accelerated ion beams. We can use ion beams to learn about the identity, age, and origin of the materials used in an artwork.
+
+(female student) Ion beams? What is that? I mean, it sounds like doing experiments on valuable art. Couldn't that damage the artwork?
+
+(professor) Good question, it may sound invasive but it's actually a very safe technique. Ions are simply charged particles, that is, atoms or molecules with a positive or negative charge. Basically, when an ion beam comes into contact with a sample, the sample will give something off, uh, emit something as a result like other particles or X-ray radiation. What exactly the sample gives off depends on the materials in that sample. So, these techniques don't noticeably alter the art, they just give us information about its properties.
+
+(female student) Oh, OK, so what types of art can ion beams be used with?
+
+(professor) Quite a variety, paintings, jewelries, sculpture, metalwork, and the nice thing is that you only need to test a tiny amount. So, say, only a few fragments of pottery have been found at an archeological site. For this method, that's plenty of material. With ion beams, even an extremely small piece of the pottery fragment can yield a wealth of information.
+
+Anyhow, one way ion beams are useful to art historian is that they can help determine the source of the material used in an artwork, which can, in turn, shed light on the civilization's history. For example, researchers in Paris at the Louvre Museum worked with ion beams to examine a four-thousand-year-old Babylonian statue. This statue has red ruby eyes and, get a load of this, the analysis revealed that those rubies had actually come, not from Babylonia, which was located where present-day Iraq is, but rather from a mine located thousands of kilometers away in what is now Vietnam. OK, so, any thoughts as to how those rubies got there?
+
+(female student) Um, maybe some trading was going on?
+
+(professor) Right, that's what researchers have concluded. So, you see, these ion beams can help historians construct a clearer more informed understanding of the patterns of ancient commerce. Now, ion beam analysis can also supplement our historical knowledge of specific artist and their work. Consider, for example, the German Renaissance artist Albrecht Durer.
+
+Durer received an artist's salary form the emperor of the Holy Roman Empire. In 1520, he left on a seven-month journey to the Netherlands to secure his money. And throughout the trip he made sketches and drawings in a notebook with silverpoint pen. Art historians had assumed that Durer used just one pen that he kept with the notebook. Silverpoint is a demanding technique. It requires a special preparation of the paper and once applied the silver marks become permanent.
+
+Now, by using ion beams to analyze the silver on each page of the notebook, researchers concluded that nearly every sketch did, in fact, seem to have been made with the same pen. This may be a small detail about Durer's work, but it's really significant that ion beam analysis allows us to confirm our interpretations of art history. Yes, John?
+
+(male student) Um, can this method tell us anything about the techniques artists used?
+
+(professor) Absolutely! For instance, thanks to ion beam analysis we now know that master painter Rembrandt used wheat flour in some of his paint mixes. We think Rembrandt was trying to achieve a special effect by doing this, the technique of using wheat made the paint stickier and more transparent. This kind of information is invaluable for restorers of Rembrandt's work.
+
+On a different note, ion beam technology can also help experts detect forgeries. It's gaining a reputation as an effective forensic tool. Um, you know there was a case recently in which ion beam technology was used as evidence in court. Turns out that one of the color pigments used in a valuable painting hadn't yet been invented at the time the painting was supposed to have been created. The work was a forgery, an exquisite fake but a fake. So this seems to be an invaluable tool that can ultimately save museums and art collectors a lot of money by detecting fraudulent works of art.

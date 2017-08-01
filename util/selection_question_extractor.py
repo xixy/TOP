@@ -7,7 +7,7 @@ import shutil
 import re
 import configure
 
-testpath="/Users/apple/Code/TOP/resources/questions/20161022/Reading/R3.txt"
+testpath="/Users/apple/Code/TOP/resources/questions/20170325/Listening/Questions/L1.txt"
 
 class selection_question_extractor(object):
 
@@ -32,19 +32,14 @@ class selection_question_extractor(object):
         """
         f=codecs.open(filepath,encoding='utf-8')
         questions=[]
-        line=1
+        lines=f.readlines()
         single_question=[]
         stem="" #题干部分
 
-        while line:
-            try:
-                line=f.readline()
-            except UnicodeDecodeError,e:
-                print "error"
-                return None
-
-            if len(line)<2:
+        for line in lines:
+            if len(line)<3:
                 continue
+
             line=line.strip()#去掉\n
             # print line
             match=cls.stem_pattern.search(line)
@@ -53,6 +48,7 @@ class selection_question_extractor(object):
 
             #如果是选项部分
             if (match2 and line.startswith(match2.group())) or (match1 and line.startswith(match1.group())):
+                # print line
                 if len(stem)>0:
                     single_question.append(stem)
                 stem=""

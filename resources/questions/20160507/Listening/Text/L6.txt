@@ -1,0 +1,37 @@
+Listen to part of a discussion in an Environmental Science class.
+
+(male professor) OK, your reading assignment for today was an article that uses economics to argue for geoengineering as a way to counter global warming. Geoengineering has been garnering a lot of attention recently. Can anyone tell me about it? Maybe provide an example?
+
+(female student) Well, geoengineering is the act of deliberately manipulating Earth to produce a desired result, like in this case, to counter global warming.
+
+(professor) Right, one idea is to encourage the growth of algae in oceans and other large bodies of water by adding large quantities of iron. As the algae grows, it takes dissolved inorganic carbon from the water and uses it for photosynthesis. Levels of inorganic carbon in the water would decrease. As nature tends to maintain balance, carbon in the water would then be naturally replaced by carbon dioxide from the atmosphere, the same carbon dioxide that's contributing to global warming.
+
+Of course, this would need to take place on a large scale for atmospheric carbon dioxide levels to decrease. And there are other geoengineering proposals to counter global warming like what the author of the article suggests: adding sulfur dioxide to the stratosphere.
+
+(male student) That was a bit confusing. Isn't sulfur dioxide another pollutant?
+
+(professor) It is, but, it doesn't contribute to global warming. It's mainly produced by coal-burning factories and if it stays in the lower atmosphere, it can cause problems like acid rain. But if it's moved further away from the Earth's surface, up in the stratosphere, it would act as a screen, reducing the amount of radiation that reaches Earth. This means Earth would remain cooler.
+
+(female student) It seems like there's a lot that could go wrong.
+
+(professor) A lot of people would agree with you. But the author believes the best way to counter global warming is through geoengineering. So, let's consider her first point that geoengineering projects are cheaper than reducing the amount of greenhouse gases we're putting into the atmosphere. What would we have to do to reduce the production of greenhouse gases?
+
+(male student) Uh, not burn as much fossil fuel? May be by putting restrictions on industries?
+
+(professor) The author argues that would cost a lot of money. Businesses would have to change how they produce their goods; buy new equipment; switch to renewable energy, whereas with geoengineering,
+
+(female student) The author says we wouldn't need much sulfur dioxide to counter global warming. And there's already a lot of sulfur dioxide being released into the atmosphere. So all we need to do is transfer some sulfur dioxide from the lower atmosphere to the stratosphere.
+
+(male student) But how?
+
+(professor) Scientists have been researching the idea using a very long hose but we'll get to that in a minute. First, let me point out that sulfur dioxide doesn't remain in the stratosphere very long. It eventually settles back to Earth. So once we start moving sulfur dioxide to the stratosphere, we'd have to keep adding more. You see, if we continue adding greenhouse gases to the atmosphere, and start adding sulfur dioxide to the stratosphere, we've reached a balance.
+
+But, if we suddenly stopped doing one or the other, that would put the climate off balance, suddenly too hot or too cold. And while it might not be expensive to move sulfur dioxide to the stratosphere, we'd also have to consider the cost of monitoring the effects of what we're doing and dealing with any unexpected consequences. So, in the long run, it might be more expensive than reducing the amount of greenhouse gases we're putting into the atmosphere.
+
+(male student) The author said there's no way to predict the full extent of global warming. If that's the case, if we don't know for sure how much the climate will change, why would she argue for geoengineering?
+
+(professor) Why, indeed? Geoengineering adds an extra level of complexity and additional variable to our prediction attempts.
+
+(female student) But what about the other argument she presents? That it's impossible to change human behavior? Well, not impossible but the humans are driven by self-interest and most people aren't willing to pay the price to stop climate change, in this case, by generating fewer greenhouse gases.
+
+(professor) We all want a better life, but we don't need to emit greenhouse gases to have that. And sometimes human nature doesn't need to be altered to solve a problem. For example, some people leave the lights on when leaving a room even after reminded not to. But, what if motion detectors that automatically switch lights off are installed? Our quality of life hasn't been compromised and we're saving energy. I think that's the type of problem-solving we need to use to address climate change.

@@ -32,7 +32,8 @@ class question_saver(object):
 
 		"""
 		reading_files_path=[]
-		listening_files_path=[]
+		listening_question_files_path=[]
+		listening_text_files_path=[]
 		speaking_files_path=[]
 		writing_files_path=[]
 		answer_files_path=[]
@@ -45,10 +46,15 @@ class question_saver(object):
 				reading_files_path.append(filepath)
 				continue
 			
-			#取出听力部分
-			if configure.Listening in filepath:
-				listening_files_path.append(filepath)
+			#取出听力题目部分
+			if configure.Listening in filepath and configure.ListeningQuestions in filepath:
+				listening_question_files_path.append(filepath)
 				continue
+			#取出听力文本部分
+			if configure.Listening in filepath and configure.ListeningText in filepath:
+				listening_text_files_path.append(filepath)
+				continue			
+
 
 			#取出口语部分
 			if configure.Speaking in filepath:
@@ -86,30 +92,31 @@ class question_saver(object):
 
 		reading_questions_json=selection_question.getSetQuestion(question_list,configure.Reading)
 		questions_json.extend(reading_questions_json)# 加入到总题目中
-		"""
+		
+		
 
 		#提取听力中的选择题
 		question_list=[]
-		listening_files_path.sort()
+		listening_question_files_path.sort()
 
-		for filepath in listening_files_path:
+		for filepath in listening_question_files_path:
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
+			if len(questions)<5:
+				print "听力题目少于5："+filepath+":"+str(len(questions))
+			if len(questions)>6:
+				print "听力题目大于6："+filepath+":"+str(len(questions))
 			question_list.extend(questions)
-		"""
 
+		listening_questions_json=selection_question.getSetQuestion(question_list,configure.Listening)
+		questions_json.extend(listening_questions_json)# 加入到总题目中
 
-
-		# listening_questions_json=selection_question.getSetQuestion(question_list,configure.Listening)
-		# questions_json.extend(listening_questions_json)# 加入到总题目中
-
-
-		#进行持久化存储
+		#对选择题进行持久化存储
 		selection_questionDAO.indexQuestions(setid,questions_json)
 
 		#处理口语
 		speaking_files_path.sort()
 		for filepath in speaking_files_path:
-			print filepath
+			# print filepath
 			#提取口语
 			question=speaking_question_extractor.getSpeakingQuestion(filepath)
 
@@ -119,7 +126,6 @@ class question_saver(object):
 		#处理写作
 		writing_files_path.sort()
 		for filepath in writing_files_path:
-			print filepath
 			#提取写作
 			question=writing_question_extractor.getWritingQuestion(filepath)
 			#持久化

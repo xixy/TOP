@@ -1,0 +1,22 @@
+Listen to a conversation between a student and a professor
+
+(man) Hello there, Mia, how are things?
+(woman) Pretty good, thanks
+(man) That's good to hear. Do you have any travel plans for the summer?
+(woman) No, not really, I actually plan on staying around here. This is my hometown you know.
+(man) Yes, I know. We don't have a lot of students from around here.
+(woman) Well, the Anthropology department is just so great here, the professors, the courses, all the opportunities for field work, couldn't ask for more. Even though I'm still here, in a town I grew up in, I think I made the right choice when I decided to stay here.
+(man) I would have done the same thing. So, what can I help you with?
+(woman) Actually, I wanted to ask you if I could use you as a reference for a job.
+(man) Sure, uh, do you already know, have you applied for one yet?
+(woman) No, but, actually, I was thinking about offering my services as a house sitter again; looking after people's plants and pets, keeping an eye on their homes while they are away for the summer.
+(man) Right, like you did for me last summer when I was at that excavation site in Mexico.
+(woman) I know it's not very exciting but I could use the money.
+(man) Well, I'd be happy to recommend you for a job. But wait a minute, let me do you one better. How about, how would you like to work in the Anthropology department this summer?
+(woman) Work in the Anthropology department?
+(man) Yeah, for me, would you consider working as my assistant? I'll be sticking around this summer, too, working on my book. And I'm on the lookout for an assistant.
+(woman) That'd be awesome! And I could still take a house-sitting job. What will I be doing?
+(man) Some research in the library, some fact-checking. You're already familiar with the topic because it ties into the research you did for me last spring. I think you'll find he work interesting and the pay's pretty decent. In fact, the grant for the project includes money to pay for an assistant.
+(woman) Sounds perfect
+(man) Great, um, I have to rush off to a class, but, why don't you stop and see the department's secretary? She could set you up for an appointment next week. We can iron out the details then.
+(woman) Sure, well, I'm really glad that I decided to stop by to see you today.

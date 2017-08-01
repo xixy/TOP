@@ -1,0 +1,35 @@
+6. What does the professor mainly discuss?
+  A) Issues that make data about solar wind difficult to analyze
+  B) Reasons why it is important to study solar wind
+  C) A recent discovery about the Sun's corona
+  D) A method used to represent large amounts of data about solar wind
+
+7. According to the professor, what can result from a magnetic storm? [choose two answers]
+  A) People can lose access to electricity.
+  B) Temperatures on Earth's surface can increase temporarily.
+  C) Earth's magnetic field can be permanently altered.
+  D) The orbits of satellites can be disrupted.
+
+8. What point does the professor make about scientific visualization?
+  A) It is not well suited to representing complex data.
+  B) It is a time-consuming way to depict astronomical data.
+  C) It is particularly useful when depicting data about astronomical phenomena.
+  D) It is the best tool for analyzing a large amount of information.
+
+9. Why does the professor mention seismic data from volcanoes?
+  A) To remind his students of something they discussed in a previous class
+  B) To emphasize that the sonification of data has been done before
+  C) To mention an instance when sonification was used incorrectly
+  D) To give an example of a time when sonification allowed scientists to predict an event
+
+10. According to the professor, how was the solar wind data sonified?
+   A) By programming data about solar wind into a computer to generate new sounds
+   B) By following an established set of rules used for sonifying data
+   C) By assigning different musical sounds to three variables that affect solar wind
+   D) By using clicking sounds to represent solar wind data captured by satellites
+
+11. What is the professor's opinion of sonification?
+   A) It will not be as useful as scientific visualization.
+   B) It is helpful only when combined with other forms of data.
+   C) It will probably lead to new discoveries in astronomy.
+   D) It is likely to become a popular method for composing music.

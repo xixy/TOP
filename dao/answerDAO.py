@@ -7,7 +7,7 @@ sys.path.append('../configure/')
 import pymongo
 from answer import answer
 from bson import json_util as jsonb
-from dbop import ip,port
+from configure import ip,port
 import configure
 
 class answerDAO(object):

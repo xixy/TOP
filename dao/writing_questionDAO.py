@@ -6,7 +6,7 @@ sys.path.append('../model/')
 sys.path.append('../configure/')
 import pymongo
 from bson import json_util as jsonb
-from dbop import ip,port
+from configure import ip,port
 import configure
 
 class writing_questionDAO(object):
@@ -37,7 +37,6 @@ class writing_questionDAO(object):
 
         value={}
         value[configure.index]=question[configure.index]
-        print value
         #去掉已有的该题
         collection.remove(value)
         #插入

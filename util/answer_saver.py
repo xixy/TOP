@@ -31,12 +31,11 @@ class answer_saver(object):
         index_material={}
         f=codecs.open(filepath,encoding='utf-8')
         answer_list=[]
-        line=f.readline()
-        while line:
-            try:
-                line.strip()#去掉换行
-            except UnicodeDecodeError,e:
-                return None
+        lines=f.readlines()
+        for line in lines:
+            if len(line)<2:
+                continue#空行
+            line.strip()#去掉换行
             answers=line.split(',')
             answer_list.append(answers)
             line=f.readline()
@@ -46,7 +45,7 @@ class answer_saver(object):
         #首先处理Reading的答案
         for answers in answer_list[:3]:
             if len(answers)<13:
-                print "答案少于13:"+filepath
+                print "阅读答案少于13:"+filepath+":"+str(len(answers))
             #如果是完整的14个题
             if len(answers)==14:
                 for single_answer in answers:
@@ -65,6 +64,8 @@ class answer_saver(object):
         #然后处理Listening的答案
         count=0
         for answers in answer_list[3:]:
+            if len(answers)<5:
+                print "听力答案小于5:"+filepath+":"+str(len(answers))
             for single_answer in answers:
                 single_answer=single_answer.strip()#去掉换行
                 count+=1

@@ -1,1 +1,7 @@
-﻿D,D,C,B,A,C,C,C,B,B,D,B, Advantages: B,C,E  Disadvantages: D,GB,B,C,D,C,B,B,D,B,B,A,C,A,ABCD,D,C,C,D,B,A,A,B,C,AB,B,A,BCE
+D,D,C,B,A,C,C,C,B,B,D,B, Advantages: B,C,E  Disadvantages: D,GB,B,C,D,C,B,B,D,B,B,A,C,A,ABCD,D,C,C,D,B,A,A,B,C,AB,B,A,BCE
+C,A,D,B,BC
+A,D,C,D,BD,B
+C,B,A,AB,C,D
+B,A,A,D,D
+D,ABD,B,D,C,A
+B,D,AB,A,B,C

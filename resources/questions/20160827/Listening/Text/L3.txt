@@ -1,0 +1,67 @@
+Listen to part of a lecture in a Biology class
+
+(female professor) OK, now, we've looked at some interesting examples of the five senses that humans have, but, might there be some other sense that some animals have but we don't?
+
+(male student) What? Like the ability to predict the future or something?
+
+(professor) Predicting the future, uh, let's not go there. Well, here's a hint: beyond those five senses, how else can some animals find their way?
+
+(male student) Well, bats use something like radar. 
+
+(female student) More like sonar, but that's really just an example of hearing. Bats can hear high-pitch sounds that humans can't. Just like some animals can smell something we can't or maybe see some sort of, like, maybe ultraviolet light, uh, that's invisible to us. Examples like that don't really count because they're still about forms of hearing and sight.
+
+(professor) Right, Cathy, though by coincidence, that last example is somewhat related to what I was thinking about. But, OK, no more guessing games. In addition to the usual five senses, the ones humans have, it's claimed that some animals possess the ability to sense magnetism. How would we test that claim?
+
+(male student) Well, we'd need to find animals that tend to be attracted to magnets or maybe that tend to avoid them.
+
+(professor) That'd be a good start. And fortunately there's an animal we can use: an insect we become familiar with in thousands of experiments over the years. If you remember the last chapter you read
+
+(female student) You mean the fruit fly?
+
+(professor) Exactly!
+
+(male student) So, you can test these fruit flies with an experiment, right? You could set up a strong hidden magnet to see if they can detect it and fly toward it, whichever direction that may be.
+
+(professor) Sure, and experiments like that have shown that some varieties of fruit flies tend to do just that. And we pretty well eliminated all explanations but one, namely?
+
+(male student) That fruit flies are naturally attracted by magnetism?
+
+(professor) Some varieties, yes
+
+(female student) But other varieties didn't demonstrate that sensitivity?
+
+(professor) Not naturally
+
+(female student) Oh, but, maybe they could be trained to.
+
+(professor) How?
+
+(female student) Uh, well, maybe you could set up a strong magnet near some food and see if you can get the fruit flies to learn to find food there and then if you take away the food and move the magnet, you can see if they keep on flying toward that magnet even when there's no food.
+
+(professor) Right! And they do! Even one variety researchers tested that wouldn't do that naturally tended to exhibit this behavior after a bit of training. But here's where it gets really interesting: none of these fruit flies, regardless of which variety, could sense where the magnet was unless they have the right kind of light.
+
+(male student) Light? I thought we were talking about magnetism.
+
+(professor) We are! But it turns out if you block out all lights none of these flies can find their way to the hidden magnet. In fact, it you block out just the light at the blue end of the range, plus the invisible ultraviolet light, same thing. They just cannot detect the magnetism.
+
+(male student) Are you saying there's some connection between blue or ultraviolet light and magnetism?
+
+(professor) In a way, the connection has to do with a type of molecule that's found in fruit flies. It's called cryptochrome.
+
+(students) cryptochrome?
+
+(professor) Right, fruit flies have a certain gene that produces this molecule. And biologists found that they can breed these fruit flies without this gene, that is, fruit flies that do not produce cryptochrome. And they found that without cryptochrome a fruit fly just cannot detect magnetism at all, no better than you or I can. So, it's pretty clear that their ability to sense magnetism is dependent on cryptochrome.
+
+And what's more, the version of cryptochrome we find in fruit flies, in the eyes of a fruit fly, would be called a photo-receptor, meaning what?
+
+(male student) It's sensitive to light?
+
+(professor) And in this case, what kind?
+
+(male student) What kind of light?
+
+(professor) Well, what wavelength? What color do you think?
+
+(female student) Oh! Blue! Blue and ultraviolet!
+
+(professor) All right, there's your connection. When blue or ultraviolet light enters the eye of a fruit fly, it strikes this photo-receptor molecule called cryptochrome. That molecule gets activated, energized. And one of the effects of that is to turn on the magnetic sensory system. We don't understand the system completely but what we do know now is that without both cryptochrome and the proper light, this system just does not work.

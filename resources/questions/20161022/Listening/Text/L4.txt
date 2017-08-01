@@ -1,0 +1,27 @@
+Listen to a conversation between a student and a university housing official
+
+(man) Hi, um, this is university housing, right? I need to talk to someone about changing residence halls.
+(woman) OK, let me give you an application to fill out.
+(man) I already did that last week. But I haven't heard anything so I thought I should come by and see what's going on with it.
+(woman) Oh, OK, uh, your name?
+(man) Eric Palmer. 
+(woman) OK, Eric, let's see. The system says you're currently at 212, Harris Hall. Is that right? Hey, didn't you and your roommate recently win the room decorating contest?
+(man) Oh, wow, you heard about that?
+(woman) Oh, yes, we keep up on all the news of residence life. Congratulations. 
+(man) Thank you.
+(woman) OK, so, I see here that you want to change to Bradford Hall. Why is that? I mean, you must like your current dorm. You went to a lot of trouble to decorate your room.
+(man) Yeah, but my brother and I share a car and he lives in Bradford, I have to walk all the way over there whenever I need to use it.
+(woman) Your parking permit should allow you to park near your building as well.
+(man) Yeah, that's gonna happen! You don't know my brother. Anyway, he needs the car for an evening job off campus so it's got to be at his place overnight.
+(woman) I see. Well, the problem is that Bradford Hall was overbooked this semester.
+(man) Overbooked?
+(woman) Yes, each year, there are a lot of students to apply to the residence halls and then at the last minute end up, uh, taking a semester off from school or deciding to go to an entirely different university, whatever the case. Anyway, usually if we don't overbook, we end up with a lot of empty rooms.
+(man) But not there aren't enough rooms.
+(woman) Yes, once in a while, more students show up than we expect. That's what happened here. We'd have to put some students three to a room until we can move them to other halls.
+(man) Hmm, so I can't get into Bradford Hall. What about the next building over, Smith Hall?
+(woman) Well, because of the overbooking, students moving out of Bradford Hall have priority. That means applications submitted for other reasons such as yours will have to wait.
+(man) Do you have any idea how long it might be?
+(woman) We hope to be able to resolve the overbooking by the end of this month. Then we can look at other requests to change residence halls.
+(man) Do you think it'll happen before the weather gets cold? I'm not looking forward to walking through snow and ice to get to the car.
+(woman) Well, I can't make any guarantees. We still have to look at a lot of applications. Tell you what, check back in a couple of weeks and we'll see how things look then.
+(man) OK, thanks.

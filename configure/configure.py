@@ -10,6 +10,8 @@ Reading="Reading"
 Listening="Listening"
 Speaking="Speaking"
 Writting="Writing"
+ListeningQuestions="Questions"
+ListeningText="Text"
 #标示答案文件
 Answer="answer"
 

@@ -1,0 +1,35 @@
+1. What is the main purpose of the lecture?
+  A) To describe the discovery of a previously unknown written language
+  B) To explain a debate among researchers about the origin of an ancient script
+  C) To introduce a method that could be useful in deciphering unknown writing systems
+  D) To emphasize the similarities among different ancient languages
+
+2. What did researchers initially assume about the Ugaritic tablets? [choose two answers]
+  A) The language represented in the text was similar to ancient Hebrew.
+  B) The individual symbols in the texts represented words.
+  C) The combinations of symbols consisted mostly of names.
+  D) The symbols in the text were alphabetic.
+
+3. Why does the professor discuss the discovery of five axes?
+  A) To explain their role in helping researchers to decipher the Ugaritic script
+  B) To provide evidence of a trade relationship between Ugaritic and Hebrew cultures
+  C) To emphasize the disadvantages of using the traditional approach to deciphering scripts
+  D) To show how one incorrect alphabet mapping can slow the entire deciphering process
+
+4. According to the professor, what assumptions does the computer program make about the two scripts it compares? [choose two answers]
+  A) Words represented by each script will share a similar structure.
+  B) Each script is related to a third, known script.
+  C) The order of words in a sentence will be similar in each script.
+  D) Corresponding letters will occur a similar number of times in each script.
+
+5. How does the professor respond when the student points out a limitation of the computer program? (no recording)
+  A) She agrees that the traditional approach is preferable in some cases.
+  B) She explains how the limitation was discovered.
+  C) She points out that the limitation exists for all current approaches to deciphering a script
+  D) She praises the student for identifying a limitation she had never considered.
+
+6. What does the professor imply about the Etruscan language? (no recording)
+  A) It shared an alphabet with Ugaritic.
+  B) It is more closely related to modern Italian than to Ugaritic.
+  C) The new computer program could help in finding a language it is related to.
+  D) Older computer programs have been only partially successful at deciphering it.

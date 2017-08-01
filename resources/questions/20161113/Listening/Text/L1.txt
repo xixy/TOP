@@ -1,0 +1,23 @@
+Listen to a conversation between a student and an employee in the university transportation office
+
+(man) Hi, I got this letter.
+(woman) Uh, let me guess, about the parking situation?
+(man) Yeah, about the closing of lot 3 and how all the students in my residence hall will be assigned a new parking lot
+(woman) Yes, the university's gonna take that space where lot 3 is and build a new residence hall there. You know about the housing shortage, I guess.
+(man) I do and, well, they may be solving one problem but they're just creating another, if you ask me. I mean, we're also having major problems with parking, right?
+(woman) That's true and a lot of people agree with you, but the university spent a lot of time studying the problem and this is their decision, so, anyway, do you have your current parking tag from your vehicle?
+(man) Uh, no, it's still in my car. I didn't know if I should bring it in. I was worried I would get a ticket if my car didn't have a parking tag displayed in the window.
+(woman) Well, since we're in transition right now, if the parking enforcement officers see a car parked without a parking tag, they'd check the license plate number in their computer system and they won't give you a ticket as long as it shows that you're registered to park there.
+(man) Oh, OK
+(woman) And the parking tag for lot 3 won't do you much good in about a month anyway.
+(man) Oh, that soon?
+(woman) Yes, we were pretty surprised that they are moving so quickly. But, in any case, students in your residence hall have been assigned the north parking lot.
+(man) OK, but, there's nothing available in lots 1 or 2? I'd like to keep my car as close to my residence hall as possible.
+(woman) A lot of students have been complaining, but, only the north lot is available.
+(man) But you see I work as a lab technician for the Chemistry department on the other side of campus and it's like really odd shifts, evenings, weekends. Sometimes I'd have to set my alarm and go out in the middle of the night. It's a pretty, uh, demanding job.
+(woman) I can certainly see how this'll make life difficult for you. Unfortunately, it's out of my hands.
+(man) Well, there are spaces for visitors right in front of my residence hall. I wonder do you think I can get a special permit to park there. I mean, because of, you know, like my situation.
+(woman) Well, in your case, that wouldn't be unreasonable. But, you'd have to submit a special request form to the head of transportation.
+(man) OK
+(woman) And she's reviewed at least 25 of those requests in the last two weeks and she's granted a grand total of, well, one.
+

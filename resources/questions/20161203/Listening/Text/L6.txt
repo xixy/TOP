@@ -1,0 +1,43 @@
+Listen to part of a lecture in a Biology class
+
+(female professor) So, we've been talking about fixed action patterns in animals, behaviors that take place independent of environmental stimuli, that is, they are instinctive behaviors. One of these fixed action patterns is begging, that is, babies and baby birds in particular beg for food. Now, begging would seem to be risky. There's a certain risk in this behavior. What might that be?
+
+(male student) Um, may be the energy that use for begging isn't very efficient. They might grow more if they use less energy.
+
+(professor) OK, that's certainly a possibility. Uh, what else?
+
+(female student) Well, they're so loud, I mean, you can hear them from a long way away. Would that attract predators? That can't be good.
+
+(professor) That's true. Why draw so much attention to yourself?
+
+(male student) Well, the book said that the noises of baby birds in nests on the ground were at higher frequencies than those baby birds in nests in trees. And these higher frequency sounds don't travel as far. So it seems they know not to make a lot of noise.
+
+(professor) Yes, that's a sensible adaptation and it's been confirmed that the nests of these birds are attacked less than they would be if they use the same frequency calls that the birds in the trees do. OK, begging is risky and it's also instinctive. Let's look at a related question. And that is, ¡°Is it honest?¡±
+
+We have two hypotheses to explain the behavior of nestlings. The first is called the scramble competition hypothesis. According to the scramble competition hypothesis, when the parent return with food, all the baby birds compete with each other, whether they're hungry or not, and try to get the most attention to get fed. They're cheeping and making noise. And it's not just the loudness of their calls but also the speed that they give the calls and their posture as well, how erect they sit in the nest. And they exhibit these behaviors not to get just their fair share but to compete with their nest mates in order to the most food.
+
+The other one is the honest signaling hypothesis. The honest signaling hypothesis asserts that the baby bird that's cheeping the loudest is simply honestly the hungriest, the one most in need of food. So, according to this hypothesis, the signals are accurate and, uh, and part of this hypothesis is that the adult doesn't have to waste time and energy delivering food to babies that aren't really hungry. OK, now, if scramble competition is correct, which baby bird will the parent give the most food to?
+
+(male student) If that's correct, then the loudest one will get the food.
+
+(professor) Right, and if honest signaling is correct, then which baby bird will the parent give the most food to?
+
+(male student) The loudest one?
+
+(professor) Right, you see the problem?
+
+(female student) But there is a difference. In one case, baby birds are calling the shots. But in the other, it's the parents.
+
+(professor) OK, could you elaborate?
+
+(female student) Well, according to scramble competition, the baby birds themselves decide which one gets the most food. It's the one that shoves the others out of the way and makes the most noise. But with the honest signaling hypothesis, the parent makes the decision based on the signals they receive from its chicks.
+
+(male student) I think I disagree. In both cases, the parent makes the decisions. It's the one with the food after all. Can't they ignore the one that's pushy and loud?
+
+(professor) Not so clear, is it? Interestingly, researchers always assumed adult birds responded to the begging, that is made a choice. But what if they didn't? What if the parents were non-responsive? What if they just fed their babies randomly?
+
+A recent study on this showed that babies with responsive parents actually grew bigger overall than they would if fed randomly. That's because they ate more food overall. If the adult fed their babies randomly, well, babies that were already full would refuse and that's a waste of time for the adult. Responding to the begging is most beneficial. It allows adult birds to save energy overall and the result is larger healthier young.
+
+(male student) Well, it seems then that honest signaling would benefit them the most. The hungriest ones get fed and the full ones stay quiet so they don't attract attention.
+
+(professor) But it's still hard to rule out the other hypothesis. There was a study with robins that showed pretty clearly that recently fed, less hungry babies begged just as loudly as hungry ones. They didn't become less competitive. In fact, they even intensified their own begging as hungrier ones got louder.

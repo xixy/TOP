@@ -1,0 +1,32 @@
+Listen to a conversation between a student and a librarian
+
+(woman) Hi, how can I help you?
+(man) I'm looking for the reference room.
+(woman) What kind of reference materials are you looking for, encyclopedias, dictionaries?
+(man) My professor put some articles on reserve, required reading for the class. They're about solar panel design. I have the list here.
+(woman) OK, what you want is the reserved reading room.
+(man) Oh, OK
+(woman) Yeah, a lot of students get the two mixed up. That's up on the second floor.
+(man) OK, thanks, say, are we allowed to bring them down here?
+(woman) Yes, and you can use them for up to two hours.
+(man) Oh, hmm, I assume I'd be able to have more time than that.
+(woman) Well, you could come back later and check it out when we close tonight. Keep it overnight. You just have to return it by ten o'clock tomorrow morning.
+(man) Hmm, that's a thought. But, I have a class tomorrow morning until 9:30. If I got it back a few minutes late, is there, like, a fine or something?
+(woman) Sixty cents per hour
+(man) Oh, OK, good. That's not too bad.
+(woman) So, solar panels, huh? Um, you know that's a particularly relevant topic you're studying. There's been talk of the library having solar panels installed this summer up on the roof.
+(man) Oh, yeah? My environmental engineering professor mentioned that the Student Union has solar panels. But I haven't heard about plans for the library.
+(woman) Well, originally they said that they'd install them last fall. But now they're saying they'll start this summer. I'll believe it when I see it.
+(man) I see. Well, since I'm here, I might as well do some other work. I wish I'd brought my laptop, though.
+(woman) The library has laptops you can check out for five hours.
+(man) I didn't know that. Can you check those out overnight? Just curious.
+(woman) No, and the fine for late returns is ten dollars an hour.
+(man) Wow, that sounds expensive.
+(woman) Well, it can be very expensive. You know recently a student racked up more than one hundred dollars in fine.
+(man) So what did he do? Did he pay?
+(woman) She had to or her library card would have been suspended. Apparently she took the laptop home and lost track of the time while working on a paper. When she realized how late it was she rushed to the library. But she arrived five minutes after it closed.
+(man) The library doesn't have a drop off box or something?
+(woman) We have one for books, but for computers, no. They have to be signed out and signed in. She had to wait until the next day to return it but by that time it was more than ten hours late.
+(man) Sounds like a total nightmare and pretty unfair, I mean, she only missed closing time by five minutes. And she could have actually bought a few books for class with that money.
+(woman) Well, maybe. But we have problems in the past with students not returning computers on time and the rule is always clearly explained upfront.
+

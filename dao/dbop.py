@@ -1,5 +1,0 @@
-# -*- coding: UTF-8 -*- 
-#! /usr/local/bin/python
-
-ip='127.0.0.1'
-port=27017

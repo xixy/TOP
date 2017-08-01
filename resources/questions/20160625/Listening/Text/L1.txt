@@ -1,0 +1,20 @@
+Listen to a conversation between a student and a literature professor.
+
+(woman) Excuse me. Do you know where I could find Professor Smith?
+(man) I'm afraid she's not in today.
+(woman) Oh, no.
+(man) Is there something I could help you with?
+(woman) Thanks, but I don't think so. I'm trying to get into her Medieval Literature class. But it's full and I was told I need her signature to get in.
+(man) Hmm, I don't want to disappoint you, but Professor Smith has a strict policy about class size. If a class is full, she won't allow anyone in unless someone else drops the class. I can't say that I blame her.
+(woman) Well, is there a waiting list I could put myself on?
+(man) I think so, but you'll need to see Professor Smith about that. I imagine you must be very interested in medieval literature.
+(woman) Um, actually, it's just that I need a literature class that fulfills the historical knowledge requirement, you know, a class that goes into the history of a specific time period. Professor Smith's class is the only one that fits into my schedule. That's why I want to take it.
+(man) I see. Well, in that case, I might be able to help you out after all. I'm teaching a class on early twentieth century British literature and it meets at the same time as the Medieval Lit class.
+(woman) Really? I wonder why I didn't see that listed in the schedule of class.
+(man) Well, it's on there but the department wanted me to change the time of my class just a few days ago. I guess the change hasn't been made to the printed schedule yet. I should follow up on this.
+(woman) Oh, well, could you, uh, maybe give me an overview of the class? I don't really know much about twentieth century British literature.
+(man) Well, we'll be focusing on the early twentieth century, on several authors who wrote in response to the changes and the pressure of the modern age. They were trying to make sense of things, like industrialization, advances in technology. There were excitement about all things ne, things that meant progress and advancement.
+(woman) Sort of like what motivated artists during the Renaissance?
+(man) Actually, in the Renaissance, artists and philosophers looked back to ancient Greece and Rome for inspiration. In the early twentieth century, they were far more interested in doing completely new things. Writers and artists were working in ways no one had ever worked before. We'll be looking at all of this in the class.
+(woman) Sounds really interesting, is it too late to register?
+(man) Not at all, but if you have trouble, come see me.

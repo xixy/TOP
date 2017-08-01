@@ -1,0 +1,34 @@
+Listen to part of a lecture in a Psychology class
+
+(female professor) OK, I'm going to ask you a question you wouldn't expect me to ask in class. How high do you think this ceiling is? Anyone?
+
+(male student) Uh, about two meters?
+
+(professor) Are you sure?
+
+(male student) Uh, not really.
+
+(professor) OK, I actually asked you two questions. The first was to make a judgment about the outside world, ¡°How high is the ceiling of this classroom?¡± The second question was also a judgment, wasn't it?
+
+(male student) About my own, uh, ability to judge height
+
+(professor) Right! In psychological terms, you first made a cognitive judgment then you made a metacognitive judgment. Simply put, metacognition means thinking about thinking. In our example, it means the ability to judge your own perception.
+
+Now, this ceiling is actually three meters high, so you weren't very accurate in your perception, but you knew that you're probably wrong. So your metacognitive judgment was accurate. Metacognitive ability is the ability to discriminate correct decisions from incorrect ones, to make judgments about your decisions. It's been getting a lot of attention recently, because, well, let me ask, why do you think it's important?
+
+(female student) Well, if you weren't sure about a decision, you maybe go back and think about it a bit more, like maybe you'd be less likely to make a wrong decision.
+
+(professor) Right! Now, according to behavioral studies, there's actually significant variation in metacognitive ability among people. But is this reflected in the brain? And if so, how? We know that there're differences in the structure of the brain between, say, musicians and non-musicians. Could the same be true for metacognition? We know from earlier studies that there's a specific area of the brain that's associated with skills that we think are linked to metacognition. It's located near the front of your head, in the anterior prefrontal cortex.
+
+Using technology that allows them to scan and get images of the brain, researchers can look for differences in the amount of brain tissue in the anterior prefrontal cortex and that brings us to a recent experiment. It was designed to look at the relationship between metacognitive ability and the amount of brain tissue in the anterior prefrontal cortex. Subjects had to perform a series of visual perception tasks followed by metacognitive tasks. After all this, their brains were scanned.
+
+In one of the visual perception tasks, the subjects were presented with a screen showing a group of six circular patches. All of these patches had the same pattern on them. After a short interval, the subjects were again presented with the six circular patches on a screen. Now, the thing is, in one of these two screens, one of the patches was different. It was a little brighter than the others. And the subjects were asked to judge which of the two screens showed the brighter patch, screen one or screen two? After that, they were presented with a metacognitive task. They had to decide on the scale from one to six, how confident they were about their judgements.
+
+(female student) But what if someone had really great visual perception? I mean, wouldn't that affect their confidence in their abilities?
+
+(professor) Excellent question. The only way this experiment works is if you can separate metacognitive ability from perceptual ability. So the perceptual task was designed to automatically adjust to the subject's individual perceptual ability. The researchers used a method called the staircase procedure. The staircase procedure made the perceptual task equally challenging for all subjects, regardless of the ability by lowering or raising the intensity of the stimulus, in this case, the brightness of the patch. That way, everyone scored about seventy percent on the perceptual task. So, now, the variation in performance between the subjects was only based on their metacognitive ability. The ones who scored higher in metacognition were the ones who, help me out here.
+
+(male student) Who, uh, had the most accurate sense of how they performed?
+
+(professor) Right, so then the researchers scanned the brains of all the subjects and compared the images. And it turned out that the images that showed more brain matter, more brain tissue in a particular area of the prefrontal cortex, were from subjects who tended to have a higher metacognitive ability, who were better at evaluating their own performance on the visual tasks. This finding raises more questions, like whether metacognitive ability can be trained.
+

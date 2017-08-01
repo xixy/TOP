@@ -1,0 +1,27 @@
+Listen to part of a lecture in an Environmental Science class
+
+(male professor) We've been discussing various problems, environmental problems, but now I want to focus on solutions. One of the problems we repeatedly discussed is the scarcity of water in some regions of the world. But, certain areas that receive little rain, essentially deserts, can still have fog and we can collect that fog through a process called fog harvesting. To do this, we need a fog collector made of polypropylene. Uh, let me put that on the board for you.
+
+Polypropylene is essentially a kind of plastic and the collector is a meshed sheet. It has a sort of a triangular weave to it. It's stretched between poles creating a vertical surface at right angles to the wind. When fog passes through the mesh, the fine droplets of water that comprise the fog get trapped. They stick to the mesh and eventually combine to form drops large enough to fall down into collection gutters by gravity. And the gutters empty into pipes.
+
+(female student) And it doesn't need electricity? There's no generator or anything?
+
+(professor) It's a purely passive process.
+
+(female student) Uh, but wouldn't a solid sheet collect more water than mesh?
+
+(professor) Actually, you need a material the wind can blow through. So, when the fog passes through the mesh, the tiny water droplets stay behind. Various mesh densities have been tested for their efficiencies in trapping water droplets to find the optimal proportion of polypropylene to open space. 
+
+There's also new research to develop new materials. I read about a research study on spider webs of all things. It's not what you would expect but if you've looked at the spider web in the morning, you maybe have noticed how dew collects on the threads of the web. This ability to collect water's pretty unique to spider webs. It wouldn't happen with, say, hair. So, scientists are looking at the molecular structure of these webs to find out how water's collected in the air. From this, they should be able to design a material that mimics the capabilities of spider webs.
+
+(male student) Um, you said something about this working in deserts. How can there be fog in deserts?
+
+(professor) Well, it depends on the location. For example, well, let's look at the specific situation. In the late 1980s, a fog harvesting pilot project was set up in Chile. The project was established in Chungungo, a village. Now, Chungungo is at the edge of a desert. But it's also on the side of a mountain, an important requirement for fog harvesting, along with proximity to a large body of water, a requirement that Chungungo, being near the Pacific Ocean, meets, not only that but the mountain range runs perpendicular to the wind that comes in off the water. So the wind blows across the mountains. And, finally, that wind is not obstructed by anything.
+
+Anyway, due to these physical characteristics, Chungungo has fog year round, a perfect location to try fog harvesting. They set up 88 collectors and harvested over 40 liters of water per person per day. Basically, the operation ended up doubling the per capita water supply.
+
+(female student) That's amazing, but, with its geographic requirements, there wouldn't be that many places where you could use fog harvesting technology.
+
+(professor) Well, it can't be used just anywhere. You need persistent light winds and usually a slightly higher altitude. And even if all the conditions are met, there are places that it'd never work, cities, for example. The demand for water would be too high. But there are plenty of locations where it can be used. Along the coast of Chile and Peru, the Atlantic coast of Africa, parts in the Middle East. In fact, in the Canary Islands, just west of Morocco, they are trying to use fog harvesting to reforest one of the islands, um, Lanzarote.
+
+They've tried reforesting the hill tops of Lanzarote before. But there's not a lot of rain and the fog that comes in from the Atlantic Ocean remains about a meter above the ground. The grounds are actually so hot that the fog never touches it. Anyway, the saplings that they planted before never grew very tall so they all died. But, with fog harvesting technology, well, water is being collected from the fog and used to keep these saplings alive. And when they're tall enough to collect water from the fog themselves, the fog harvesting collectors will be used in a different location.

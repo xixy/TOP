@@ -1,0 +1,16 @@
+Listen to a conversation between a student and her Biology professor.
+
+(woman) You know, I've never been all that interested in biology. Was never that good at it, but last class,
+(man) Well, glad you feel like you got something out of it. That's why the university requires everyone to take general education requirements. You may not think you like the subject, but when you take the class, well, you might find something you enjoy.
+(woman) Yeah, I mean, I still want to be a math teacher, but I've never really thought about how research in biology might inform us about the underlying physical basis of learning, like those birds. I just assumed that, well, I never really thought about how birds learn to sing.
+(man) Right, but our ability to measure, to track which neurons in a bird's brain activate when the bird is singing and when a bird is learning to sing¡­
+(woman) Well, that's just it. There're neurons that are constantly active when a bird is singing, but then there are other neurons that only become active when a bird makes a mistake, when it's trying to copy a song that it's heard but doesn't get it right. So it seems to me that if we understand how birds learn from their mistakes, well, as a future teacher I have to ask myself what are the implications, if any, for classroom teaching, like, in knowing how my students are able to learn from their mistakes.
+(man) It's an important question. And, like I said in my lecture, it's something that researchers are aware of.
+(woman) And you, I mean, do you?
+(man) No, my focus's conservation biology, but we do have someone in this department, Professor Jones, who studies this. At his last university he was on a team that made some very significant gains in decoding the genomes of the zebra finch.
+(woman) How does mapping the genes of a bird¡­
+(man) In this case, singing sets off an unexpected genetic process. When a bird sings, that activates genes in the brain and the genes involved with singing produce noncoding RNA. The belief had been that noncoding RNA didn't play a significant role in vocal learning or serve any biological function for that matter. We actually used to think it was kind of a junk molecule. But this research suggests otherwise.
+(woman) Hmm, I don't completely understand all that but I'm definitely interested. Are there any classes on the biology of learning?
+(man) There are, but they're upper level intended for students who have a strong foundation in biology.
+(woman) I see.
+(man) But there are plenty of journals I can recommend for you to check out. And there's a group of students who meet to discuss questions like this. I can get you in touch with them.

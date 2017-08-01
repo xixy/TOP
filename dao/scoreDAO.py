@@ -3,10 +3,12 @@
 
 import sys
 sys.path.append('../model/')
+sys.path.append('../configure/')
 import pymongo
+
 from score import score
 from bson import json_util as jsonb
-from dbop import ip,port
+from configure import ip,port
 from answermode import exammode,practicemode,officialmode,officialid
 from answerDAO import answerDAO
 

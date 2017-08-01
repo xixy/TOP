@@ -1,0 +1,29 @@
+Listen to a conversation between a student and his Organic Chemistry professor.
+
+(woman) Hi, Sam, say, did you have a chance to watch that program I mentioned in class last week?
+(man) The one on using microbes to create new fuels? Yeah, it was really interesting.
+(woman) Did it inspire you to be a chemistry major?
+(man) I do like chemistry, but I'm pretty set on majoring in English. My dream is to be a writer, a poet. I need a science class to graduate so I thought I'd give this a try.
+(woman) Hmm, that could be a first, a poet in my Organic Chemistry class. That probably explains why you've asked some questions that no students in this course have ever asked before.
+(man) And that's good, I hope?
+(woman) Oh, absolutely! I think the class has benefited greatly from some of the discussions you've initiated. But I don't think that's what you came to talk about.
+(man) No, uh, I just wanted to find out if we'll need to use a lot of calculus on our midterm.
+(woman) Yes, and you'll need to work very quickly.
+(man) Oh, OK
+(woman) Why? Are you?
+(man) Well, I knew we'll be using some calculus in this course, but
+(woman) You've taken Calculus 101 and 102, right?
+(man) Actually, no.
+(woman) But those are prerequisites. You have to take those courses before you can register for this one.
+(man) Yes, but, I had calculus in high school so I went to the head of the chemistry department and asked if I could have that requirement waived. He said that normally you'd have to approve the waiver, but, you were away for a conference that week, so he went ahead and approved it.
+(woman) Hmm
+(man) I thought I'd be OK cause calculus was easy for me. But we're doing some stuff in your course that we didn't do in high school.
+(woman) Yes, that's why I never grant request to waive the prerequisites. OK, so, have you thought about working with a tutor? The chemistry department has a number of advanced students who tutor at the university's tutoring center.
+(man) I tried that but it didn't work out, I mean, the tutor was really good at explaining things but she was so busy that it was hard for us to find times to meet.
+(woman) This was through the tutoring center?
+(man) No, I saw an ad she posted on a bulletin board and she didn't charge much, so
+(woman) Well, first of all, at the tutoring center the tutoring's free to all students.
+(man) OK?
+(woman) And the tutors there have all been recommended by their professors and they receive special training and they're available every day.
+(man) That sounds like a great program but it's not so close to my dorm. Wait! I just remembered. My roommate has taken those classes, I'll see if I could work with him.
+(woman) Well, it's up to you. If you go to the Organic Chemistry One Web site, you'll see a link to some past exams, so you can get an idea what the questions will be like.

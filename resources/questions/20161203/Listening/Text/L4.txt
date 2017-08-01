@@ -1,0 +1,21 @@
+Listen to a conversation between a student and a university librarian
+
+(man) Kim, it's spring break. You're still here?
+(woman) I had to finish some work but I'm leaving tomorrow. But that's the thing. I can't find my reader for History 300. I think I left it on the train and I need it before I leave for break. I just can't seem to reach any one from class.
+(man) By reader do you mean a published work?
+(woman) No, uh, my course packet, I guess it's called something the professor compiled specifically for this course. It's like a bunch of articles, chapters from different textbooks, all kinds of stuff, over two hundred pages.
+(man) A course packet, yes, a number of professors here take that approach. But unfortunately, the library doesn't receive copies of the packets. There are handled through the bookstore.
+(woman) I went to the bookstore but they're already stocking the shelves for next term's courses.
+(man) OK, I guess we can see if the professor put anything on reserve. Uh, what class did you say it's for?
+(woman) History 300, with Professor Bailey, Carol Bailey?
+(man) And you can't get in touch with her? Do you know if she's on campus over break?
+(woman) Oh, she's on a hiking trip in an area where internet access is kind of iffy. I emailed her, but she told us not to be surprised if she can't get back to us until the last day of break.
+(man) Bailey, Carol, let's see. No, there's nothing on reserve. Do you recall the titles of any of the articles by any chance? We probably have the journals and books these articles and chapters are taken from. But I need something to go on in order to find out.
+(woman) I remember one. It's a textbook chapter and it's actually the one thing I really need to read over spring break. It's on marriage in ancient Greece. And I think the title was pretty straightforward like ¡°What marriage meant to the ancient Greeks¡±, something like that. You see. I'm writing a paper on kinship in early European societies, the laws and customs governing family relationship.
+(man) Hmm, what about your syllabus? Anything helpful there?
+(woman) It has titles and lecture topics. It does mention the course packet, but only the pages we need to read. But I don't think there's a bibliography or anything.
+(man) Wait. Here's something. Marriage in Ancient Greece, oh, but it's not from a textbook. It's from the Classical History journal, n 1992 article.
+(woman) That sounds kind of familiar, but it can't be right. What I'm looking for is more recent.
+(man) OK, would you like me to locate the article for you anyway?
+(woman) I don't know. Um, OK, you know what? Actually, yeah, Marriage in Ancient Greece, it's the right topic, so, it could be useful. It's not the one from course packet but at least I'll have something.
+

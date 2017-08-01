@@ -1,0 +1,33 @@
+Listen to part of a lecture in a Biology class.
+
+(female professor) Symbiosis, the close relationship living together between microorganisms and animals, is actually incredibly common and, in fact, necessary for our survival. So if you just think about us. We can't make things like vitamin K, which is crucial for blood clotting. But bacteria inside us, in our gut, can. And so we give them food. They live in our gut, in this happy safe environment, and make vitamin K for us and get free food. Um, termites actually can't digest wood, but the bacteria in their gut can. That's a symbiotic relationship where the bacteria get food and now the termites can live on wood, which is otherwise a kind of useless material. So, it's throughout the animal kingdom that microbes and animals are working together. I mean, there would be very little life on this planet if, uh, if we didn't work well with different microbes.
+
+Now, speaking of symbiosis, one bacterium you encounter in your reading is particularly interesting: Vibrio fischeri. Vibrio fischeri is really cool, because it glows in the dark. And things like this, in and of themselves, always excite scientists. And it's a fascinating organism that has learned that it can end up being protected and form a symbiotic relationship by being able to glow in the dark. One animal that it goes into symbiosis with is the angler fish.
+
+
+
+They're deep sea fish, kind of creepy looking.
+
+(female student) What's that on its head?
+
+(professor) It's a lure. Um, we know these deep sea animals. It's very, very dark and they're going to be attracted to any sort of light that's around. And the angler fish has this long dangly thing that sticks out in front of it that's full of Vibrio fischeri that gives off just enough light to attract prey but not so much as to illuminate itself. And then it eats those fish that are attracted to the lure.
+
+(male student) Oh, devious.
+
+(professor) OK, now, let's talk about the bobtail squid.
+
+This squid, I think it's actually even cooler. The bobtail squid have Vibrio fischeri living in them as well. They live in fairly shallow waters in the Pacific Ocean off Hawaii. They're nocturnal so they hide during the day and come out at night.
+
+Now, if you imagine a dark night, the squid blend in fairly well just because it's dark and they're sort of clearish, translucent. But the problem is they're not translucent enough. So if you have a bright moon, the squid are visible from below by their dark silhouette.
+
+(male student) And show predators where they are.
+
+(professor) Exactly! So they develop this special organ where they host Vibrio fischeri. Organ glows just enough to light up the squid so its silhouette becomes as light as the sky and the squid become invisible from below.
+
+(female student) Wow!
+
+(professor) Now, what's got some of us who aren't marine biologists so excited about Vibrio fischeri is that we figured out which genes, which part of their DNA, allow them to glow in the dark. And we're using that in molecular biology now, in transgenic technology.
+
+In transgenic technology, also called gene splicing, we take a gene out of one organism and put it in another. For example, let's say you found a gene that protects some wild plant against pests. And you want to transfer that gene into a crop plant because you want to protect the crop against pest damage. Let's say you already managed to take the gene out of the wild plant and now you were trying to put it into the crop plant cells. OK
+
+The problem is how can you quickly tell whether you successfully got the gene inside the cells? That's where Vibrio fischeri glow-in-the-dark gene comes in. What you do is you attach the glow-in-the-dark gene to your pest-resistance gene and transfect the two genes together. If the cell starts glowing in the dark, that's a sign that the two genes got in which is what you wanted to find out. So, if you're doing experiment with a whole bunch of cells, it's really easy to separate the ones that received the genes from those that didn't. And that's really invaluable when you're doing this type of experiment.

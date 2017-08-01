@@ -1,1 +1,7 @@
 B,D,C,C,CD,C,B,D,A,D,C,D,C,ADFC,D,C,B,B,A,D,C,D,C,A,B,A,ABEA,C,A,B,D,C,B,B,A,D,B,C,C,ABE
+A,B,C,BC,D
+B,BD,D,AC,A,C
+C,D,A,B,AD,C
+D,B,A,C,A
+C,D,BD,C,A,B
+B,B,A,AC,D,B

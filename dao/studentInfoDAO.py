@@ -7,7 +7,7 @@ sys.path.append('../configure/')
 import pymongo
 from studentInfo import studentInfo
 from bson import json_util as jsonb
-from dbop import ip,port
+from configure import ip,port
 import configure
 class studentInfoDAO(object):
     """学生信息的持久化"""

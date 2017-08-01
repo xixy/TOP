@@ -1,0 +1,31 @@
+Listen to part of a lecture in an Astronomy class
+
+(male professor) So, we've been searching for stars similar to our Sun, what we might call sun-like stars, since presumably planets orbiting such stars are the most likely to have liquid water, a requirement for life as we know it. And what mostly determines whether liquid water can exist, of course, is the planet's temperature. Too hot or too cold and any water would either vaporize or freeze. OK, but this assumption that stars with habitable planets must be sun-like, radiating huge amounts of thermal nuclear energy, this might not be actually necessary. Yes, Stephanie?
+
+(female student) Where would the planet get its heat then?
+
+(professor) One possibility is that it could orbit a different kind of star, a white dwarf. Do you remember what a white dwarf is?
+
+(female student) It's a dead star, like the ember that's left after a star has burned up all its fuel but it's cooler and dimmer than sun-like stars, right? And much smaller. 
+
+(professor) True. But there are still enough energy in their core to generate some heat. Now, to get enough heat for liquid water, a planet would need to orbit its white dwarf very tightly.
+
+(female student) But before becoming a white dwarf, doesn't a star first expand and then collapse? And wouldn't the expansion phase destroy any planets closest to it?
+
+(professor) Yes, but, some outer planets could survive and move closer in. Or new planets could form after the star collapses. White dwarfs exist for many billions of years. So there's plenty of time for such changes to occur.
+
+(female student) There aren't that many white dwarfs in the universe, though. Are there?
+
+(professor) Actually, we're finding that they are plentiful in the universe. We detect them in an indirect way. When a planet passes in front of its host star, this transit eclipses some of the star's light. By measuring this periodic dimming, we infer the existence of a planet. Since white dwarfs are only slightly bigger than Earth, a planet might block out 50 percent of the white dwarf's light, which is observable through a ground-based telescope. The transit of a planet orbiting a sun-like star produces just a miniscule change in luminosity.
+
+Now, what if a planet could get sufficient heat from a source other than a star? One idea that's been proposed involves dark matter, specifically heat from the annihilation, the destruction of dark matter particles. The basic idea behind dark matter, right, is that we know how much mass there should be in the universe to jibe with all of our observations. But visible matter, everything we can see, accounts for only a fraction of that mass. This missing mass we call dark matter.
+
+We know that these mysterious particles exist but we can't see them because they don't interact with light. But they do interact with gravity. And we expect that dark matter is denser in certain regions in space, like near the center of the Milky Way. We also predict that these particles would move relatively slowly in such environments. It's all theoretical. But imagine a large rocky planet, a super Earth without a host star, in a region of densely packed slow moving particles of dark matter.
+
+Some physicists say that the gravity of this super Earth would attract significant amounts of dark matter particles into the planet's interior. There the particles would collide and annihilate each other releasing energy; this energy be absorbed by the surrounding rock, heating it up all the way to the planet's surface. So if enough dark matter accumulated in the planet's core this way, on a sustained basis, enough heat could be generated to allow for liquid water on the planet's surface.
+
+(female student) So is this all happening inside Earth? Is dark matter generating any heat for us?
+
+(professor) A negligible amount, perhaps, of course, we really don't know yet exactly what dark matter is. So proponents of this idea had to make some assumptions about how these particles behave. And given the limits of our current knowledge, well, those are pretty optimistic assumptions. But if nothing else, these possibilities suggest a vast potential for liquid to exist on other planets.
+
+Earth has oceans of liquid water and is bathed in sunlight, thanks to its perfect distance from our host star. Other planets might be bathed in oceans and starlight, too. But others might not be and still support life nevertheless.

@@ -1,2 +1,8 @@
 A,B,D,A,B,C,B,C,D,C,CD,D,C,BCEA,B,C,B,C,AC,B,C,C,B,D,C,B,BCE
-C,C,B,D,C,C,D,A,D,B,B,C,B,ACF
+C,C,B,D,C,C,D,A,D,B,B,C,B,ACF
+C,B,D,B,A
+D,BC,BD,A,C,B
+A,C,C,ABD,B,D
+C,D,D,A,C
+B,CD,C,A,B,D
+C,A,A,C,B,A

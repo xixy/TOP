@@ -1,0 +1,33 @@
+Listen to part of a lecture in a History class.
+
+(female professor) OK, in the last class we started talking about the succession of thought that precedes a significant advance in technology. And today I'd like to pick up with the thinking that preceded the invention of the airplane. And although people were thinking about flying long before his time, I'd like to start with Leonardo da Vinci.
+
+As most of you probably know, da Vinci was born in 1452 and became a principal figure of the Italian Renaissance. Most people know him for his paintings, uh, the Mona Lisa among them, but da Vinci also had ideas for many inventions. One idea was for a device that would allow humans to fly. He was fascinated by birds and had studied their motion in flight. So, it's only logical then that he would try to imitate the flight of birds. OK, now, I'd like you to put yourself in da Vinci's shoes. If you were studying birds and trying to figure out how you too could fly, what would you come up with? David?
+
+(male student) Something like an airplane?
+
+(professor) And how many birds have you seen that have stationary wings and jet engines?
+
+(male student) OK, uh, I guess maybe the wings would have to move, you know, flap up and down, using muscle power not jets.
+
+(professor) OK, now, you're thinking like Leonardo da Vinci. So, da Vinci came up with an idea for what's called an ornithopter. The term ornithopter comes from the Greek words for both bird and wing. An ornithopter consists of a pair of large wings and a harness, which attaches the wings to a person. Now, the person's supposed to flap the wings up and down and so be able to fly like a bird. Did da Vinci's ornithopter work? No. And why not? Well that was explained about a century after Leonardo in the late seventeenth century by a mathematician named Giovanni Borelli.
+
+Borelli applied the principles of physics and did a mathematical analysis of muscle performance and strength that showed humans could not, under their own power, fly like birds do by flapping wings. Given our size and weight we just don't have the muscle power.
+
+OK, well, after Borelli, most researchers finally gave up on the idea that a person could fly by flapping wings using their own power. But they didn't give up on the idea that the key to flight was flapping wings like a bird. What they did was they started trying to figure out how to use a motor to provide the power to flap the wings. And this flapping the wings idea has shown incredible staying power. There are people who are still trying to make it work today. But, so far, no one's been able to come up with an ornithopter, even a mechanized ornithopter that has much practical value. Yes, Susan?
+
+(female student) So, you mean, people focus on the ornithopter idea and not on the other ideas that might have gotten us flying sooner?
+
+(professor) Ironically enough, attempts to imitate bird flight actually had a negative impact on the development of the technology needed for flight. David?
+
+(male student) I don't know. Just the other day I saw a flock of geese flying overhead and I looked at their design and I was struck by how similar they are to airplanes: long slender bodies, wings at about the same position and the same proportion to their body, I mean, would people have even thought about trying to fly if they hadn't seen birds?
+
+(professor) Well, that's a fair point, David. We definitely learned a lot from studying bird flight. The Wright brothers, who are generally credited with inventing the world's first successful airplane, they were avid students of bird flight. But they focused more on what we call gliding or soaring flight, the kind of flight you're talking about, where birds are relying on an updraft of air to carry them along with minimal wing movement. So, good, let's be more specific. The problem wasn't so much that people were trying to imitate bird flight, but that 
+
+(male student) They thought that they had to imitate every aspect of how birds fly, you know, like not just soaring but with wings that flap?
+
+(professor) And?
+
+(male student) And they were locked into that one way of thinking for a long time.
+
+(professor) Exactly! OK, so let's take a look at another technology where the same sort of thing happened.

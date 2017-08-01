@@ -83,7 +83,7 @@ class selection_question(object):
 
 if __name__ == '__main__':
     questions=selection_question.test()
-    for question in questions:
-        print question
+    # for question in questions:
+    #     print question
 
 

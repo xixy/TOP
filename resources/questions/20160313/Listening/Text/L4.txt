@@ -1,0 +1,23 @@
+Listen to a conversation between a student and an Archeology professor.
+
+(man) I'm concerned about the research paper for your class.
+(woman) What's the problem? I think the syllabus is pretty clear.
+(man) Oh, it is. I'm wondering if I should focus my paper on that archeological site in the eastern Canada you mentioned yesterday or not. I'm interested in it because it's in such pristine condition. But is that so unusual?
+(woman) Uh, the one in Labrador on the coast, right? Well, many of the native Canadian sites in that area have been disturbed by people, like with building construction or growing cities or even by people digging in their gardens, you know, those sorts of things. A lot of sites have been damaged by simple erosion, so that site is pretty unique. And another thing, it's small. And small sites are where we've gotten the majority of our information on the ancient people of that region.
+(man) That's what got me so confused. See, I would think that the larger sites would be more valuable.
+(woman) Many times a small site gets overlooked because it doesn't contain a whole lot of tools or other artifacts.
+(man) Which kind of makes sense, right?
+(woman) But when you add up for data from all these small sites, well, you can start to see what life was like in an area like coastal Labrador in ancient times. I mean, we can kind of piece together patterns of trade and mobility, how settlements interacted with one another, how people hunted, what they ate, all kinds of stuff.
+(man) Another thing, you said the artifacts that are found at the coastal sites are different from the artifacts at interior sites?
+(woman) Right, there's so much difference between the coastal and interior sites that we have to wonder if they belonged to two completely different groups. That's another direction you can take the paper in if you want.
+(man) Were there any shared characteristics?
+(woman) There were. They had similar types of structures like stone fireplaces, well, I should leave that for your own investigation.
+(man) OK, and just one more thing, um, would you be willing to write me a letter of recommendation for a summer program in Archeology? It's run by Windy Valley University.
+(woman) I'm familiar with Windy Valley. What's this particular program about?
+(man) It's five weeks of field work in Michigan, working on some archeological sites that date to the late woodland period. 
+(woman) Oh?
+(man) We'd be helping with the excavation of one of the sites, looking to figure out what life was like for the people who lived there. 
+(woman) I see, sounds exciting, it's a good thing you already took a field work methods course. You'll be able to use what you've learned.
+(man) Yeah, I think the methods course is really going to help me in the program.
+(woman) Well, just give me all the details, when it's due, where to send it, and I'll be happy to write the letter up for you.
+(man) Thanks

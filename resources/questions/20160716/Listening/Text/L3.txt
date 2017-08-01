@@ -1,0 +1,35 @@
+Listen to part of a discussion in a Paleontology class. The class has been discussing dinosaurs.
+
+(female professor) OK, so how many species of dinosaur have been named so far? Does anyone know? Would anyone like to take a guess? Richard
+
+(male student) A hundred and fifty?
+
+(professor) Well, actually, since we started naming dinosaur species back in the 1800s, well over a thousand species have been named based on the fossil record.
+
+(male student) Wow!
+
+(professor) OK, but can you think of any reasons why we might have overestimated the number of species that we found?
+
+(male student) Hmm, maybe some species were given more than one name.
+
+(professor) That's right. You see, nothing would please a paleontologist more than being credited with discovering a new dinosaur species. So, what often happened is if a paleontologist found a dinosaur fossil that was a little different in some way, Eureka! They claim to have discovered a new species, especially back in the late 1800s. If a paleontologist found, say, a dinosaur tooth that looked a little different, based on that tooth alone, they proclaimed that they discovered a new species. And then another paleontologist would find, say, a dinosaur leg bone that looked a little different, and again, another new species would be named, amid great fanfare.
+
+But later, upon closer examination, it'd turn out that that tooth and the leg bone were actually from the same species. These days, naming protocols are far more rigorous. If you want to claim you discovered a new dinosaur species now, you'd better produce a pretty complete specimen. Ah, but even if you are very careful, you can still get fooled. Take for example, Triceratops and Torosaurus.
+
+Triceratops and Torosaurus are similar in many ways but there're also some clear differences. So they were thought to be separate species. But not too long ago, a team of researchers found some pretty compelling evidence suggesting that Triceratops and Torosaurus were individuals of the same species that the former was actually a juvenile version of the latter. After studying skulls from these two types of dinosaurs, researchers concluded that Triceratops underwent some striking anatomical changes as it became a fully mature adult. Specifically, the angles of its three facial horns shifted and the structure at the back of its skull thinned out.
+
+Now, this research finding isn't universally accepted. But you can see that you'll have to be careful about making assumptions. OK, now, imagine that at some point in the future, all the existing dinosaur fossils have been discovered, carefully analyzed and properly named. Would we then know how many species of dinosaur existed? OK, let's review the fossilization process. What conditions are necessary for fossilization to occur? Carol?
+
+(female student) Based on our reading assignment, it's pretty rare actually. Most of the time when animals die, they're either eaten by other animals or they just decay.
+
+(professor) That's right, so conditions have to be just right for fossils to form. How does this affect the fossil record?
+
+(female student) There must have been some dinosaur species that never got fossilized.
+
+(professor) Probably
+
+(female student) So I guess we'll never know for sure just how many kinds of dinosaur there were.
+
+(professor) Exactly! But, back to identifying dinosaurs that we do have fossil evidence of, one question that often comes up is can we determine the species by analyzing its DNA? And that's a good question because a lot of times if we have just a bit of tissue from some unidentified animal, we can analyze its DNA and determine what species that tissue came from.
+
+The problem with dinosaurs is DNA degrades over time. Now, if you're looking at the remains of an organism that died even a few thousand years ago, that's not a problem. But, say you're looking at a fossil from something that existed hundreds of millions of years ago, during the time dinosaurs roamed Earth, it's extremely unlikely that you're going to get any intact DNA from fossils that old, despite some recent claims to the contrary.
