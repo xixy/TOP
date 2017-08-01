@@ -19,6 +19,7 @@ from studentInfoDAO import studentInfoDAO
 from adminDAO import adminDAO
 from selection_questionDAO import selection_questionDAO
 from speaking_questionDAO import speaking_questionDAO
+from writing_questionDAO import writing_questionDAO
 from answerDAO import answerDAO
 from answer import answer
 import configure
@@ -85,7 +86,11 @@ def getQuestion(setid,index):
     else:
         #如果是口语题
         if "S" in index:
-            question=speaking_questionDAO.getSpeakingQuestion(setid,index)
+            question=speaking_questionDAO.getQuestion(setid,index)
+        else:
+            #如果是写作题
+            if "W" in index:
+                question=writing_questionDAO.getQuestion(setid,index)
     return jsonify(question),200
 
 #查看学生答题信息

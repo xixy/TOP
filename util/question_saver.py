@@ -13,6 +13,8 @@ from selection_questionDAO import selection_questionDAO
 from answer_saver import answer_saver
 from speaking_question_extractor import speaking_question_extractor
 from speaking_questionDAO import speaking_questionDAO
+from writing_question_extractor import writing_question_extractor
+from writing_questionDAO import writing_questionDAO
 
 
 class question_saver(object):
@@ -32,7 +34,7 @@ class question_saver(object):
 		reading_files_path=[]
 		listening_files_path=[]
 		speaking_files_path=[]
-		writting_files_path=[]
+		writing_files_path=[]
 		answer_files_path=[]
 		#分类统计
 		for filepath in filepaths:
@@ -55,9 +57,9 @@ class question_saver(object):
 
 			#取出写作部分
 			if configure.Writting in filepath:
-				writting_files_path.append(filepath)
+				writing_files_path.append(filepath)
 				continue
-			writting_files_path.sort()
+
 			#取出答案部分
 			if configure.Answer in filepath:
 				answer_files_path.append(filepath)
@@ -75,9 +77,9 @@ class question_saver(object):
 			# print filepath
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
 			if len(questions)<13:
-				print "题目少于13："+filepath+":"+str(len(questions))
+				print "阅读题目少于13："+filepath+":"+str(len(questions))
 			if len(questions)>14:
-				print "题目大于14："+filepath+":"+str(len(questions))
+				print "阅读题目大于14："+filepath+":"+str(len(questions))
 			# print questions
 
 			question_list.extend(questions)
@@ -110,8 +112,19 @@ class question_saver(object):
 			print filepath
 			#提取口语
 			question=speaking_question_extractor.getSpeakingQuestion(filepath)
+
 			#持久化
 			speaking_questionDAO.indexQuestions(setid,question)
+
+		#处理写作
+		writing_files_path.sort()
+		for filepath in writing_files_path:
+			print filepath
+			#提取写作
+			question=writing_question_extractor.getWritingQuestion(filepath)
+			#持久化
+			writing_questionDAO.indexQuestions(setid,question)
+
 
 
 

@@ -35,6 +35,10 @@ index="index"
 listening_stem="stem"#题干
 listening_article="article"#文章
 listening_record="record"#对话
+#写作题
+writing_stem="stem"
+writing_article="article"
+writing_record="record"
 
 #学生信息的表
 student_name="username"#学生名称

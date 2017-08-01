@@ -9,10 +9,10 @@ from bson import json_util as jsonb
 from dbop import ip,port
 import configure
 
-class speaking_questionDAO(object):
+class writing_questionDAO(object):
     """用于口语题的持久化和查询"""
     def __init__(self):
-        super(speaking_questionDAO, self).__init__()
+        super(writing_questionDAO, self).__init__()
 
     client=pymongo.MongoClient(ip,port)
     db=client.questions
@@ -69,7 +69,7 @@ class speaking_questionDAO(object):
 
 
 if __name__ == '__main__':
-    print speaking_questionDAO.getQuestion("20170603","S1")
+    print writing_questionDAO.getQuestion("20170603","W1")
 
 
 
