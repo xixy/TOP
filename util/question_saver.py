@@ -108,7 +108,9 @@ class question_saver(object):
 		speaking_files_path.sort()
 		for filepath in speaking_files_path:
 			print filepath
+			#提取口语
 			question=speaking_question_extractor.getSpeakingQuestion(filepath)
+			#持久化
 			speaking_questionDAO.indexQuestions(setid,question)
 
 

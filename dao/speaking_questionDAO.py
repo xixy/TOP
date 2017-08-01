@@ -39,7 +39,7 @@ class speaking_questionDAO(object):
         value[configure.index]=question[configure.index]
         print value
         #去掉已有的该题
-        # collection.remove(value)
+        collection.remove(value)
         #插入
         # print question
         collection.insert(question)
