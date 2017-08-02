@@ -26,6 +26,8 @@ class answerDAO(object):
             setid:第几套题例如TPO1
             mode:需要查找什么模式下的答案，例如configure
         """
+        if not mode.startswith("_"):
+            mode="_"+mode
         return configure.answer_prefix+str(setid)+mode
 
     @classmethod
@@ -73,7 +75,7 @@ class answerDAO(object):
 
 
     @classmethod
-    def clearAnswersForQuestionSet(cls,userid,setid,mode):
+    def clearAnswersForQuestionSet(cls,userid,setid,mode,part):
         """用于清除特定用户的某套题的答案
         暂时将练习答案和考试答案都清除
 
@@ -81,6 +83,7 @@ class answerDAO(object):
             userid:用户id
             setid:第几套题例如TPO1
             mode:什么模式，例如configure
+            part:哪个部分？例如all、Listening、Reading、Speaking、Writing
 
         Returns:
             返回nothing
@@ -88,7 +91,23 @@ class answerDAO(object):
         value={}
         value[configure.answer_userid]=int(userid)
         collection=cls.db[cls.getCollectionName(setid,mode)]
-        collection.remove(value)
+        print collection
+        #如果要删除所有的
+        if part=="all":
+            collection.remove(value)
+        else:
+            index=configure.Mark[part]
+            newAnswers={}
+            for answers in collection.find(value):
+
+                #将答案进行便利，删掉其中包含index的部分
+                for (k,v) in answers.items():
+                    #如果key包含indexmark，就要删除
+                    if index in k:
+                        answers.pop(k)
+                collection.update(value,answers)
+
+
 
     @classmethod
     def querySingleAnswer(cls,userid,setid,index,mode):
@@ -244,9 +263,12 @@ if __name__=='__main__':
     # answerDAO.index(asw,configure.answer_practicemode)
     # asw=answer("20170603","L1","C","1")
     # answerDAO.index(asw,configure.answer_practicemode)
-    # asw=answer("20170603","R3","D","1")
-    # answerDAO.index(asw,configure.answer_exammode)
+    asw=answer("20170603","R3","D","1")
+    answerDAO.index(asw,configure.answer_exammode)
+    asw=answer("20170603","L3","A","1")
+    answerDAO.index(asw,configure.answer_exammode)
     # print answerDAO.querySingleAnswer(1,"20170603","R3",configure.answer_practicemode)
     # print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
-    print answerDAO.getStudentAnswerStatus(1,"practice")
+    # print answerDAO.getStudentAnswerStatus(1,"practice")
+    answerDAO.clearAnswersForQuestionSet(1,20170603,"exam","Reading")

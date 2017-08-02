@@ -192,11 +192,12 @@ def deleteAnswer():
     setid=data["setid"]
     userid=data["userid"]
     mode=data["mode"]
+    part=data["part"]
     if cmp(mode,"exam")==0:
         mode=configure.answer_exammode
     else:
         mode=configure.answer_practicemode
-    answerDAO.clearAnswersForQuestionSet(userid,setid,mode)
+    answerDAO.clearAnswersForQuestionSet(userid,setid,mode,part)
     return jsonify({"message":"ok"}),200
 
 # app.add_url_rule('/login',login())
