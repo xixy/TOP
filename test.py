@@ -99,7 +99,6 @@ def getQuestionStatus(userid,mode):
     """
     获取到某个学生的题的状态
     """
-    #先获取到学生的所有的题
     status=answerDAO.getStudentAnswerStatus(userid,mode)
     return jsonify(status),200
 
@@ -153,11 +152,7 @@ def saveAnswer():
         else:
             mode=configure.answer_practicemode   
         answerDAO.index(asw,mode)
-    # #如果是口语题
-    # if "S" in index:
-    #     upload_files = request.files.getlist("file")
-    #     for file in upload_files:
-    #         file.save(file.filename)
+
     return jsonify({"message":"ok"}),200
 
 

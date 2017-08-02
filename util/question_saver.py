@@ -14,6 +14,7 @@ from answer_saver import answer_saver
 from speaking_question_extractor import speaking_question_extractor
 from speaking_questionDAO import speaking_questionDAO
 from writing_question_extractor import writing_question_extractor
+from listening_text_extractor import listening_text_extractor
 from writing_questionDAO import writing_questionDAO
 from lib_check import check
 
@@ -110,6 +111,14 @@ class question_saver(object):
 
 		listening_questions_json=selection_question.getSetQuestion(question_list,configure.Listening)
 		questions_json.extend(listening_questions_json)# 加入到总题目中
+
+
+
+		#处理听力中的录音文本
+		listening_text_files_path.sort()
+		for filepath in listening_text_files_path:
+			text=listening_text_extractor.getListeningText(filepath)
+			questions_json.append(text)
 
 		#对选择题进行持久化存储
 		selection_questionDAO.indexQuestions(setid,questions_json)

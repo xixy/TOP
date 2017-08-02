@@ -25,6 +25,7 @@ ReadingMark="R"
 ListeningMark="L"
 SpeakingMark="S"
 WrittingMark="W"
+ListeningRecordMark="LR"
 
 Mark={Reading:ReadingMark,Listening:ListeningMark,Speaking:SpeakingMark,Writting:WrittingMark}
 
