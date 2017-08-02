@@ -152,7 +152,7 @@ def getStudentAnswer(mode,userid,setid,index):
     result=answerDAO.querySingleAnswer(userid,setid,index,mode)
     return jsonify(result),200
 
-#保存学生提交的答案
+#保存学生提交的答案:包括选择题
 @app.route('/answer/submit',methods=['POST'])
 def saveAnswer():
     """
@@ -163,15 +163,30 @@ def saveAnswer():
     setid=data["setid"]
     index=data["index"]
     userid=data["userid"]
-    options=data["options"]
-    asw=answer(setid,index,options,userid)
-    mode=data["mode"]
-    if cmp(mode,"exam")==0:
-        mode=configure.answer_exammode
-    else:
-        mode=configure.answer_practicemode   
-    answerDAO.index(asw,mode)
+    #如果是选择题
+    if "R" in index or "L" in index:
+        options=data["options"]
+        asw=answer(setid,index,options,userid)
+        mode=data["mode"]
+        if cmp(mode,"exam")==0:
+            mode=configure.answer_exammode
+        else:
+            mode=configure.answer_practicemode   
+        answerDAO.index(asw,mode)
+    # #如果是口语题
+    # if "S" in index:
+    #     upload_files = request.files.getlist("file")
+    #     for file in upload_files:
+    #         file.save(file.filename)
     return jsonify({"message":"ok"}),200
+
+#保存学生提交的听力答案
+@app.route('/upload/<userid>/<setid>/<index>/<mode>',methods=['POST'])
+def upload_record(userid,setid,index,mode):
+    upload_files=request.files.getlist("record")
+    for file in upload_files:
+        file.save(index+".wav")
+    return jsonify({"message":'ok'}),200
 
 #删除学生某个题答案
 @app.route('/answer',methods=['DELETE'])
