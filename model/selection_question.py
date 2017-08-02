@@ -32,8 +32,8 @@ class selection_question(object):
         #插入类型
         if len(value[configure.selection_options])==4:
             #如果是听力题，且题干中存在choose two answers,则是多选题
-            if cmp(type,configure.Listening,)==0:
-                if configure.ListeningTwoSelectionMark in value[configure.selection_stem]:
+            if cmp(type,configure.Listening)==0:
+                if cls.isMultipleSelectionQuestion(value):
                     value[configure.question_type]=configure.l_multiple_selection_type
                 else:
                     value[configure.question_type]=configure.single_selection_type
@@ -42,8 +42,9 @@ class selection_question(object):
                 value[configure.question_type]=configure.single_selection_type
 
         else:
+            #插入题，没有选项
             if len(value[configure.selection_options])==0:
-                #插入题，没有选项
+                
                 value[configure.question_type]=configure.insert_selection_type
             else:
                 #多选题
@@ -55,6 +56,19 @@ class selection_question(object):
                     if cmp(type,configure.Listening)==0:
                         value[configure.question_type]=configure.l_multiple_selection_type
         return value
+    @classmethod
+    def isMultipleSelectionQuestion(cls,value):
+        """
+        判断是否多选题
+        """
+
+        for twoSelectionMark in configure.ListeningTwoSelectionMark:
+            if twoSelectionMark in value[configure.selection_stem]:
+                return True
+        for threeSelectionMark in configure.ListeningThreeSelectionMark:
+            if threeSelectionMark in value[configure.selection_stem]:
+                return True
+        return False
 
     @classmethod
     def test(cls):

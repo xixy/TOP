@@ -7,7 +7,7 @@ import shutil
 import re
 import configure
 
-testpath="/Users/apple/Code/TOP/resources/questions/20170325/Listening/Questions/L1.txt"
+testpath="/Users/apple/Code/TOP/resources/questions/20150110/Reading/R3.txt"
 
 class selection_question_extractor(object):
 
@@ -39,6 +39,7 @@ class selection_question_extractor(object):
         for line in lines:
             if len(line)<3:
                 continue
+            # print line
 
             line=line.strip()#去掉\n
             # print line
@@ -55,7 +56,7 @@ class selection_question_extractor(object):
                 single_question.append(line)
             else:
                 #如果是新题的开始部分
-                if match and line.startswith(match.group()):
+                if match and line.index(match.group())<2:
                     #如果是刚开始
                     if len(single_question)==0 and len(stem)==0:
                         stem+=line
@@ -69,6 +70,9 @@ class selection_question_extractor(object):
                         stem=line
                 #如果不是选项部分，那么则是题干部分
                 else:
+                    #多余的题干就去掉
+                    if stem=="":
+                        continue
                     stem+=configure.LineBreakMark
                     stem+=line
 
