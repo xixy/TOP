@@ -100,27 +100,7 @@ def getQuestionStatus(userid,mode):
     获取到某个学生的题的状态
     """
     #先获取到学生的所有的题
-    status=[]
-    questions=studentInfoDAO.getQuestionSetOfSingleStudent(userid)
-    #如果学生没有题,就直接返回
-    if questions==configure.FAIL_CODE:
-        return jsonify(status),200
-
-    #如果学生有题
-    if cmp(mode,"exam")==0:
-        mode=configure.answer_exammode
-    else:
-        mode=configure.answer_practicemode
-    #然后查看相应的题库中是否有他的答案
-    for question in questions:
-        result=answerDAO.queryAnswerForTPOSet(1,question,mode)
-        singleStatus={}
-        singleStatus["title"]=question
-        if result==None:
-            singleStatus["status"]=configure.FAIL_CODE
-        else:
-            singleStatus["status"]=configure.SUCCESS_CODE
-        status.append(singleStatus)
+    status=answerDAO.getStudentAnswerStatus(userid,mode)
     return jsonify(status),200
 
 #获取标准答案
@@ -180,13 +160,32 @@ def saveAnswer():
     #         file.save(file.filename)
     return jsonify({"message":"ok"}),200
 
-#保存学生提交的听力答案
+
+
+answer_path="../Answer/"
+#保存学生提交的听力答案，存储为
+#Answer/username/exam/20170603/S1.wav
+#Answer/username/exam/20170603/W1.txt
 @app.route('/upload/<userid>/<setid>/<index>/<mode>',methods=['POST'])
 def upload_record(userid,setid,index,mode):
+    #存储答案文件
     upload_files=request.files.getlist("record")
+    student=studentInfoDAO.getStudentInfoById(userid)
+    username=student[configure.student_name]
+    path=answer_path+username+"/"+mode+"/"+str(setid)+"/"+str(index)+".wav"
     for file in upload_files:
-        file.save(index+".wav")
+        file.save(path)
+    #在数据库中进行标记
+    asw=answer(setid,index,str(1),userid)
+    if cmp(mode,"exam")==0:
+        mode=configure.answer_exammode
+    else:
+        mode=configure.answer_practicemode   
+    answerDAO.index(asw,mode)
+    #返回ok
     return jsonify({"message":'ok'}),200
+
+
 
 #删除学生某个题答案
 @app.route('/answer',methods=['DELETE'])

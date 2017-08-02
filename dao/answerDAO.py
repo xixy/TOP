@@ -8,6 +8,7 @@ import pymongo
 from answer import answer
 from bson import json_util as jsonb
 from configure import ip,port
+from studentInfoDAO import studentInfoDAO
 import configure
 
 class answerDAO(object):
@@ -129,6 +130,7 @@ class answerDAO(object):
         result={}
         #如果找到
         if count==1:
+            #按照标准答案中给出的来进行
             for officlial_answer in collection.find(value):
                 for item in officlial_answer:
                     if item.startswith('R') or item.startswith('L'):
@@ -137,16 +139,114 @@ class answerDAO(object):
         else:
             return None
 
+    @classmethod
+    def getStudentAnswerStatus(cls,userid,mode):
+        """
+        获取学生答题状态，对于自己买的题是否做了
+        Args:
+            userid:用户id
+            mode:什么模式，例如exam or practice
+        Return:
+            如果是exam模式，就返回[{20170603:1},{20160525:0}]
+            如果是practice模式，就返回[{20170603:[1,1,1,1]}]
+            其中1表示做了，0表示没做
+        """
+        status=[]
+        questions=studentInfoDAO.getQuestionSetOfSingleStudent(userid)
+        # print questions
+        #如果学生没有题,就直接返回
+        if questions==configure.FAIL_CODE:
+            return status
+
+        #如果学生有题
+        if cmp(mode,"exam")==0:
+            mode=configure.answer_exammode
+        else:
+            mode=configure.answer_practicemode
+        #然后查看相应的题库中是否有他的答案
+
+        #如果是练习模式
+        if mode==configure.answer_practicemode:
+            for question in questions:
+                #获取到答案
+                result=cls.queryAnswerForTPOSet(userid,question,mode)
+                singleStatus={}
+                singleStatus["title"]=question
+                #如果没有答案，就设置为空
+                if result==None:
+                    singleStatus["status"]=[configure.FAIL_CODE,configure.FAIL_CODE,configure.FAIL_CODE,configure.FAIL_CODE]
+                #如果有答案
+                else:
+                    #便利答案进行查找
+                    dict=[]
+                    for item in result:
+                        #如果判断完了，就跳出去
+                        if len(dict)==4:
+                            break
+                        #是否有阅读题
+                        if item.startswith('R'):
+                            dict.append('R')
+                            continue
+                        #是否做了听力题
+                        if item.startswith('L'):
+                            dict.append('L')
+                            continue
+                        #是否做了口语题
+                        if item.startswith('S'):
+                            dict.append('S')
+                            continue
+                        #是否做了写作题
+                        if item.startswith('W'):
+                            dict.append('W')
+                            continue
+                    #统计结束，现在进行插入
+                    singleStatus["status"]=[]
+                    if 'R' in dict:
+                        singleStatus["status"].append(configure.SUCCESS_CODE)
+                    else:
+                        singleStatus["status"].append(configure.FAIL_CODE)
+                    if 'L' in dict:
+                        singleStatus["status"].append(configure.SUCCESS_CODE)
+                    else:
+                        singleStatus["status"].append(configure.FAIL_CODE)
+                    if 'S' in dict:
+                        singleStatus["status"].append(configure.SUCCESS_CODE)
+                    else:
+                        singleStatus["status"].append(configure.FAIL_CODE)
+                    if 'W' in dict:
+                        singleStatus["status"].append(configure.SUCCESS_CODE)
+                    else:
+                        singleStatus["status"].append(configure.FAIL_CODE)
+
+                #插入数据
+                status.append(singleStatus)
+            return status
+
+
+
+        #如果是模考模式
+        for question in questions:
+            result=cls.queryAnswerForTPOSet(userid,question,mode)
+            singleStatus={}
+            singleStatus["title"]=question
+            if result==None:
+                singleStatus["status"]=configure.FAIL_CODE
+            else:
+                singleStatus["status"]=configure.SUCCESS_CODE
+            status.append(singleStatus)
+        return status
+
 
 
 
 if __name__=='__main__':
-    asw=answer("20170603","R3","A","1")
-    answerDAO.index(asw,configure.answer_practicemode)
-    asw=answer("20170603","L1","C","1")
-    answerDAO.index(asw,configure.answer_practicemode)
-    asw=answer("20170603","R3","D","1")
-    answerDAO.index(asw,configure.answer_exammode)
-    print answerDAO.querySingleAnswer(1,"20170603","R3",configure.answer_practicemode)
-    print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
+    # asw=answer("20170603","R3","A","1")
+    # answerDAO.index(asw,configure.answer_practicemode)
+    # asw=answer("20170603","L1","C","1")
+    # answerDAO.index(asw,configure.answer_practicemode)
+    # asw=answer("20170603","R3","D","1")
+    # answerDAO.index(asw,configure.answer_exammode)
+    # print answerDAO.querySingleAnswer(1,"20170603","R3",configure.answer_practicemode)
+    # print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
+    print answerDAO.getStudentAnswerStatus(1,"practice")

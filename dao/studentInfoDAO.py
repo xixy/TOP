@@ -33,6 +33,17 @@ class studentInfoDAO(object):
         value[configure.student_questions]=studentInfo.questions
         value[configure.student_classid]=studentInfo.classid
         cls.collection.insert(value)
+    @classmethod
+    def getStudentInfoById(cls,id):
+        """
+        通过id获取学生信息
+        Args:
+            id:学生id
+        """
+        value={}
+        value[configure.student_id]=int(id)
+        for student in cls.collection.find(value):
+            return student
 
     @classmethod
     def delete(cls,studentInfo):
@@ -144,11 +155,12 @@ class studentInfoDAO(object):
 
 
 if __name__=='__main__':
-    studentInfo=studentInfo(1,"anxiao","12345")
-    studentInfoDAO.index(studentInfo)
+    # studentInfo=studentInfo(1,"anxiao","12345")
+    # studentInfoDAO.index(studentInfo)
 
-    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
+    # studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
     # print studentInfoDAO.valid("anxiao","12345")
-    studentInfoDAO.getAllStudents()
+    # studentInfoDAO.getAllStudents()
     print studentInfoDAO.getQuestionSetOfSingleStudent(1)
+    print studentInfoDAO.getStudentInfoById(1)
     # studentInfoDAO.delete(studentInfo)
