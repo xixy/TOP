@@ -20,6 +20,7 @@ from adminDAO import adminDAO
 from selection_questionDAO import selection_questionDAO
 from speaking_questionDAO import speaking_questionDAO
 from writing_questionDAO import writing_questionDAO
+from report_generator import report_generator
 from answerDAO import answerDAO
 from answer import answer
 import configure
@@ -92,6 +93,27 @@ def getQuestion(setid,index):
             if "W" in index:
                 question=writing_questionDAO.getQuestion(setid,index)
     return jsonify(question),200
+
+#生成报告
+@app.route('/report/',methods=['POST'])
+def getQuestionStatus(userid,mode):
+    """
+    生成报告
+    """
+    data=request.get_json()
+    setid=data["setid"]
+    userid=data["userid"]
+    mode=data["mode"]
+    directory=answer_path+username+"/"+mode+"/"+str(setid)
+    #先创建文件夹，如果文件夹不存在
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    #然后保存文件
+    path=directory+"/"+"report"+".txt"
+    status=report_generator.generatReport(userid,setid,mode,path)
+    return jsonify(status),200
+
+
 
 #查看学生答题信息
 @app.route('/status/<userid>/<mode>',methods=['GET'])
