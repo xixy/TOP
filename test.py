@@ -171,6 +171,13 @@ def saveAnswer():
             for line in options:
                 f.write(line)
             f.close()
+            #在数据库中进行标记
+            asw=answer(setid,index,str(1),userid)
+            if cmp(mode,"exam")==0:
+                mode=configure.answer_exammode
+            else:
+                mode=configure.answer_practicemode   
+            answerDAO.index(asw,mode)
 
     return jsonify({"message":"ok"}),200
 
