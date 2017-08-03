@@ -144,11 +144,11 @@ def saveAnswer():
     setid=data["setid"]
     index=data["index"]
     userid=data["userid"]
+    mode=data["mode"]
     #如果是选择题
     if "R" in index or "L" in index:
         options=data["options"]
         asw=answer(setid,index,options,userid)
-        mode=data["mode"]
         if cmp(mode,"exam")==0:
             mode=configure.answer_exammode
         else:
