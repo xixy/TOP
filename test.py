@@ -167,7 +167,12 @@ def upload_record(userid,setid,index,mode):
     upload_files=request.files.getlist("record")
     student=studentInfoDAO.getStudentInfoById(userid)
     username=student[configure.student_name]
-    path=answer_path+username+"/"+mode+"/"+str(setid)+"/"+str(index)+".wav"
+    directory=answer_path+username+"/"+mode+"/"+str(setid)
+    #先创建文件夹，如果文件夹不存在
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    #然后保存文件
+    path=directory+"/"+str(index)+".wav"
     for file in upload_files:
         file.save(path)
     #在数据库中进行标记
