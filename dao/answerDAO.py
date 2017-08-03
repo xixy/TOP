@@ -4,12 +4,15 @@
 import sys
 sys.path.append('../model/')
 sys.path.append('../configure/')
+sys.path.append('../util/')
 import pymongo
 from answer import answer
 from bson import json_util as jsonb
 from configure import ip,port
 from studentInfoDAO import studentInfoDAO
+from selection_questionDAO import selection_questionDAO
 import configure
+from dict_op import sortDict
 
 class answerDAO(object):
     """答案的持久化"""
@@ -155,8 +158,45 @@ class answerDAO(object):
                         result[item]=officlial_answer[item]
                 return result
         else:
-            return None
+            return result
+    @classmethod
+    def getReadingReviewForTPOSet(cls,userid,setid,mode):
+        """
+        获取学生的阅读部分答案，包括index、stem、答案
+        """
+        result=[]
+        value={}
+        value[configure.answer_userid]=int(userid)
+        collection=cls.db[cls.getCollectionName(setid,mode)]
+        count=collection.count(value)
+        #如果找到
+        if count==1:
+            student_answers=collection.find_one(value)
+            answers={}
+            officlial_answers=cls.queryAnswerForTPOSet(configure.answer_officialid,setid,configure.answer_officialmode)
+            for index in officlial_answers:
+                if index.startswith('R'):
+                    #如果答案有的话
+                    if student_answers.has_key(index):
+                        answers[index]=student_answers[index]
+                    #如果没有答案
+                    else:
+                        answers[index]=""
+            #统计结束进行排序
+            sorted_result=sortDict(answers)
+            for answer in sorted_result:
+                single_answer={}
+                single_answer["index"]=answer.keys()[0]
+                single_answer["option"]=answer.values()[0]
+                single_answer["stem"]=selection_questionDAO.getSelectionQuestion(setid,answer.keys()[0])["stem"]
+                result.append(single_answer)
 
+            return result
+
+
+        else:
+            return result
+                    
     @classmethod
     def getStudentAnswerStatus(cls,userid,mode):
         """
@@ -271,3 +311,4 @@ if __name__=='__main__':
     # answerDAO.clearAllAnswers(1)
     # print answerDAO.getStudentAnswerStatus(1,"practice")
     answerDAO.clearAnswersForQuestionSet(1,20170603,"exam","Reading")
+    print answerDAO.getReviewForTPOSet(1,20170603,"exam")

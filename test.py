@@ -72,6 +72,7 @@ def download(filename):
     directory=os.getcwd()
     return send_from_directory(directory,filename,as_attachment=True)
 
+
 #获取题目信息
 @app.route('/question/<setid>/<index>',methods=['GET'])
 def getQuestion(setid,index):
@@ -94,9 +95,10 @@ def getQuestion(setid,index):
                 question=writing_questionDAO.getQuestion(setid,index)
     return jsonify(question),200
 
+
 #生成报告
 @app.route('/report/',methods=['POST'])
-def getQuestionStatus(userid,mode):
+def generatReport(userid,mode):
     """
     生成报告
     """
@@ -138,7 +140,7 @@ def getOfficialAnswer(setid,index):
 
 #获取学生某套题某个题的答案
 @app.route('/studentanswer/<userid>/<setid>/<index>/<mode>',methods=['GET'])
-def getStudentAnswer(mode,userid,setid,index):
+def getStudentSingleAnswer(mode,userid,setid,index):
     """
     获取某个学生某套题某个题的答案
     Args:
@@ -152,6 +154,21 @@ def getStudentAnswer(mode,userid,setid,index):
 
     result=answerDAO.querySingleAnswer(userid,setid,index,mode)
     return jsonify(result),200
+
+#获取学生某套题某个题的答案
+@app.route('/studentanswer/review/<userid>/<setid>/<mode>',methods=['GET'])
+def getStudentReadingReviewsForSet(userid,setid,mode):
+    """
+    获取学生阅读题的答案和题干
+    Args:
+        setid:某套题，例如TPO1
+        userid:学生id
+        mode：模式
+    """
+    result=answerDAO.getReadingReviewForTPOSet(userid,setid,mode)
+    return jsonify(result),200
+
+
 
 
 answer_path="../Answer/"
