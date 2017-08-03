@@ -131,7 +131,9 @@ def getStudentAnswer(mode,userid,setid,index):
     result=answerDAO.querySingleAnswer(userid,setid,index,mode)
     return jsonify(result),200
 
-#保存学生提交的答案:包括选择题
+
+answer_path="../Answer/"
+#保存学生提交的答案:包括选择题、写作题
 @app.route('/answer/submit',methods=['POST'])
 def saveAnswer():
     """
@@ -152,12 +154,29 @@ def saveAnswer():
         else:
             mode=configure.answer_practicemode   
         answerDAO.index(asw,mode)
+    else:
+        #如果是写作题
+        if "W" in index:
+            options=data["options"]
+            #如果文件夹不存在，就创建文件夹
+            student=studentInfoDAO.getStudentInfoById(userid)
+            username=student[configure.student_name]
+            directory=answer_path+username+"/"+mode+"/"+str(setid)
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+
+            #保存作文
+            path=directory+"/"+str(index)+".txt"
+            f=open(path,'w')
+            for line in options:
+                f.write(line)
+            f.close()
 
     return jsonify({"message":"ok"}),200
 
 
 
-answer_path="../Answer/"
+
 #保存学生提交的听力答案，存储为
 #Answer/username/exam/20170603/S1.wav
 #Answer/username/exam/20170603/W1.txt
