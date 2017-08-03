@@ -169,7 +169,7 @@ def saveAnswer():
             path=directory+"/"+str(index)+".txt"
             f=open(path,'w')
             for line in options:
-                f.write(line)
+                f.write(line+'\n')
             f.close()
             #在数据库中进行标记
             asw=answer(setid,index,str(1),userid)

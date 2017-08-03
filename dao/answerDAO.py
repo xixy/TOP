@@ -91,7 +91,6 @@ class answerDAO(object):
         value={}
         value[configure.answer_userid]=int(userid)
         collection=cls.db[cls.getCollectionName(setid,mode)]
-        print collection
         #如果要删除所有的
         if part=="all":
             collection.remove(value)
