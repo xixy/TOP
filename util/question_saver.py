@@ -43,6 +43,8 @@ class question_saver(object):
 		for filepath in filepaths:
 			if ".DS_Store" in filepath:
 				continue
+			if ".docx" in filepath:
+				continue
 			#取出阅读部分
 			if configure.Reading in filepath:
 				reading_files_path.append(filepath)

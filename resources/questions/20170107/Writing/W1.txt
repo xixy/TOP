@@ -1,0 +1,21 @@
+﻿#article
+ Sea turtles are large, graceful reptiles that swim in the world’s oceans. Unfortunately, sea turtle numbers are in decline, and some sea turtle species are now endangered. Conservation biologists have several suggestions to help reverse the decline in sea turtle populations.
+
+    One suggestion is to protect sea turtle eggs from predators by building metal fences around their nests. Sea turtles typically migrate long distances to lay their eggs on specific beaches, guided in their migration by a well-developed magnetic sense. But the unprotected eggs are often eaten by predators such as dogs. If conservationists erected protective wire fences around the eggs, it would keep predators away and allow young turtles to hatch safely from the eggs.
+
+    A second threat to sea turtles is plastic bags, such as those used to carry groceries. Many sea turtle eat these bags, mistaking them for jellyfish (a food source), and die because the plastic blocks their digestive tract. One way of helping sea turtles would be to ban plastic bags, requiring shoppers to use reusable or paper bags instead. This simple change could drastically reduce the number of plastic bags that end up in the ocean, thus removing one of the major threats to sea turtles.
+
+    Finally, many sea turtles are killed accidentally when fishing vessels catch them in their nets. Sea turtles breath air, so when they are trapped in a fishing net that remains underwater for hours, they drown. Fortunately, new nets have been designed with devices called turtle excluders. A turtle excluder allows fish to pass into the net, but is stops large animals like sea turtles. Laws requiring fishers to use turtle excluders would prevent sea turtles from being killed accidentally in the nets.
+
+#record
+Now listen to part of a lecture on the topic you just read about
+
+(male professor) Unfortunately, each of the strategies described in the reading has a weakness.
+
+    First, if we protect turtle eggs with a wire fence, the small turtles that hatch from these eggs may experience problems later in life. Remember, sea turtles need a highly developed magnetic sense to navigate in the sea. They use this sense to locate critical feeding and mating spots as well as to return to shore to lay their eggs. But if we built wire fences around the eggs, the metal of these wire fences distorts the magnetic field in that area. Because of this distortion, the magnetic sense of the young turtles might not develop properly. Without a well-developed magnetic sense, these turtles may have troubles surviving and reproducing later.
+
+    Second, it’s true that sea turtles are threatened by plastic bags and we should avoid adding more to the world’s oceans. The problem is there are already billions, if not trillions, of plastic bags in the ocean and these bags may take hundreds of years to decompose. And even as these bags slowly break up into smaller pieces, they remain harmful to sea turtles that swallow them. So, even if we stopped using plastic bags immediately, it won’t solve the problems sea turtles are currently facing.
+
+    Finally, the problem with turtle excluders is that fishers are very reluctant to use them. That’s because excluders often reduce the amount of fish the fisher catch in their nest. That reduces the fisher’s income. Even if there is a law to use turtle excluders, fishers can easily avoid it. They can remove the excluders once they are at sea and then put it back when they return to port. So it looks like they’ve used it the whole time even though they didn’t. Since it’s difficult to enforce these turtle excluders, their benefits would probably be fairly limited.
+#question
+Summarize the points made in the lecture, being sure to explain how they cast doubt on the specific solutions proposed in the reading passage.
