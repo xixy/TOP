@@ -276,7 +276,7 @@ class answerDAO(object):
                     else:
                         singleStatus["status"].append(configure.FAIL_CODE)
 
-                #插入数据
+                    #插入数据
                 status.append(singleStatus)
             return status
 
@@ -284,10 +284,12 @@ class answerDAO(object):
 
         #如果是模考模式
         for question in questions:
+            print question
             result=cls.queryAnswerForTPOSet(userid,question,mode)
+            print result
             singleStatus={}
             singleStatus["title"]=question
-            if result==None:
+            if len(result)==0:
                 singleStatus["status"]=configure.FAIL_CODE
             else:
                 singleStatus["status"]=configure.SUCCESS_CODE
@@ -309,6 +311,6 @@ if __name__=='__main__':
     # print answerDAO.querySingleAnswer(1,"20170603","R3",configure.answer_practicemode)
     # print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
-    # print answerDAO.getStudentAnswerStatus(1,"practice")
-    answerDAO.clearAnswersForQuestionSet(1,20170603,"exam","Reading")
-    print answerDAO.getReviewForTPOSet(1,20170603,"exam")
+    print answerDAO.getStudentAnswerStatus(1,"practice")
+    # print answerDAO.clearAnswersForQuestionSet(1,20170603,"exam","Reading")
+    # print answerDAO.getReadingReviewForTPOSet(1,20170603,"exam")
