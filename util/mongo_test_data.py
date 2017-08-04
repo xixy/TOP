@@ -14,7 +14,7 @@ from adminDAO import adminDAO
 from studentInfo import studentInfo
 from studentInfoDAO import studentInfoDAO
 from filepath import getQuestionSetFilePath
-
+from lib_check import check
 questionDirectory='../resources/questions'
 
 if __name__ == '__main__':
@@ -27,6 +27,8 @@ if __name__ == '__main__':
         for setid in result.keys():
             print "发现题库："+setid
             question_saver.savequestions(setid,result[setid])
+    #进行测试
+    check()
     #生成管理员
     admin1=admin(1,"xxy","123456")
     adminDAO.delete(admin1)

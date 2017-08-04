@@ -16,7 +16,7 @@ from speaking_questionDAO import speaking_questionDAO
 from writing_question_extractor import writing_question_extractor
 from listening_text_extractor import listening_text_extractor
 from writing_questionDAO import writing_questionDAO
-from lib_check import check
+
 
 
 class question_saver(object):
@@ -144,15 +144,8 @@ class question_saver(object):
 			writing_questionDAO.indexQuestions(setid,question)
 
 
-
-
 		#处理答案
 		answer_saver.indexAnswerForMultiSet(answer_files_path,setid)
-
-		#进行测试
-		check()
-
-	
 
 		pass
 
