@@ -136,10 +136,13 @@ class studentInfoDAO(object):
             [{u'username': u'xixiangyu', u'password': 123456, u'id': 1, u'questions': [u'TPO1', u'TPO15', u'TPO16', u'TPO2', u'TPO45']}, 
             {u'username': u'anxiao', u'password': 12345, u'id': 2, u'questions': []}]
         """
-        students={}
-        for student in cls.collection.find():
+        students=[]
+
+        for student in cls.collection.find().sort(configure.student_id):
+            if student.has_key('maxid'):
+                continue
             student.pop('_id')
-            students[student[configure.student_name]]=student
+            students.append(student)
 
         return students
 
@@ -186,6 +189,7 @@ class studentInfoDAO(object):
 
 
 if __name__=='__main__':
+    studentInfoDAO.collection.remove({})
     student=studentInfo("anxiao","12345")
     studentInfoDAO.index(student)
     student=studentInfo("xxy","123")
@@ -193,8 +197,8 @@ if __name__=='__main__':
 
     studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
     studentInfoDAO.addQuestionSetsForStudent(1,[])
-    print studentInfoDAO.valid("anxiao","12345")
-    # studentInfoDAO.getAllStudents()
-    print studentInfoDAO.getQuestionSetOfSingleStudent(1)
-    print studentInfoDAO.getStudentInfoById(1)
+    # print studentInfoDAO.valid("anxiao","12345")
+    print studentInfoDAO.getAllStudents()
+    # print studentInfoDAO.getQuestionSetOfSingleStudent(1)
+    # print studentInfoDAO.getStudentInfoById(1)
     # studentInfoDAO.delete(studentInfo)
