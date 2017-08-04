@@ -48,6 +48,29 @@ def check():
             print "听力部分题干不存在多选说明:"+collectionname
             print question
 
+        #查看作文题
+        #查找第一题
+        value={configure.index:"W1"}
+        if collection.find(value).count()==0:
+            print "写作题第一题不存在："+collectionname
+            continue
+        question=collection.find_one(value)
+
+        if configure.writing_stem not in question.keys():
+            print "写作题第一题没有题干："+collectionname
+        if configure.writing_article not in question.keys():
+            print "写作题第一题没有文章："+collectionname
+        if configure.writing_record not in question.keys():
+            print "写作题第一题没有听力文本："+collectionname
+        #查找第二题
+        value={configure.index:"W2"}
+        if collection.find(value).count()==0:
+            print "写作题第二题不存在："+collectionname
+            continue
+        question=collection.find_one(value)
+        if configure.writing_stem not in question.keys():
+            print "写作题第二题没有题干："+collectionname
+
 
 if __name__ == '__main__':
-    check_reading_type()
+    check()
