@@ -112,7 +112,7 @@ class studentInfoDAO(object):
     @classmethod
     def getAllStudents(cls):
         """
-        获取所有的学生信息
+        获取所有的学生信息，包括id、用户名、密码、题号
         Return:
             一个列表，里面是所有的学生信息，每个元素是一个学生的信息
             [{u'username': u'xixiangyu', u'password': 123456, u'id': 1, u'questions': [u'TPO1', u'TPO15', u'TPO16', u'TPO2', u'TPO45']}, 

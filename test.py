@@ -64,7 +64,22 @@ def getAllStudents():
     查看所有学生信息,得到学生id和对应的数据
     """
     result=studentInfoDAO.getAllStudents()
-    print result
+    return jsonify(result),200
+
+#管理员添加学生
+@app.route('/student',methods=['POST'])
+def addStudent():
+    """
+    添加学生，需要提供用户名、密码、班级、题目
+    """
+    data=request.get_json()
+    username=data[configure.student_login_username]
+    password=data[configure.student_login_password]
+    classid=data[configure.student_classid]
+    questions=data[configure.student_questions]
+
+    student=studentInfo(id,username,password,questions,classid)
+    studentInfoDAO.index(student)
     return jsonify(result),200
 
 @app.route('/download/<filename>',methods=['GET'])

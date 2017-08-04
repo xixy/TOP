@@ -37,7 +37,7 @@ if __name__ == '__main__':
     studentInfoDAO.index(student1)
 
     #给学生插入题
-    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
+    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20170325","20170415"])
 
     #给学生提交几个答案
     asw=answer("20170603","R3","A", 1)
