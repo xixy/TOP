@@ -27,12 +27,27 @@ class studentInfoDAO(object):
             None
         """
         value={}
-        value[configure.student_id]=studentInfo.id
+        value[configure.student_id]=cls.generateIdForStudent()
     	value[configure.student_name]=studentInfo.username
     	value[configure.student_password]=studentInfo.password
         value[configure.student_questions]=studentInfo.questions
         value[configure.student_classid]=studentInfo.classid
         cls.collection.insert(value)
+
+        #更新id
+        mark_id={"index":"maxid"}
+        maxid=cls.collection.find_one(mark_id)
+        #如果刚开始，还没有这个值
+        if maxid==None:
+            mark_id["maxid"]=value[configure.student_id]
+            cls.collection.insert(mark_id)
+        else:
+            maxid["maxid"]=value[configure.student_id]
+            #更新当前最大id
+            cls.collection.update(mark_id,maxid)
+        #返回id
+        return value[configure.student_id]
+        
     @classmethod
     def getStudentInfoById(cls,id):
         """
@@ -42,8 +57,11 @@ class studentInfoDAO(object):
         """
         value={}
         value[configure.student_id]=int(id)
-        for student in cls.collection.find(value):
-            return student
+        result=cls.collection.find_one(value)
+        if result==None:
+            return result
+        result.pop("_id")
+        return result
 
     @classmethod
     def delete(cls,studentInfo):
@@ -148,6 +166,19 @@ class studentInfoDAO(object):
         else:
             return configure.FAIL_CODE
 
+    @classmethod
+    def generateIdForStudent(cls):
+        """
+        为学生产生id，这里的id自增，但是考虑到可能会挂机，因此我们让数据库中存那个id
+        """
+        value={"index":"maxid"}
+        maxid=cls.collection.find_one(value)
+        if maxid==None:
+            return 1
+        id=maxid["maxid"]
+        return id+1
+
+
 
 
 
@@ -155,11 +186,14 @@ class studentInfoDAO(object):
 
 
 if __name__=='__main__':
-    # studentInfo=studentInfo(1,"anxiao","12345")
-    # studentInfoDAO.index(studentInfo)
+    student=studentInfo("anxiao","12345")
+    studentInfoDAO.index(student)
+    student=studentInfo("xxy","123")
+    studentInfoDAO.index(student)
 
-    # studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
-    # print studentInfoDAO.valid("anxiao","12345")
+    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
+    studentInfoDAO.addQuestionSetsForStudent(1,[])
+    print studentInfoDAO.valid("anxiao","12345")
     # studentInfoDAO.getAllStudents()
     print studentInfoDAO.getQuestionSetOfSingleStudent(1)
     print studentInfoDAO.getStudentInfoById(1)

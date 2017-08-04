@@ -61,7 +61,7 @@ def adminLogin():
 @app.route('/student/all',methods=['GET'])
 def getAllStudents():
     """
-    查看所有学生信息,得到学生id和对应的数据
+    查看所有学生信息,得到学生id、用户名、密码、学生买的题
     """
     result=studentInfoDAO.getAllStudents()
     return jsonify(result),200
@@ -70,7 +70,7 @@ def getAllStudents():
 @app.route('/student',methods=['POST'])
 def addStudent():
     """
-    添加学生，需要提供用户名、密码、班级、题目
+    添加学生，需要提供用户名、密码、班级、题目（可为空）
     """
     data=request.get_json()
     username=data[configure.student_login_username]
@@ -78,9 +78,24 @@ def addStudent():
     classid=data[configure.student_classid]
     questions=data[configure.student_questions]
 
-    student=studentInfo(id,username,password,questions,classid)
-    studentInfoDAO.index(student)
+    #先创建学生
+    student=studentInfo(username,password,classid)
+    id=studentInfoDAO.index(student)
+    #然后给学生添加题目
+    studentInfoDAO.addQuestionSetsForStudent(id,questions)
     return jsonify(result),200
+
+#管理员给学生添加题目
+@app.route('/student/question',methods=['POST'])
+def addQuestionForStudent():
+    """
+    给学生添加题目，需要提供id和题目list
+    """
+    data=request.get_json()
+    id=data[configure.student_id]
+    questions=data[configure.student_questions]
+    studentInfoDAO.addQuestionSetsForStudent(id,questions)
+    return jsonify({"message":"ok"}),200
 
 @app.route('/download/<filename>',methods=['GET'])
 def download(filename):

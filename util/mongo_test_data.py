@@ -15,7 +15,12 @@ from studentInfo import studentInfo
 from studentInfoDAO import studentInfoDAO
 from filepath import getQuestionSetFilePath
 from lib_check import check
+import pymongo
+from configure import ip,port
 questionDirectory='../resources/questions'
+
+client=pymongo.MongoClient(ip,port)
+db=client.users#db
 
 if __name__ == '__main__':
     #生成题和答案
@@ -30,11 +35,13 @@ if __name__ == '__main__':
     #进行测试
     check()
     #生成管理员
+    db.admin.remove({})
     admin1=admin(1,"xxy","123456")
     adminDAO.delete(admin1)
     adminDAO.index(admin1)
     #生成学生
-    student1=studentInfo(1,"xxy","123456")
+    db.student.remove({})
+    student1=studentInfo("xxy","123456")
     studentInfoDAO.delete(student1)
     studentInfoDAO.index(student1)
 
