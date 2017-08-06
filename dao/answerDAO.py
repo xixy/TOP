@@ -155,7 +155,7 @@ class answerDAO(object):
             answers=collection.find_one(value)
             
             for item in answers:
-                if cmp(item,"_id")!=0:
+                if "id" not in item:
                     result[item]=answers[item]
             return result
         else:
