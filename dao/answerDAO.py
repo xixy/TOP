@@ -242,19 +242,19 @@ class answerDAO(object):
                         if len(dict)==4:
                             break
                         #是否有阅读题
-                        if item.startswith('R'):
+                        if item.startswith('R') and 'R' not in dict:
                             dict.append('R')
                             continue
                         #是否做了听力题
-                        if item.startswith('L'):
+                        if item.startswith('L') and 'L' not in dict:
                             dict.append('L')
                             continue
                         #是否做了口语题
-                        if item.startswith('S'):
+                        if item.startswith('S') and 'S' not in dict:
                             dict.append('S')
                             continue
                         #是否做了写作题
-                        if item.startswith('W'):
+                        if item.startswith('W') and 'W' not in dict:
                             dict.append('W')
                             continue
                     #统计结束，现在进行插入
