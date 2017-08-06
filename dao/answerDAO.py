@@ -212,7 +212,6 @@ class answerDAO(object):
         """
         status=[]
         questions=studentInfoDAO.getQuestionSetOfSingleStudent(userid)
-        # print questions
         #如果学生没有题,就直接返回
         if questions==configure.FAIL_CODE:
             return status
@@ -229,7 +228,6 @@ class answerDAO(object):
             for question in questions:
                 #获取到答案
                 result=cls.queryAnswerForTPOSet(userid,question,mode)
-                print result
                 singleStatus={}
                 singleStatus["title"]=question
                 #如果没有答案，就设置为空
@@ -286,9 +284,7 @@ class answerDAO(object):
 
         #如果是模考模式
         for question in questions:
-            print question
             result=cls.queryAnswerForTPOSet(userid,question,mode)
-            print result
             singleStatus={}
             singleStatus["title"]=question
             if len(result)==0:
