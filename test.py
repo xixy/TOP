@@ -145,6 +145,12 @@ def generatReport(userid,mode):
     status=report_generator.generatReport(userid,setid,mode,path)
     return jsonify(status),200
 
+#生成报告
+@app.route('/report/<userid>/<setid>/<mode>',methods=['GET'])
+def generatReport(userid,setid,mode):
+    """
+    第三个页面，用来返回报告
+    """
 
 
 #查看学生答题信息

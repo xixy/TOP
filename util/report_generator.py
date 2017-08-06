@@ -5,6 +5,8 @@ import sys
 sys.path.append('../configure/')
 sys.path.append('../model/')
 sys.path.append('../dao/')
+reload(sys)
+sys.setdefaultencoding('utf-8')
 import configure
 from studentInfoDAO import studentInfoDAO
 from answerDAO import answerDAO
@@ -266,79 +268,24 @@ class report_generator(object):
             path:报告存到哪里
 
         """
-
-        #首先判断学生是否有这套题
-        questions=studentInfoDAO.getQuestionSetOfSingleStudent(userid)
-        #如果学生有这套题
-        if str(setid) in questions:
-            result=answerDAO.queryAnswerForTPOSet(userid,setid,mode)
-            #如果学生没做这套题
-            if result==None:
-                return configure.FAIL_CODE
-            #如果学生做了这套题
-            else:
-                #获取标准答案
-                official_answers=answerDAO.queryAnswerForTPOSet(configure.answer_officialid,setid,configure.answer_officialmode)
-                official_answers_sorted=sortDict(official_answers)
-
-
-                #进行对比
-                reading_answers=[]#存储阅读题的答案，分题进行存储，总共3个元素
-                listening_answers=[]#存储听力题的答案，总共六个元素
-                reading_answers_official=[]#存储标准答案
-                listening_answers_official=[]#存储标准答案
-
-                #首先取听力部分
-
-                count=0
-                single_reading_answers=[]
-                single_listening_answer=[]
-
-                for official_answer in official_answers_sorted:
-                    #只有一个答案，因此取第0个元素
-                    k=official_answer.keys()[0]
-                    if "R" in k:
-                        #如果学生回答了这个题
-                        if k in result.keys():
-                            print official_answer[k]
-                            single_reading_answers.append({result[k]:official_answer[k]})#获取学生答案
-                        else:
-                            single_reading_answers.append({" ":official_answer[k]})
-
-                        
-                        question=selection_questionDAO.getSelectionQuestion(setid,k)
-                        #如果题号需要换了，就加入然后清空
-                        if question[configure.isLast]==1:
-                            reading_answers.append(single_reading_answers)
-                            single_reading_answers=[]
-
-                    #处理听力部分
-                    if "L" in k:
-                        if k in result.keys():
-                            single_listening_answer.append({result[k]:official_answer[k]})
-                        else:
-                            single_listening_answer.append({" ":official_answer[k]})
-                        question=selection_questionDAO.getSelectionQuestion(setid,k)
-                        #如果题号需要换了，就加入然后清空
-                        if question[configure.isLast]==1:
-                            listening_answers.append(single_listening_answer)
-                            single_listening_answer=[]
-
-                #进行排序，并输出
-                print reading_answers
-                print listening_answers
-                #计算阅读分数
-                reading_score=cls.calculateScoreForReading(reading_answers)
-                #计算听力分数
-                listening_score=cls.calculateScoreForListening(listening_answers)
-                #写报告
-                cls.writeReport(reading_answers,listening_answers,reading_score,listening_score,path)
-
-                #首先处理听力部分
-                # for single_reading_answers in listening_answers:
-        #如果学生没有这套题
-        else:
+        #先获取对比答案
+        answers=answerDAO.getAnswerInComparison(setid,userid,mode)
+        #如果获取到的对比答案是空，就不进行处理
+        if answers==[]:
             return configure.FAIL_CODE
+        #如果不是空，就进行处理
+
+        #提取答案
+        reading_answers=answers[0]
+        listening_answers=answers[1]
+        #计算阅读分数
+        reading_score=cls.calculateScoreForReading(reading_answers)
+        #计算听力分数
+        listening_score=cls.calculateScoreForListening(listening_answers)
+        #写报告
+        cls.writeReport(reading_answers,listening_answers,reading_score,listening_score,path)
+
+        return configure.SUCCESS_CODE
 
 if __name__ == '__main__':
     official_answer={"L18" : "C", "L19" : "BD", "L14" : "B", "L15" : "C", "L16" : "D", "L17" : "D", "L10" : "ACE", "L11" : "B", "L12" : "C", "L13" : "A", "R42" : "BDE", "R16" : "C", "R17" : "D", "R14" : "BEF", "R15" : "C", "R12" : "B", "R13" : "C", "R10" : "A", "R11" : "A", "R40" : "B", "R18" : "C", "R19" : "B", "L21" : "B", "L20" : "B", "L23" : "C", "L22" : "C", "L25" : "AB", "L24" : "D", "L27" : "C", "L26" : "C", "R34" : "C", "R35" : "D", "R36" : "A", "R37" : "B", "R30" : "D", "R31" : "C", "R32" : "C", "R33" : "C", "R4" : "A", "R5" : "C", "R6" : "D", "R7" : "C", "R39" : "B", "R1" : "B", "R2" : "B", "R3" : "B", "R28" : "ADE", "R8" : "B", "R9" : "B", "L6" : "B", "L29" : "BDE", "L4" : "B", "L5" : "C", "L2" : "C", "L3" : "A", "L1" : "D", "L8" : "D", "L9" : "C", "R24" : "D", "L30" : "B", "L7" : "A", "L32" : "C", "userid" : -1, "L28" : "B", "R38" : "A", "L34" : "D", "R41" : "D", "L33" : "D", "R29" : "A", "L31" : "A", "R27" : "A", "R26" : "A", "R25" : "B", "R23" : "D", "R22" : "A", "R21" : "C", "R20" : "D" }

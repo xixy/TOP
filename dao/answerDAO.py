@@ -22,6 +22,87 @@ class answerDAO(object):
         super(answerDAO, self).__init__()
 
     @classmethod
+    def getAnswerInComparison(cls,setid,userid,mode):
+        """
+        获取到对比模式下的答案
+        Args:
+            setid:第几套题例如TPO1
+            mode:什么模式，例如configure
+            userid:用户id
+        Return:
+            如果学生做了这套题：就返回[{'A':'B'}]这样的排序好的答案
+            如果学生没做这套题：就返回-1
+        """
+        answers=[]
+        #首先判断学生是否有这套题
+        questions=studentInfoDAO.getQuestionSetOfSingleStudent(userid)
+        #如果学生有这套题
+        if str(setid) in questions:
+            result=answerDAO.queryAnswerForTPOSet(userid,setid,mode)
+            #如果学生没做这套题
+            if result==None:
+                return answers
+            #如果学生做了这套题
+            else:
+                #获取标准答案
+                official_answers=answerDAO.queryAnswerForTPOSet(configure.answer_officialid,setid,configure.answer_officialmode)
+                official_answers_sorted=sortDict(official_answers)
+
+
+                #进行对比
+                answers=[]
+                reading_answers=[]#存储阅读题的答案，分题进行存储，总共3个元素
+                listening_answers=[]#存储听力题的答案，总共六个元素
+                reading_answers_official=[]#存储标准答案
+                listening_answers_official=[]#存储标准答案
+
+                #首先取听力部分
+
+                count=0
+                single_reading_answers=[]
+                single_listening_answer=[]
+
+                for official_answer in official_answers_sorted:
+                    #只有一个答案，因此取第0个元素
+                    k=official_answer.keys()[0]
+                    if "R" in k:
+                        #如果学生回答了这个题
+                        if k in result.keys():
+                            print official_answer[k]
+                            single_reading_answers.append({result[k]:official_answer[k]})#获取学生答案
+                        else:
+                            single_reading_answers.append({" ":official_answer[k]})
+
+                        
+                        question=selection_questionDAO.getSelectionQuestion(setid,k)
+                        #如果题号需要换了，就加入然后清空
+                        if question[configure.isLast]==1:
+                            reading_answers.append(single_reading_answers)
+                            single_reading_answers=[]
+
+                    #处理听力部分
+                    if "L" in k:
+                        if k in result.keys():
+                            single_listening_answer.append({result[k]:official_answer[k]})
+                        else:
+                            single_listening_answer.append({" ":official_answer[k]})
+                        question=selection_questionDAO.getSelectionQuestion(setid,k)
+                        #如果题号需要换了，就加入然后清空
+                        if question[configure.isLast]==1:
+                            listening_answers.append(single_listening_answer)
+                            single_listening_answer=[]
+
+                #进行排序，并输出
+                answers.append(reading_answers)
+                answers.append(listening_answers)
+                print reading_answers
+                print listening_answers
+                return answers
+        #如果学生没有这套题
+        else:
+            return answers
+
+    @classmethod
     def getCollectionName(cls,setid,mode):
         """
         根据题目和mode来获取相应的数据库
@@ -297,6 +378,8 @@ class answerDAO(object):
 
 
 
+
+
 if __name__=='__main__':
     asw=answer("20170603","W1","1","1")
     answerDAO.index(asw,configure.answer_practicemode)
@@ -310,5 +393,6 @@ if __name__=='__main__':
     # print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
     print answerDAO.getStudentAnswerStatus(1,"practice")
+    print answerDAO.getAnswerInComparison(20170603,1,"exam")
     # print answerDAO.clearAnswersForQuestionSet(1,20170603,"exam","Reading")
     # print answerDAO.getReadingReviewForTPOSet(1,20170603,"exam")
