@@ -42,7 +42,7 @@ if __name__ == '__main__':
     #生成学生
     db.student.remove({})
     student1=studentInfo("xxy","123456")
-    studentInfoDAO.delete(student1)
+    studentInfoDAO.delete(1)
     studentInfoDAO.index(student1)
 
     #给学生插入题

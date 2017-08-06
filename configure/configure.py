@@ -16,8 +16,8 @@ ListeningText="Text"
 Answer="answer"
 
 #听力题多选标示
-ListeningTwoSelectionMark=["two answers","2 answers"]
-ListeningThreeSelectionMark=["three answers","3 answers"]
+ListeningTwoSelectionMark=["two answers","2 answers","TWO answers"]
+ListeningThreeSelectionMark=["three answers","3 answers","THREE answers"]
 
 #标示数据库中存入的样子
 
@@ -74,6 +74,7 @@ question_type="question_type"
 single_selection_type="single_selection_type"
 insert_selection_type="insert_selection_type"
 r_multiple_selection_type="r_multiple_selection_type"
+drag_selection_type="drag_selection_type"
 l_multiple_selection_type="l_multiple_selection_type"
 isLast="isLast"
 

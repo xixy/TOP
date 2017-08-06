@@ -33,6 +33,9 @@ def check():
         #查找Reading多选题的数量
         value={configure.question_type:configure.r_multiple_selection_type}
         for question in collection.find(value):
+            #判断是否有多选表示
+            if selection_question.isMultipleSelectionQuestion(question):
+                continue
             if "Prose" in question[configure.selection_stem] or "Answer" in question[configure.selection_stem] or "Drag" in question[configure.selection_stem]:
                 continue
             print "阅读部分题干不存在多选题:"+collectionname
