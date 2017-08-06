@@ -68,7 +68,6 @@ class answerDAO(object):
                     if "R" in k:
                         #如果学生回答了这个题
                         if k in result.keys():
-                            print official_answer[k]
                             single_reading_answers.append({result[k]:official_answer[k]})#获取学生答案
                         else:
                             single_reading_answers.append({" ":official_answer[k]})
@@ -95,8 +94,6 @@ class answerDAO(object):
                 #进行排序，并输出
                 answers.append(reading_answers)
                 answers.append(listening_answers)
-                print reading_answers
-                print listening_answers
                 return answers
         #如果学生没有这套题
         else:

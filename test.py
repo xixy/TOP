@@ -85,6 +85,17 @@ def addStudent():
     studentInfoDAO.addQuestionSetsForStudent(id,questions)
     return jsonify(result),200
 
+#管理员删除学生
+@app.route('/student',methods=['DELETE'])
+def deleteStudent():
+    """
+    删除学生，需要提供id
+    """
+    data=request.get_json()
+    student_id=data[configure.student_id]
+    studentInfoDAO.delete(student_id)
+    return jsonify({"message":"ok"}),200
+
 #管理员给学生添加题目
 @app.route('/student/question',methods=['POST'])
 def addQuestionForStudent():
@@ -145,12 +156,18 @@ def generatReport(userid,mode):
     status=report_generator.generatReport(userid,setid,mode,path)
     return jsonify(status),200
 
-#生成报告
-@app.route('/report/<userid>/<setid>/<mode>',methods=['GET'])
-def generatReport(userid,setid,mode):
+#获取报告
+@app.route('/report/<userid>/<setid>',methods=['GET'])
+def getReport(userid,setid):
     """
     第三个页面，用来返回报告
     """
+    print userid,setid
+    result=answerDAO.getAnswerInComparison(setid,userid,"exam")
+    if result==[]:
+        return jsonify({"message":"no"}),500
+    else:
+        return jsonify(result),200
 
 
 #查看学生答题信息

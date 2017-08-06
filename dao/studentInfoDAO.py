@@ -64,11 +64,10 @@ class studentInfoDAO(object):
         return result
 
     @classmethod
-    def delete(cls,studentInfo):
+    def delete(cls,id):
     	"""删除学生信息"""
         value={}
-        value[configure.student_id]=studentInfo.id
-    	value[configure.student_name]=studentInfo.username
+        value[configure.student_id]=id
         cls.collection.remove(value)
 
     @classmethod
