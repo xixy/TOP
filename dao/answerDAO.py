@@ -152,11 +152,12 @@ class answerDAO(object):
         #如果找到
         if count==1:
             #按照标准答案中给出的来进行
-            for officlial_answer in collection.find(value):
-                for item in officlial_answer:
-                    if item.startswith('R') or item.startswith('L'):
-                        result[item]=officlial_answer[item]
-                return result
+            answers=collection.find_one(value)
+            
+            for item in answers:
+                if cmp(item,"_id")!=0:
+                    result[item]=answers[item]
+            return result
         else:
             return result
     @classmethod
@@ -228,6 +229,7 @@ class answerDAO(object):
             for question in questions:
                 #获取到答案
                 result=cls.queryAnswerForTPOSet(userid,question,mode)
+                print result
                 singleStatus={}
                 singleStatus["title"]=question
                 #如果没有答案，就设置为空
@@ -274,7 +276,7 @@ class answerDAO(object):
                     if 'W' in dict:
                         singleStatus["status"].append(configure.SUCCESS_CODE)
                     else:
-                        singleStatus["status"].append(configure.FAIL_CODE)
+                        singleStatus["status"].append(configure.FAIL_CODE) 
 
                     #插入数据
                 status.append(singleStatus)
@@ -300,14 +302,14 @@ class answerDAO(object):
 
 
 if __name__=='__main__':
-    # asw=answer("20170603","R3","A","1")
-    # answerDAO.index(asw,configure.answer_practicemode)
+    asw=answer("20170603","W1","1","1")
+    answerDAO.index(asw,configure.answer_practicemode)
     # asw=answer("20170603","L1","C","1")
     # answerDAO.index(asw,configure.answer_practicemode)
-    asw=answer("20170603","R3","D","1")
-    answerDAO.index(asw,configure.answer_exammode)
-    asw=answer("20170603","L3","A","1")
-    answerDAO.index(asw,configure.answer_exammode)
+    # asw=answer("20170603","R3","D","1")
+    # answerDAO.index(asw,configure.answer_exammode)
+    # asw=answer("20170603","L3","A","1")
+    # answerDAO.index(asw,configure.answer_exammode)
     # print answerDAO.querySingleAnswer(1,"20170603","R3",configure.answer_practicemode)
     # print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
