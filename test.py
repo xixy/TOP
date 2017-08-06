@@ -162,8 +162,7 @@ def getReport(userid,setid):
     """
     第三个页面，用来返回报告
     """
-    print userid,setid
-    result=answerDAO.getAnswerInComparison(setid,userid,"exam")
+    result=answerDAO.getAnswerForReport(setid,userid,"exam")
     if result==[]:
         return jsonify({"message":"no"}),500
     else:

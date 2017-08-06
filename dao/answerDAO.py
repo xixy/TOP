@@ -22,6 +22,56 @@ class answerDAO(object):
         super(answerDAO, self).__init__()
 
     @classmethod
+    def getAnswerForReport(cls,setid,userid,mode):
+        """
+        生成前端页面需要的报告数据
+        """
+        answers=cls.getAnswerInComparison(setid,userid,mode)
+        result=[]
+        reading_results=[]
+        listening_results=[]
+
+        #生成我们要的格式
+        reading_answers=answers[0]
+        listening_answers=answers[1]
+
+        for single_chapter_reading_answers in reading_answers:
+            index=0
+            single_chapter_results=[]
+            for single_answer in single_chapter_reading_answers:
+                #构造单个答案
+                single_result={}
+                index+=1
+                single_result["index"]=index
+                single_result["student_answer"]=single_answer.keys()[0]
+                single_result["official_answer"]=single_answer.values()[0]
+                #插入单章的答案中
+                single_chapter_results.append(single_result)
+
+            reading_results.append(single_chapter_results)
+
+        for single_chapter_listening_answers in listening_answers:
+            index=0
+            single_chapter_results=[]
+            for single_answer in single_chapter_listening_answers:
+                #构造单个答案
+                single_result={}
+                index+=1
+                single_result["index"]=index
+                single_result["student_answer"]=single_answer.keys()[0]
+                single_result["official_answer"]=single_answer.values()[0]
+                #插入单章的答案中
+                single_chapter_results.append(single_result)
+
+            listening_results.append(single_chapter_results)
+
+        result.append(reading_results)
+        result.append(listening_results)
+
+        return result
+
+
+    @classmethod
     def getAnswerInComparison(cls,setid,userid,mode):
         """
         获取到对比模式下的答案
@@ -389,7 +439,7 @@ if __name__=='__main__':
     # print answerDAO.querySingleAnswer(1,"20170603","R3",configure.answer_practicemode)
     # print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
-    print answerDAO.getStudentAnswerStatus(1,"practice")
-    print answerDAO.getAnswerInComparison(20170603,1,"exam")
+    # print answerDAO.getStudentAnswerStatus(1,"practice")
+    print answerDAO.getAnswerForReport(20170603,1,"exam")
     # print answerDAO.clearAnswersForQuestionSet(1,20170603,"exam","Reading")
     # print answerDAO.getReadingReviewForTPOSet(1,20170603,"exam")
