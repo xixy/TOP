@@ -1,0 +1,24 @@
+
+
+L2        Listen to part of a lecture in a biology class
+
+Teacher: Okay, so we‘ve spent a lot of time this past week talking about migratory birds and how they survive their long journey. Well, there‘s some interesting research that‘s being done to determine what certain migratory birds eat during their journey, and more importantly, what they eat at different times during migration. And this research involves even breath collectors, tiny breath collectors. Here‘s how it works. It consists of a small mask connected to a balloon filled with oxygen. The mask is fitted over the bird‘s beak, and the bird inhales the oxygen from the balloon, and then, when it exhales, it replaces the oxygen with carbon dioxide. So then, researchers analyze the carbon dioxide for the carbon signature of the food the bird ate recently. 
+
+Now, the carbon signature the researchers measure is the ratio of carbon 12 to carbon 13, two different forms of carbon in the bird‘s breath. And the ratio will vary depending on what the bird ate.
+
+Male Student: You said they could determine what a bird ate at different times during migration. How do they do that?
+
+Teacher: Well, good question. What happens is that over a period of time, as the bird digests its food, and the body absorbs the nutrients, the carbon signature moves from the bird‘s breath, to its blood, and then to its feathers. The carbon signature in the breath tells us what the bird ate earlier that day. The signature in the blood‘s plasma tells us what it ate two or three days before. And the signature in the red blood cells tells us what it ate two or three weeks before. And finally, the carbon signature in the bird‘s feathers tells us what it ate a month or so ago. So scientists can basically create a dietary record by analyzing a bird‘s breath along with the carbon signatures in different tissues from the same bird. Okay, so, what if the carbon signature in a bird‘s feathers is different from the signature in its breath? 
+
+Male Student: That would tell us that the bird changed its diet over the course of migrating, wouldn‘t it?
+
+Teacher: Yes it would. In fact, that‘s what tests revealed about white throated sparrows on Black Island. We learned that during the course of their migration, white throated sparrows switched their diet from berries to corn when at a stopover site on Black Island. Their base indicates that they‘re eating at bird feeders because that‘s an ingredient in bird food, and there‘s no corn grown on this particular island. So researchers know that birds are using bird feeders, but they don‘t know why. Is it because there isn‘t enough of the food they usually eat available to them? Or, is it because they prefer corn? So, we need to know. Do the sparrows usually switch to a diet of corn when they migrate? Is this a more nutritious diet for the migration period, or are they just getting by on corn when what they really need is berries? This raises the question about the importance of feeders to the birds as they migrate. If we can understand the sparrows‘ diet, we can provide them with proper nutrition while they are migrating. On top of that, Black Island used to have a lot of farming, but now residents rely on tourism. Tourists often come to see the flocks of migrating birds. 
+
+Female Student: So , when you talk about proper nutrition for the sparrows, it could be corn, it could be berries.
+
+Teacher: Right. That‘s what needs further research.
+
+Male Student: So, what about other animals? Could breath collectors be used to find out about their diet?
+
+Teacher: Yeah. Of course, you need a different size mask. This research is not only significant to biologists studying birds. For instance, biologists are studying the eating habits of bears to find out if they eat different foods when they‘re nursing and when they‘re not nursing because they want to know whether nursing bears are more carnivorous than not-nursing bears. How‘d you like to be the biologists who put the mask on the bear? Of course, the bears are sedated before that‘s done, so it‘s not as risky as it might seem. Anyway, similar research is being conducted all over the world so the information it provides can be very useful to conservation efforts.
+

@@ -1,0 +1,26 @@
+Manager: Hi, how can I help you this time? Is it the plumbing again?
+Student: Not this time. The job your guys did on the leaking pipes is still holding up. But this time the lights in the hallway of my dorm need replacing. Two of them have burned out.
+Manager: No problem, I‘ll send someone over to change them right away.
+Student: Oh, and uh, can I have them?
+Manager: What? The old lights? Sure I guess. But what do you want them for?
+Student: They are for my art project.
+Manager: Really?
+Student: I‘ve got an art project that I haven‘t finished yet. It's a blue ceramic sculpture, kind of abstract, but kind of boring too. I thought if I used broken glass around the base of the sculpture...
+Manager: Ok¡­
+Student: The ceramic is dark blue and with the frosted glass from the broken light, the contrast to the colors should make it more interesting to look at.
+Manager: Well, that certainly sounds unique. What does your professor think?
+Student: She‘s not particularly thrilled with it yet.
+Manager: I guess you could add other types of materials and make your piece even more interesting.
+Student: I did give that some thought¡­but I‘m not sure if... 
+Manager: Well, look around here...we‘ve got all kinds of stuff just lying around. Let‘s see, I've got wire, little pieces of metal, here‘s a piece of wood from an old chair.
+Student: Oh, that kind of stuff wouldn't work at all. It‘s actually a very small sculpture.
+Manager: Well, you know they are here if you need them
+Student: You do have some good ideas though.
+Manager: Well, believe it or not I studied art when I was a student. My major course of study was engineering but I also took a lot of art classes, including sculpture class. Uh, is there anything else I can help you with?
+Student: Well, actually there is. The homecoming parade is in three weeks and the chess club wants to enter a float in the parade. You know, to raise the profile of the club and show school spirit.
+Manager: Uh huh.
+Student: And this year the parade is a green theme, so all the decorations on the float have to be made of natural materials. There‘s going to be a competition for the best float too, and after the parade all the decorations have to be recycled.
+Manager: I didn't know there was a chess club.
+Student: See? That's why we want to decorate a vehicle and enter it into the parade. Then everyone will know we have a chess club and maybe, just maybe, well get some new members. For right now it‘s my job to design the float and I‘m not coming up with any good ideas.
+Manager: Well, next week we are going to be pruning the trees here on campus. There will be a lot of sticks, branches, and leaves.
+Student: Oh, that will be great.

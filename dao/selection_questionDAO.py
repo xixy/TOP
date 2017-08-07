@@ -22,6 +22,21 @@ class selection_questionDAO(object):
         """
         return configure.question_prefix+str(setid)
 
+    @classmethod
+    def getAllQuestionSetid(cls):
+        """
+        获取所有的题id
+        """
+        result=[]
+        collectionlist=cls.db.collection_names()
+        #所有的题
+        for collectionname in collectionlist:
+            result.append(collectionname[3:])
+        result=sorted(result,reverse=True)
+        return result
+            
+
+
 
     @classmethod
     def getSelectionQuestion(cls,setid,index):
@@ -75,5 +90,6 @@ class selection_questionDAO(object):
 
 
 if __name__ == '__main__':
-    selection_questionDAO.test()
+    # selection_questionDAO.test()
+    print selection_questionDAO.getAllQuestionSetid()
     # print selection_questionDAO.getSelectionQuestion("TPO1","R14")

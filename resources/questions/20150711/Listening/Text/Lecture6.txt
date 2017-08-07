@@ -1,0 +1,21 @@
+
+L4-Listen to part of a lecture in an Astronomy class
+
+Teacher: There‘s long been talk about colonizing the moon, both for research and as a stepping stone to mars, but it‘s currently impractical to sustain astronauts on the moon on a long term basis. Astronauts need water, food, and oxygen among other things, and right now our only option is regularly hauling those resources from Earth, which is?
+
+Male Student: Really expensive?
+
+Teacher: Prohibitively expensive, I‘d say. So, the most logical solution is to find ways to obtain what we need from the moon itself. From lunar soil. The moon is covered with a blanket of soil called the Regolith. We need to figure out how to process this soil and turn it into usable resources. And we need to be able to do this right there, on site. One thing we‘ve been investigating is how to extract oxygen from the Regolith. A Question Bonny?
+
+Female Student: I thought there wasn‘t any oxygen on the moon? How can you extract oxygen if there isn‘t any to extract?
+
+Teacher: Well, it‘s true that there are only trace amounts of oxygen in the moon‘s atmosphere, but in the Regolith it‘s a different story. Okay. You know that compounds containing oxygen are called oxides, and lunar soil is about 43% oxygen, mostly locked up in silicon dioxide, or silica, a primary component of sand or glass. Other oxide in the Regolith include aluminum oxide. Aluminum is largely responsible for the moon‘s color, even though it comprises just 6% of the Regolith . There‘s also Iron oxide and a few others.
+
+
+Male Student: So if the Regolith‘s almost half oxygen, can‘t we get it out somehow?
+
+Teacher: Unfortunately, that‘s easier said than done. The first step is developing the technology here on earth. But, unfortunately, there‘s not enough lunar soil left to work with. Soil samples from the Apollo missions of the 1960‘s and early 70‘s are almost gone now. We‘ve been using them in experiments and for educational purposes for decades. And even if we still had a lot of lunar soil left, remember, whatever we do have left has been exposed to earth‘s gravity and atmosphere for quite a while now. It‘s been many years since the samples were in a near vacuum like they were on the moon. And they‘ve been jostled around and handled a lot, so it‘s possible they‘ve lost some of their critical properties. So, in order to conduct more experiments, without going back to the moon to get more soil, that is, we need imitation lunar soil ¨C simulated lunar soil ¨C tons of it. So you might think, ¡°How hard could that be?¡± We know the makeup of lunar soil particles. Well, it‘s been attempted, but the product wasn‘t entirely satisfactory. Remember, the moon‘s atmosphere is very thin, too thin to screen out radiation from solar flares, or to burn up small meteors before they hit the surface. So lunar soil has been radiated and battered by meteorites, vaporized and re-condensed countless times over billions of years. Obviously, we can‘t recreate those conditions here on earth. But even if lunar soil can [stress] be more precisely simulation on earth, and in large enough quantities, that‘s just the first step. Next, we need to test ways to extract the oxygen. And there are several potential methods. One is Vacuum Pyrolysis. Vacuum pyrolysis uses heat. When you heat up materials to a high enough temperature, they separate into atoms, atoms we could capture and use.
+
+Male Student: So we know how to do it, how to get oxygen from lunar soil, what‘s the problem?
+
+Teacher: Well, say we could manufacture perfect fake lunar soil and test vacuum pyrolysis, and the test says yes, we can do it. We‘d still have to transport the equipment to the moon and set it up. We‘d also have to harness enough solar energy or energy from some other source there to operate the equipment. Okay, and let‘s say we can do all [stress] that. Then, we‘re back to the lunar soil itself, which is very fine. For the most part, the consistency of dust: very abrasive and charged with static electricity. This electrical charge makes it stick to everything, lenses, mirrors, moving parts of any kind. Now these problems are not insurmountable, but it looks like it will be a while before the dream of colonizing the moon becomes a reality.

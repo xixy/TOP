@@ -1,0 +1,30 @@
+
+
+
+L4    Listen to part of a lecture in an environmental policy class.
+
+Professor: So today we‘re going to wind up our discussion of alternative energy sources and were going to talk about one that often gets overlooked. That source is nuclear fusion, as opposed to nuclear fission which was already discussed. In nuclear fission that centers of atoms, the nuclei, are broken up. This is the reaction that drives today‘s nuclear power stations. Nuclear fusion, on the other hand, is pretty much the opposite. It occurs when two atoms collide and their nuclei combine, or fuse, to form a heavier nucleus. This is the reaction that powers the Sun, all stars. So, who can tell me what makes fusion more attractive than fission as an energy source? Julie?
+
+Julie: Well, it releases more energy for one thing.
+
+Professor: Yes, a lot more energy than fission.
+
+Julie: Oh, also, it can use hydrogen as a fuel source and hydrogen is abundant and easily available in water. Fission mainly uses uranium which is way more difficult to find
+
+Student (2): Plus, fission is more dangerous. With fusion, you wouldn‘t have to worry about radioactive waste, right?
+
+Professor: Another good point. 
+
+Student (2): But still, I remember from the physics class¡­to fuse the nuclei of two hydrogen atoms requires temperatures similar to those found in the Sun. Like, over 100 million degrees Kelvin. How can we possibly recreate those temperatures here on earth?
+
+Professor: Well, we can‘t¡­yet. Not sustainably. But maybe we don‘t need to. See, right now many countries around the globe are cooperating to realize the potential of nuclear fusion and the project they are putting the most resources into is called ITER. ITER stands for International Thermonuclear Experimental Reactor, a large fusion reactor that is being built in Southern France. It is designed to create the first sustained nuclear fusion reaction. Meaning, the energy it will release is greater than the energy we‘ll use to start it up and I‘ll get back to this point in a moment. 
+
+But let‘s back up. You asked about how we generate the tremendous temperatures required for fusion. Well, that‘s not really the problem. There are heavier isotopes than hydrogen: deuterium and tritium that will undergo fusion at lower temperatures than regular hydrogen. And when we heat the deuterium tritium fuel mixture that much, around 40 million Kelvins it generates what is called a plasma which is a cloud of ionized gas.
+
+So, what is the problem? Well, its two-fold. First, the plasma, this cloud of gas, is way too hot for any solid container to hold. Fortunately, high-temperature-plasma‘s conduct electricity which means we can use an electromagnetic force to hold the plasma in place, to confine it. Unfortunately, that requires a lot of energy. More energy than we‘ve ever been able to get from the resulting fusion reaction.
+
+And this brings us back to the point I made before. Creating a sustained fusion reaction. Because up until now experimental fusion reactors have never been able to achieve this, this break-even point, a point where the energy output is as great as the input for more than a fraction of a second.
+
+How will the ITER project overcome this? First, by creating a larger plasma, twice as large as any previously generated. The advantage of this is that after the initial fusion reaction occurs the larger plasma will generate enough energy to keep itself hot, to keep the fusion reaction going. And second, ITER will use superconducting magnets to form the magnetic field, magnets that consume less electrical power than those used in previous attempts. So, less energy goes in, more energy comes out. Theoretically it should do the trick.
+
+Now, keep in mind the ITER reactor has been in the works for about 20 years and it will probably take another decade to build. And even then, of course, it will be used for research purposes. Commercial fusion won‘t be feasible for at least another 20 years after ITER is built. So that‘s a long timeline, right? Not something I feel comfortable with in my own work. I need shorter term goals to motivate me. But for those who can handle it, well, it means this project isn‘t about short term economic competition or gains, so in a way it‘s easier to get countries to work together on it. If we cooperate, we‘ll get there sooner because we know how much more difficult it would be to do it alone.

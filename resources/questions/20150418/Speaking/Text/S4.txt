@@ -1,0 +1,24 @@
+#article
+Rational Ignorance
+
+When people are planning to make an important purchase, they often spend a great deal of time gathering information about their various options to make the best possible choice. However, when making less important purchases, people may decide it is not worth gathering information beforehand. This phenomenon is called rational ignorance. If the differences between products seem small or unimportant, people may decide not to learn about them. In other words, people deliberately choose to remain ignorant of the differences because learning about them is not worth the time or energy. The products are so similar that no significant benefit can come from choosing one over another.
+
+#record
+Female Student: Did you see Mary’s letter in the paper?
+Male Student: Yeah, but I totally disagree with her.
+Female Student: Yeah?
+Male Student: Yeah. I think what she proposes is kind of unnecessary. I mean, most of us are healthy enough. We should be able to have a little junk food from time to time if we want.
+Female Student: I’m with you there. 
+Male Student: I mean, eating it occasionally is not going to hurt us.
+Female Student: I agree, just keep it in moderation.
+Male Student: Like, toward the end of the semester, when everybody is studying and finishing their papers and stuff?
+Female Student: Sure, times like that it’s nice to have a treat like ice cream.
+Male Student: And the argument about the money?
+Female Student: Well, that seemed to make sense, didn’t it?
+Male Student: I don’t think so. If we can’t buy it here, we’re just going to go to a store off campus and it’s more expensive there.
+Female Student: That’s true.
+Male Student: Yup. I mean, we’re going to buy this stuff occasionally, right? So it’ll end up costing us more money by forcing us to go to an off-campus store, which is the opposite effect from what the letter says.
+
+#question
+The man expresses his opinion about the letter writer's proposal. Briefly summarize the proposal, then state the man's opinion and explain the reasons he gives for holding that opinion.
+

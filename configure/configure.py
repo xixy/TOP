@@ -42,6 +42,7 @@ listening_record="record"#对话
 writing_stem="stem"
 writing_article="article"
 writing_record="record"
+writing_default_stem="Summarize the points made in the lecture, being sure to explain how they respond to the specific arguments made in the reading passage."
 
 #学生信息的表
 student_name="username"#学生名称

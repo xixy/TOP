@@ -1,0 +1,61 @@
+
+
+C2  Listen to a conversation between a student and an employee in the campus bookstore.
+
+Student: Hi, um, I need 60 t-shirts with these designs on them. Uh. This is the design that‘s going on the front and this ¨C 
+
+Employee: Uh, hang on. 60 t-shirts?
+
+Student: Right. You print the designs on t-shirts here right?
+
+Employee: Well, no we don‘t actually. We send them out to a different shop. We just take care of the ordering part. 
+
+Student: oh, sorry.
+
+Employee: I don‘t need to write a description of this design on the order. I‘ll just submit these drawings with your paperwork. The artist in the shop will call you to discuss the details of the design. Probably later today.
+
+Student: Alright. So this order is going to be for the astronomy department.
+
+Employee: Oh I think we just did something like that for some marine biology students.
+
+Student: Yea, that‘s actually where we got our idea. There‘s going to be a big gathering, a great big party of all the science students so were just trying to stand out and identify ourselves.
+Employee: I see, ok. So, anything special? You know, materials?
+
+Student: No, just basic t-shirts. Some of each size, equally divided.
+
+Employee: Fine. Colors?
+
+Student: Oh, no. I forgot to bring my list! It‘s so confusing, I ..I can‘t remember which color is for which thing.
+
+Employee: Well, let‘s see. Uh, I can just take the other information and you can come back later, but you know that will hold things up.
+
+Student: Ok. I mean, I better not just guess. It‘s not my decision, it‘s everyone‘s. 
+
+Employee: So I‘ll just leave that part blank on the form for now. I have to say it‘s an interesting design.
+
+Student: Yea, on the front will be this drawing of our solar system, the sun and then the planets with their names written under them. See? Mercury, Venus, Earth. All of them.
+
+Employee: But why is Pluto all alone on the back of the t-shirt?
+
+Student: Pluto is not a planet anymore. Ha. I mean, it‘s not considered a major planet anymore. Scientists now call it a minor planet.
+
+Employee: Oh right, I remember hearing about that. So what is the difference between a major and a minor planet?
+
+Student: Uh, basically the major planets have enough gravity to either clear or capture all the mass in and near its orbits. Minor planets don‘t.
+
+Employee: I bet there was resistance to reclassifying Pluto.
+
+Student: Yea, it was an argument. Anyway, on the front of the t-shirt we want the word ¡°Majors¡± written big above the major planets. Above Venus and Earth and those. Then on the back we want just Pluto by itself.
+
+Employee: Oh, I see what you do mean.
+
+Student: And about Pluto we want the words ¡°and minors. All are welcome in the astronomy department,¡± because we want students who are studying astronomy as their major, but we also want to encourage more students to take astronomy as their minor subject.
+
+Employee: How clever! I don‘t think the t-shirt artist will have any problem with this.
+
+Student: Great. Um¡­When will they be ready?
+
+Employee: Well, usually it takes a week but that‘s a week after we have the complete order so..
+
+Student: Right. I don‘t know if Professor Sims is in today but I‘ll come back as soon as I can.
+

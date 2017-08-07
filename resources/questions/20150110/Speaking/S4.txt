@@ -1,0 +1,10 @@
+#article
+How Businesses Use the Compromise Effect
+
+When purchasing a particular product, consumers are often faced with different choices that range from high to low in price and quality. Many consumers have a natural tendency to avoid extreme options, favoring instead products that are at the middle level of price and quality. This is known as the compromise effect. Companies can take advantage of the compromise effect when they sell their products to consumers.
+
+#record
+Ok so, for example, there’s a company that makes kitchen products that we can revisit. One of the types of items the company makes is coffee makers. Small coffee makers for people’s kitchens. And originally the company had only two models of coffee makers. A cheap low priced model and then your average everyday model that was sturdier, better made. Now, the problem was that the company wasn’t selling many of its average every day coffee makers. More people were buying the cheap coffee maker. So what the company did was, they added a third model of coffee maker. A fancy coffee maker. That was much fancier with a lot more features than their cheap or everyday coffee maker. And, of course, it cost a lot more too. So now the company had three coffee makers on the market. A cheap model, your average, everyday model and now the fancy model. So customers had three choices. And what happened is that after the company added the fancy high priced coffee maker, the sales of its average everyday model went up. Now most people started buying this coffee maker, which wasn’t true before.
+
+#question
+Explain how the example from the lecture illustrates the use of the compromise effect.

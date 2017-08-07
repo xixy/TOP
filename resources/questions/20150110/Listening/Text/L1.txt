@@ -1,0 +1,27 @@
+Listen to a conversation between a student and a professor.
+
+Girl: Hi, Professor Thomas.
+Professor: Ah, hello girl. What can I do for you? Everything ok?
+G: Yeah, yeah, everything‘s fine. The thing is¡­ the reason I wanted to see you is, um, you‘re the head of the university‘s music department aren‘t you?
+P: Yes
+G: And you specialize in jazz, right?
+P: Well I teach courses in classical performance and as you know, one in music theory, but yes jazz piano is my forte.
+G: Ok, yeah, that‘s what I thought. See the thing is, I play piano too, and in high school I was in all sorts of jazz groups, like extracurricular stuff.
+P: Aha, very good, very nice.
+G: And, well, actually, for a while I was considering applying to, I mean, I really want to go to the conservatory, and just study music.
+P: Oh, and what made you change your mind?
+G: Well, I thought it would be a good idea to, like to keep my academic options open, you know, and my high school grades in the sciences were pretty good, biology in particular. So I came here instead, for, well, a more academic education.
+P: Ahuh. Probably a wise decision.
+G: Right, well, I figured it made more sense for my future, my career and all. But the thing is, I really miss having music in my life. That‘s why I signed up for you music theory class. And I have been enjoying it and all, but, well, analyzing music is just not the same as playing it.
+P: Sure
+G: Yeah, so I was wondering, since you‘re the head of the department. I was wondering if you could recommend like groups I could play with, you know in my spare time.
+P: Well, of course, umm let me see. There, there are several performance groups here at the university. There‘s my jazz band of course, the one I direct and play in. And we‘re actually holding auditions for new players next week, but¡­
+G: Are you really? Wow, wouldn‘t that be something.
+P: Ah, yes, but, well we‘re actually not in need of anyone else on piano right now, which is what you said your instrument was, right? So, ah.
+G: Awww, right.
+P: But, but don‘t worry, we‘ll find you something. There are also quite a few student-run bands¡­ummm, as department head, I, I‘m pretty much familiar with all of them. 
+G: Yeah?
+P: Sure. Oh and if you go online to the department website there‘s also a link to a student-run webpage about musical groups here on campus. It often has notices about local bands needing new players.
+G: Hey, that‘s good to know about.
+P: So I suggest you check out that webpage regularly. They update it every other Wednesday I believe. Ummm, beyond that, I can assure you that I‘ll keep my ears open for a jazz band in need of a piano player. You know, maybe I‘ll hear about one by the end of the month.
+G: That‘s great professor. Thank you so much. 

@@ -113,6 +113,14 @@ def download(filename):
     directory=os.getcwd()
     return send_from_directory(directory,filename,as_attachment=True)
 
+#获取所有的题setid，用于管理员添加题目页面
+@app.route('/question/all',methods=['GET'])
+def getQuestion():
+    """
+    获取所有的题setid，用于管理员添加题目页面
+    """
+    questions=selection_questionDAO.getAllQuestionSetid()
+    return jsonify(questions),200
 
 #获取题目信息
 @app.route('/question/<setid>/<index>',methods=['GET'])

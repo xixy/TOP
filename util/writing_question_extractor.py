@@ -65,7 +65,7 @@ class writing_question_extractor(object):
                 if "#record" in line:
                     mode=2
                     continue
-                if "#question" in  line:
+                if "#question" in  line or "#Question" in line:
                     mode=3
                     continue
                     
@@ -77,6 +77,8 @@ class writing_question_extractor(object):
                     stem.append(line)
 
             #完毕进行处理
+            if stem==[]:
+                stem.append(configure.writing_default_stem)
             result[configure.writing_stem]=stem
             result[configure.writing_record]=record
             result[configure.writing_article]=article

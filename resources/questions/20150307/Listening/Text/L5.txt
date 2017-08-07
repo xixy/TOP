@@ -1,0 +1,25 @@
+
+
+
+L3          Listen to part of a lecture in a biology class.
+
+Teacher: Now, when you think of the spider web, it‘s sticky, right? So if a fly or other insect lands on the web it‘ll get caught. That‘s how the spider captures its food. But spiders actually produce different kinds of silk for different purposes ¨C not all of it is sticky. Some non-sticky silk is made to support the structure of the web. Let‘s look at a spider called the golden orb weaver. 
+
+Golden orb weavers are found throughout the world. They comprise many species of spiders and they are called golden orb weavers because of the color of their webs. Golden orb weavers, like many spiders, spin sticky silk webs to capture prey, but they also support their webs on a frame of non-sticky silk.
+
+Now, this might surprise you, but spiders have predators too, and some of these predators can walk on this non-sticky silk. For example, some ant species are a major predator of spiders. A spider web is a rich source of food. There‘s the captured prey of the spider, the protein rich silk, and the spider itself. So, ants invade spider webs to take advantage of this food source, but ants are rarely seen on the webs of some species of golden orb weavers. How come? Well, researchers collected some ants and members of one species of golden orb weavers and did a few experiments. They took silk threads from several webs and removed all the chemicals from these threads one by one, and they said that ants wouldn‘t walk across the silk threads to reach food when one chemical in particular was present, but would cross the silk if the chemical had been removed. This chemical was well known to researchers, as it is produced by other insects as a chemical defense, but no one had investigated whether or not these spiders were producing it. 
+
+Now, many organisms have chemical defenses against predators, but producing chemicals comes at a price, right? It takes energy, uses up resources. So, there has to be a good reason to spend that energy, um, to justify the cost, and as you might think, predation is enough of a reason to justify the cost, but the golden orb weaver has interesting strategies for keeping those costs in check, I guess you could say. 
+
+First, the researchers found that the chemical was absent from the webs of the smallest juvenile spiders. Why is that important? Well, young spiders are so small their silk threads aren‘t strong enough to support ants, so there‘s no need to produce this chemical. It‘s only when the spiders get big enough to produce silk that can support a predator‘s weight that they start spending resources to make this chemical; And second, although these spiders may spin new thread for the part of the web that captures prey every day, orb weavers use the same silk frame for a week or more, so it actually ends up being pretty energy efficient.
+
+Now, these golden orb weavers are solitary. In social spiders, spiders living together on the same web, methods of defense are different. Say a bunch of ants were invading a spider web. Here, the main response would be a behavioral defense, like, together they might be able to chase the ants off. But for golden orb spiders, the chemical allows them to deter predators by themselves.
+
+Male Student: So they use only chemical defenses? No behavioral defenses? Because those are really common in animals and they must have more than one predator, right? I thought this chemical works to deter only ants.
+
+Teacher: Good question. And I don‘t want to mislead you. In fact, golden orb weavers do use behavioral strategies to deter some predators. For example, they chase off a type of parasitic spider that preys on them, we think because those parasitic spiders don‘t attack in large numbers the way ants do.
+
+But with their chemical defense, they can chase off large numbers of predators, and what‘s really interesting is this study shows us one of the first examples we‘ve seen of something like this in an animal, a chemical defense that‘s produced only when the prey needs it, in this case, when the spiders are so large that their webs can support predatory ants, and the ants become a threat. This adaptive use of a chemical defense it‘s typically been documented in plants, not animals. 
+
+Now I say this as the first time we‘ve seen this, but there are over 4000 spider species in North America alone, so a finding like this is a good reason to study these species. This may not be an isolated phenomenon.
+

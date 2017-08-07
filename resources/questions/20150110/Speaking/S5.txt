@@ -1,0 +1,12 @@
+#record
+Friend: Tiara hey, I haven’t seen much of you lately. Is everything ok?
+Tiara: Not really, it’s my back. I hurt it a few weeks ago moving furniture. My doctor says I need to rest it for a month but meanwhile I have to lug around all these heavy text books. I’ve got to do something or my back will just get worse.
+F: But you live right on campus. Couldn’t you just leave the books in your dorm room and return between classes to get the ones you need.
+T: Yeah, well that would have worked great last semester. My dorm was so central. But I moved and now I’m in that new dorm at the other side of the campus. I could do it, but I’d spend an extra twenty minutes walking back and forth between classes.
+F: Yeah, but some people think walking actually helps your back. What about finding someone whose book you could share during class? You could explain it’s just temporary, until your back gets better.  
+T: I’d thought of that, but the problem is I like to make notes in the margins of my textbooks during class. It helps me to remember what the professor said when I go to review.
+F: Yeah, but you’re such a good student and anyway, it’d only be for a few weeks.
+
+
+#question
+The students discuss two possible solutions to the woman’s problem. Briefly summarize the problem. Then state which solution you prefer and why.

@@ -1,0 +1,56 @@
+C2  Listen to a conversation between a student and an advisor at a university career center.
+
+Student: I‘m Brian Jefferson. I spoke to you over the phone.
+
+Advisor: Yes, I remember you. So you brought in your resume, correct?
+
+Student: Yea, I‘ve got the basics down on paper but I just think it needs polishing.
+
+Advisor: Well, we‘ll look at your resume one on one today, talk about what works, what could be improved¡­
+
+Student: Great.
+
+Advisor: But I‘d suggest you also attend a resume writing workshop. It covers not only your resume but also writing cover letters to potential employers. I can reserve a spot for you in an upcoming one if you want. We have spots open for this Friday morning actually.
+
+Student: Uh, yea. That would be good. Also, I wanted to ask you do you offer workshops on job interviews.
+
+Advisor: Definitely. And students tell me they are really helpful. Lets them know what to expect. It‘s when students don‘t know that they get most worried, you know?
+
+Student: Ok, I‘d like to sign up for both then.
+
+Advisor: Sure, and hey, what field are you studying?
+
+Student: Graphic design.
+
+Advisor: And you‘re graduating when?
+
+Student: This semester is my last one. I need to start interviewing for jobs right away. I‘m a little behind schedule.
+
+Advisor: Ok, well just to let you know. We get new job opportunities in all the time and actually there is a position open for a graphic designer in Ashlington.
+
+Student: Wow. That‘s close to here!
+
+Advisor: It‘s only a short term opportunity but if you got the job and were successful at it, uh, sometimes these short term jobs turn into long term ones. You never know. There‘s also an internship for graphic designers that you could apply for. It lasts all summer. It‘s over in blue harbor.
+
+Student: Is it a paid internship?
+
+Advisor: Yup. The salary is about the same as the position in Ashlington.
+
+Student: Ok. I should apply to both then.
+
+Advisor: Those are the only two opportunities I know about for graphic designers right now, but like I said we get new announcements in all the time so you should keep checking back. We post new opportunities daily on the career center‘s website.
+
+Student: Oh. I didn‘t know about that. Ok, ill check it online everyday then.
+
+Advisor: And well, if you‘re going to be applying for jobs, now, for graphic design it‘s customary to include some samples of your work. 
+
+Student: Yea, photographs of pieces from my portfolio.
+
+Advisor: Mhmm and you submit them electronically along with the resume itself. Most company websites make provision for that, the instructions for how to send the photos, what format and so on.
+
+Student: Yea, we covered some of that in one of my classes. Someone said I should get my work professionally photographed though, but that‘s really expensive. 
+
+Advisor: Well, some people do but really the images just need to be clear. Employers will know that you are a student. If they want to see your art in closer detail, chances are they will call you in for an interview. Ok. Now we should take a look at your resume.
+
+
+

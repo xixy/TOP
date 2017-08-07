@@ -1,0 +1,17 @@
+#article
+
+In recent years, the desire to find a clean, renewable source of energy has led to an increase in the number of wind turbines in the United States. Wind turbines are tall pillars topped with spinning blades, which create energy when they are turned by strong winds. Unfortunately, these turbines are having an unintended consequence: collisions with wind turbines injure or kill many bats during the bats' annual migrations. The result has been a noticeable decrease in the populations of many species of bats. Researchers have proposed three solutions to save the bats from being harmed by wind turbines.
+
+One solution is to build wind turbines at sites where they would not interfere with the bats' migratory patterns. Bats usually follow the same flight path every year when they migrate. These migratory routes could be studied by scientists, who could direct power companies to build new turbines that are not in the paths of the bats' migrations.
+
+A second solution is to shut down the current wind turbines at nightthe time when bats are most active (bats are night animals). The turbines located in the bats' migratory paths could be shut down at night during the migration period so that the blades would not be spinning when the bats are most likely to fly through the area.
+
+Finally, a third solution involves the use of radar to keep bats away from the wind turbines. Bats can detect electromagnetic waves emitted by radar. Researchers have noticed that bats actually dislike radar waves: they avoid airports and other locations where radar is used. Researchers believe that emitting radar waves around wind turbines would keep bats away from the area entirely, preventing them from flying into the turbines.
+
+
+Directions: You have 20 minutes to plan and write your response. Your response will be judged on the basis of the quality of your writing and on how well your response presents the points in the lecture and their relationship to the reading passage. Typically, an effective response will be 150 to 225 words.
+
+
+
+#question
+Summarize the points made in the lecture, being sure to explain how they cast doubt on the specific solutions presented in the reading passage.
