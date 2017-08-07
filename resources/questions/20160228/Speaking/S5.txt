@@ -1,0 +1,22 @@
+#record
+Listen to a conversation between two students.
+
+(man) Hey Joe, you coming to Sarah’s birthday dinner tonight? Sounds like a lot of people are gonna be there at the restaurant, should be fun.
+(woman) I know, I told Sarah I’d go, but now I’m not sure.
+(man) Why, what’s up?
+(woman) Well, you know I run on the university’s track team, right?
+(man) Yeah?
+(woman) Well, when I told Sarah I’d come to dinner, I forgot that we have an important competition tomorrow morning that I’m gonna run in. But the competition, the race, it’s at another university that’s pretty far from here so we have to leave really early in the morning like five A.M..
+(man) Oh wow, that is early.
+(woman) Right, and you know the dinner reservation at the restaurant tonight is pretty late.
+(man) Oh right, because Sarah has to work before.
+(woman) Uh huh, and I’m worried that dinner will probably take a couple hours and I’ll end up getting to bed pretty late. I wanna make sure I can get enough rest so I can run my best in the race. I don’t know what to do.
+(man) Hmm, couldn’t you sleep on the bus though? Like in the morning on the way to the competition?
+(woman) I guess I could try, although I’m not sure how well I’d sleep. It can be hard to get comfortable on the bus, you can’t really lay down.
+(man) Yeah that makes sense. You might not end up getting very good sleep. 
+(woman) Right, I guess I could just stop by the restaurant for half an hour or so, wish her a happy birthday then leave. But I don’t know. I worry Sarah might be offended if I didn’t stay and eat. And I haven’t seen her in a while so it’d be nice to spend some more time together.
+(man) That’s true.
+
+
+#question
+Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

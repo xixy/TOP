@@ -1,0 +1,17 @@
+#article
+Hindsight Bias
+
+When people are asked to make a prediction about a future event, their guesses may turn out to be inaccurate. Interestingly, though, once people heard of the outcome, this knowledge influences how they remember their original predictions. This is known as hindsight bias. Due to hindsight bias, knowledge of the true outcome causes people to feel that they had always expected that result, even if they actually had not. Normally, this bias occurs without people realizing that their knowledge of the outcome is influencing the way they remember their original predictions.
+
+
+#record
+Now listen to part of a lecture in a Psychology class.
+
+(male professor) OK, so let me give you an example of this. I have a friend who wrote a book, a novel, a few years ago and she wanted to get it published to be sold in bookstores. Well, she was a new writer; she had never had a book published before. This was her first novel and she heard it was difficult to publish novels.
+
+So she was really doubtful about her chances of getting her book published. I distinctly remember her saying to me that she didn’t really think anyone would publish it but she might as well try anyway. So she sent her book to publishers pretty much believing that nobody would ever publish it.
+
+But what happened was a publisher did in fact decide to publish her book and sell it. I ran into my friend afterward and was talking to her about it. And it was interesting because what she said to me was, she said she had been confident all along that the book would get published that it was a good book and was bound to attract publishers’ interest, which, of course, was strange, since that isn’t at all how it actually was. In the past, before the book got published, she didn’t think she had a chance.
+
+#question
+Explain how the example in the professor’s lecture illustrates the concept of hindsight bias.

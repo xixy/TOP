@@ -1,0 +1,22 @@
+#record
+Listen to a conversation between two students.
+
+(man) Hey, Jen, got any special plan for the upcoming holiday?
+(woman) Well, it’s sort of up in the air right now. I think I have a dilemma.
+(man) Why, what’s the problem?
+(woman) Well, usually I spend the whole spring break at home with my parents.
+(man) Sounds pretty relaxing.
+(woman) Sure, only this year there’s a trip organized for my geology class. It’s not a class requirement or anything, but I was really excited when I heard about it and I signed up. The plan is to spend time in the mountains, you know, hiking and camping, looking at rock formations. But I haven’t told my parents yet.
+(man) Oh, so you won’t be going home for the spring break after all.
+(woman) Well, that’s the thing. Now, I just found out that my sister’s traveling home to spend that week with my parents. She’s been living abroad for the past year and I haven’t seen her for a long time.
+(man) So your sister is assuming you’ll be home, too.
+(woman) Yeah, exactly! And she has just sent me an email about some cool things she’d like us to do together.
+(man) So what are you gonna decide?
+(woman) Well, I’m thinking maybe I should cancel my plans to go on the geology trip. Just drive home and spend the week visiting my parents and catching up with my sister.
+(man) OK, I’m sure you’ll enjoy that.
+(woman) The thing is, I don’t want to lose this opportunity to go to the mountains. Camping and being outdoors with my classmates would sure by fun and a good experience.
+(man) So, maybe your sister would understand, if you went on the geology trip instead.
+(woman) Yeah, maybe my sister and I can get together another time like the summer. That’s just a few more months away and maybe she wouldn’t mind not seeing me this time. I’ll hate to disappoint her but, hmm, I’m just not sure.
+
+#question
+Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

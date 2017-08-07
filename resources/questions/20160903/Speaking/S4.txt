@@ -1,0 +1,18 @@
+#article
+Maturation Effect
+
+Researchers often design studies to evaluate the effectiveness of new products or programs. When conducting such a study and analyzing its results, it is important for researchers to consider the natural physical or mental developments that study participants may undergo during the course of the study, because these developments can lead to a maturation effect. Participants may undergo physical and mental changes unrelated to the program being testes, which can cause the results of the study to be flawed and unusable. The program may appear to be effective, when in fact participants’ naturally occurring physical and mental developments are partly responsible for the results.
+
+#record
+Now listen to part of a lecture in a Psychology class.
+
+(male professor) OK, so, here’s a classic example of this. Say a fitness organization wants to create an exercise routine for teenagers to help them improve their strength and get stronger. And the fitness organization wants to know if their routine is actually going to work. So they conduct a study.
+
+The researchers start by testing a small group of teenagers to see how strong they are. And then they had the teens do these exercises a few times a week for a year to try and build strength. And at the end of the year, they test the teenagers again to see how strong they are after they’ve been doing the exercises. And what do they find?
+
+Well, they find that the teens have indeed gotten a lot stronger over the course of the year. So that sounds good; the exercise routine worked, right? But, the thing is, over the course of the year, most teenagers grow quite a bit as you’d expect. Teen age years are a pretty intense period of growth. And so as these teens grew, their muscles developed and they naturally got stronger.
+
+So, at the end of this study, what can the researchers say about the effectiveness of the exercise routine? Not really a whole lot, right? It would be hard to say whether or not the teen’s strength actually increased because of the exercise routine.
+
+#question
+Explain how the example from the lecture illustrates the maturation effect.

@@ -1,0 +1,25 @@
+#article
+Letter to the University Newspaper
+
+I am a student who does not own a computer, so I depend on going to the computer lab to type and print all my papers. The problem is that whenever I arrive at the lab, all the computers are already taken and I wind up spending a long time waiting. I suggest we establish a sign-up sheet system that allows students to sign up for and reserve one-hour time slots in advance. This would increase efficiency and save students’ valuable time. It would also reduce the noise from people waiting in the hall outside the lab.
+Sincerely,
+Stephen Harwood
+
+#record
+Now listen to two students discussing the letter.
+
+(woman) You know, this new system he proposed is just isn’t going to work.
+(man) No? I’ve heard the lines at the lab get really long.
+(woman) Maybe, but the method he proposed is way too rigid. I mean, if you put a limit on time then no one’s gonna be able to finish their work.
+(man) Yeah, with only an hour?
+(woman) And let’s say they don’t finish, when their time’s up they’ll have to interrupt their work, leave, then come back later. That’s inconvenient and inefficient.
+(man) Yeah I see what you mean.
+(woman) And about the noise, does he seriously think it’s not going to be noisy with the new system?
+(man) How’s that?
+(woman) Let’s say someone shows up late for their time slot so the next person has already sat down. Well, the two of them are gonna start arguing about who’s entitled to be there.
+(man) That could get pretty loud.
+(woman) Exactly, the way it is now the noise is just coming from the hall. But with the sign-up sheet, there’re bound to be a lot of loud disagreements right in the room. 
+
+#question
+The woman expresses her opinion about the suggestion described in the letter. State her opinion and the reasons she gives for holding that opinion.
+

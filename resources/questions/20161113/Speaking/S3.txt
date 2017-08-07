@@ -1,0 +1,26 @@
+#article
+New Fitness Class Policy
+
+Currently, university students can attend group exercise classes in activities like aerobics and yoga at any time, free of charge. However, starting next semester, the university will charge a small registration fee for fitness classes. The money is needed to hire instructors so that more classes can be offered, since many students have complained that there are not enough classes available in the afternoons. Additionally, students will need to register and pay the fee for each class at least twenty-four hours in advance; this requirement will enable the university to better control the number of people in each class to ensure that students receive individualized attention from instructors.
+
+#record
+(man) Hey, did you see this?
+(woman) Yeah, I don’t like it very much.
+(man) Well, if the money will make it possible to have more classes, then
+(woman) Yeah, but, I think there’s a better way to accomplish that without charging us. They don’t need to hire anyone new. 
+(man) What do you mean?
+(woman) All they need to do is just adjust the schedule. See, the problem is only late in the day, because that’s when most people have free time and can go to the gym. All the morning classes are empty. I actually went to a morning class recently and I was the only person there.
+(man) OK
+(woman) So they could just cancel some of the morning classes and switch those instructors to teaching classes at times when people can actually go.
+(man) Got you, that would save us money, too.
+(woman) Right, and also the idea they have for signing up, I don’t really like that either.
+(man) Why not?
+(woman) Well, in theory it’s nice, having fewer people, getting extra attention, but I don’t think it’s worth it. The best thing about the classes now is the flexibility, being able to just show up when you want, and we’d lose that.
+(man) I haven’t thought about that.
+(woman) Right, because imagine you plan on going to a class but something changes. You need to spend some extra time studying or maybe you just don’t feel like working out that day.
+(man) It happens.
+(woman) Sure, but with this new system, if something happens at the last minute and we can’t go, we may lose our money.
+
+#question
+The woman expresses her opinion about the plan described in the article. Briefly summarize the plan. Then state her opinion about the plan and explain the reasons she gives for holding that opinion.
+

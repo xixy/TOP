@@ -1,0 +1,11 @@
+#record
+Listen to part of a lecture in a History class.
+
+(female professor) So, we’ve been talking about some discoveries and advances that were made during the Industrial Revolution in Europe. And something that doesn’t always get a lot of attention is the discovery of synthetic dye. Um, leading up to the Industrial Revolution, people used natural dyes to color cloth, dyes made from ground up plant or animal products. But in the nineteenth century, a scientist in England accidently discovered how to make synthetic dye, a dye made from chemicals. And this discovery had many different effects. It ended up having a big positive impact on western society at the time.
+
+So, one pretty obvious immediate effect was that once synthetic dye became available, fashion changed and more people started wearing colorful clothing. This was because coloring cloth became much cheaper. Natural dyes often require lots of materials which may be difficult to find. But synthetic dyes are generally cheaper and easier to manufacture. For example, creating a natural purple dye required a special liquid produced by snails. So people had to collect thousands of these small animals to make just a small amount of dye, so purple cloth was only available to very wealthy people. But with synthetic dyes, purple became available to everyone.
+
+Uh, another effect may be surprising. The discovery of synthetic dye eventually led to great advances in medicine. Once the synthetic dye was discovered, other scientists started doing more research on the substances and chemicals that the dye had been made from to learn more about them. And in doing so, they found even more uses for them. Uh, for example, one scientist working with the synthetic dye in his laboratory, a certain yellow dye, found that it killed the germs and bacteria on his equipment, so scientists later realized that this dye could have medical uses such as sterilizing and cleaning cuts and wounds to prevent infection.
+
+#question
+Using points and examples from the lecture, explain two effects of the discovery of synthetic dye.

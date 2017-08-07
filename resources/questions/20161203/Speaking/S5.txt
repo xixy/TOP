@@ -1,0 +1,18 @@
+#record
+Listen to a conversation between two students
+
+(man) How’s your photography class going, Sara?
+(woman) Great, in fact, we’re getting ready for an art show. It’s this big exhibition held every year in the campus art gallery. My professor is in charge and he liked the last photograph I did for class so much that he wants to put it into the show.
+(man) Congratulations! When does the show start?
+(woman) Actually, it opens tonight and then it continues for the next two months. But I’ve got a problem.
+(man) What’s that?
+(woman) Well, last weekend when I went home to see my parents, I took the photograph along with me so I could show it to them. But when I came back to campus, I realized that I had left my photograph there and I’m supposed to get it to the gallery by this afternoon.
+(man) Oh, no! What are you gonna do?
+(woman) I’m just not sure. I could drive home now to get the photo. It’d take a few hours, but I could probably get it back here in time. Only thing is, then I’d miss the review session for my physics exam and I need the review because it’s not my best subject.
+(man) Is there anything else you can do?
+(woman) Well, I just called my mom. And she said she can’t come today because she’s working but she could drive up tomorrow and bring my photograph.
+(man) Oh, and that way you could still go to the physics review.
+(woman) Yeah, and my professor said it’d be OK to put the photograph up tomorrow instead of today. It’s just that most of my friends are planning to come to the show tonight since it’s opening night and all. So then they wouldn’t be able to see it.
+
+#question
+Briefly summarize the problem the speakers are discussing. Then state which solution you would recommend. Explain the reasons for your recommendation.

@@ -1,0 +1,12 @@
+#record
+Listen to part of a lecture in a Biology class.
+
+(female professor) In parts of the world where the weather in winter can be very cold and food can become very scarce, a lot of animals go into hibernation during the winter months. They become inactive and their metabolism slows way down, so they use very little energy and need little or no food. And there are two basic ways that different animal species go into hibernation. 
+
+Some animal species go into hibernation at the same time every year, before the weather actually turns cold, before food actually becomes scarce. These animals' bodies have biological clocks that signal the animal when it's the time of year to go into hibernation. We have a good example with a certain species of squirrel that lives in the Arctic. It's called the "Arctic Ground Squirrel". Every year, these squirrels eat enormous amounts of food in early summer, they often double their body weight. Then go into hibernation in late summer, even though there's usually still lots of food available. 
+
+Okay, and then there are other animal species that don't pay much attention to what time of year it is. They only go into hibernation whenever the weather actually gets really cold and food actually becomes really scarce. If the weather is warm and there's food available, they won't hibernate at all no matter what month it is. For example, there's a small animal called a "Pocket Mouse" that does this. As long as the weather doesn't get too cold, as long as there's still food available, the Pocket Mouse won't hibernate. And that's an advantage, because whenever there's food available even in the dead of winter, the Pocket Mouse is active and able to take advantage of it.
+
+
+#question
+Using the examples of the arctic ground squirrel and pocket mouse, explain two ways that different animal species enter hibernation.

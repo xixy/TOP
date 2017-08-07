@@ -1,0 +1,20 @@
+#article
+Time Management Workshop Canceled
+
+The university had scheduled a time management workshop for first-year students next week, which would provide students with suggestions and techniques for balancing schoolwork with other activities. However, the workshop has been canceled. Not many students have signed up for the workshop, and so university officials feel that there is not sufficient interest for the workshop to be held next week. Students may be especially busy as the semester is just starting, so instead, the workshop will be rescheduled for later in the semester, when more students are expected to be able to attend.
+
+#record
+(man) Hey, did you see this?
+(woman) Yeah, what a shame! I think a lot of people will be disappointed by this.
+(man) Really? Sounds like not a lot of people were going to go.
+(woman) No, I don’t think that’s true, actually. Students don’t always sign up for things in time. They always wait till the last minute. But, that doesn’t mean people weren’t planning to be there.
+(man) Oh, yeah, that’s why it looks like there isn’t much interest.
+(woman) Right, like, take me. I haven’t gotten around to signing up, but I was planning on it. I’ve seen the posters and I was planning to go and I think a lot of other people haven’t just signed up, either.
+(man) Yeah, you’re probably right, but, at least it’s still going to happen later, so we can still go eventually.
+(woman) Yeah, but, I don’t think that’ll actually be as helpful, because we need to learn those things now so we can use them early in the semester.
+(man) Hmm, I guess.
+(woman) Well, think about it. Learning about that stuff later in the semester won’t help us as much, especially if people have already have trouble dividing their time between classes and other things they want to do. I think it’ll be a lot more helpful to get the information now, in the beginning.
+(man) Yeah, you’re right. It’s too bad then.
+
+#question
+The woman expresses her opinion about the announcement in the newspaper. Briefly summarize the announcement. Then state her opinion and explain the reasons she gives for holding that opinion.

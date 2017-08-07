@@ -1,0 +1,11 @@
+#record
+Listen to part of a lecture in a Business class
+
+(female professor) As you probably know, more and more businesses today are trying to make their offices paperless; that is, they’re trying to eliminate the use of paper documents and, instead, use mostly or only electronic documents. And there are a number of good reasons for doing that. 
+
+Back in the old days, when all documents were on paper, in order to store them, you needed lots of space and rows and rows of filing cabinets. But now, as you know, you can store thousands of electronic documents on computer hard drives or on flash drives, which take up very little space. So you can cut back on the amount of office space your business needs to rent. For example, my sister works for a law firm that keeps files on all their clients. And in the past, they had to rent an extra room in their office building to store all those paper files. But now they no longer have to rent that extra room and they save a lot of money.
+
+Um, and back in the days when all documents were on paper, if you wanted to have a look at a document you have on file, you had to walk to the filing cabinet, opened a few drawers, looked through there until you found the document, then walked back to your desk. But now, if your business has all its documents in an electronic form, your employees can access all the information they need much more easily, much more quickly. Now that my sister’s office has gone paperless, when clients call with questions, she can just look up their file on her computer and answer their questions immediately while they are still on the phone.
+
+#question
+Using points and examples from the lecture, explain two benefits of a paperless office.

@@ -1,0 +1,20 @@
+#record
+Listen to a conversation between two students.
+
+(man) Hey, Jill, did you finish your economics paper yet?
+(woman) Yeah, actually, I just got it done.
+(man) Great!
+(woman) Yeah, but I didn’t hand it in yet. I’m trying to figure out what to do.
+(man) About what?
+(woman) Well, after I finished the paper, I checked my email. And there was a message from my economics professor. He said he was giving everyone in the class an extension, more time. We can turn in our papers tomorrow morning instead of this afternoon. Now I don’t know what to do.
+(man) Oh, let me guess. You’re trying to figure out if you should work on the paper some more before handing it in or just go ahead and hand it in now.
+(woman) Exactly! I mean I could spend tonight improving my paper. I was hoping to include a bunch of graphs in the paper, some diagrams, you know, but I decided not to because I thought I was out of time. So I could do that tonight, add in all the graphs and stuff.
+(man) You think it’d really improve the paper that much?
+(woman) Well, yeah, I think it would make the paper a little better.
+(man) OK, so why not go for it?
+(woman) Well, because the other thing I could do is just hand it in now and be done with it, which would really be great. I mean, I’ve been working on this paper for a long time.
+(man) Yeah, it’ll probably be a relief.
+(woman) Right, and anyway, I already made plans for tonight. I’m supposed to get together with some old friends I haven’t seen in a long time. If I work on the paper, I’ll have to cancel and I’d hate to do that.
+
+#question
+Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

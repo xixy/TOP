@@ -1,0 +1,16 @@
+#article
+Nest-mate Recognition
+
+Some insect species live together in large nests. Because there are so many insects in the nest, individual insects cannot be familiar with all others from the same nest. To avoid threats from insects that belong to outside groups, some insects have the ability to determine which insects are from their own nest and which are from other nests. This ability is known as nest-mate recognition. Because insects may be unable to recognize their nest mates by sight, they sometimes use other senses to tell them which insects are from the same nest and which are from different nests.
+
+#record
+Now listen to part of a lecture in a Biology class
+
+(male professor) OK, so this ability is actually common among ants. Ants live together in large groups, or colonies, and they have to work together with others in their own nest. So, let’s take a colony of ants that build its nest up in the branches of a pine tree. Now, suppose one of the ants from the pine tree nest leaves the nest and goes out to look for food and finds a piece of fruit. But then another ant comes over to the fruit, too. So what happens?
+
+Well, the first ant, the ant that found the fruit, will get close to other ant and smell it. And if the other ant has a familiar odor, like if it smells like the pine tree, then the first ant will know that this ant came from the pine tree nest and will allow the other ant to share the fruit and maybe allow the other ant to help carry the fruit back to the nest for other ants to eat, too.
+
+But, if the other ant smells unusual with an unfamiliar odor, then the first ant will know it comes from a different nest, not the nest in the pine tree. And it may attack the other ant to prevent it from stealing the food and taking it back to its own nest.
+
+#question
+Explain how the example from the lecture illustrates the concept of nest-mate recognition.

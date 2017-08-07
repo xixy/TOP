@@ -1,0 +1,21 @@
+#record
+Listen to a conversation between two students.
+
+(woman) Hey John, I’m so excited about the free performance our singing group will be giving this weekend, is everything ready?
+(man) Yeah, we’re all set for the performance, there’s just one problem.
+(woman) Uh oh, what is it?
+(man) Well, I was gonna put a big announcement in the newspaper this week, you know, to make sure people know about the performance cause we really want a lot of people to come.
+(woman) That’s great! The newspaper is where everyone checks for events on campus.
+(man) Yeah, that’s the thing, I accidentally missed the deadline to submit the announcement so the announcement isn’t in the newspaper and now I’m worried nobody’s gonna come hear us sing.
+(woman) Oh, that’s a shame! We’ve been practicing so much. You know, if we move the show to next weekend you’d have time to get the announcement into the newspaper.
+(man) Yeah, I thought about changing the date, that way more people would be aware of the performance.
+(woman) Sounds easy enough.
+(man) Not really, it took so long to book the music hall. If we change the date we might have to find a new location. The music hall was only available this weekend.
+(woman) Oh, so changing the date wouldn’t be as easy as I thought. What else? Hmm, well, you could put up posters everywhere so more people know about it.
+(man) Oh that’s an idea! If I do that today, enough people might see the poster so they’ll know about the performance.
+(woman) Yeah, I know I sometimes find out about events by reading posters.
+(man) Uh, I just hope people will see them in time to make plans to come hear us sing.
+
+#question
+Briefly summarize the problem the speakers are discussing. Then state which solution you would recommend. Explain the reasons for your recommendation.
+

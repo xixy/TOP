@@ -1,0 +1,36 @@
+Listen to a conversation between two students
+
+(woman) Hi, Joey, how’s it going?
+(man) Well, I just had a little bad luck, actually.
+(woman) What happened?
+(man) Well, you know I’m in a band, right?
+(woman) Yeah, in fact your group is playing in that big concert next weekend, right?
+(man) Right, and you know that big rainstorm we had over the weekend?
+(woman) Yeah
+(man) Well, I was at home and there was a big leak in the roof of my apartment.
+(woman) Uh oh
+(man) Yeah, so water poured in all over my electric keyboard.
+(woman) Oh no! That’s the instrument you play in a band, right?
+(man) Yeah, and it’s completely destroyed. I took it to a repair shop and they said there’s no way to fix it.
+(woman) Wow! So sorry and you have that concert coming up. What are you gonna do?
+(man) Well, I could just buy an old used keyboard.
+(woman) That would sound OK?
+(man) Well, it definitely wouldn’t sound as good as the one that got ruined, but it wouldn’t cost much money and at least I’d have a keyboard for the concert.
+(woman) OK
+(man) The thing is, everyone on campus is gonna be at the concert and for most of the students this will be the first time that they’ve ever heard our band.
+(woman) So you want to sound as good as possible.
+(man) Right
+(woman) Um
+(man) Or, I do have another option.
+(woman) OK
+(man) I’ve been saving money for a trip I’m planning to go on with some friends this summer. We’re planning to take a few weeks to drive across the country, you know, stop and see stuff along the way?
+(woman) That sounds great.
+(man) Yeah, but if I just tell my friends I can’t go on the trip, I can use the money I’ve been saving and buy a nice new keyboard right now.
+(woman) But you’ll miss a great trip.
+(man) Yeah, and my friends are counting on me to share expenses, so if I don’t go, they may not be able to go either.
+(woman) Hmm
+(man) So I don’t know.
+
+#question
+Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.
+

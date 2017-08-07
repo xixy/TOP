@@ -1,0 +1,13 @@
+#article
+Economy of Scale
+
+A company must pay certain costs to manufacture products. Some of these production costs are fixed – they remain the same regardless of the number of products the company produces. Thus, if a company manufactures more of a certain product, the cost of producing each individual item decreases, because fixed costs are spread out over more items. This effect is known as economy of scale. Economy of scale makes it advantageous for a company to manufacture products in large quantities or on a large scale. While the cost of materials needed to increase, production of an item increases, the company’s fixed costs do not, and its profits rise as more products are sold.
+
+#record
+(male professor) All right, so for example, there's a company that publishes a monthly magazine, a cooking magazine, with recipes and articles about food and such. So when this company first started out, they didn't really have a lot of readers because not many people knew about the magazine at first. So they only printed a few hundred magazines per month. But in order to create those magazines every month, well, the company had to have an office so they had to pay a certain amount in rent each month. And they also had to pay the salaries of their workers, because they needed writers and editors to write the articles and put the magazine together. 
+
+Now, after a little while, more people found out about the magazine and wanted to read it. So the company needed to make more magazines. They started printing a lot more magazines each month, like several thousand copies instead of just a few hundred. And sure they had to spend a little more money for the paper and ink to print each copy of the magazine, but the rent for the office and workers' salaries those things didn't change from what they'd been at the beginning. And what did that mean? Well, it meant that the company made more money off each magazine it sold. So they were better off financially.
+
+
+#question
+Explain how the example used in the lecture illustrates the concept of economy of scale.

@@ -1,0 +1,14 @@
+#article
+Sweeping Generalization
+
+We often like to formulate ideas or principles that help us make decisions. For example, we may create one general principle, or rule, that we then apply to many different situations. But in this process we may make an error in reasoning, or thinking, if we ignore exceptions to that rule, that is, when we try to apply one general rule to all situations. This error in reasoning is known as a sweeping generalization. It is a mistake to apply one general rule to every situation because most general rules have exceptions in certain circumstances.
+
+#record
+Now listen to part of a lecture in a Philosophy class.
+
+(male professor) I think most people would accept the social rule that we shouldn’t shout in public, especially at total strangers. Shouting in public is considered rude and, well, nobody likes being shouted at. That said, let me tell you a story. I was in a crowded café one day and as I got up to leave, I very absentmindedly left my backpack there. All of my stuff was in my backpack: my wallet, my keys, my papers, everything. 
+
+Now, uh, you have to keep in mind that there were a lot of people in the café, including some who saw me leave my backpack there. About fifteen minutes later, I realized that I didn’t have my bag. So I immediately rushed back to the café and saw that my backpack was still at the table. Now, the woman who had been at the table next to me was still there. She said that she was glad that I had returned for my bag. She’d seen me leave it there and thought of saying something, but she didn’t want to shout at me and disturb all the people in the café. But you know, I would’ve preferred being shouted at in the café. I also don’t think the other people in the café would’ve minded the temporary disturbance if you’re yelling, considering the situation.
+
+#question
+Explain how the professor’s experience in the café illustrates the concept of a sweeping generalization.

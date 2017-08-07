@@ -1,0 +1,11 @@
+#record
+Listen to part of a lecture from a Biology class
+
+(female professor) So, plants are constantly reproducing, of course, producing seeds that grow into new plants. But if that process continues freely, the number of plants in a particular area can grow out of control. So there’re actually various factors in nature that limit the population size of plants, factors that naturally regulate plant populations. Let’s look today at two kinds of factors that control the size of plant populations.
+
+So, some factors are dependent on population density, or the number of plants in a particular area. These density-dependent factors result directly from an area becoming too crowded. As plants reproduce and their numbers grow, they begin to compete for the basic resources they need to survive. Some plants may not get enough resources and the population may start to decrease. This happens with a type of pine tree, for example. These pines reproduce in the forest until they become so dense that they compete for sunlight. They don’t grow well in the shade, so shorter trees that can’t get enough sunlight through the taller trees’ branches will eventually die off.
+
+Now, there are other factors that are more dependent on the environment itself, on environmental events that may occur in the area where plants are located. These factors have nothing to do with the size or density of the plant population in the area, because the events will occur no matter how many plants there are. For example, some trees grow in areas that are prone to flooding. When a flood occurs, the water may cover the roots of the trees and preventing them from getting enough oxygen to survive. So these periodic floods help to keep the number of trees in an area from growing out of control.
+
+#question
+Using points and examples from the lecture, describe two factors that regulate plant populations.

@@ -1,0 +1,24 @@
+#article
+Create a Student Magazine
+
+Many psychology students write excellent papers, and it’s a shame that only professors get to read them. So, I think the psychology department should create a magazine in which the best student papers are collected for other students to read. This would be an excellent way to recognize the hard work that many students put into their papers. Besides being an honor for the students whose papers are selected, the magazine would benefit other students. Readers of the magazine – other students – would learn about how to develop their own skills in writing papers.
+Sincerely,
+Michael Brown
+
+
+#record
+(man) Hey, did you see Michael’s letter?
+(woman) Yeah, I think he’s got a great idea.
+(man) Oh, yeah?
+(woman) Sure, you know, we’re both psychology majors. And being in our field, well, it means we’re going to have to go to graduate school.
+(man) Yeah?
+(woman) So when we’re filling out applications for grad school, it’ll look great to have accomplished something like this. Having a paper published in the magazine will show we can do serious high-quality work in grad school and in our future careers.
+(man) That’s true. It’ll be something special. That’ll make us stand out.
+(woman) Yep, and also, as far as the other people, I think it’s gonna be especially good for new psych students, people taking psychology classes for the first time.
+(man) Why them in particular?
+(woman) Because when they read the magazine, the papers will provide them with good models for when they write their own papers. They’ll learn how to document sources and how psychology paper should be organized. Those are important skills to learn.
+(man) Yeah, it sure would help me when I first started. I’ve never written a psych paper before so I had no idea how to organize it or use source material.
+
+
+#question
+The woman expresses her opinion about the proposal in the student’s letter. Briefly summarize the proposal. Then state the woman’s opinion and explain the reasons she gives for holding that opinion.

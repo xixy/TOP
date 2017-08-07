@@ -1,0 +1,15 @@
+#record
+Listen to part of a lecture in an Astronomy class
+
+(female professor) So, astronomers use special equipment like high-power telescopes to observe outer space. The equipment that astronomers use for their work is kept in an observatory built for the purpose of viewing outer space. Well, observatories can’t be built just anywhere. Their locations should allow for a clear view of objects in outer space. Let’s discuss a couple of features that a location for an observatory should have.
+
+Little or no light pollution is one feature that the location should have, where the sky’s really dark at night. Light pollution comes from sources such as street light or car headlights at night. This extra light creates a glow that makes it hard for astronomers to see objects in the night sky. So, for example, it’s better to build an observatory far away from the city, because cities are brightly lit at night from all the buildings, cars, and street lights. So being far away from city’s light pollution where the sky is nice and dark, with no lights from other sources, makes it a lot easier for astronomers to see the stars, planets, and those other objects in outer space.
+
+Another feature that an observatory location should have is dry air, air free of humidity. Humid is thick with moisture, making it hazy and foggy. So the humidity affects how clear the air is and thus how well the astronomers can see things. So for example, a good place to put in observatory would be a desert, where there’s little moisture and the air is dry and clear. Because desert air is free from humidity, it’s more transparent and it’s easier to observe things in space.
+
+#question
+Using points and examples from the lecture, describe two features that a location for building an observatory should have.
+
+
+
+

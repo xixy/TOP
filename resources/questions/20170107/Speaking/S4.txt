@@ -1,0 +1,14 @@
+#article
+Life Stage Migration
+
+Some marine animals begin their lives living in one area of the ocean and then migrate or move to a different area as they grow older. This type of migration is known as life stage migration. Life stage migration occurs because these marine animals’ dietary and safety requirements change as they enter different stages of development. Since the availability of food sources and the risk of predators differ from one ocean habitat to another, one habitat may be ideal for animals in early stages of development, while another habitat is better suited to their survival needs later in life.
+
+#record
+(male professor) So we see this with a type of fish called the anglerfish. The adult and young anglerfish live in very different habitats. Now, adult anglerfish live in the deep sea far below the surface of the ocean. And when a female anglerfish is ready to reproduce, as she releases her eggs, those eggs float. They rise through the water up toward the surface. This is where the eggs hatch and the larvae, the baby anglerfish, begin their lives.
+
+This new environment is beneficial for the young because it’s filled with many tiny organisms, uh, plankton that the anglerfish larvae feed on. With such a huge food supply, the babies can grow quickly in its habitat. But there’s also a lot of light at the surface, which makes it easier for predators to see the young fish. This environment becomes more dangerous as the baby fish grow bigger. The babies are relatively safe. They are small and therefore more difficult to see even in the light, which helps them avoid predators. 
+
+But as they grow larger, it becomes less safe for anglerfish to remain at the ocean’s surface. So, gradually, as anglerfish grow into adults, they swim deeper into the ocean toward the ocean floor. Down there, there’s less light, which means they’re less vulnerable to predators. And also, adult anglerfish need to eat different bigger prey. The plankton are not enough to sustain them anymore. They need to eat small fishes and squid which are more abundant deeper in the ocean.
+
+#question
+Explain what life stage migration is and why it is important for anglerfish.
