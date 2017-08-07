@@ -84,7 +84,7 @@ def addStudent():
     id=studentInfoDAO.index(student)
     #然后给学生添加题目
     studentInfoDAO.addQuestionSetsForStudent(id,questions)
-    return jsonify(result),200
+    return jsonify({"message":"ok"}),200
 
 #管理员删除学生
 @app.route('/student',methods=['DELETE'])
