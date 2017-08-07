@@ -109,18 +109,13 @@ class studentInfoDAO(object):
 
         #如果找到
         if count==1:
-            incremental_question=[]
-            for student in cls.collection.find(value):
-                #如果题已经在了，就不能加入
-                for question in question_set:
-                    if question not in student[configure.student_questions]:
-                        incremental_question.append(question)
-                student[configure.student_questions].extend(incremental_question)
-                #按照时间排序
-                student[configure.student_questions].sort()
-                #然后进行更新
-                cls.collection.update(value,student)
-                return 1
+            student=cls.collection.find_one(value)
+            student[configure.student_questions]=question_set
+            #按照时间排序
+            student[configure.student_questions].sort()
+            #然后进行更新
+            cls.collection.update(value,student)
+            return configure.SUCCESS_CODE
         #如果没有找到学生
         else:
             return configure.FAIL_CODE
@@ -188,11 +183,11 @@ class studentInfoDAO(object):
 
 
 if __name__=='__main__':
-    studentInfoDAO.collection.remove({})
-    student=studentInfo("anxiao","12345")
-    studentInfoDAO.index(student)
-    student=studentInfo("xxy","123")
-    studentInfoDAO.index(student)
+    # studentInfoDAO.collection.remove({})
+    # student=studentInfo("anxiao","12345")
+    # studentInfoDAO.index(student)
+    # student=studentInfo("xxy","123")
+    # studentInfoDAO.index(student)
 
     studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
     studentInfoDAO.addQuestionSetsForStudent(1,[])

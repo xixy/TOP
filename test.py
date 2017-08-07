@@ -23,6 +23,7 @@ from writing_questionDAO import writing_questionDAO
 from report_generator import report_generator
 from answerDAO import answerDAO
 from answer import answer
+from studentInfo import studentInfo
 import configure
 
 app = Flask(__name__)
