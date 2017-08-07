@@ -115,7 +115,7 @@ def download(filename):
 
 #获取所有的题setid，用于管理员添加题目页面
 @app.route('/question/all',methods=['GET'])
-def getQuestion():
+def getAllQuestion():
     """
     获取所有的题setid，用于管理员添加题目页面
     """
