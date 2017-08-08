@@ -18,7 +18,7 @@ collectionlist=db.collection_names()
 
 def check():
     """
-    检查Reading的部分的type是否正确
+     对存储的问题进行检查
     """
     for collectionname in collectionlist:
         collection=db[collectionname]
@@ -59,11 +59,11 @@ def check():
             continue
         question=collection.find_one(value)
 
-        if configure.writing_stem not in question.keys():
+        if configure.writing_stem not in question.keys() or question[configure.writing_stem]==[]:
             print "写作题第一题没有题干："+collectionname
-        if configure.writing_article not in question.keys():
+        if configure.writing_article not in question.keys() or question[configure.writing_article]==[]:
             print "写作题第一题没有文章："+collectionname
-        if configure.writing_record not in question.keys():
+        if configure.writing_record not in question.keys() or question[configure.writing_record]==[]:
             print "写作题第一题没有听力文本："+collectionname
         #查找第二题
         value={configure.index:"W2"}
@@ -71,8 +71,11 @@ def check():
             print "写作题第二题不存在："+collectionname
             continue
         question=collection.find_one(value)
-        if configure.writing_stem not in question.keys():
+        if configure.writing_stem not in question.keys() or question[configure.writing_stem]==[]:
             print "写作题第二题没有题干："+collectionname
+
+        #　检查口语题
+        value
 
 
 if __name__ == '__main__':

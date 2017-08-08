@@ -40,10 +40,13 @@ class answer_saver(object):
             answer_list.append(answers)
             line=f.readline()
 
-
+        reading_answers_count=[]
+        listening_answers_count=[]
+        answers_count=[]
         count=0#计数，用于构造R1或者L2
         #首先处理Reading的答案
         for answers in answer_list[:3]:
+            reading_answers_count.append(len(answers))
             if len(answers)<13:
                 print "阅读答案少于13:"+filepath+":"+str(len(answers))
             #如果是完整的14个题
@@ -64,6 +67,7 @@ class answer_saver(object):
         #然后处理Listening的答案
         count=0
         for answers in answer_list[3:]:
+            listening_answers_count.append(len(answers))
             if len(answers)<5:
                 print "听力答案小于5:"+filepath+":"+str(len(answers))
             for single_answer in answers:
@@ -71,7 +75,11 @@ class answer_saver(object):
                 count+=1
                 asw=answer(setid,configure.ListeningMark+str(count),single_answer,configure.answer_officialid)
                 answerDAO.index(asw,configure.answer_officialmode)
-        pass
+        
+        #返回统计结果
+        answers_count.append(reading_answers_count)
+        answers_count.append(listening_answers_count)
+        return answers_count
 
     @classmethod
     def indexAnswerForMultiSet(cls,filepaths,setid):

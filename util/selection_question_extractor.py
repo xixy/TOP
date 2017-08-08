@@ -7,7 +7,7 @@ import shutil
 import re
 import configure
 
-testpath="/Users/apple/Code/TOP/resources/questions/20150110/Reading/R3.txt"
+testpath="/Users/apple/Code/TOP/resources/questions/20150613/Listening/Questions/L4.txt"
 
 class selection_question_extractor(object):
 

@@ -38,7 +38,14 @@ class question_saver(object):
 		listening_text_files_path=[]
 		speaking_files_path=[]
 		writing_files_path=[]
-		answer_files_path=[]
+		answer_file_path=''
+
+		#存储题目个数，然后用于检查是否能够对应上
+		reading_questions_count=[]
+		listening_questions_count=[]
+
+		reading_answers_count=[]
+		listening_answers_count=[]
 		#分类统计
 		for filepath in filepaths:
 			if ".DS_Store" in filepath:
@@ -72,7 +79,7 @@ class question_saver(object):
 
 			#取出答案部分
 			if configure.Answer in filepath:
-				answer_files_path.append(filepath)
+				answer_file_path=filepath
 				continue
 
 
@@ -83,9 +90,14 @@ class question_saver(object):
 		#提取阅读中的选择题
 		reading_files_path.sort()
 		question_list=[]
+		#检查文件数量
+		if len(reading_files_path)!=3:
+			print "阅读题文件不等于3:"+str(setid)
+
 		for filepath in reading_files_path:
 			# print filepath
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
+			reading_questions_count.append(len(questions))
 			if len(questions)<13:
 				print "阅读题目少于13："+filepath+":"+str(len(questions))
 			if len(questions)>14:
@@ -102,9 +114,13 @@ class question_saver(object):
 		#提取听力中的选择题
 		question_list=[]
 		listening_question_files_path.sort()
+		#检查文件数量
+		if len(listening_question_files_path)!=6:
+			print "听力题题目文件不等于6:"+str(setid)
 
 		for filepath in listening_question_files_path:
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
+			listening_questions_count.append(len(questions))
 			if len(questions)<5:
 				print "听力题目少于5："+filepath+":"+str(len(questions))
 			if len(questions)>6:
@@ -117,6 +133,11 @@ class question_saver(object):
 
 
 		#处理听力中的录音文本
+
+		#检查文件数量
+		if len(listening_text_files_path)!=6:
+			print "听力题听力文本文件不等于6:"+str(setid)
+
 		listening_text_files_path.sort()
 		for filepath in listening_text_files_path:
 			text=listening_text_extractor.getListeningText(filepath)
@@ -126,6 +147,11 @@ class question_saver(object):
 		selection_questionDAO.indexQuestions(setid,questions_json)
 
 		#处理口语
+
+		#检查文件数量
+		if len(speaking_files_path)!=6:
+			print "口语题文件不等于6:"+str(setid)
+
 		speaking_files_path.sort()
 		for filepath in speaking_files_path:
 			# print filepath
@@ -136,6 +162,10 @@ class question_saver(object):
 			speaking_questionDAO.indexQuestions(setid,question)
 
 		#处理写作
+		#检查文件数量
+		if len(writing_files_path)!=2:
+			print "写作题文件不等于2:"+str(setid)
+
 		writing_files_path.sort()
 		for filepath in writing_files_path:
 			#提取写作
@@ -145,7 +175,21 @@ class question_saver(object):
 
 
 		#处理答案
-		answer_saver.indexAnswerForMultiSet(answer_files_path,setid)
+		answers_count=answer_saver.indexAnswerForSingleSet(answer_file_path,setid)
+
+		#进行检查，是否能够对应上
+		reading_answers_count=answers_count[0]
+		listening_answers_count=answers_count[1]
+
+		if reading_answers_count!=reading_questions_count:
+			print "阅读题答案和问题个数对应不上"+str(setid)
+			print reading_answers_count
+			print reading_questions_count
+		if listening_answers_count!=listening_questions_count:
+			print "听力题答案和问题个数对应不上"+str(setid)
+			print listening_answers_count
+			print listening_questions_count
+
 
 		pass
 
