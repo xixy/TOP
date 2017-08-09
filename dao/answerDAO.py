@@ -26,10 +26,13 @@ class answerDAO(object):
         """
         生成前端页面需要的报告数据
         """
-        answers=cls.getAnswerInComparison(setid,userid,mode)
         result=[]
         reading_results=[]
         listening_results=[]
+        answers=cls.getAnswerInComparison(setid,userid,mode)
+        if answers==[]:
+            return result
+
 
         #生成我们要的格式
         reading_answers=answers[0]
@@ -440,6 +443,6 @@ if __name__=='__main__':
     # print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
     # print answerDAO.getStudentAnswerStatus(1,"practice")
-    print answerDAO.getAnswerForReport(20170603,1,"exam")
+    print answerDAO.getAnswerForReport(20161113,1,"exam")
     # print answerDAO.clearAnswersForQuestionSet(1,20170603,"exam","Reading")
     # print answerDAO.getReadingReviewForTPOSet(1,20170603,"exam")

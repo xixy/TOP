@@ -20,9 +20,24 @@ from configure import ip,port
 questionDirectory='../resources/questions'
 
 client=pymongo.MongoClient(ip,port)
-db=client.users#db
+userdb=client.users#userdb
+answerdb=client.answers
+questiondb=client.questions
+
 
 if __name__ == '__main__':
+    #删除官方答案库
+    collectionlist=answerdb.collection_names()
+    for collectionname in collectionlist:
+        if "official" in collectionname:
+            collection=answerdb[collectionname]
+            collection.remove({})
+    #删除问题库
+    collectionlist=questiondb.collection_names()
+    for collectionname in collectionlist:
+        collection=questiondb[collectionname]
+        collection.remove({})
+    
     #生成题和答案
     results=[]
     #获取所有题的路径和名称
@@ -35,12 +50,12 @@ if __name__ == '__main__':
     #进行测试
     check()
     #生成管理员
-    db.admin.remove({})
+    userdb.admin.remove({})
     admin1=admin(1,"xxy","123456")
     adminDAO.delete(admin1)
     adminDAO.index(admin1)
     #生成学生
-    db.student.remove({})
+    userdb.student.remove({})
     student1=studentInfo("xxy","123456")
     studentInfoDAO.delete(1)
     studentInfoDAO.index(student1)
@@ -49,10 +64,10 @@ if __name__ == '__main__':
     studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20170325","20170415"])
 
     #给学生提交几个答案
-    asw=answer("20170603","R3","A", 1)
-    answerDAO.index(asw,configure.answer_practicemode)
-    asw=answer("20170603","L1","C",1)
-    answerDAO.index(asw,configure.answer_practicemode)
-    asw=answer("20170603","R3","D",1)
-    answerDAO.index(asw,configure.answer_exammode)
+    # asw=answer("20170603","R3","A", 1)
+    # answerDAO.index(asw,configure.answer_practicemode)
+    # asw=answer("20170603","L1","C",1)
+    # answerDAO.index(asw,configure.answer_practicemode)
+    # asw=answer("20170603","R3","D",1)
+    # answerDAO.index(asw,configure.answer_exammode)
     print "数据导入完毕"

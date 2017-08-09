@@ -189,8 +189,8 @@ if __name__=='__main__':
     # student=studentInfo("xxy","123")
     # studentInfoDAO.index(student)
 
-    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809"])
-    studentInfoDAO.addQuestionSetsForStudent(1,[])
+    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20150703","20150809","20161113"])
+    # studentInfoDAO.addQuestionSetsForStudent(1,[])
     # print studentInfoDAO.valid("anxiao","12345")
     print studentInfoDAO.getAllStudents()
     # print studentInfoDAO.getQuestionSetOfSingleStudent(1)

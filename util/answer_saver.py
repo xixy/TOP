@@ -95,5 +95,5 @@ class answer_saver(object):
             cls.indexAnswerForSingleSet(filepath,setid)
 
 if __name__ == '__main__':
-    filepath='/Users/apple/Code/TOP/resources/questions/20170603/answer'
+    filepath='/Users/apple/Code/TOP/resources/questions/20161113/answer.txt'
     answer_saver.indexAnswerForSingleSet(filepath,"20170603")
