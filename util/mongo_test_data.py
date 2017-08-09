@@ -50,18 +50,18 @@ if __name__ == '__main__':
     #进行测试
     check()
     #生成管理员
-    userdb.admin.remove({})
-    admin1=admin(1,"xxy","123456")
-    adminDAO.delete(admin1)
-    adminDAO.index(admin1)
+    # userdb.admin.remove({})
+    # admin1=admin(1,"xxy","123456")
+    # adminDAO.delete(admin1)
+    # adminDAO.index(admin1)
     #生成学生
-    userdb.student.remove({})
-    student1=studentInfo("xxy","123456")
-    studentInfoDAO.delete(1)
-    studentInfoDAO.index(student1)
+    # userdb.student.remove({})
+    # student1=studentInfo("xxy","123456")
+    # studentInfoDAO.delete(1)
+    # studentInfoDAO.index(student1)
 
     #给学生插入题
-    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20170325","20170415"])
+    # studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20170325","20170415"])
 
     #给学生提交几个答案
     # asw=answer("20170603","R3","A", 1)
