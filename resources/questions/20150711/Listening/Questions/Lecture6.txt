@@ -13,7 +13,6 @@ D.	To point out that lunar soil contains large quantities of oxygen
 3.	What points does the professor emphasize about soil samples collected during the Apollo space missions?	Click on 2 answers.
 A.	They are less abrasive than simulated lunar soil.
 B.	Some of their properties may have changed.
- 
 C.	Each sample was taken from a different layer of the regolith.
 D.	There are very few of them left for research.
 
@@ -28,9 +27,3 @@ A.	Lunar soil might interfere with the operation of equipment on the Moon.
 B.	Lunar soil could be used as a power source on the Moon.
 C.	Electrical charges on the Moon are less powerful than those on Earth.
 D.	Extracting oxygen from lunar soil might be easier than previously thought.
-
-6.	Why does the professor say this?
-A.	To suggest that the answer to his question is obvious
-B.	To suggest that it is not necessary to collect more lunar soil samples
-C.	To introduce an explanation that might be unexpected
-D.	To ask the students to recall what they have learned so far
