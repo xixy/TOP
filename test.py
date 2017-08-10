@@ -153,7 +153,7 @@ def getQuestion(setid,index):
 
 #生成报告
 @app.route('/report',methods=['POST'])
-def generatReport(userid,mode):
+def generatReport():
     """
     生成报告
     """
@@ -167,6 +167,7 @@ def generatReport(userid,mode):
         os.makedirs(directory)
     #然后保存文件
     path=directory+"/"+"report"+".txt"
+    print path
     status=report_generator.generatReport(userid,setid,mode,path)
     return jsonify(status),200
 
