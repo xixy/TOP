@@ -152,7 +152,7 @@ def getQuestion(setid,index):
 
 
 #生成报告
-@app.route('/report/',methods=['POST'])
+@app.route('/report',methods=['POST'])
 def generatReport(userid,mode):
     """
     生成报告
