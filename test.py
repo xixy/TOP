@@ -162,7 +162,7 @@ def generatReport():
     userid=data["userid"]
     mode=data["mode"]
     student=studentInfoDAO.getStudentInfoById(userid)
-    username=student[configure.student_id]
+    username=student[configure.student_name]
     directory=answer_path+str(username)+"/"+mode+"/"+str(setid)
     #先创建文件夹，如果文件夹不存在
     if not os.path.exists(directory):
