@@ -20,4 +20,4 @@ def isAllowedIP(ip):
         return False
 
 if __name__ == '__main__':
-    print isAllowedIP('58.132.203.130')
+    print isAllowedIP('58.132.205.130')
