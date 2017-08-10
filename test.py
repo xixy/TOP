@@ -25,6 +25,7 @@ from answerDAO import answerDAO
 from answer import answer
 from studentInfo import studentInfo
 import configure
+from ip_limit import isAllowedIP
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
@@ -33,6 +34,10 @@ CORS(app, supports_credentials=True)
 #学生登陆
 @app.route('/login',methods=['POST'])
 def login():
+    ip=request.remote_addr
+    if not isAllowedIP(ip):
+        return jsonify({"id":-1}),401
+
     data=request.get_json()
     username=data[configure.student_login_username]
     password=data[configure.student_login_password]
