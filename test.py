@@ -169,7 +169,6 @@ def generatReport():
         os.makedirs(directory)
     #然后保存文件
     path=directory+"/"+"report"+".txt"
-    print path
     status=report_generator.generatReport(userid,setid,mode,path)
     return jsonify(status),200
 

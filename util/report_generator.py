@@ -34,7 +34,6 @@ class report_generator(object):
                 if cmp(student_answer,official_answer)==0:
                     score+=1
                 #如果回答错误，就不管了
-        print score
         #进行转换
         if score<=4:
             scaled_score=0
@@ -130,7 +129,6 @@ class report_generator(object):
                         elif false_count==1:
                             score+=1
         #score求出来，现在换算分数
-        print score
         if score<=9:
             scaled_score=0
         elif score<=11:
