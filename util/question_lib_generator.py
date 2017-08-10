@@ -43,6 +43,7 @@ if __name__ == '__main__':
     #获取所有题的路径和名称
     getQuestionSetFilePath(questionDirectory,results)
     print "共发现%d套题" % len(results)
+    results=sorted(results)
     for result in results:
         for setid in result.keys():
             print "发现题库："+setid
