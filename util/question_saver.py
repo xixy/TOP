@@ -98,8 +98,8 @@ class question_saver(object):
 			# print filepath
 			questions=selection_question_extractor.getSelectionQuestions(filepath)
 			reading_questions_count.append(len(questions))
-			if len(questions)<13:
-				print "阅读题目少于13："+filepath+":"+str(len(questions))
+			if len(questions)<14:
+				print "阅读题目少于14："+filepath+":"+str(len(questions))
 			if len(questions)>14:
 				print "阅读题目大于14："+filepath+":"+str(len(questions))
 			# print questions

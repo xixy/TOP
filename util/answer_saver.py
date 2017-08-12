@@ -47,8 +47,8 @@ class answer_saver(object):
         #首先处理Reading的答案
         for answers in answer_list[:3]:
             reading_answers_count.append(len(answers))
-            if len(answers)<13:
-                print "阅读答案少于13:"+filepath+":"+str(len(answers))
+            if len(answers)<14:
+                print "阅读答案少于14:"+filepath+":"+str(len(answers))
             #如果是完整的14个题
             if len(answers)==14:
                 for single_answer in answers:
