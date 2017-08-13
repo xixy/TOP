@@ -56,19 +56,19 @@ if __name__ == '__main__':
     # adminDAO.delete(admin1)
     # adminDAO.index(admin1)
     #生成学生
-    # userdb.student.remove({})
-    # student1=studentInfo("xxy","123456")
-    # studentInfoDAO.delete(1)
-    # studentInfoDAO.index(student1)
+    userdb.student.remove({})
+    student1=studentInfo("xxy","123456")
+    studentInfoDAO.delete(1)
+    studentInfoDAO.index(student1)
 
     #给学生插入题
-    # studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20170325","20170415"])
+    studentInfoDAO.addQuestionSetsForStudent(1,["20170603","20170325","20170415"])
 
     #给学生提交几个答案
-    # asw=answer("20170603","R3","A", 1)
-    # answerDAO.index(asw,configure.answer_practicemode)
-    # asw=answer("20170603","L1","C",1)
-    # answerDAO.index(asw,configure.answer_practicemode)
-    # asw=answer("20170603","R3","D",1)
-    # answerDAO.index(asw,configure.answer_exammode)
+    asw=answer("20170603","R3","A", 1)
+    answerDAO.index(asw,configure.answer_practicemode)
+    asw=answer("20170603","L1","C",1)
+    answerDAO.index(asw,configure.answer_practicemode)
+    asw=answer("20170603","R3","D",1)
+    answerDAO.index(asw,configure.answer_exammode)
     print "数据导入完毕"

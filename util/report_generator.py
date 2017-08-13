@@ -12,6 +12,7 @@ from studentInfoDAO import studentInfoDAO
 from answerDAO import answerDAO
 from selection_questionDAO import selection_questionDAO
 from dict_op import sortDict
+from report_doc_generator import write_doc
 
 class report_generator(object):
     """用于生成客观题报告"""
@@ -281,7 +282,8 @@ class report_generator(object):
         #计算听力分数
         listening_score=cls.calculateScoreForListening(listening_answers)
         #写报告
-        cls.writeReport(reading_answers,listening_answers,reading_score,listening_score,path)
+        # cls.writeReport(reading_answers,listening_answers,reading_score,listening_score,path)
+        write_doc(setid,reading_answers,listening_answers,reading_score,listening_score,path)
 
         return configure.SUCCESS_CODE
 
@@ -291,5 +293,5 @@ if __name__ == '__main__':
     listening_test=reading_test
     listening_test.extend(reading_test)
     # report_generator.writeReport(reading_test,listening_test,official_answer,'/Users/apple/Code/report')
-    report_generator.generatReport(1,20170603,configure.answer_exammode,"../report")
+    report_generator.generatReport(1,20170603,configure.answer_exammode,"./report.docx")
 
