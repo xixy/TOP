@@ -30,7 +30,7 @@ from ip_limit import isAllowedIP
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 CORS(app, supports_credentials=True)
-
+answer_path="../Answer/"
 #学生登陆
 @app.route('/login',methods=['POST'])
 def login():
@@ -150,6 +150,12 @@ def getQuestion(setid,index):
                 question=writing_questionDAO.getQuestion(setid,index)
     return jsonify(question),200
 
+def getAnswerDirectory(setid,username,mode):
+    """
+    获取答案的目录
+    """
+    directory=answer_path+mode+"/"+str(setid)+"/"+str(username)
+    return directory
 
 #生成报告
 @app.route('/report',methods=['POST'])
@@ -163,7 +169,7 @@ def generatReport():
     mode=data["mode"]
     student=studentInfoDAO.getStudentInfoById(userid)
     username=student[configure.student_name]
-    directory=answer_path+str(username)+"/"+mode+"/"+str(setid)
+    directory=getAnswerDirectory(setid,username,mode)
     #先创建文件夹，如果文件夹不存在
     if not os.path.exists(directory):
         os.makedirs(directory)
@@ -239,7 +245,7 @@ def getStudentReadingReviewsForSet(userid,setid,mode):
 
 
 
-answer_path="../Answer/"
+
 #保存学生提交的答案:包括选择题、写作题
 @app.route('/answer/submit',methods=['POST'])
 def saveAnswer():
@@ -268,7 +274,7 @@ def saveAnswer():
             #如果文件夹不存在，就创建文件夹
             student=studentInfoDAO.getStudentInfoById(userid)
             username=student[configure.student_name]
-            directory=answer_path+username+"/"+mode+"/"+str(setid)
+            directory=getAnswerDirectory(setid,username,mode)
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
@@ -300,7 +306,7 @@ def upload_record(userid,setid,index,mode):
     upload_files=request.files.getlist("record")
     student=studentInfoDAO.getStudentInfoById(userid)
     username=student[configure.student_name]
-    directory=answer_path+username+"/"+mode+"/"+str(setid)
+    directory=getAnswerDirectory(setid,username,mode)
     #先创建文件夹，如果文件夹不存在
     if not os.path.exists(directory):
         os.makedirs(directory)
