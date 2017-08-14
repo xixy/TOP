@@ -30,7 +30,7 @@ class report_generator(object):
             for single_answer in single_listening_answers:
                 
                 student_answer=str(sorted(single_answer.keys()[0]))
-                official_answer=sorted(str(single_answer[single_answer.keys()[0]]))
+                official_answer=str(sorted(single_answer[single_answer.keys()[0]]))
                 #如果回答正确
                 if cmp(student_answer,official_answer)==0:
                     score+=1
