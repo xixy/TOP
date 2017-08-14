@@ -62,7 +62,7 @@ def write_doc(setid,reading_answers,listening_answers,reading_score,listening_sc
     hdr_cells[0].text=u'Speaking'
     #Writing得分
     hdr_cells=table.columns[5].cells
-    hdr_cells[0].text=u'Speaking'
+    hdr_cells[0].text=u'Writing'
     #总得分
     hdr_cells=table.columns[6].cells
     hdr_cells[0].text=u'Total'
