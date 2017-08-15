@@ -2,18 +2,18 @@
 Listen to a conversation between two students
 
 (man) Hey, Mary, what's up?
-(woman) Hey, Jake, how's it going? So, we’re still on for Sunday, right, for you to help me move out of my apartment?
+(woman) Hey, Jake, how's it going? So, we're still on for Sunday, right, for you to help me move out of my apartment?
 (man) Sunday?
 (woman) Yeah, you were going to help me move my stuff into storage for the summer, remember?
-(man) Oh, that's right. I’m so sorry, Mary. I totally forgot. I actually made other plans for Sunday.
+(man) Oh, that's right. I'm so sorry, Mary. I totally forgot. I actually made other plans for Sunday.
 (woman) Oh?
 (man) Yeah, some friends and I from Art History class were going to the art museum in the city. There's a cool painting exhibit going on of watercolors. We already have the tickets and all. Is there any way somebody else could help you out instead?
-(woman) Well, I guess I could see if somebody else was available. I’m sure that's a possibility. It's not for a few days, so, I could ask around to see if anyone would be available to help.
-(man) Hmm, I don’t know. What if you don’t find anybody?
-(woman) I can try. Don’t worry about it.
+(woman) Well, I guess I could see if somebody else was available. I'm sure that's a possibility. It's not for a few days, so, I could ask around to see if anyone would be available to help.
+(man) Hmm, I don't know. What if you don't find anybody?
+(woman) I can try. Don't worry about it.
 (man) Well, I feel kind of bad about this. So, listen, maybe I can cancel with my friends and tell them to go to the museum without me. 
-(woman) But don’t you already have a ticket to the exhibit?
-(man) Yeah, but it's supposed to be such a good show, I’m sure I could probably find someone else to give it to.
+(woman) But don't you already have a ticket to the exhibit?
+(man) Yeah, but it's supposed to be such a good show, I'm sure I could probably find someone else to give it to.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

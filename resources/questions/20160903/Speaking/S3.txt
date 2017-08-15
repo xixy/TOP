@@ -10,11 +10,11 @@ Now listen to two students discussing the announcement.
 (woman) No? Why not?
 (man) Well, first off, why this building? I mean, a lot of students go there on weekends. It's a really fun place. Some students have never tried skating before coming here and it's such a great new experience. It's always crowded with students.
 (woman) Yeah, I go there a lot with my friends.
-(man) Right, I don’t think there's another place like that anywhere near here. It's going to upset a lot of people I think.
+(man) Right, I don't think there's another place like that anywhere near here. It's going to upset a lot of people I think.
 (woman) Probably, but you have to admit, it would be a pretty good location for living.
 (man) Is it, though? I think new students should be close to their classrooms, the library, not to mention all the campus events like lectures by guest speakers, or the study groups on campus for incoming students.
 (woman) That's a good point. I was really busy on campus when I first started.
-(man) I know. There’re so many things to do on campus. And it might be harder if you had to travel back and forth all the time.
+(man) I know. There're so many things to do on campus. And it might be harder if you had to travel back and forth all the time.
 
 #question
 The man expresses his opinion about the proposal in the university announcement. Briefly summarize the proposal. Then state his opinion about the proposal and explain the reasons he gives for holding that opinion.

@@ -1,22 +1,22 @@
 #record
 Listen to a conversation between two students
 
-(woman) Sam, you’re in the film club, right? Are you still showing films in the campus auditorium?
-(man) Yeah, actually, I’m the one in charge of planning films we show. Tonight we’re supposed to be showing a real classic. You know the film The Third Man?
+(woman) Sam, you're in the film club, right? Are you still showing films in the campus auditorium?
+(man) Yeah, actually, I'm the one in charge of planning films we show. Tonight we're supposed to be showing a real classic. You know the film The Third Man?
 (woman) I sure do. That's a really good one.
 (man) I know and one of the professors from the film department was going to come in and give a brief lecture beforehand to talk about its place in film history before we show it.
 (woman) Sounds great.
-(man) Yeah, except, the professor just cancelled. She has a family emergency so she won’t be able to come and give the lecture.
+(man) Yeah, except, the professor just cancelled. She has a family emergency so she won't be able to come and give the lecture.
 (woman) Oh, that's too bad.
 (man) Yeah, the film club's thinking maybe we should cancel showing the film tonight and show it next week when the professor can make it.
-(woman) But aren’t lots of students already planning on coming to see it tonight?
+(woman) But aren't lots of students already planning on coming to see it tonight?
 (man) They sure are, I mean, we could send emails about the cancellation to everyone in the film club at least. And then we could go around and write “cancelled” on all the posters we put up on campus.
 (woman) Well, as long as everybody saw them that should work.
 (man) Yes, but maybe not everyone would and some people might end up coming.
 (woman) Right
 (man) So, the other thing we could do; I know a little about the film myself, so, I could probably do some research and give a short lecture before the film.
 (woman) That sounds like a good plan.
-(man) Yeah, except, we have thought of having a question-and- answer period with the professor afterward. And we have to skip that. I don’t feel I have quite enough knowledge to answer questions about the film.
+(man) Yeah, except, we have thought of having a question-and- answer period with the professor afterward. And we have to skip that. I don't feel I have quite enough knowledge to answer questions about the film.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

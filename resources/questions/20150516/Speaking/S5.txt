@@ -6,17 +6,17 @@ Male Student: Well, kind of. One of my friends, you know Brian Peters?
 Female Student: Brian? Yeah, he was in my sociology class. Graduated last year, right?
 Male Student: Yeah. He's getting married tomorrow. The wedding's in Rockville, a cute little town about two hours from here.
 Female Student: Cool! You going?
-Male Student: Yeah. I’m leaving campus tomorrow morning to drive up there, but it's a fancy wedding, so I’m supposed to wear a suit, and I don’t own one. So, I got this suit from my brother.
+Male Student: Yeah. I'm leaving campus tomorrow morning to drive up there, but it's a fancy wedding, so I'm supposed to wear a suit, and I don't own one. So, I got this suit from my brother.
 Female Student: You guys are the same size?
-Male Student: Well, that's the thing. He's a little shorter than me, but I thought it would fit ok. I just tried it on though, and it doesn’t fit. The pant legs and jacket sleeves are way too short. It looks bad. There's no way I can wear it to the wedding
-Female Student: Uh oh. What are you going to do? You don’t have much time, right?
-Male Student: No, it's already 7:00, and I’ve got to figure something out tonight. I leave really early tomorrow.
+Male Student: Well, that's the thing. He's a little shorter than me, but I thought it would fit ok. I just tried it on though, and it doesn't fit. The pant legs and jacket sleeves are way too short. It looks bad. There's no way I can wear it to the wedding
+Female Student: Uh oh. What are you going to do? You don't have much time, right?
+Male Student: No, it's already 7:00, and I've got to figure something out tonight. I leave really early tomorrow.
 Female Student: Hmm.
 Male Student: There's a friend of mine, Suzy, who says she has a little sewing experience, and she offered to alter the suit for me tonight to make the sleeves and legs longer.
 Female Student: Great!
-Male Student: I mean, I think she’d do ok, but she's not a sewing expert. It's a little risky.
+Male Student: I mean, I think she'd do ok, but she's not a sewing expert. It's a little risky.
 Female Student: Well, have you thought about buying your own suit? The stores at the mall are open till 10. If you hurry, you could get over there and look in the stores and find something.
-Male Student: Yeah, I just don’t know if I want to spend money on a suit. A good suit can be pretty expensive. But, I guess with graduation coming up, there may be job interviews I could wear it for too.
+Male Student: Yeah, I just don't know if I want to spend money on a suit. A good suit can be pretty expensive. But, I guess with graduation coming up, there may be job interviews I could wear it for too.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

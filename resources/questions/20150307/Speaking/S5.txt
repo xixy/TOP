@@ -1,18 +1,18 @@
 #record
 M: What's up Caren?
-F: Oh hey Bell. I’m just kind of figuring out what to do.
+F: Oh hey Bell. I'm just kind of figuring out what to do.
 M: about what?
-F: well, I volunteer at a local elementary school because you know, I’m an education major, and I help children with homework there after school. We also plan some fun activities with them at weekend. 
+F: well, I volunteer at a local elementary school because you know, I'm an education major, and I help children with homework there after school. We also plan some fun activities with them at weekend. 
 M: cool.
 F: yeah it's a great program and the kids really love it. So I was planning to take them on a picnic outside tomorrow, I was going to bring along foods and sandwiches and have their parents drop them off at the park so we could all eat together. 
 M: sounds like fun, as long as the weather is good.
 F:  well, that's the thing, turns out it's supposed to rain all day tomorrow. 
 M: uh oh, what are you gonna do?
-F: that's what I’m trying to figure out. I could reschedule the picnic, call everyone tonight and see if they could come to the park next weekend. The weather would probably be better then. But I doubt they’d all be able to make it. 
+F: that's what I'm trying to figure out. I could reschedule the picnic, call everyone tonight and see if they could come to the park next weekend. The weather would probably be better then. But I doubt they'd all be able to make it. 
 M: yeah, I see what you mean. Some of them might miss out.
 F: or, you know, I could have their parents drop them off at a local restaurant and have everyone meet there instead of doing a picnic.
-M: right, and then you would still be with them tomorrow and you don’t have to cancel. 
-F: but the thing is, it may not be as fun to eat inside, because you know, it wouldn’t be a picnic then.
+M: right, and then you would still be with them tomorrow and you don't have to cancel. 
+F: but the thing is, it may not be as fun to eat inside, because you know, it wouldn't be a picnic then.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

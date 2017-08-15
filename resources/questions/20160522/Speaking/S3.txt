@@ -9,15 +9,15 @@ Now listen to two students discussing the article.
 (woman) Hey, did you read this article?
 (man) Yeah, I saw it. I think it's a really good idea.
 (woman) Oh, yeah?
-(man) Yeah, I mean, I definitely think it would help and improve, because if you think about our courses, a lot of times they’re all lecture. The professors just talk and lots of students get kind of bored and don’t pay attention as much as they should.
+(man) Yeah, I mean, I definitely think it would help and improve, because if you think about our courses, a lot of times they're all lecture. The professors just talk and lots of students get kind of bored and don't pay attention as much as they should.
 (woman) Yeah, that's true. It can get boring just listening to a lecture.
-(man) Right, and if students are bored, they’re probably not learning as much as they could be, like, in history classes, it could be helpful to see images or videos of important people and places from the time period as professors go over the information. I think it would help students pay attention and feel more interested. They’d learn more.
-(woman) I think you’re right. But do you think they’ll actually get them to participate in the program?
+(man) Right, and if students are bored, they're probably not learning as much as they could be, like, in history classes, it could be helpful to see images or videos of important people and places from the time period as professors go over the information. I think it would help students pay attention and feel more interested. They'd learn more.
+(woman) I think you're right. But do you think they'll actually get them to participate in the program?
 (man) Yeah, I do. I think it's really great that the university's offering something extra to motivate them to do this.
-(woman) You think that’ll make a difference?
+(woman) You think that'll make a difference?
 (man) Definitely! I mean, professors are really busy with classes and grading and their own research.
 (woman) That's true.
-(man) Right, and when they’re busy like that, it's easy for them to just keep doing things the old way, the way they already know. But the incentive will give them a reason to find time to participate and learn some new skills.
+(man) Right, and when they're busy like that, it's easy for them to just keep doing things the old way, the way they already know. But the incentive will give them a reason to find time to participate and learn some new skills.
 
 #question
 The man expresses his opinion about the plan described in the article. Briefly summarize the plan. Then state his opinion about the plan and explain the reasons he gives for holding that opinion.

@@ -6,13 +6,13 @@ Listen to a conversation between two students.
 (man) Supposed to?
 (woman) Yeah, there's a really great orchestra playing at the Symphony Center tonight that I really want to see. My music professor recommended them.
 (man) Oh, cool.
-(woman) Yeah, so I bought the concert ticket online and everything, but I must’ve gotten the train schedule wrong. I just missed the five p.m. train I need to take to get there early enough. And the next train is not until seven. I wouldn’t get to the city till the concert is almost over.
+(woman) Yeah, so I bought the concert ticket online and everything, but I must've gotten the train schedule wrong. I just missed the five p.m. train I need to take to get there early enough. And the next train is not until seven. I wouldn't get to the city till the concert is almost over.
 (man) Oh, well, you could borrow my car. If you want to drive in? That would be faster.
 (woman) Thanks, that's really nice of you! Though if I did that I might end up missing the beginning or even more of the show, there's probably gonna be traffic this time of day and I need to find parking which could take a while.
 (man) Yeah, I guess it could be busy on the roads with people getting out of work this time of day.
-(woman) Yeah so, I don’t know. Maybe I should just try to get a ticket for tomorrow night's show and go tomorrow and make sure to get on the five p.m. train.
+(woman) Yeah so, I don't know. Maybe I should just try to get a ticket for tomorrow night's show and go tomorrow and make sure to get on the five p.m. train.
 (man) Oh! The orchestra is playing for more than one night?
-(woman) Yeah, they’re playing tomorrow too. But I’m not sure if there are any tickets left and by the time I found out it’d definitely be too late to drive in. I’d also have to spend an extra forty dollars for a new ticket because I can’t exchange the ticket I already bought.
+(woman) Yeah, they're playing tomorrow too. But I'm not sure if there are any tickets left and by the time I found out it'd definitely be too late to drive in. I'd also have to spend an extra forty dollars for a new ticket because I can't exchange the ticket I already bought.
 (man) Seems like you need to decide fast.
 (woman) Yeah.
 

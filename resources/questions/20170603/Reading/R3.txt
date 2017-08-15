@@ -82,7 +82,7 @@
    Scientists have long sought to explain why an extraordinary number of organisms went extinct at the end of the Cretaceous period.
 
    Answer Choices:
-   A) One theory is that high levels of iridium in the atmosphere may have caused widespread disease, loss of vegetation, and weakness that increased animals’ vulnerability to predation.
+   A) One theory is that high levels of iridium in the atmosphere may have caused widespread disease, loss of vegetation, and weakness that increased animals' vulnerability to predation.
    B) A thin layer of iridium-rich clay found in marine sediments in several locations around the world suggested that an asteroid with a diameter of at least 10 kilometers had hit Earth.
    C) The lack of an obvious crater and the prevalence of iridium in marine sediments as opposed to terrestrial rocks suggest that the impact occurred in the deep ocean.
    D) Effects of such a collision would have included changes in global climate, fires, acid rain, and loss of plankton and other ocean life.

@@ -3,16 +3,16 @@ Listen to a conversation between two students
 
 (woman) What's up, Paul? How was your trip home to visit your parents over the weekend?
 (man) It was good. It was great to see them. The problem is, though, I forgot my glasses there.
-(woman) Oh, I didn’t know your wore glasses.
+(woman) Oh, I didn't know your wore glasses.
 (man) Yeah, I just got them recently. It's a prescription glasses, mostly for reading. And I was doing some schoolwork at my parent's house, reading for an assignment and ended up leaving them behind when I left.
 (woman) Oh, that's too bad.
 (man) I know. And I need to finish a big novel for my literature class by the end of the week. It's a couple of hundred pages of reading.
 (woman) So what are you going to do?
-(man) Well, my mom offered to send the glasses to me in the mail, but they probably wouldn’t get here for, like, two days or so. I mean, I could get by without the glasses, but it kind of gives me a headache if I read for too long without them.
+(man) Well, my mom offered to send the glasses to me in the mail, but they probably wouldn't get here for, like, two days or so. I mean, I could get by without the glasses, but it kind of gives me a headache if I read for too long without them.
 (woman) So you just have to read for short periods of time until the glasses arrive?
 (man) Pretty much
 (woman) Sounds like a pain.
-(man) Yeah, so, I don’t know. I could also just take a bus home tonight to get the glasses after I finish with classes. It’d be a couple of hours there and back. It’d mean paying for a bus ticket when I wouldn’t even be staying to visit, just picking up my glasses and jumping right back on the bus to get back to school again.
+(man) Yeah, so, I don't know. I could also just take a bus home tonight to get the glasses after I finish with classes. It'd be a couple of hours there and back. It'd mean paying for a bus ticket when I wouldn't even be staying to visit, just picking up my glasses and jumping right back on the bus to get back to school again.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

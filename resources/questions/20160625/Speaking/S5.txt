@@ -1,21 +1,21 @@
 #record
 Listen to a conversation between two students.
 
-(woman) Hey, Jim, I can’t believe this. Guess what I just did?
+(woman) Hey, Jim, I can't believe this. Guess what I just did?
 (man) What?
 (woman) I accidentally locked myself out of my dorm room.
 (man) Uh oh
-(woman) Yeah, I just left the room and I forgot to take my keys with me. So now my keys are in there and the door's locked. And the dorm advisor's away for the day, so I can’t even get the spare key.
-(man) Doesn’t your roommate have a key?
-(woman) Yeah, but she's at an orchestra rehearsal all afternoon. I’m stuck.
+(woman) Yeah, I just left the room and I forgot to take my keys with me. So now my keys are in there and the door's locked. And the dorm advisor's away for the day, so I can't even get the spare key.
+(man) Doesn't your roommate have a key?
+(woman) Yeah, but she's at an orchestra rehearsal all afternoon. I'm stuck.
 (man) So what are you gonna do?
 (woman) Well, I could go to the library for the afternoon. I do need to get some work done for a sociology paper that's due in a couple of weeks. So I can find some books and sit there and do some research, you know, until my roommate gets back and lets me in.
 (man) That could work.
-(woman) Well, yeah, but I guess, I mean, it wouldn’t be ideal. A lot of my notes and my outline for the paper are in my room, but, I guess I could still do some work on it while I waited.
+(woman) Well, yeah, but I guess, I mean, it wouldn't be ideal. A lot of my notes and my outline for the paper are in my room, but, I guess I could still do some work on it while I waited.
 (man) Well, is there any way you could go get the key from your roommate even though she's in a rehearsal.
-(woman) Yeah, I guess I could. She's in the Music building which is right nearby so it wouldn’t take long. But, you know, she's in the middle of an important rehearsal.
+(woman) Yeah, I guess I could. She's in the Music building which is right nearby so it wouldn't take long. But, you know, she's in the middle of an important rehearsal.
 (man) I see.
-(woman) I’d feel sort of bad about interrupting.
+(woman) I'd feel sort of bad about interrupting.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which solution you would recommend. Explain the reasons for your recommendation.

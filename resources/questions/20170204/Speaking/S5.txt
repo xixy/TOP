@@ -1,17 +1,17 @@
 #record
 
 (woman) Hey, Ken, how's it going? Got any plans for the weekend?
-(man) Well, I did, but now I’m not sure what I’m doing.
+(man) Well, I did, but now I'm not sure what I'm doing.
 (woman) What do you mean?
 (man) Well, I have plans to go to the beach with some friends tomorrow. But another friend, Mary, just left a message for me this morning to ask for my help moving her stuff. She's moving to another apartment across town and she has to move by tomorrow.
 (woman) Oh, she just asked you today?
-(man) Yeah, she said she's sorry it's so last-minute. It took her longer than she expected to pack all her things so now she just has one day to move. If she stays another day in that apartment, she’ll have to pay another month's rent.
-(woman) Can’t Mary find anyone else to help her instead?
+(man) Yeah, she said she's sorry it's so last-minute. It took her longer than she expected to pack all her things so now she just has one day to move. If she stays another day in that apartment, she'll have to pay another month's rent.
+(woman) Can't Mary find anyone else to help her instead?
 (man) Well, I could tell her to ask around to find someone else to help her move. I know she has a number of other friends.
 (woman) That might work.
-(man) But the thing is I don’t know how easy it’d be for her to find someone else at such short notice. You know, it's the weekend and lots of people probably have other things planned already. This is just so last-minute.
+(man) But the thing is I don't know how easy it'd be for her to find someone else at such short notice. You know, it's the weekend and lots of people probably have other things planned already. This is just so last-minute.
 (woman) So are you thinking of cancelling your plans for the beach then?
-(man) Yeah, maybe I should do that; just not go to the beach and help Mary instead. The only thing is that my friends and I have been planning this day at the beach for a long time and it's really the last opportunity we have of enjoying warm sunny weather. The weather is supposed to become much cooler next week. So, I don’t know.
+(man) Yeah, maybe I should do that; just not go to the beach and help Mary instead. The only thing is that my friends and I have been planning this day at the beach for a long time and it's really the last opportunity we have of enjoying warm sunny weather. The weather is supposed to become much cooler next week. So, I don't know.
 
 
 #question

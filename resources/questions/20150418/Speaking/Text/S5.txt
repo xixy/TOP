@@ -1,22 +1,22 @@
 #record
 Male Student: Hey Mary, how are things?
-Female Student: Well, pretty good. I’m a little worried about tomorrow afternoon, though
+Female Student: Well, pretty good. I'm a little worried about tomorrow afternoon, though
 Male Student: Why, what's happening then?
-Female Student: You probably know about the spring concert, you know the one we have on campus every year? Well, this year I’m organizing it. There's going to be a couple of student bands playing and it should be a lot of fun, sort of a celebration for the beginning of spring.
-Male Student: Oh yeah, that's right. I’ve seen the posters around campus. I’m planning on going.
-Female Student: Well, I don’t know if it's going to happen tomorrow. I just heard the weather forecast.
-Male Student: Oh no, don’t tell me.
-Female Student: Yeah, they’re predicting rain.
+Female Student: You probably know about the spring concert, you know the one we have on campus every year? Well, this year I'm organizing it. There's going to be a couple of student bands playing and it should be a lot of fun, sort of a celebration for the beginning of spring.
+Male Student: Oh yeah, that's right. I've seen the posters around campus. I'm planning on going.
+Female Student: Well, I don't know if it's going to happen tomorrow. I just heard the weather forecast.
+Male Student: Oh no, don't tell me.
+Female Student: Yeah, they're predicting rain.
 Male Student: So what are you going to do about holding the concert?
 Female Student: Well, if we want to have it tomorrow, we can move it indoors. One of the school auditoriums is available. There would be plenty of room for people to sit and listen to the music.
 Male Student: Okay, that makes sense.
-Female Student: It wouldn’t be as much fun as having it outside, though. Having it outside, it would feel like a real celebration of the spring season. People could be free to walk around, relax on the grass during performances, stuff like that.
+Female Student: It wouldn't be as much fun as having it outside, though. Having it outside, it would feel like a real celebration of the spring season. People could be free to walk around, relax on the grass during performances, stuff like that.
 Male Student: Hmm, yeah…
 Female Student: But the weather report said it will be clear the day after tomorrow, on Sunday, so we could postpone the concert till Sunday afternoon.
 Male Student: That way, you could have it outside.
-Female Student: Exactly. I talked to the musicians in the bands and they’d be fine with playing on Sunday. 
+Female Student: Exactly. I talked to the musicians in the bands and they'd be fine with playing on Sunday. 
 Male Student: Great!
-Female Student: I just don’t know how many people would come. It usually seems quieter around here on Sunday afternoon. Remember, some people go off campus to visit family and friends, so I’m not sure if enough people are going to be around to enjoy it.
+Female Student: I just don't know how many people would come. It usually seems quieter around here on Sunday afternoon. Remember, some people go off campus to visit family and friends, so I'm not sure if enough people are going to be around to enjoy it.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

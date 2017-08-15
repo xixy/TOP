@@ -7,13 +7,13 @@ Listen to a conversation between two students.
 (man) Oh, really, what happened?
 (woman) Well, I strained a muscle in my leg. It's been kind of sore lately and I went to the doctor to have it checked out and he said it's a pulled muscle.
 (man) Hmm, well, that should heal with time, right?
-(woman) Yeah, I’m one of the better players on my team and we have a couple of important games coming up, the playoff games to determine which is the best basketball team on campus. 
+(woman) Yeah, I'm one of the better players on my team and we have a couple of important games coming up, the playoff games to determine which is the best basketball team on campus. 
 (man) So what did the doctor say?
-(woman) Well, he said the muscle would probably heal faster if I just stopped playing for a couple of weeks, which would mean missing our last games of the season. I’d just take it easy and try to stay off the leg as much as possible.
+(woman) Well, he said the muscle would probably heal faster if I just stopped playing for a couple of weeks, which would mean missing our last games of the season. I'd just take it easy and try to stay off the leg as much as possible.
 (man) Is that OK with you?
 (woman) Well, the doctor said that if it's really important for me to play in these last games of the season, I could play but make sure to do some exercises to stretch the muscle beforehand and then ice the muscle after I play.
 (man) It might take longer for it to heal if you do that.
-(woman) True, it’ll probably have me limping around, might be painful for a while.
+(woman) True, it'll probably have me limping around, might be painful for a while.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

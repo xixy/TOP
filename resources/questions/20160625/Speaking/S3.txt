@@ -7,15 +7,15 @@ The department of engineering plans to discontinue tutorials for first-year engi
 #record
 Now listen as two engineering students discuss the article.
 
-(man) Are you as shocked as I am that they’re gonna drop this program?
-(woman) I am, but, if they can’t find any volunteers to help out,
-(man) Well, if they really can’t find enough upper-level students, why not open it up to Ph.D. students?
-(woman) Ph.D. students? Really? You think they’d do it?
-(man) Why not? It wouldn’t take that much of their time.
+(man) Are you as shocked as I am that they're gonna drop this program?
+(woman) I am, but, if they can't find any volunteers to help out,
+(man) Well, if they really can't find enough upper-level students, why not open it up to Ph.D. students?
+(woman) Ph.D. students? Really? You think they'd do it?
+(man) Why not? It wouldn't take that much of their time.
 (woman) True
-(man) Or, better yet, why not just make it a requirement for all Ph.D. students in engineering, you know, they’d have to volunteer to tutor at least once a semester or something like that.
+(man) Or, better yet, why not just make it a requirement for all Ph.D. students in engineering, you know, they'd have to volunteer to tutor at least once a semester or something like that.
 (woman) Great idea! And a Ph.D. student would definitely be the most knowledgeable people to explain the material.
-(man) Exactly! And you know, I don’t see where they got this idea that the program wasn’t working. I used it a few times and, personally, it really helped me a lot when I first started taking engineering classes.
+(man) Exactly! And you know, I don't see where they got this idea that the program wasn't working. I used it a few times and, personally, it really helped me a lot when I first started taking engineering classes.
 (woman) Me too, especially with some of the reading assignment.
 (man) I know. I think that's why most people sign up: to get a better understanding of the textbook, of the reading assignments. It helps a lot, especially before a big test or something.
 (woman) Exactly!

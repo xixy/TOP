@@ -4,7 +4,7 @@ New Requirement for Theater Studies Majors
 Starting this fall, the theater studies department will add a new requirement for all students majoring in theater studies In addition to their reading and writing assignments, theater studies majors will be expected to make trips off campus to attend three theatrical performances each semester at the city's theaters. "The reason we've added this requirement is that we feel that seeing professionally produced plays is necessary to fully understanding the art of drama,” the head of the theater department said. In order to fund these trips, all theater studies majors will be required to pay a fee of $35 each semester.
 
 #record
-Female student: Hey Joe, you’re a theatre major right?
+Female student: Hey Joe, you're a theatre major right?
 Male student: I sure am.
 Female student: What do you think about this?
 Male student: I think it's a really cool idea.
@@ -13,11 +13,11 @@ Male student: Yea, but I agree with the department head. It's really important f
 Female student: How come?
 Male student: Because plays are meant to be seen and heard, not just studied. When you read a play, and even after you discuss it in class, it's just a lot of words printed on a page.
 Female student: True. 
-Male student: So reading plays just isn’t enough to understand them. You have to see them performed by real people on a stage because that's when you start to become more involved in the action and the characters actually start to come alive.
+Male student: So reading plays just isn't enough to understand them. You have to see them performed by real people on a stage because that's when you start to become more involved in the action and the characters actually start to come alive.
 Female student: Yea, I see what you're saying. But then there's the whole question of money.
 Male student: You know, I think the fee is actually a good deal. I mean. A ticket for just one play can easily cost more than that.
 Female student: I guess so.
-Male student: But we’ll be getting to see three plays for the price of one. Plus we’ll be getting free transportation there and back since they are making all the arrangements. It's actually a real bargain and I think it will be a lot of fun. 
+Male student: But we'll be getting to see three plays for the price of one. Plus we'll be getting free transportation there and back since they are making all the arrangements. It's actually a real bargain and I think it will be a lot of fun. 
 
 
 #question

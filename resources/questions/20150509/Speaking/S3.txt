@@ -6,18 +6,18 @@ Usually, the spring musical, the largest theatrical production of the year, is d
 
 #record
 Man: Hey Paula, you usually act in these productions. What do you think about this decision?
-Woman: I don’t like it at all.
-Man: But you’re a theatre major, so wouldn’t this benefit you?
-Woman: How can it if the guy they hired already has a busy career? He's already directing several other shows in the city and from what I hear he’ll only be on campus like once a week.
+Woman: I don't like it at all.
+Man: But you're a theatre major, so wouldn't this benefit you?
+Woman: How can it if the guy they hired already has a busy career? He's already directing several other shows in the city and from what I hear he'll only be on campus like once a week.
 Man: Ok. That's not much time.
-Woman: I mean, I’m in this show and I’m afraid we’ll be left to work on the songs and practice the dances all by ourselves. This new director just won’t be able to give the show his full attention.
+Woman: I mean, I'm in this show and I'm afraid we'll be left to work on the songs and practice the dances all by ourselves. This new director just won't be able to give the show his full attention.
 Man: Hm.
-Woman: We’d be much better off with a student directing because a student can hold rehearsals more often. I mean, there's no point of practicing if the director isn’t actually present. You don’t get as much out of it.
+Woman: We'd be much better off with a student directing because a student can hold rehearsals more often. I mean, there's no point of practicing if the director isn't actually present. You don't get as much out of it.
 Man: Well, there is that other benefit to hiring him.
 Woman: You mean getting more people to go? Actually, I think the university is wrong there too.
-Man: But isn’t the guy pretty famous?
+Man: But isn't the guy pretty famous?
 Woman: Sure, famous in his field, in the world of the theatre. Students like me who love musical theatre, we know him. But the average student has no idea who he is, has never even heard of him.
-Man: Yea, actually I’ve never heard of him before myself.
+Man: Yea, actually I've never heard of him before myself.
 
 #question
 The woman expresses her opinion about the change proposed in the announcement. Briefly summarize the change. Then state her opinion about the change and explain the reasons she gives for holding that opinion.

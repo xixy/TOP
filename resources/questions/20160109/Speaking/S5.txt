@@ -1,18 +1,18 @@
 #record
 (woman) Hey, Dan, you have tickets for the jazz concert this weekend, right?
-(man) Yeah, but I’m not sure I can go, I mean, I was really looking forward to it, but I’ve got a problem.
+(man) Yeah, but I'm not sure I can go, I mean, I was really looking forward to it, but I've got a problem.
 (woman) What's that?
-(man) Well, the auditions to choose actors for parts in the new play are the same night and I just don’t want to miss out this year. You see, I’ve never been in a play before and I’ve always wanted to see what it's like. But I’d hate to miss the concert.
+(man) Well, the auditions to choose actors for parts in the new play are the same night and I just don't want to miss out this year. You see, I've never been in a play before and I've always wanted to see what it's like. But I'd hate to miss the concert.
 (woman) So, what are you gonna do?
 (man) Well, I could just go to the first half of the concert and then leave early to go to the auditions.
 (woman) Would you make it there in time?
-(man) Yeah, I think so. It's not far from the concert hall to the drama building where the auditions are being held. But it’d be disappointing not to see the whole concert after I spent all that money on my ticket.
+(man) Yeah, I think so. It's not far from the concert hall to the drama building where the auditions are being held. But it'd be disappointing not to see the whole concert after I spent all that money on my ticket.
 (woman) Well, is there anything else you could do?
 (man) Yeah, there's actually a second day of auditions.
 (woman) Great! So just go to the concert and then try out for the play on the second day of auditions.
 (man) I could. It's just that the second day is for smaller parts. To try out for the main parts you need to audition the first night.
 (woman) Oh, OK
-(man) So I could try out for a smaller part in the play but I wouldn’t have many lines. It might not be as much fun.
+(man) So I could try out for a smaller part in the play but I wouldn't have many lines. It might not be as much fun.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.
