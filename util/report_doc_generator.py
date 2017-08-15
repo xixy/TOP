@@ -213,6 +213,23 @@ def write_doc(setid,reading_answers,listening_answers,reading_score,listening_sc
     #保存文件
     document.save(report_path)
 
+def generate_writing_doc(path,article):
+    """
+    将写作的部分保存到word中
+    Args:
+        path:保存路径
+        article:文章内容
+    """
+    #打开文档
+    document = Document()
+    paragraph = document.add_paragraph(u'')
+    for line in article:
+        paragraph.add_run(str(line)+'\n')
+     #增加分页
+    document.add_page_break()   
+    #保存文件
+    document.save(path)
+
 if __name__ == '__main__':
     path='/Users/apple/Code/TOP/util/demo.docx'
     official_answer={"L18" : "C", "L19" : "BD", "L14" : "B", "L15" : "C", "L16" : "D", "L17" : "D", "L10" : "ACE", "L11" : "B", "L12" : "C", "L13" : "A", "R42" : "BDE", "R16" : "C", "R17" : "D", "R14" : "BEF", "R15" : "C", "R12" : "B", "R13" : "C", "R10" : "A", "R11" : "A", "R40" : "B", "R18" : "C", "R19" : "B", "L21" : "B", "L20" : "B", "L23" : "C", "L22" : "C", "L25" : "AB", "L24" : "D", "L27" : "C", "L26" : "C", "R34" : "C", "R35" : "D", "R36" : "A", "R37" : "B", "R30" : "D", "R31" : "C", "R32" : "C", "R33" : "C", "R4" : "A", "R5" : "C", "R6" : "D", "R7" : "C", "R39" : "B", "R1" : "B", "R2" : "B", "R3" : "B", "R28" : "ADE", "R8" : "B", "R9" : "B", "L6" : "B", "L29" : "BDE", "L4" : "B", "L5" : "C", "L2" : "C", "L3" : "A", "L1" : "D", "L8" : "D", "L9" : "C", "R24" : "D", "L30" : "B", "L7" : "A", "L32" : "C", "userid" : -1, "L28" : "B", "R38" : "A", "L34" : "D", "R41" : "D", "L33" : "D", "R29" : "A", "L31" : "A", "R27" : "A", "R26" : "A", "R25" : "B", "R23" : "D", "R22" : "A", "R21" : "C", "R20" : "D" }

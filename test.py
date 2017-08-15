@@ -26,6 +26,7 @@ from answer import answer
 from studentInfo import studentInfo
 import configure
 from ip_limit import isAllowedIP
+from report_doc_generator import generate_writing_doc
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
@@ -280,10 +281,12 @@ def saveAnswer():
 
             #保存作文
             path=directory+"/"+str(index)+".txt"
-            f=open(path,'w')
-            for line in options:
-                f.write(line+'\n')
-            f.close()
+            generate_writing_doc(path,options)
+
+            # f=open(path,'w')
+            # for line in options:
+            #     f.write(line+'\n')
+            # f.close()
             #在数据库中进行标记
             asw=answer(setid,index,str(1),userid)
             if cmp(mode,"exam")==0:
