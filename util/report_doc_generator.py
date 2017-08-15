@@ -220,8 +220,29 @@ def generate_writing_doc(path,article):
         path:保存路径
         article:文章内容
     """
+
     #打开文档
-    document = Document()
+    #如果不存在
+    if not os.path.exists(path):
+        document=Document()
+        #添加表格
+        table = document.add_table(rows=3,cols=3,style = u'Table Grid')
+        table.autofit = False
+        table.columns[0].cells[0].width=Inches(0.5)
+        table.columns[1].cells[0].width=Inches(0.5)
+        table.columns[2].cells[0].width=Inches(3)
+        table.cell(1,0).text=u'Integrated Writing'
+        table.cell(2,0).text=u'Independent Writing'  
+        table.cell(0,1).text=u'Score(1-5)' 
+        table.cell(0,2).text=u'Comments'
+
+        #添加标题
+        document.add_heading(u'Writing1',1)
+
+    else:
+        document=Document(path)
+        document.add_heading(u'Writing2',1)
+
     paragraph = document.add_paragraph(u'')
     for line in article:
         paragraph.add_run(str(line)+'\n')
