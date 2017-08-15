@@ -226,12 +226,13 @@ def generate_writing_doc(path,article):
     #如果不存在
     if not os.path.exists(path):
         document=Document()
+        document.add_paragraph(u'Total Score:')
         #添加表格
         table = document.add_table(rows=3,cols=3,style = u'Table Grid')
         table.autofit = False
         table.columns[0].cells[0].width=Inches(0.5)
         table.columns[1].cells[0].width=Inches(0.5)
-        table.columns[2].cells[0].width=Inches(3)
+        table.columns[2].cells[0].width=Inches(2.5)
         table.cell(1,0).text=u'Integrated Writing'
         table.cell(2,0).text=u'Independent Writing'  
         table.cell(0,1).text=u'Score(1-5)' 
