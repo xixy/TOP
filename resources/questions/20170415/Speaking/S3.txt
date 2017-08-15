@@ -8,14 +8,14 @@ Tom Moore
 #record
 (man) Hey, Sara, did you read this?
 (woman) Yeah, but I don’t think it makes much sense, that part about all the students signing up for the courses.
-(man) You don’t think it’s a problem?
-(woman) It’s definitely an issue, but if the university made one simple change, the situation will improve.
+(man) You don’t think it's a problem?
+(woman) It's definitely an issue, but if the university made one simple change, the situation will improve.
 (man) What do you mean?
 (woman) Well, they just need to add more classes; have a few sections just for science majors and the rest for general students who are not science majors. It would mean hiring a few more instructors but the university has the money to do that.
 (man) Yeah, that might work.
 (woman) That way there will be enough space for everyone and science students would have an easier time.
 (man) Right, I see what you mean.
-(woman) Besides, I totally disagree with him about it’s not being useful.
+(woman) Besides, I totally disagree with him about it's not being useful.
 (man) Why is that?
 (woman) Well, sometimes you learn things in one course that you can apply in another. Take me for instance. I am an art student but I’ve used things I learned in biology for my art projects.
 (man) Really? How?

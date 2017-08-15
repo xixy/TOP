@@ -1,18 +1,18 @@
 #record
 Listen to a conversation between two students
 
-(man) Hey, Laura, how’s it going?
+(man) Hey, Laura, how's it going?
 (woman) Oh, hi, I am just a little concerned about something.
-(man) What’s wrong?
+(man) What's wrong?
 (woman) I’m just trying to figure out what to do. I’m planning to study abroad in Italy next year during the autumn semester.
 (man) Oh, wow, cool!
-(woman) I know. I’m really excited, but there is this European History class I’m required to take next year. It’s one of the required courses for history majors. And I just found out it’s going to be offered in the autumn, which is when I’ll be in Italy.
+(woman) I know. I’m really excited, but there is this European History class I’m required to take next year. It's one of the required courses for history majors. And I just found out it's going to be offered in the autumn, which is when I’ll be in Italy.
 (man) Oh, too bad!
 (woman) Yeah, but they are actually offering an online version over the internet. So I could take it while I’m in Italy. I’d have to listen to the lectures online and submit papers to the professor through email.
 (man) Sounds like that could work.
 (woman) Yeah, but I’m worried that might be difficult with my schedule. There will be online chat sessions where I’ll have to be online at the same time as everyone else in the class to discuss the course material with other students and the professor. And Italy is in a different time zone so the chat session might end up being in the middle of the night for me.
 (man) Hmm
-(woman) But the course’s also being given here on campus this summer, so, I could take the course here before I leave for Italy.
+(woman) But the course's also being given here on campus this summer, so, I could take the course here before I leave for Italy.
 (man) Oh, that sounds perfect.
 (woman) But I was planning working all summer so I could save up some extra money for Italy. I want to be able to do some traveling while I’m over there. But if I take this class, I won’t have as much time to work. So I won’t have as much money to travel.
 

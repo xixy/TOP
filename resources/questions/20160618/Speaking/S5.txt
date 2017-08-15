@@ -6,11 +6,11 @@ Now listen to a conversation between two student editors of the campus newspaper
 (man) I know and it gets worse. We are not only gonna be getting less money, the price of paper has gone up about 25 percent.
 (woman) So how are we gonna afford to keep publishing the newspaper? We have to figure out how to reduce our paper use.
 (man) OK, how do we do that?
-(woman) Well, maybe we could cut some of the pages with national or international news; reduce the number of stories that aren’t campus related. Students can read about what’s going on internationally from other news sources anyway.
+(woman) Well, maybe we could cut some of the pages with national or international news; reduce the number of stories that aren’t campus related. Students can read about what's going on internationally from other news sources anyway.
 (man) That’d cut down on paper use, but, the risk is we’re respected for the variety and range of our stories. With those sections gone, I don’t know, interest in reading us might decline, though a lot of readers are probably just interested in our campus related stories about university life.
 (woman) I guess another option that would keep the national and international news in would be just to print fewer copies of the newspaper.
 (man) Yeah, a lot of students are already in the habit of sharing. They read the paper, pass it on, leave it on the lunch table, whatever. 
-(woman) Though it’s also true that we sometimes run out and not everyone shares. Some students might have a hard time getting ahold of one if we started printing fewer copies.
+(woman) Though it's also true that we sometimes run out and not everyone shares. Some students might have a hard time getting ahold of one if we started printing fewer copies.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which solution you would recommend. Explain the reasons for your recommendation.

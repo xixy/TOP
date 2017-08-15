@@ -8,16 +8,16 @@ Female student: Hey Joe, you’re a theatre major right?
 Male student: I sure am.
 Female student: What do you think about this?
 Male student: I think it's a really cool idea.
-Female student: You do? But it’s going to mean putting in some extra time for you guys.
-Male student: Yea, but I agree with the department head. It’s really important for theatre majors to have to do this.
+Female student: You do? But it's going to mean putting in some extra time for you guys.
+Male student: Yea, but I agree with the department head. It's really important for theatre majors to have to do this.
 Female student: How come?
-Male student: Because plays are meant to be seen and heard, not just studied. When you read a play, and even after you discuss it in class, it’s just a lot of words printed on a page.
+Male student: Because plays are meant to be seen and heard, not just studied. When you read a play, and even after you discuss it in class, it's just a lot of words printed on a page.
 Female student: True. 
 Male student: So reading plays just isn’t enough to understand them. You have to see them performed by real people on a stage because that's when you start to become more involved in the action and the characters actually start to come alive.
-Female student: Yea, I see what you're saying. But then there’s the whole question of money.
+Female student: Yea, I see what you're saying. But then there's the whole question of money.
 Male student: You know, I think the fee is actually a good deal. I mean. A ticket for just one play can easily cost more than that.
 Female student: I guess so.
-Male student: But we’ll be getting to see three plays for the price of one. Plus we’ll be getting free transportation there and back since they are making all the arrangements. It’s actually a real bargain and I think it will be a lot of fun. 
+Male student: But we’ll be getting to see three plays for the price of one. Plus we’ll be getting free transportation there and back since they are making all the arrangements. It's actually a real bargain and I think it will be a lot of fun. 
 
 
 #question

@@ -1,10 +1,10 @@
 #record
 Male Student: Hey Mary, how are things?
 Female Student: Well, pretty good. I’m a little worried about tomorrow afternoon, though
-Male Student: Why, what’s happening then?
-Female Student: You probably know about the spring concert, you know the one we have on campus every year? Well, this year I’m organizing it. There’s going to be a couple of student bands playing and it should be a lot of fun, sort of a celebration for the beginning of spring.
-Male Student: Oh yeah, that’s right. I’ve seen the posters around campus. I’m planning on going.
-Female Student: Well, I don’t know if it’s going to happen tomorrow. I just heard the weather forecast.
+Male Student: Why, what's happening then?
+Female Student: You probably know about the spring concert, you know the one we have on campus every year? Well, this year I’m organizing it. There's going to be a couple of student bands playing and it should be a lot of fun, sort of a celebration for the beginning of spring.
+Male Student: Oh yeah, that's right. I’ve seen the posters around campus. I’m planning on going.
+Female Student: Well, I don’t know if it's going to happen tomorrow. I just heard the weather forecast.
 Male Student: Oh no, don’t tell me.
 Female Student: Yeah, they’re predicting rain.
 Male Student: So what are you going to do about holding the concert?

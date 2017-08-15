@@ -1,18 +1,18 @@
 #article
 Required Practice Interviews
 
-Next year, the university’s career-services center will begin to offer practice job interviews for students, in which students will practice answering the typical questions asked by employers during job interviews. The goal is to help students improve their chances of getting a job. These practice interviews will be conducted by student volunteers, who will act as potential employers asking questions during a real job interview. The practice-interview session will be required for all students in their final semester, when most students start looking for jobs.
+Next year, the university's career-services center will begin to offer practice job interviews for students, in which students will practice answering the typical questions asked by employers during job interviews. The goal is to help students improve their chances of getting a job. These practice interviews will be conducted by student volunteers, who will act as potential employers asking questions during a real job interview. The practice-interview session will be required for all students in their final semester, when most students start looking for jobs.
 
 
 #record
 (woman) Did you see this article, Ted?
 (man) Yeah, I saw it. What do you think?
-(woman) Well, frankly, I don’t think it’ll be very helpful, I mean, look who’s gonna be asking the questions. I don’t think it’ll be realistic. It won’t feel like the actual situation. We won’t feel nervous the way we would talking to a real employer.
+(woman) Well, frankly, I don’t think it’ll be very helpful, I mean, look who's gonna be asking the questions. I don’t think it’ll be realistic. It won’t feel like the actual situation. We won’t feel nervous the way we would talking to a real employer.
 (man) You might be right about that.
-(woman) So I don’t think students will take it seriously. It’s just not as formal as the real thing.
+(woman) So I don’t think students will take it seriously. It's just not as formal as the real thing.
 (man) I see what you mean. It does sound like it would be a little too relaxed.
-(woman) And also, I don’t like the timing. That’s a really busy time. During our last few months at school, we’re usually working on a big research paper and preparing to take final exams; maybe even working a part-time job.
-(man) That’s true. There are a lot of things to do and keep track of.
+(woman) And also, I don’t like the timing. That's a really busy time. During our last few months at school, we’re usually working on a big research paper and preparing to take final exams; maybe even working a part-time job.
+(man) That's true. There are a lot of things to do and keep track of.
 (woman) Yeah, and this will be just another thing to try to fit into our very full schedules.
 
 #question

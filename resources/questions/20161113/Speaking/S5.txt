@@ -1,20 +1,20 @@
 #record
 Listen to a conversation between two students
 
-(woman) Hey, Paul, what’s up?
+(woman) Hey, Paul, what's up?
 (man) I got this problem with this acting class I’m taking. 
 (woman) Oh, right, that theater acting class. What happened?
-(man) Well, we have this assignment. We have to get together with a partner to present a scene from a play, like perform it in front of the class. Mine’s tomorrow.
+(man) Well, we have this assignment. We have to get together with a partner to present a scene from a play, like perform it in front of the class. Mine's tomorrow.
 (woman) You ready?
-(man) I’m ready. The problem is Carol, the person who was gonna act in the scene with me. She just called to tell me she’s dropping the class. She says her schedule is too busy. So she won’t be there for our scene performance tomorrow.
+(man) I’m ready. The problem is Carol, the person who was gonna act in the scene with me. She just called to tell me she's dropping the class. She says her schedule is too busy. So she won’t be there for our scene performance tomorrow.
 (woman) Wow! What are you gonna do?
 (man) Well, I might need to do a different scene, one with only one character, like a speech or monologue, something I can perform alone.
 (woman) Sounds like a lot of work. First, you’d have to find a new scene and then you’d have to learn new lines.
 (man) I’m pretty good at memorizing lines, so, I’m sure I’d manage, but it’d be a shame cause I really put so much work into preparing the other scene with Carol.
-(woman) Well, could I help? I mean, I could come to your class tomorrow and play your partner’s role.
+(woman) Well, could I help? I mean, I could come to your class tomorrow and play your partner's role.
 (man) You’d do that? That’d mean I could concentrate on the scene I’ve already learned.
 (woman) Sure, why not? Only I’m a terrible actor and, well, I’d have to read directly from the script. It might mess up your performance.
-(man) Well, I don’t think it’d be too much of a distraction. It’s worth considering.
+(man) Well, I don’t think it’d be too much of a distraction. It's worth considering.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which solution you would recommend. Explain the reasons for your recommendation.

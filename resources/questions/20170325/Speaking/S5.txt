@@ -2,17 +2,17 @@ Listen to a conversation between two students
 #record
 (woman) Hey, Kyle, how are you?
 (man) Hey, OK, except I just got some annoying news about my history class.
-(woman) Oh, what’s that?
+(woman) Oh, what's that?
 (man) Well, we’ve been working in teams of two to prepare a presentation to deliver a fifteen-minute talk to the class. And I was just talking to the person I’ve been working with, this guy Jeff. And he just told me he decided to drop the class.
-(woman) Oh, so he’s not taking it anymore? How come?
-(man) Well, he said he’s got a really full course schedule and I guess it’s kind of overwhelming, so he decided to withdraw from the history course to make things easier for himself.
+(woman) Oh, so he's not taking it anymore? How come?
+(man) Well, he said he's got a really full course schedule and I guess it's kind of overwhelming, so he decided to withdraw from the history course to make things easier for himself.
 (woman) OK, makes sense. But then what about this project? That leaves you without a partner, right?
 (man) Exactly! And I’m disappointed, because we’ve done a fair amount of work already. It was coming along nicely and I love our topic. We’ve been putting together a presentation on music from the Italian Renaissance.
 (woman) Hmm, so what can you do? Did you talk to the professor?
 (man) Yeah, she said it would be OK if I wanted to join another team, so we’d form a group of three.
 (woman) That sounds reasonable. But then you’d have to switch topics, right?
 (man) Well, yeah. I’d have to help with whatever they’re already working on, even if I’m not that excited about it. And the work we’ve already done on Renaissance music would go to waste.
-(woman) That’s too bad.
+(woman) That's too bad.
 (man) Yeah, well, but she also said if I wanted keep working on the music topic, I could just do the whole presentation myself without a partner.
 (woman) Sounds like more work.
 (man) Yeah, it would be and I’d have to talk to the class by myself, which could be harder. But we did already do some of the preparation work, so it might not be so difficult.

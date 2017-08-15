@@ -1,19 +1,19 @@
 #record
-Man: Hey Jill. How’s it going?
+Man: Hey Jill. How's it going?
 Woman: Pretty good. I drove home to visit my parents over the weekend. 
 Man: That sounds fun.
-Woman: Yea, I had a good visit with them and did some schoolwork. I had to do a drawing for one of my art classes. A drawing based on a photo, so I was working on it at my parent’s house. 
+Woman: Yea, I had a good visit with them and did some schoolwork. I had to do a drawing for one of my art classes. A drawing based on a photo, so I was working on it at my parent's house. 
 Man: Ok, yea. You’re an art student, right?
 Woman: Yea, but I just realized I forgot the drawing there and drove back to school without it.
-Man: You left it at your parent’s house?
-Woman: Yea, I realized I didn’t have it when I got back to school. I just called my parents and sure enough there it is. It’s due tomorrow morning, I have to turn it in to my professor.
-Man: So are you going to drive back there and get it? Woman: Yea, I could drive back home and get it. It’s an hour away though, so it’d be like two hours of driving roundtrip. I’d have to spend some money on gas too.
+Man: You left it at your parent's house?
+Woman: Yea, I realized I didn’t have it when I got back to school. I just called my parents and sure enough there it is. It's due tomorrow morning, I have to turn it in to my professor.
+Man: So are you going to drive back there and get it? Woman: Yea, I could drive back home and get it. It's an hour away though, so it’d be like two hours of driving roundtrip. I’d have to spend some money on gas too.
 Man: Hm. 
 Woman: Well, the other thing I could do is just redo the drawing tonight. I have the photo I was working from.
 Man: Oh. Ok, but that would be extra work.
 Woman: You’re right but it didn’t take that long so it shouldn’t be difficult doing another one tonight.
 Man: That might be the way to go to then.
-Woman: Yea, but the thing is I really liked the way it came out the first time. I was really focused that day and I think it’s actually one of the best drawings I’ve done. I’m not sure it would come out as well if I did it over again tonight. 
+Woman: Yea, but the thing is I really liked the way it came out the first time. I was really focused that day and I think it's actually one of the best drawings I’ve done. I’m not sure it would come out as well if I did it over again tonight. 
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

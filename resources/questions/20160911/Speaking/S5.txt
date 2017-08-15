@@ -1,6 +1,6 @@
 Listen to a conversation between two students
 
-(woman) Hi, Joey, how’s it going?
+(woman) Hi, Joey, how's it going?
 (man) Well, I just had a little bad luck, actually.
 (woman) What happened?
 (man) Well, you know I’m in a band, right?
@@ -10,8 +10,8 @@ Listen to a conversation between two students
 (man) Well, I was at home and there was a big leak in the roof of my apartment.
 (woman) Uh oh
 (man) Yeah, so water poured in all over my electric keyboard.
-(woman) Oh no! That’s the instrument you play in a band, right?
-(man) Yeah, and it’s completely destroyed. I took it to a repair shop and they said there’s no way to fix it.
+(woman) Oh no! That's the instrument you play in a band, right?
+(man) Yeah, and it's completely destroyed. I took it to a repair shop and they said there's no way to fix it.
 (woman) Wow! So sorry and you have that concert coming up. What are you gonna do?
 (man) Well, I could just buy an old used keyboard.
 (woman) That would sound OK?

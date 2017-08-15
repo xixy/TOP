@@ -1,21 +1,21 @@
 #record
 Female: John, can I get your advice?
-Male: Sure, what’s up?
+Male: Sure, what's up?
 Female: Well, I’m planning my schedule for next semester.
 Male: Uh huh?
 Female: And you know how I was planning to take that economics class with Dr. Thomas?
-Male: Oh yea, he’s that visiting professor you’ve been talking about.
-Female: Right. Well, his work is really well known and he’s supposed to be a good teacher too, so I’m really excited about taking a class with him.
+Male: Oh yea, he's that visiting professor you’ve been talking about.
+Female: Right. Well, his work is really well known and he's supposed to be a good teacher too, so I’m really excited about taking a class with him.
 Male: So how can I help?
 Female: Well, the problem is I want to take at least four other required courses. You know, stuff I need to graduate. But I’m afraid that with such a full load I won’t be able to keep up. What would you do?
 Male: Well, maybe you could audit the economics class.
-Female: Audit the class, well that’s an idea.
+Female: Audit the class, well that's an idea.
 Male: Yes, if you audit it then you can just sit in on the classes, but you won’t have to do all the coursework. No tests, no papers. So you wouldn’t have to worry about the grade.
-Female: That’s true, but I’m not sure. If I audit, I will get to hear Dr. Thomas lecture but since I won’t do the lectures and stuff I’m afraid I won’t learn as much.
+Female: That's true, but I’m not sure. If I audit, I will get to hear Dr. Thomas lecture but since I won’t do the lectures and stuff I’m afraid I won’t learn as much.
 Male: I see your point. Well, another solution could be, I mean, do you really have to take all four of those require courses next semester? Couldn’t you wait and take one of them over the summer instead? 
 Female: You mean so I could sign up for Dr. Thomas’ class next semester?
 Male: Yea, instead of auditing it.
-Female: Well, that’s a possibility. It would free up my schedule. The thing is though…I usually work full time over the summer. If I wait till them to take one of the required classes, I won’t be able to work as many hours.
+Female: Well, that's a possibility. It would free up my schedule. The thing is though…I usually work full time over the summer. If I wait till them to take one of the required classes, I won’t be able to work as many hours.
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which solution you would recommend. Explain the reasons for your recommendation.

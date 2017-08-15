@@ -1,19 +1,19 @@
 #record
 Male Student: Hey.
-Female Student: Hey Mike, ready for tomorrow’s physics exam?
+Female Student: Hey Mike, ready for tomorrow's physics exam?
 Male Student: Funny you should ask, I’m supposed to meet with some classmates this afternoon to study for the exam, but something else came up.
-Female Student: What’s happening?
-Male Student: Well, I just found out that an author I like is giving a presentation on campus this afternoon. It’s about her writing method, the process she goes through when writing a novel.
+Female Student: What's happening?
+Male Student: Well, I just found out that an author I like is giving a presentation on campus this afternoon. It's about her writing method, the process she goes through when writing a novel.
 Female Student: Oh, that sounds interesting, especially if you’re into creative writing.
-Male Student: Yeah. But, the presentation’s at the same time I’m supposed to meet with my study group. I asked my friends in the group if we could meet later instead, but they can’t. They’re all busy for the rest of the day.
+Male Student: Yeah. But, the presentation's at the same time I’m supposed to meet with my study group. I asked my friends in the group if we could meet later instead, but they can’t. They’re all busy for the rest of the day.
 Female Student: So what are you going to do? 
 Male Student: Well, I might just study on my own for the exam so that I can go to the presentation. The people in my group said that I could email them if I have questions.
-Female Student: That’s nice of them.
+Female Student: That's nice of them.
 Male Student: Yeah, definitely. So I might do that. Although, I’m sure it would be better for me if I actually went and studied with them. They are better at physics than I am and there is some material I don’t really understand. I’m not sure how helpful email would be for asking questions.
 Female Student: Makes sense.
-Male Student: Yeah. So, I think that I could still go and meet with my study group and then just read the author’s presentation later. The university is going to post a copy of the presentation online tomorrow, so I’ll be able to read what she talked about afterward on the website.
+Male Student: Yeah. So, I think that I could still go and meet with my study group and then just read the author's presentation later. The university is going to post a copy of the presentation online tomorrow, so I’ll be able to read what she talked about afterward on the website.
 Female Student: Not quite the same as seeing her in person though, huh?
-Male Student: No, it’s not, and she probably won’t come to campus again for a while. I won’t have many other chances to see her if I don’t go today. 
+Male Student: No, it's not, and she probably won’t come to campus again for a while. I won’t have many other chances to see her if I don’t go today. 
 
 #question
 Briefly summarize the problem the speakers are discussing. Then state which of the two solutions from the conversation you would recommend. Explain the reasons for your recommendation.

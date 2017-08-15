@@ -6,9 +6,9 @@ Animals often group together for survival purposes. Some animal groups maintain 
 #record
 Now listen to part of a lecture in a Biology class
 
-(male professor) OK, we can see this with monkeys, with baboons specifically. Now, at night, when baboons are resting, there are usually a lot of them gather together, sometimes hundreds. OK? Now, imagine there’s a predator nearby, like a lion. With a big group of baboons resting together, there’s really a good chance that at least one of them will notice the lion trying to sneak up on them. And then that baboon can alert all the others; warn them the lion’s coming, whereas, you know, if there were just one baboon or a few of them, it’d be easier for the lion to sneak up on them unnoticed.
+(male professor) OK, we can see this with monkeys, with baboons specifically. Now, at night, when baboons are resting, there are usually a lot of them gather together, sometimes hundreds. OK? Now, imagine there's a predator nearby, like a lion. With a big group of baboons resting together, there's really a good chance that at least one of them will notice the lion trying to sneak up on them. And then that baboon can alert all the others; warn them the lion's coming, whereas, you know, if there were just one baboon or a few of them, it’d be easier for the lion to sneak up on them unnoticed.
 
-But, during the day, when the baboons need to search for food, they usually separate into smaller groups, anywhere from a few to about twenty baboons. You see, baboons eat the flowers from a certain type of tree and sometimes these trees are spread pretty far apart in the forest. Since the foods are not all in one place, and there’s only a limited number of flowers on any one tree, it makes more sense for the baboons to spread out in smaller groups.
+But, during the day, when the baboons need to search for food, they usually separate into smaller groups, anywhere from a few to about twenty baboons. You see, baboons eat the flowers from a certain type of tree and sometimes these trees are spread pretty far apart in the forest. Since the foods are not all in one place, and there's only a limited number of flowers on any one tree, it makes more sense for the baboons to spread out in smaller groups.
 
 #question
 Using the example of baboons, explain how adjustable group size benefits animals.

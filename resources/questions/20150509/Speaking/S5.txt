@@ -1,5 +1,5 @@
 #record
-Female: How’s it going Sam? Seems like whenever I’ve seen you you’ve been working in the computer lab.
+Female: How's it going Sam? Seems like whenever I’ve seen you you’ve been working in the computer lab.
 Male: Yea, since I’m a literature major I’ve always got a paper of some kinds to write and I don’t own a computer so I’m in the computer lab a lot. The next semester actually, I’m a little worried because I’m going to be moving off campus and so I won’t be able to get to the computer lab as easily anymore.
 Female: Oh, so how are you going to keep up with writing all those papers?
 Male: Well, I’m thinking I’m going to need to buy a laptop computer, but the trouble is I don’t have the money for it right now.
@@ -8,8 +8,8 @@ Male: Yea, actually I’ve been thinking, one way of getting the money would be 
 Female: Sounds ok.
 Male: Yea, my supervisor said it would be fine for me to take on an extra hour but I’m pretty busy with classes and it would cut into my study time.
 Female: Sure.
-Male: So there’s one other option, and actually it would allow me to buy a computer sooner.
-Female: What’s that?
+Male: So there's one other option, and actually it would allow me to buy a computer sooner.
+Female: What's that?
 Male: Well, I have plans to go on a trip for winter break with some buddies of mine. We’ve been planning a trip for New York City to see the sights for that week of vacation. So I do have money saved up and set aside for that trip. But, I guess I could use it to buy a computer instead.
 Female: Oh, you mean you’d cancel your plans for the New York City trip and miss out on the fun?
 Male: Yes, my friends could just go without me. I could stay on campus for the week instead.
