@@ -316,12 +316,21 @@ class answerDAO(object):
                         answers[index]=""
             #统计结束进行排序
             sorted_result=sortDict(answers)
+            begin=0
             for answer in sorted_result:
+                index=int(answer.keys()[0][1:])
+
+                question=selection_questionDAO.getSelectionQuestion(setid,answer.keys()[0])
+
+
                 single_answer={}
-                single_answer["index"]=answer.keys()[0]
+                single_answer["index"]="R"+str(index-begin)
                 single_answer["option"]=answer.values()[0]
                 single_answer["stem"]=selection_questionDAO.getSelectionQuestion(setid,answer.keys()[0])["stem"]
                 result.append(single_answer)
+                #如果题号需要换了，就加入然后清空
+                if question[configure.isLast]==1:
+                    begin=index
 
             return result
 
@@ -431,8 +440,8 @@ class answerDAO(object):
 
 
 if __name__=='__main__':
-    asw=answer("20170603","W1","1","1")
-    answerDAO.index(asw,configure.answer_practicemode)
+    # asw=answer("20170603","W1","1","1")
+    # answerDAO.index(asw,configure.answer_practicemode)
     # asw=answer("20170603","L1","C","1")
     # answerDAO.index(asw,configure.answer_practicemode)
     # asw=answer("20170603","R3","D","1")
@@ -443,6 +452,6 @@ if __name__=='__main__':
     # print answerDAO.queryAnswerForTPOSet(1,"20170603",configure.answer_practicemode)
     # answerDAO.clearAllAnswers(1)
     # print answerDAO.getStudentAnswerStatus(1,"practice")
-    print answerDAO.getAnswerForReport(20161113,1,"exam")
+    # print answerDAO.getAnswerForReport(20161113,1,"exam")
     # print answerDAO.clearAnswersForQuestionSet(1,20170603,"exam","Reading")
-    # print answerDAO.getReadingReviewForTPOSet(1,20170603,"exam")
+    print answerDAO.getReadingReviewForTPOSet(1,20170603,"exam")
