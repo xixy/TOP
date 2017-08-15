@@ -180,12 +180,12 @@ def generatReport():
     return jsonify(status),200
 
 #获取报告
-@app.route('/report/<userid>/<setid>',methods=['GET'])
-def getReport(userid,setid):
+@app.route('/report/<userid>/<setid>/<mode>',methods=['GET'])
+def getReport(userid,setid,mode):
     """
     第三个页面，用来返回报告
     """
-    result=answerDAO.getAnswerForReport(setid,userid,"exam")
+    result=answerDAO.getAnswerForReport(setid,userid,mode)
     if result==[]:
         return jsonify({"message":"no"}),500
     else:
