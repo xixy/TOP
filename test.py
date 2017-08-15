@@ -309,7 +309,7 @@ def upload_record(userid,setid,index,mode):
     upload_files=request.files.getlist("record")
     student=studentInfoDAO.getStudentInfoById(userid)
     username=student[configure.student_name]
-    directory=getAnswerDirectory(setid,username,mode)
+    directory=answer_path+mode+"/"+str(setid)+"/"+str(username)
     #先创建文件夹，如果文件夹不存在
     if not os.path.exists(directory):
         os.makedirs(directory)
