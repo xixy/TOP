@@ -7,7 +7,7 @@ import shutil
 import re
 import configure
 
-testpath="/Users/apple/Code/TOP/resources/questions/20150613/Listening/Questions/L4.txt"
+testpath="/Users/apple/Code/TOP/resources/questions/20150613/Reading/R1.txt"
 
 class selection_question_extractor(object):
 
@@ -81,8 +81,9 @@ class selection_question_extractor(object):
         if single_question==[]:
             single_question.append(stem)
             questions.append(single_question)
-        #如果是个选择题
+        #如果是个选择题，drag类题目
         else:
+            single_question[0]=single_question[0][:3]+"Prose Summary<br>"+single_question[0][3:]
             questions.append(single_question)
 
         #首先加入是否为最后一题的标记
@@ -95,8 +96,8 @@ class selection_question_extractor(object):
     @classmethod
     def test(cls):
         results=cls.getSelectionQuestions(testpath)
-        for result in results:
-            print result
+        # for result in results:
+        #     print result
         return results
 
 if __name__ == '__main__':
