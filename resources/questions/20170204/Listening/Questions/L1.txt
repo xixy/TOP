@@ -6,8 +6,8 @@
 
 2. What does the professor point out about the man's report? [choose three answers]
   A) It omitted key information.
-  B) It provided a good definition of ¡°roll.¡±
-  C) It confused the definitions of ¡°pitch¡± and ¡°yaw.¡±
+  B) It provided a good definition of "roll.¡"
+  C) It confused the definitions of "pitch¡" and "yaw.¡"
   D) It accurately explained what torque is.
   E) It included an example that did not relate to the topic.
 

@@ -14,7 +14,7 @@ Listen to part of a lecture in an Astronomy class.
 
 (female student) And the star's internal stability is important, too. It has to achieve, uh, equilibrium, I think you said.
 
-(professor) Right, we say that the Sun is at equilibrium. That simply means that there's a balance between the pressure pushing outward and the pressure pushing inward. The outward pressure, that's the light and heat coming from the hydrogen burning at its core; the pressure pushing inward is gravity. This equilibrium allows the star to burn constantly for billions of years. So, those are generally the types of stars we look for in searching for habitable planets. And after looking at thousands of stars, we've identified about thirty that seem to be suitable candidates. But, recently, an astronomer asked a totally unexpected question: ¡°Is it possible that a habitable planet could be orbiting a white dwarf star?¡±
+(professor) Right, we say that the Sun is at equilibrium. That simply means that there's a balance between the pressure pushing outward and the pressure pushing inward. The outward pressure, that's the light and heat coming from the hydrogen burning at its core; the pressure pushing inward is gravity. This equilibrium allows the star to burn constantly for billions of years. So, those are generally the types of stars we look for in searching for habitable planets. And after looking at thousands of stars, we've identified about thirty that seem to be suitable candidates. But, recently, an astronomer asked a totally unexpected question: "Is it possible that a habitable planet could be orbiting a white dwarf star?¡"
 
 (female student) Um, a white dwarf?
 
