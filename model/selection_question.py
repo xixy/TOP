@@ -23,6 +23,10 @@ class selection_question(object):
         #插入题干
         value[configure.selection_stem]=question[0].replace("<br><br>","<br>")
 
+        #如果是Listening，去掉题干的<br>
+        if cmp(type,configure.Listening)==0:
+            value[configure.selection_stem]=value[configure.selection_stem].replace("<br>","")
+
         #插入选项
         value[configure.selection_options]={}
         length=len(question[1:])
