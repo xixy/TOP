@@ -21,7 +21,8 @@ class selection_question(object):
         """
         value={}
         #插入题干
-        value[configure.selection_stem]=question[0]
+        value[configure.selection_stem]=question[0].replace("<br><br>","<br>")
+
         #插入选项
         value[configure.selection_options]={}
         length=len(question[1:])
