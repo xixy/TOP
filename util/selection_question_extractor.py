@@ -83,7 +83,8 @@ class selection_question_extractor(object):
             questions.append(single_question)
         #如果是个选择题，drag类题目
         else:
-            single_question[0]=single_question[0][:3]+"Prose Summary<br>"+single_question[0][3:]
+            if "2015" in filepath:
+                single_question[0]=single_question[0][:3]+"Prose Summary<br>"+single_question[0][3:]
             questions.append(single_question)
 
         #首先加入是否为最后一题的标记
