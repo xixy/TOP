@@ -33,7 +33,7 @@ Listen again to part of the lecture. Then answer the question.
 6.Why does the professor say this: 
 A) To encourage the student to think more about the question
 B) To make sure that the other students heard the question
-C) To emphasize that the answer to the question is "yes¡"
+C) To emphasize that the answer to the question is "yes"
 D) To express surprise that the student asked the question
 
 

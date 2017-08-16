@@ -5,13 +5,13 @@ Listen to a conversation between a student and his Psychology professor
 (woman) Well, you can write a standard research paper, but the project's an option. And since we cover so much in this introductory class, you have many choices. I've had students do memory tests and surveys are always popular.
 (man) Yeah, I have this idea for a survey, but I wanted to run it by you first.
 (woman) OK
-(man) Well, I was looking through an academic journal and saw this article about urban legends, you know, those strange sometimes scary stories that usually start out, "Have you heard about the person who¡­¡"
+(man) Well, I was looking through an academic journal and saw this article about urban legends, you know, those strange sometimes scary stories that usually start out, "Have you heard about the person who¡­"
 (woman) Sure, you don't want to believe them, but you kind of do. Those are fun. You know, most colleges have their own urban legends. There's one about our campus library that it's sinking into the ground because the architect's design didn't account for the weight of the books.
 (man) I hadn't heard that one.
 (woman) Now, you said this was an academic journal?
 (man) Yes, psychology journal, uh, for the study, university students read four urban legends and answered questions about them, like, how believable they thought they were. Students received different versions of the stories; some had added details that others didn't.
 (woman) Hmm, what kind of details were added?
-(man) Well, it usually involved specific names and places. The versions without details might say, "A woman was eating lunch.¡" But the version with details would say, "Last month my classmate was having lunch at a fancy department store.¡" So after some time passed, they were asked to think about the stories they'd read and retell one of them or actually write one of them down. The researchers wanted to see what effect the variables had, like does adding details make it more likely that a story will be retold.
+(man) Well, it usually involved specific names and places. The versions without details might say, "A woman was eating lunch." But the version with details would say, "Last month my classmate was having lunch at a fancy department store." So after some time passed, they were asked to think about the stories they'd read and retell one of them or actually write one of them down. The researchers wanted to see what effect the variables had, like does adding details make it more likely that a story will be retold.
 (woman) I see. You know, there's been research done on rumors such as what information people pass along and what makes a story believable. So, you'd be testing something similar?
 (man) Sort of, I wanted to compare the findings from my study with the one I read about. I actually had to read the results section of the study twice to make sure I wasn't misinterpreting it. Apparently adding details to the original stories didn't affect whether the students believe them or whether they repeat them. That caught me a little off guard.
 (woman) Interesting! So you'll just replicate that study?

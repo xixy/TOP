@@ -4,7 +4,7 @@ Listen to a conversation between a student and an employee in the office of camp
 (woman) Uh, I'm already a student.
 (man) Oh, sorry, with this visitation day today, we've had prospective students in here all morning long.
 (woman) What I wanted to ask, I received a parking ticket earlier this week. I was parked along the curb outside the Jeffrey's Hall when I got it, underneath the street light.
-(man) Um, that curb seems to be a problem spot for a lot of students. We've given quite a few tickets for cars parked there recently. Didn't you see the "No Parking¡" sign?
+(man) Um, that curb seems to be a problem spot for a lot of students. We've given quite a few tickets for cars parked there recently. Didn't you see the "No Parking" sign?
 (woman) Yeah, but people have been parking along that curb lately, I figured it was OK to park there. I mean, if there's no spaces nearby.
 (man) No, you always have to park in a designated parking lot.
 (woman) Yeah, but the thing is there just aren't enough parking spaces in the designated lot behind Jeffrey's Hall. That lot's really crowded.

@@ -21,7 +21,7 @@ Listen to a conversation between a student and a housing department administrato
 (man) I did, but I haven't read it yet.
 (woman) And your roommates probably haven't either.
 (man) Probably not.
-(woman) Anyway, there's a section in there called "division of space¡".
+(woman) Anyway, there's a section in there called "division of space".
 (man) OK?
 (woman) And that spells it all out. All students have an equal right to space in the unit regardless of who got there first. If one of the rooms is less desirable than the other two, and no one's willing to accept it for the year, the roommates have to rotate rooms. Exactly how they do that is up to them.
 (man) OK, that answers my question. Thanks, you've been very helpful.
