@@ -247,6 +247,7 @@ def generate_writing_doc(path,article):
 
     paragraph = document.add_paragraph(u'')
     for line in article:
+        line_content=(str(line)+'\n').decode('utf-8')
         paragraph.add_run(str(line)+'\n')
      #增加分页
     document.add_page_break()   
