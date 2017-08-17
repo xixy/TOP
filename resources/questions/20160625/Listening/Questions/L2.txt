@@ -27,3 +27,9 @@
   B) She explains how the limitation was discovered.
   C) She points out that the limitation exists for all current approaches to deciphering a script
   D) She praises the student for identifying a limitation she had never considered.
+
+6. What does the professor imply about the Etruscan language? 
+  A) It shared an alphabet with Ugaritic.
+  B) It is more closely related to modern Italian than to Ugaritic.
+  C) The new computer program could help in finding a language it is related to.
+  D) Older computer programs have been only partially successful at deciphering it.
