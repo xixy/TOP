@@ -16,8 +16,9 @@ ListeningText="Text"
 Answer="answer"
 
 #听力题多选标示
-ListeningTwoSelectionMark=["two answers","2 answers","TWO answers"]
+ListeningTwoSelectionMark=["two answers","2 answers","TWO answers","TWO answer choices"]
 ListeningThreeSelectionMark=["three answers","3 answers","THREE answers"]
+MultiSelectionMark=["choose","Choose","Click on","Select","select"]
 
 #标示数据库中存入的样子
 

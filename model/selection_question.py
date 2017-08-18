@@ -81,10 +81,14 @@ class selection_question(object):
 
         for twoSelectionMark in configure.ListeningTwoSelectionMark:
             if twoSelectionMark in value[configure.selection_stem]:
-                return True
+                for multiSelectionMark in configure.MultiSelectionMark:
+                    if multiSelectionMark in value[configure.selection_stem]:
+                        return True
         for threeSelectionMark in configure.ListeningThreeSelectionMark:
             if threeSelectionMark in value[configure.selection_stem]:
-                return True
+                for multiSelectionMark in configure.MultiSelectionMark:
+                    if multiSelectionMark in value[configure.selection_stem]:
+                        return True
         return False
 
     @classmethod
