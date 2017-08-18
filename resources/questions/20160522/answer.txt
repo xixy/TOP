@@ -1,5 +1,5 @@
 C,A,B,D,C,B,C,A,A,D,D,B,D,BCF
-D,A,B,A,B,D,C,D,D,A,B,B,D,BDE
+D,A,B,A,B,D,C,C,D,A,B,B,D,BDE
 B,C,C,C,A,D,C,D,A,C,B,A,ADE
 D,A,AD,C,ABE
 C,D,AC,BCF,B,D
