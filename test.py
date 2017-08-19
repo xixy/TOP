@@ -248,9 +248,6 @@ def getStudentReadingReviewsForSet(userid,setid,mode):
     return jsonify(result),200
 
 
-
-
-
 #保存学生提交的答案:包括选择题、写作题
 @app.route('/answer/submit',methods=['POST'])
 def saveAnswer():
@@ -280,12 +277,12 @@ def saveAnswer():
             student=studentInfoDAO.getStudentInfoById(userid)
             username=student[configure.student_name]
             directory=getAnswerDirectory(setid,username,mode)
-            directory+="/"+configure.Writting
+            directory+="/"+username+" "+configure.Writting
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
             #保存作文
-            path=directory+"/"+"writing.docx"
+            path=directory++"/"+"writing.docx"
             generate_writing_doc(path,options)
 
             # f=open(path,'w')
@@ -315,7 +312,7 @@ def upload_record(userid,setid,index,mode):
     student=studentInfoDAO.getStudentInfoById(userid)
     username=student[configure.student_name]
     directory=getAnswerDirectory(setid,username,mode)
-    directory+="/"+configure.Speaking
+    directory+="/"+username+" "+configure.Speaking
     #先创建文件夹，如果文件夹不存在
     if not os.path.exists(directory):
         os.makedirs(directory)
