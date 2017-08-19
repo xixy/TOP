@@ -28,6 +28,7 @@ from studentInfo import studentInfo
 import configure
 from ip_limit import isAllowedIP
 from report_doc_generator import generate_writing_doc
+import datetime
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
@@ -156,7 +157,9 @@ def getAnswerDirectory(setid,username,mode):
     """
     获取答案的目录
     """
-    directory=answer_path+mode+"/"+str(setid)+"/"+str(username)
+    #获取今天的日趋
+    now_time=datetime.datetime.now().strftime('%Y%m%d')
+    directory=answer_path+"/"+now_time+"/"+mode+"/"+str(setid)+"/"+str(username)
     return directory
 
 #生成报告
@@ -311,7 +314,7 @@ def upload_record(userid,setid,index,mode):
     upload_files=request.files.getlist("record")
     student=studentInfoDAO.getStudentInfoById(userid)
     username=student[configure.student_name]
-    directory=answer_path+mode+"/"+str(setid)+"/"+str(username)
+    directory=getAnswerDirectory(setid,username,mode)
     directory+="/"+configure.Speaking
     #先创建文件夹，如果文件夹不存在
     if not os.path.exists(directory):
