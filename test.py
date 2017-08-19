@@ -15,13 +15,14 @@ sys.path.append('./util')
 sys.path.append('./configure')
 
 sys.setdefaultencoding('utf-8')
+from answerDAO import answerDAO
 from studentInfoDAO import studentInfoDAO
 from adminDAO import adminDAO
 from selection_questionDAO import selection_questionDAO
 from speaking_questionDAO import speaking_questionDAO
 from writing_questionDAO import writing_questionDAO
 from report_generator import report_generator
-from answerDAO import answerDAO
+
 from answer import answer
 from studentInfo import studentInfo
 import configure

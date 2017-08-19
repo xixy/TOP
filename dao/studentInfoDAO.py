@@ -9,7 +9,7 @@ from studentInfo import studentInfo
 from bson import json_util as jsonb
 from configure import ip,port
 import configure
-from answerDAO import answerDAO
+import answerDAO
 class studentInfoDAO(object):
     """学生信息的持久化"""
 
@@ -72,7 +72,7 @@ class studentInfoDAO(object):
         value[configure.student_id]=id
         cls.collection.remove(value)
         #删除学生所有答案
-        answerDAO.clearAllAnswers(id)
+        answerDAO.answerDAO.clearAllAnswers(id)
         #删除学生的所有文档
 
     @classmethod
