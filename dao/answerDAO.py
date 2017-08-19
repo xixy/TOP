@@ -13,6 +13,8 @@ from studentInfoDAO import studentInfoDAO
 from selection_questionDAO import selection_questionDAO
 import configure
 from dict_op import sortDict
+from filepath import getFullDirectoryPath
+import shutil
 
 class answerDAO(object):
     """答案的持久化"""
@@ -201,11 +203,31 @@ class answerDAO(object):
         Returns:
             返回nothing
         """
+        #删掉所有的数据库中的答案
         value={}
         value[configure.answer_userid]=int(userid)
         collectionlist=cls.db.collection_names()
         for collection in collectionlist:
             cls.db[collection].remove(value)
+
+
+        answer_directory="../../Answer"
+        directory_path=[]
+        #删掉所有的文档答案
+        getFullDirectoryPath(answer_directory,directory_path)
+        #获取到用户名字
+        student=studentInfoDAO.getStudentInfoById(userid)
+        if student==None:
+            return
+        username=student[configure.student_name]
+        for directory in directory_path:
+            if username in directory:
+                shutil.rmtree(directory)
+
+
+
+
+        
 
 
     @classmethod
