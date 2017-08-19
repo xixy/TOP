@@ -67,13 +67,12 @@ class studentInfoDAO(object):
     @classmethod
     def delete(cls,id):
     	"""删除学生信息"""
+        #删除学生所有答案
+        answerDAO.answerDAO.clearAllAnswers(id)
         #删掉学生账号
         value={}
         value[configure.student_id]=id
         cls.collection.remove(value)
-        #删除学生所有答案
-        answerDAO.answerDAO.clearAllAnswers(id)
-        #删除学生的所有文档
 
     @classmethod
     def valid(cls,username,password):

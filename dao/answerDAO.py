@@ -211,7 +211,7 @@ class answerDAO(object):
             cls.db[collection].remove(value)
 
 
-        answer_directory="../../Answer"
+        answer_directory="../Answer"
         directory_path=[]
         #删掉所有的文档答案
         getFullDirectoryPath(answer_directory,directory_path)
