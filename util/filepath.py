@@ -33,14 +33,14 @@ def getFullDirectoryPath(directory,result):
         result:一个list，用来存放所有的文件夹
     """
     for parent,dirnames,filenames in os.walk(directory):
-        for filename in filenames:
-            filepath=os.path.join(parent,filename)
-            if filepath in result:
-                continue
-            result.append(filepath)
         for dirname in dirnames:
             childDirectory=os.path.join(parent,dirname)
-            getFullFilePath(childDirectory,result)
+            if not os.path.isdir(childDirectory):
+                continue
+            if childDirectory in result:
+                continue
+            result.append(childDirectory)
+            getFullDirectoryPath(childDirectory,result)
             pass
 
 def getQuestionSetFilePath(directory,results):
@@ -64,6 +64,6 @@ def getQuestionSetFilePath(directory,results):
 if __name__=='__main__':
     rootdir='../resources/questions/'
     filePathList=[]
-    getQuestionSetFilePath(rootdir,filePathList)
+    getFullDirectoryPath(rootdir,filePathList)
     for filePath in filePathList:
         print filePath
