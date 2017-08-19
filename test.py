@@ -276,6 +276,7 @@ def saveAnswer():
             student=studentInfoDAO.getStudentInfoById(userid)
             username=student[configure.student_name]
             directory=getAnswerDirectory(setid,username,mode)
+            directory+="/"+configure.Writting
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
@@ -310,6 +311,7 @@ def upload_record(userid,setid,index,mode):
     student=studentInfoDAO.getStudentInfoById(userid)
     username=student[configure.student_name]
     directory=answer_path+mode+"/"+str(setid)+"/"+str(username)
+    directory+="/"+configure.Speaking
     #先创建文件夹，如果文件夹不存在
     if not os.path.exists(directory):
         os.makedirs(directory)
