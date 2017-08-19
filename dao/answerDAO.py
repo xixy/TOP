@@ -221,7 +221,7 @@ class answerDAO(object):
             return
         username=student[configure.student_name]
         for directory in directory_path:
-            if username in directory:
+            if directory.endswith(username):
                 shutil.rmtree(directory)
 
 
