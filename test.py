@@ -282,7 +282,7 @@ def saveAnswer():
                 os.makedirs(directory)
 
             #保存作文
-            path=directory++"/"+"writing.docx"
+            path=directory+"/"+"writing.docx"
             generate_writing_doc(path,options)
 
             # f=open(path,'w')
