@@ -277,12 +277,11 @@ def saveAnswer():
             student=studentInfoDAO.getStudentInfoById(userid)
             username=student[configure.student_name]
             directory=getAnswerDirectory(setid,username,mode)
-            directory+="/"+username+" "+configure.Writting
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
             #保存作文
-            path=directory+"/"+"writing.docx"
+            path=directory+"/"+username+" writing.docx"
             generate_writing_doc(path,options)
 
             # f=open(path,'w')
