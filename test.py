@@ -179,7 +179,7 @@ def generatReport():
     if not os.path.exists(directory):
         os.makedirs(directory)
     #然后保存文件
-    path=directory+"/"+"report"+".docx"
+    path=directory+"/"+username+" report"+".docx"
     status=report_generator.generatReport(userid,setid,mode,path)
     return jsonify(status),200
 
