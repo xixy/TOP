@@ -83,7 +83,7 @@ class selection_question_extractor(object):
             questions.append(single_question)
         #如果是个选择题，drag类题目
         else:
-            if "2015" in filepath:
+            if "2015" in filepath and configure.Reading in filepath:
                 single_question[0]=single_question[0][:3]+"Prose Summary<br>"+single_question[0][3:]
             questions.append(single_question)
 
