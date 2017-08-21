@@ -32,14 +32,12 @@ class speaking_question_extractor(object):
         index=filepath[-6:-4]
         result[configure.index]=index
         if "S1" in filepath or "S2" in filepath:
-            while line:
-                try:
-                    line=f.readline()
-                    if len(line)<3:
-                        continue
-                    line=line.strip()
-                except UnicodeDecodeError,e:
-                    return configure.FAIL_CODE
+            lines=f.readlines()
+            for line in lines:
+                if len(line)<3:
+                    continue
+                line=line.strip()
+
                 stem.append(line)
             #完毕进行处理
             result[configure.listening_stem]=stem
@@ -47,14 +45,11 @@ class speaking_question_extractor(object):
 
         mode=0
         if "S3" in filepath or "S4" in filepath or "S5" in filepath or "S6" in filepath:
-            while line:
-                try:
-                    line=f.readline()
-                    if len(line)<3:
-                        continue
-                    line=line.strip()
-                except UnicodeDecodeError,e:
-                    return configure.FAIL_CODE
+            lines=f.readlines()
+            for line in lines:
+                if len(line)<3:
+                    continue
+                line=line.strip()
 
                 if "#article" in line:
                     mode=1
