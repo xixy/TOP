@@ -226,7 +226,7 @@ def generate_writing_doc(path,article):
     #如果不存在
     if not os.path.exists(path):
         document=Document()
-        document.add_paragraph(u'Total Score:')
+        document.add_paragraph(u'Total Score(0-30):')
         #添加表格
         table = document.add_table(rows=3,cols=3,style = u'Table Grid')
         table.autofit = False
