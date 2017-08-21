@@ -34,14 +34,11 @@ class writing_question_extractor(object):
         
         #如果是第二题，则需要提取stem
         if "W2" in filepath:
-            while line:
-                try:
-                    line=f.readline()
-                    if len(line)<3:
-                        continue
-                    line=line.strip()
-                except UnicodeDecodeError,e:
-                    return configure.FAIL_CODE
+            lines=f.readlines()
+            for line in lines:
+                if len(line)<3:
+                    continue
+                line=line.strip()
                 stem.append(line)
             #完毕进行处理
             result[configure.writing_stem]=stem
@@ -50,14 +47,11 @@ class writing_question_extractor(object):
         #如果是第一题，则需要提取article、record、stem
         mode=0
         if "W1" in filepath:
-            while line:
-                try:
-                    line=f.readline()
-                    if len(line)<3:
-                        continue
-                    line=line.strip()
-                except UnicodeDecodeError,e:
-                    return configure.FAIL_CODE
+            lines=f.readlines()
+            for line in lines:
+                if len(line)<3:
+                    continue
+                line=line.strip()
 
                 if "#article" in line:
                     mode=1
@@ -85,7 +79,7 @@ class writing_question_extractor(object):
             return result
 
 if __name__ == '__main__':
-    filepath="/Users/apple/Code/TOP/resources/questions/20170603/Writing/W2.txt"
+    filepath="/Users/apple/Code/TOP/resources/questions/20150418/Writing/W1.txt"
     result=writing_question_extractor.getWritingQuestion(filepath)
     print result
 
