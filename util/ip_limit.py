@@ -3,6 +3,7 @@
 import re
 
 student_ip_pattern=re.compile(r'58+\.+132+\.+205') #匹配可用的ip
+chenjien_ip_pattern=re.compile(r'112+\.+109+\.213')
 
 def isAllowedIP(ip):
     """
@@ -12,9 +13,9 @@ def isAllowedIP(ip):
     Return:
         如果可以，就反悔Ture，否则False
     """
-    pattern=student_ip_pattern
-    match=pattern.search(ip)
-    if match:
+    match1=student_ip_pattern.search(ip)
+    match2=chenjien_ip_pattern.search(ip)
+    if match1 or match2:
         return True
     else:
         return False
