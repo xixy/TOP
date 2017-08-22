@@ -15,10 +15,11 @@ def isAllowedIP(ip):
     """
     match1=student_ip_pattern.search(ip)
     match2=chenjien_ip_pattern.search(ip)
-    if match1 or match2:
+    match3=xixiangyu_home_ip_pattern.search(ip)
+    if match1 or match2 or match3:
         return True
     else:
         return False
 
 if __name__ == '__main__':
-    print isAllowedIP('58.132.205.130')
+    print isAllowedIP('11')
