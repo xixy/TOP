@@ -4,7 +4,7 @@ import re
 
 student_ip_pattern=re.compile(r'58+\.+132+\.+205') #匹配可用的ip
 chenjien_ip_pattern=re.compile(r'112+\.+109')
-xixiangyu_home_ip_pattern=re.compile(r'115+\.+27')
+xixiangyu_home_ip_pattern=re.compile(r'124+\.+205')
 def isAllowedIP(ip):
     """
     查看ip是否可用
