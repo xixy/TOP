@@ -1,17 +1,16 @@
+Listen to part of a lecture in a marine biology class.
 
-L4       Listen to part of a lecture in a marine biology class.
-
-Professor: Another group behavior among fish that might be related to schooling, at least for some species is something we see with a lot of ocean-dwelling fish. It‘s an attraction to floating objects, a phenomenon we call fish aggregation behavior. Aggregation behavior has been documents in more than 300 fish species. Hundreds or even thousands of individuals will congregate under a floating log, or tree branches, or drifting algae, any chunk of debris really, whether naturally occurring or human made. It‘s as if floating logs act as magnets for fish. The fish are attracted to them and just hang out there for extended periods. The behavior must serve some purpose, but what? Any ideas? Paul?
+Professor: Another group behavior among fish that might be related to schooling, at least for some species is something we see with a lot of ocean-dwelling fish. It's an attraction to floating objects, a phenomenon we call fish aggregation behavior. Aggregation behavior has been documents in more than 300 fish species. Hundreds or even thousands of individuals will congregate under a floating log, or tree branches, or drifting algae, any chunk of debris really, whether naturally occurring or human made. It's as if floating logs act as magnets for fish. The fish are attracted to them and just hang out there for extended periods. The behavior must serve some purpose, but what? Any ideas? Paul?
 
 Male student: Maybe the objects provide cover from predators? Sort of hide them from birds flying overhead?
 
 Female student: Or could they contain food? Like organisms that grow on the floating debris? Like a floating buffet table for fish?
 
-Professor: Both seem plausible hypothesis... anyone else? Ok well, before we get to those let‘s start with one of the first hypothesis researchers ever considered which was developed on the basis of the behavior of tuna and that is the meeting point hypothesis. This hypothesis holds that tuna aggregate as a prelude to forming schools. Isolated individuals meet up and when there‘s enough they swim off in a close-knit group, a school. As you know, schooling diminishes a fish‘s chance of being singled out by predators and it helps fish detect food and find a mate among other things. 
+Professor: Both seem plausible hypothesis... anyone else? Ok well, before we get to those let's start with one of the first hypothesis researchers ever considered which was developed on the basis of the behavior of tuna and that is the meeting point hypothesis. This hypothesis holds that tuna aggregate as a prelude to forming schools. Isolated individuals meet up and when there's enough they swim off in a close-knit group, a school. As you know, schooling diminishes a fish's chance of being singled out by predators and it helps fish detect food and find a mate among other things. 
 
-Now tuna do form schools after congregating under floating objects but what really supports the hypothesis is evidence of schools of tuna that form beneath floating objects seem to be larger than schools formed elsewhere from free swimming tuna. So there‘s a correlation between school size and aggregation.
+Now tuna do form schools after congregating under floating objects but what really supports the hypothesis is evidence of schools of tuna that form beneath floating objects seem to be larger than schools formed elsewhere from free swimming tuna. So there's a correlation between school size and aggregation.
 
-But the meeting point hypothesis has been challenged recently by a group of researchers in Spain, and their argument is quite strong I‘d say. They point out that more than 80% of fish found aggregating around floating structures are juveniles. Schools, on the other hand consist mainly of adult fish. So aside from a few species like tuna, very few aggregating fish end up forming into schools. the data show that the meeting point hypothesis is pretty limited. Yes, Paul? 
+But the meeting point hypothesis has been challenged recently by a group of researchers in Spain, and their argument is quite strong I'd say. They point out that more than 80% of fish found aggregating around floating structures are juveniles. Schools, on the other hand consist mainly of adult fish. So aside from a few species like tuna, very few aggregating fish end up forming into schools. the data show that the meeting point hypothesis is pretty limited. Yes, Paul? 
 
 Male student: So, what about the other hypotheses? Is there evidence for those? 
 
@@ -19,10 +18,10 @@ Professor: Ok, the shelter from predators and food supply hypotheses. Well, juve
 
 As for food supply, floating objects really help the fish because they drift and as they drift they become havens for tiny invertebrates providing a ready meal for juvenile fish and they drift along in ocean currents with the object. Now ocean currents tend to converge at various points and plankton which juveniles eat also tend to collect in pockets at these locations. So for aggregating juveniles going with the flow, so to speak, enables their survival because nourishment can be difficult to find in the open ocean. 
 
-So for most fish, aggregation seems to provide some benefit related to food supply or predation, particularly for juveniles. But for tuna, the meeting point hypothesis seems like a better explanation because it‘s not just juvenile tuna that aggregate. The adults do it too. Their aggregation behavior doesn‘t go away as the fish mature.
+So for most fish, aggregation seems to provide some benefit related to food supply or predation, particularly for juveniles. But for tuna, the meeting point hypothesis seems like a better explanation because it's not just juvenile tuna that aggregate. The adults do it too. Their aggregation behavior doesn't go away as the fish mature.
 
-And this fact, by the way, is not lost on the commercial fishing industry. Commercial tuna fishers regularly deploy artificial floating objects known as fish aggregating devices or FADs. The size, color, and shape of the FAD don‘t seem to matter. Or whether they are free floating or anchored like a buoy. FADs are so effect that almost 2/3 of tuna catches are made at FAD sites. 
+And this fact, by the way, is not lost on the commercial fishing industry. Commercial tuna fishers regularly deploy artificial floating objects known as fish aggregating devices or FADs. The size, color, and shape of the FAD don't seem to matter. Or whether they are free floating or anchored like a buoy. FADs are so effect that almost 2/3 of tuna catches are made at FAD sites. 
 
 Female student: They catch juveniles too?
 
-Professor: Well, tuna fishers are interested in adult fish, not juveniles so they tend to be careful about there they place their FADs. Like, the usually don‘t put them near coasts where most juvenile tuna live.
+Professor: Well, tuna fishers are interested in adult fish, not juveniles so they tend to be careful about there they place their FADs. Like, the usually don't put them near coasts where most juvenile tuna live.

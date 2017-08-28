@@ -1,76 +1,1 @@
-TPO 19 Lecture 2 Astronomy(Radio Astronomy & Optical Astronomy) 
-
-Narrator 
-Listen to part of a lecture in an astronomy class. 
- 
-Professor 
-So how many of you have seen the Milky Way, the Milky Galaxy in the sky? You, you have? 
- 
-Student 
-Yeah, I was camping, and there was no moon that night, it was super dark. 
- 
-Professor 
-Anybody else? Not too many. Isn‘t that strange that the Milky Way is the galaxy that the planet earth is in, and most of us have never seen it? Now, what‘s the problem here? 
- 
-Student 
-Light pollution, right? From street lights and stuff ... 
- 
-Professor 
-Yes, Especially unshielded street light, you know, ones that aren‘t pointed downward. Now, here‘s an irony, the buiding we are in now, the astronomy building not far from our observatory, has unshielded lights. 
- 
-Student 
-So the problem is pretty widespread. 
- 
-Professor 
-It is basically beyond control, as far as expecting to view the night sky anywhere near city, I mean. I have lived around here my whole life. And I have never seen the Milky Way within city limits, and I probably never will. There is a price for progress, eh? But let‘s think beyond light pullution, that‘s only one kind of a technological advance that has interfered with astronomical research. 
-
-Can anyone think of another? No? Ok, let‘s look at it this way, we don‘t only gain information by looking at the stars, for the past 70 years or so, we have also used radio astronomy1 , which lets us study radio waves from the sky. 
- 
-Student 
-How can you observe radio waves? I mean, tell anything about the stars from that. 
- 
-Professor 
-Well, in optical astronomy, using a telescope and observing the stars that way, we rely on visible light waves. What we are seeing from earth is actually electromagnetic radiation that‘s coming from stars. And just one part of it is visible light. But there are problems with that. When photons2 and light waves hit objects in our atmosphere, water droplets, oxygen and nitrogen molecules, dust particles and so on. These objects are illuminated, they are lit up, and those things are also being lit by all our street lights, by the moon, all these ambient light. And on top of that, when that visible radiation bounces off those molecules, it scatters in all directions. And well, light from stars, even nearby in our own galaxy, doesn‘t stand a chance against that. Basically the light bouncing off all these objects close to earth is brighter than what‘s coming from the stars. 
-
-Now, radiowaves are electromagnetic radiation that we can‘t see. Nearly all astronomical objects in space emit radio waves, whether nearby stars, objects in far away galaxies, they all give off radio waves. And unlike visible light waves, these radio waves can get through the various gases and dusts in space, and through our own earth‘s atmosphere comparatively easily. 
- 
-Student 
-Ok, then we might as well give up on optical astronomy and go with radio astronomy. 
- 
-Professor 
-Well, the thing is, with the radio astronomy, you can‘t just set up a telescope in you backyard and observe stars. 
-One problem is that radio waves from these far away objects, even though they can get through, are extremely 
-faint. So we need to use radio telescopes, specially designed to receive these waves and then, well, we can use 
-computers to create pictures based on the information we receive. 
- 
-Student 
-That sounds cool. So, how do they do that?
-
-Professor 
-Well, it is kind of like the same way a satellite dish3
- receives its signal, if you are familiar with that. But radio 
-telescopes are sometimes grouped together, is the same effect as having one big telescope to increase radio 
-wave gathering power. And they use electronics, quite sophisticated. Yeah, it is neat how they do it, but for now 
-why don‘t we just stick with what we can learn from it. Some very important discoveries have been made by this 
-technology, especially you consider that some objects in space give off radio waves but don‘t emit any light. We 
-have trouble discovering those sorts of bodies, much less studying them using just optical telescopes. 
- 
-Student 
-Well, If the radio waves are so good at getting throught the universe, what‘s the problem? 
- 
-Professor 
-Well, answer this. How come people have to turn off their cell phones and all our electronic devices when an 
-airplane is about to take off? 
- 
-Student 
-The phones interfere with the radio communication at the airport, right? 
- 
-Student 
-Oh, so our radio waves here on earth interfere with the waves from space? 
- 
-Professor 
-Yes, signal from radios, cell phones, TV stations, remote controls, you name it. All these things cause interference. 
-We don‘t think about that as often as we think about light pollution. But all those electrical gauges pollute the 
-skies, just in a differen way. 
- 
-
+Narrator: Listen to part of a discussion in an art history class.  Professor: All right, let's continue our discussion of portrait artists(portraitist) and portraiture. Who remembers any of the important points we made last time? Sandra?  Student: Well, artists have done portraits of people for centuries, of famous people and regular people, and most portraits convey the artists' personal vision, like their feelings and insights about a person.  Professor: Great, that's a crucial point, and I'd like to explore that a little today. A great example of that, that vision in portraiture, is Cecilia Beaux. Cecilia Beaux was born in 1854, and after learning to paint and studying with several important artists of the time, Beaux became known as one of the best portrait painters in the United States. She was very successful. She even had portraits of the wife and children of Theodore Roosevelt, while he was president. Some did not get much more prestige than that. Now, those portraits also reflect the kind of subjects that Beaux tended to use, which were mostly women and children. For example, in her first major work, her subjects were ..., the painting featured her sister and her nephew. Yes, Mark?  Student Yeah, it just seems interesting. I was wondering if that was unusual to have a portrait artist who is a woman become so well-known and successful in the 19th century.  Professor Great question. Yeah, she really stood out back in the 1800s. And today, she is still considered one of the greatest portrait painters of her time, male or female. In fact, she was the first full-time female instructor at the Pennsylvania Academy of the Fine Arts, and she was a full member of the National Academy of Design. These are pretty important institutions, so, yeah, she definitely made headway for women artists. Ok, so let's look at one of her portraits now, this painting is called The Dreamer. It is one of my favorites. And I think it is especially characteristic of Beaux's work. So what you see here is a portrait of a close friend of Cecilia Beaux. So tell me what's the first thing that draws you to this painting? What catches your eye first.  Student Well, for me, it is her face and hands, I think they are really expressive, and also, they make the woman seem very comtemplative, seems like she is thinking pretty seriously about something.  Student Yeah, her eyes kind of draw you in. But what strikes me is the contrasting colors, the white dress and the dark background. It kind of reminds me of that painting we discussed a few weeks ago, by ...eh... John Singer Sargent. I think it was called MadameX?  Professor I agree, good point. Yes, Beaux had high regard for Sargent's work. And this is something, a technique you will find in both of their work. Ok, but the painting is called The Dreamer. What do you see is dreamlike about it?  Student Well, the background behind the woman is pretty vague. Like, maybe there is no real context, like no definite surroundings, expecially compared to the woman herself, since she is so clear and well-defined.  Professor Yes, the unclear background definitely contributes to that dreaminess. It is meant to show a sense of isolation I think. With the woman is deep in a daydream and not really aware of anything eale. This painting shows how insightful Cecilia Beaux was as a portrait artist. Besides her excellent technical skills, like her use of brush strokes and color to make an impression, both respectives come through. Her portraits reveal her own interpretation of her subject's state of mind. This is what it is all about, not just likenessesNow, the undefined background also shows how Cecilia Beaux was influenced by the French Impressionists, who believed, like Beaux, in a personal rather than conventional approach to their subject matter. Beaux used some impressionist techniques and share much of their phylosophy, but her style, it was all her own.
